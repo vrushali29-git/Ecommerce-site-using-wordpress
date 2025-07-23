@@ -1,0 +1,1036 @@
+/**
+ *
+ * Kata Theme-Options CSS
+ *
+ */
+
+/* Base */
+.notice,
+div.error,
+div.updated,
+.kata-theme-options,
+.sp-container,
+.sp-container button,
+.sp-container input {
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.clr:before,
+.clr:after {
+    content: '\0020';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0
+}
+
+.clr:after {
+    clear: both
+}
+
+.notice,
+div.error,
+div.updated {
+    max-width: 1200px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #747b8a;
+}
+
+.notice p,
+div.error p,
+div.updated p {
+    line-height: 1.74;
+}
+
+.notice strong,
+div.error strong,
+div.updated strong {
+    font-weight: 700;
+    color: #4f5665;
+}
+
+/* Grid
+ -------------------------------------------------- */
+.kata-admin,
+.kata-theme-options *,
+.kata-theme-options *::before,
+.kata-theme-options *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.kata-container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.kata-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.kata-col-sm-1,
+.kata-col-sm-2,
+.kata-col-sm-3,
+.kata-col-sm-4,
+.kata-col-sm-5,
+.kata-col-sm-6,
+.kata-col-sm-7,
+.kata-col-sm-8,
+.kata-col-sm-12,
+.kata-col-sm-15 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 768px) {
+    .kata-col-sm-2 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 16.666%;
+        flex: 0 0 16.666%;
+        max-width: 16.666%;
+    }
+
+    .kata-col-sm-3 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .kata-col-sm-4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.332%;
+        flex: 0 0 33.332%;
+        max-width: 33.332%;
+    }
+
+    .kata-col-sm-5 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 41.66%;
+        flex: 0 0 41.66%;
+        max-width: 41.66%;
+    }
+
+    .kata-col-sm-6 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .kata-col-sm-7 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 58.34%;
+        flex: 0 0 58.34%;
+        max-width: 58.34%;
+    }
+
+    .kata-col-sm-8 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 66.666%;
+        flex: 0 0 66.666%;
+        max-width: 66.666%;
+    }
+
+    .kata-col-sm-15 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+
+}
+
+/* Styles */
+.kata-theme-options input,
+.kata-theme-options select,
+.kata-theme-options textarea {
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #fff;
+    min-height: 36px;
+    border: 1px solid #d5dadf;
+    border-radius: 3px;
+    font-size: 13px;
+    max-width: 270px;
+    box-shadow: 0 2px 11px -4px rgba(0, 0, 0, .1), 0 1px 5px -1px rgba(0, 0, 0, .06) inset;
+}
+
+.kata-theme-options input:focus,
+.kata-theme-options a:focus {
+    box-shadow: 0 1px 12px -1px #d0ceff;
+}
+
+.kata-theme-options .kata-search-theme-options input:focus {
+    background: #fff;
+    border-color: #d0ceff;
+}
+
+.kata-theme-options input[type=checkbox],
+.kata-theme-options input[type=radio] {
+    width: 22px;
+    height: 22px;
+    min-height: 0;
+}
+
+.kata-theme-options input[type=radio] {
+    border-radius: 22px;
+}
+
+.kata-theme-options label {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.kata-theme-options input[type=checkbox]:checked,
+.kata-theme-options input[type=radio]:checked {
+    background: #eaeaff;
+    border-color: #d0ceff;
+    color: #403cf2;
+    box-shadow: 0 1px 12px -1px #d0ceff;
+}
+
+.kata-theme-options input[type=checkbox]:checked:before {
+    color: #403cf2;
+    font-size: 22px;
+    width: 26px;
+    line-height: 26px;
+}
+
+.kata-theme-options input[type=radio]:checked:before {
+    background: #403cf2;
+    width: 8px;
+    height: 8px;
+    margin: 6px;
+}
+
+.kata-theme-options a:active,
+.kata-theme-options a:focus,
+.kata-theme-options button:active,
+.kata-theme-options button:focus,
+.kata-theme-options input:active,
+.kata-theme-options input:focus {
+    outline: none;
+}
+
+.kata-theme-options,
+.kata-theme-options p {
+    font-size: 14px;
+    color: #747b8a;
+    letter-spacing: 0.2px;
+}
+
+.kata-theme-options h2,
+.kata-theme-options h3,
+.kata-theme-options h4,
+.kata-theme-options h5,
+.kata-theme-options h6 {
+    color: #404756;
+}
+
+.kata-theme-options a {
+    color: #403cf2;
+    text-decoration: none;
+}
+
+.kata-theme-options h1 {
+    font-size: 27px;
+    line-height: 1.1;
+    margin: 0;
+    color: #403cf2;
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+.kata-theme-options h2 {
+    font-size: 19px;
+    color: #403cf2;
+    line-height: 1.4;
+    margin: 10px 0 5px;
+    font-weight: 700;
+}
+
+.kata-theme-options h4 {
+    margin-top: 24px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Redux */
+.redux-container .redux-group-tab {
+    display: none;
+    margin-bottom: 15px;
+}
+
+.redux-container .redux-main .form-table {
+    clear: none;
+    margin-top: 0px !important;
+}
+
+.redux-container .redux-main .hide {
+    display: none;
+}
+
+.spinner {
+    visibility: hidden;
+    display: block;
+}
+
+.spinner.is-active {
+    visibility: visible;
+}
+
+.redux-main .redux_field_th {
+    color: #404756;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.redux-main .description {
+    margin-top: 7px;
+    font-size: 12px;
+    font-style: normal;
+    color: #8e9296;
+    display: block;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.kata-theme-options {
+    margin: 5px 0 15px;
+    background: #fff;
+    max-width: 1200px;
+    position: relative;
+    padding: 0;
+    border: 1px solid #d5dadf;
+    border-radius: 5px;
+    box-shadow: 0 2px 13px -4px rgba(0, 0, 0, .17);
+}
+
+.kata-theme-options form {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
+
+.ace-chrome .ace_print-margin,
+.kata-theme-options .rAds,
+.kata-theme-options #redux-header .display_header span.redux-dev-mode-notice,
+.kata-theme-options #info_bar a.expand_options {
+    display: none !important;
+}
+
+.kata-theme-options #redux-header {
+    border-radius: 5px 5px 0 0;
+    height: 64px;
+    padding: 10px 45px 10px 30px;
+    text-align: right;
+    display: table;
+    width: 100%;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    color: #b0bbc3;
+    background-image: url(../../images/admin/kata-logo.svg);
+    background-size: 74px 33px;
+    background-position: 26px 15px;
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+
+.kata-theme-options #redux-header h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #403cf2;
+    line-height: 1.5;
+}
+
+#wpwrap .form-table>tbody>tr>th {
+    width: 38%;
+    white-space: unset;
+}
+
+#wpwrap .kata-theme-options .button,
+#wpwrap .kata-theme-options .button-primary,
+#wpwrap .kata-theme-options .button-secondary,
+.sp-container button {
+    background: #fff;
+    border: 1px solid #e1e2e3;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 11px 14px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 14px;
+    height: auto;
+    min-height: 20px;
+    margin-right: 2px;
+    color: #919dad;
+    letter-spacing: .2px;
+    box-shadow: 0 2px 8px -4px rgba(0, 0, 0, .12);
+    text-shadow: none;
+    transition: all .22s;
+}
+
+#wpwrap .kata-theme-options .button-primary,
+.sp-container button {
+    background: #eaeaff;
+    border-color: #d0ceff;
+    color: #403cf2;
+    font-weight: 700;
+    text-shadow: none;
+    box-shadow: 0 2px 10px -4px #d0ceff;
+}
+
+#wpwrap .kata-theme-options .button:hover,
+#wpwrap .kata-theme-options .button-secondary:hover,
+#wpwrap .kata-theme-options .button-primary:hover,
+.sp-container button:hover,
+.kata-theme-options .button-primary.active,
+.kata-theme-options .button-primary.active:focus,
+.kata-theme-options .button-primary.active:hover,
+.kata-theme-options .button-primary:active {
+    box-shadow: 0 3px 7px -4px #403cf2;
+    background: #403cf2;
+    border-color: #403cf2;
+    color: #fff;
+}
+
+.kata-theme-options .button-primary-disabled,
+.kata-theme-options .button-primary.disabled,
+.kata-theme-options .button-primary:disabled,
+.kata-theme-options .button-primary[disabled] {
+    color: #d0ceff !important;
+    background: #eaeaff !important;
+    border-color: #d0ceff !important;
+    box-shadow: none !important;
+}
+
+#wpwrap .kata-theme-options .button.climaxthemes-sk-btn {
+    border-radius: 4px;
+    box-shadow: 0 1px 12px -3px #bfbffb;
+}
+
+#wpwrap .kata-theme-options .button.climaxthemes-sk-btn:hover {
+    background: #f3f3ff;
+    box-shadow: 0 1px 15px -1px #bfbffb;
+}
+
+#wpwrap .redux-main .wp-picker-container .wp-color-result {
+    padding: 0 0 0 32px;
+    border: 1px solid #d5dadf;
+    height: 32px !important;
+    box-shadow: 0 2px 11px -4px rgba(0, 0, 0, .1);
+    border-radius: 3px;
+}
+
+#wpwrap .redux-main .wp-picker-container .wp-color-result:hover {
+    background: inherit;
+}
+
+#wpwrap .redux-main .wp-picker-container .wp-color-result-text,
+#wpwrap .redux-main .sp-replacer {
+    background: #fff;
+    color: #8b99a5;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 30px;
+    padding: 0 8px;
+    border: none;
+    border-left: 1px solid #d5dadf;
+}
+
+#wpwrap .redux-main .sp-replacer {
+    padding: 6px;
+    border: 1px solid #d5dadf;
+    box-shadow: 0 2px 11px -4px rgba(0, 0, 0, .1);
+}
+
+#wpwrap .redux-main .sp-replacer .sp-dd {
+    font-size: 11px;
+    padding: 3px 5px;
+}
+
+#wpwrap .redux-main .sp-replacer .sp-preview {
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+#wpwrap .redux-main .sp-replacer .sp-preview-inner {
+    background-image: none;
+}
+
+.sp-container {
+    border-radius: 3px;
+    margin-top: -1px;
+    background: #fff;
+    border: 1px solid #d5dadf;
+    box-shadow: 0 2px 11px -4px rgba(0, 0, 0, .1);
+}
+
+.sp-container button {
+    color: #403cf2;
+}
+
+.sp-container button:hover {
+    color: #fff;
+    text-shadow: none;
+}
+
+.sp-color,
+.sp-hue,
+.sp-clear {
+    border: none;
+}
+
+.sp-clear-enabled .sp-clear {
+    cursor: pointer;
+}
+
+#wpwrap .redux-main .wp-picker-container input {
+    min-height: 32px;
+}
+
+.kata-theme-options #info_bar,
+#redux-footer,
+#redux-footer-sticky .sticky-footer-fixed {
+    background: #fff !important;
+    height: 65px;
+    border-bottom: 1px solid #e6e7e8;
+    border-top: 1px solid #e6e7e8;
+    padding: 11px 0 4px 4px;
+    text-align: right;
+    box-shadow: 0 5px 13px -8px rgba(0, 0, 0, .1);
+}
+
+#redux-footer {
+    box-shadow: none;
+    border-bottom: none;
+    border-radius: 0 0 5px 0;
+}
+
+.kata-theme-options #info_bar .redux-action_bar {
+    padding: 0;
+}
+
+#redux-footer-sticky .sticky-footer-fixed {
+    background: #fff !important;
+    left: auto;
+    right: auto !important;
+    z-index: 97;
+}
+
+@media (min-width: 1421px) {
+    #redux-footer-sticky .sticky-footer-fixed {
+        min-width: 971px;
+    }
+}
+
+@media (max-width: 1420px) {
+    #redux-footer-sticky .sticky-footer-fixed {
+        width: auto !important;
+        right: 21px !important;
+        left: 412px !important;
+    }
+}
+
+@media (max-width: 960px) {
+    #redux-footer-sticky .sticky-footer-fixed {
+        left: 288px !important;
+    }
+}
+
+@media (max-width: 780px) {
+    #redux-footer-sticky .sticky-footer-fixed {
+        display: none !important;
+    }
+}
+
+.kata-theme-options .redux-sidebar {
+    width: 228px;
+    float: left;
+    position: relative;
+    padding-top: 10px;
+    margin: 0;
+    border-top: 1px solid #e6e7e8;
+}
+
+.redux-main {
+    background: #f8f9fa;
+    border-radius: 0 5px 0 0;
+    margin-left: 228px;
+    position: relative;
+    border-left: 1px solid #e6e7e8;
+    padding: 0;
+}
+
+.kata-theme-options .notice-green,
+.kata-theme-options .notice-blue,
+.kata-theme-options .notice-yellow,
+.kata-theme-options .notice-red,
+.kata-theme-options .redux-field-errors {
+    padding: 7px 15px;
+    margin: 0;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+}
+
+.kata-theme-options .notice-green {
+    border-bottom: 1px solid #cde6cc;
+    background-color: #ecf9e8;
+    color: #2fa02b;
+}
+
+.kata-theme-options .notice-blue {
+    border-bottom: 1px solid #c2e2f3;
+    background-color: #e1f5ff;
+    color: #1b81b3;
+}
+
+.kata-theme-options .notice-yellow {
+    border-bottom: 1px solid #ece5d4;
+    background-color: #fdfbf1;
+    color: #c1a200;
+}
+
+.kata-theme-options .notice-red,
+.kata-theme-options .redux-field-errors {
+    border-bottom: 1px solid #e4e1e1;
+    background-color: #fbeaea;
+    color: #ad2a28;
+}
+
+.kata-theme-options .redux-field-error checkbox,
+.kata-theme-options .redux-field-error input,
+.kata-theme-options .redux-field-error textarea {
+    background-color: #fbeaea;
+    color: #ad2a28;
+}
+
+.kata-theme-options .redux-field-warning checkbox,
+.kata-theme-options .redux-field-warning input,
+.kata-theme-options .redux-field-warning textarea {
+    background-color: #f0f3ff;
+    color: #53575a;
+}
+
+.kata-theme-options .redux-field-errors,
+.kata-theme-options .redux-field-warnings,
+.kata-theme-options .redux-save-warn {
+    display: none;
+}
+
+.kata-theme-options .sticky-save-warn {
+    min-height: 68px;
+}
+
+.kata-theme-options .redux-group-tab {
+    padding: 15px 25px;
+}
+
+.redux-group-menu li {
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+}
+
+.redux-group-menu li a {
+    color: #66717d;
+    padding: 12px 25px;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: none !important;
+    letter-spacing: 0.2px;
+}
+
+.redux-group-menu li ul li a {
+    font-size: 12px;
+    padding: 8px 0 10px 55px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    color: #8e969e;
+}
+
+.redux-group-menu>li.active>a,
+.redux-group-menu>li.activeChild>a,
+.redux-group-menu li a:hover,
+.redux-group-menu li ul li.active a {
+    color: #403cf2;
+
+}
+
+.redux-group-menu>li.active>a,
+.redux-group-menu>li.activeChild>a,
+.redux-group-menu li ul li.active a {
+    font-weight: 700;
+}
+
+.redux-group-menu li ul {
+    padding-bottom: 15px;
+    display: none;
+    border-bottom: 1px solid #e8e9ea;
+    margin-bottom: 6px;
+}
+
+.redux-group-menu>li>a i {
+    font-size: 15px;
+    vertical-align: middle;
+    margin-right: 4px;
+    margin-left: -6px;
+    margin-top: -3px;
+    width: 28px;
+    height: 28px;
+    line-height: 29px;
+    padding: 0px;
+    text-align: center;
+    border-radius: 7px;
+    background-color: #fff;
+    color: #959ea7;
+    display: inline-block;
+    transition: all 0.22s;
+}
+
+.redux-group-menu>li>a:hover i,
+.redux-group-menu>li.active>a i,
+.redux-group-menu>li.activeChild>a i {
+    background-color: #ededfe;
+    color: #403cf2;
+}
+
+.redux-group-menu li a .extraIconSubsections {
+    display: none;
+}
+
+.kata-theme-options .redux-container-switch .switch-options label,
+.kata-theme-options .ui-button,
+.kata-theme-options .control-section-redux .ui-button,
+.kata-theme-options .control-panel-redux .ui-button,
+.kata-theme-options .redux-metabox .ui-button,
+.kata-theme-options .ui-buttonset .ui-state-active,
+.kata-theme-options .control-section-redux .ui-buttonset .ui-state-active,
+.kata-theme-options .control-panel-redux .ui-buttonset .ui-state-active,
+.kata-theme-options .redux-metabox .ui-buttonset .ui-state-active {
+    background: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 34px;
+    padding: 0 14px;
+    color: #929ca5;
+    border-color: #d5dadf;
+    text-shadow: none;
+    box-shadow: 0 2px 10px -4px #d3d4d5;
+    transition: 0.22s all ease;
+}
+
+.kata-theme-options .ui-button:hover {
+    color: #403cf2;
+}
+
+.kata-theme-options .redux-container-switch .switch-options label {
+    width: 30px;
+    height: 34px;
+    border-radius: 0 20px 20px 0
+}
+
+.kata-theme-options .redux-container-switch .switch-options label.cb-enable {
+    border-radius: 20px 0 0 20px;
+    background: #fff;
+    position: relative;
+    box-shadow: 2px 2px 15px -4px rgba(0, 0, 0, 0.2) inset;
+}
+
+.kata-theme-options .redux-container-switch .switch-options label.selected.cb-enable {
+    box-shadow: none;
+    background: #d0ceff;
+    border-color: #d0ceff;
+}
+
+.kata-theme-options .redux-container-switch .switch-options label.cb-disable {
+    box-shadow: 2px 2px 12px -2px #d0ceff inset;
+    position: relative;
+    background: #d0ceff;
+    border-color: #d0ceff;
+}
+
+.kata-theme-options .redux-container-switch .switch-options label.selected.cb-disable {
+    border-color: #d3d4d5;
+    background: #fff;
+    box-shadow: -2px 2px 15px -4px rgba(0, 0, 0, 0.2) inset;
+}
+
+.kata-theme-options .redux-container-switch .switch-options label.cb-disable:after,
+.kata-theme-options .redux-container-switch .switch-options label.cb-disable:before,
+.kata-theme-options .redux-container-switch .switch-options label.cb-enable:after,
+.kata-theme-options .redux-container-switch .switch-options label.cb-enable:before {
+    content: "";
+    width: 28px;
+    height: 28px;
+    border-radius: 30px;
+    background: #fff;
+    position: absolute;
+    left: -1px;
+    top: 2px;
+    box-shadow: -1px 1px 7px -2px rgba(0, 0, 0, 0.63);
+    transition: all 0.22s ease;
+    z-index: 2;
+}
+
+.kata-theme-options .redux-container-switch .switch-options label.selected.cb-disable:after {
+    left: -27px;
+    box-shadow: 1px 1px 6px -2px rgba(0, 0, 0, 0.63);
+}
+
+.kata-theme-options .redux-container-switch .switch-options label.cb-disable:before,
+.kata-theme-options .redux-container-switch .switch-options label.cb-enable:after,
+.kata-theme-options .redux-container-switch .switch-options label.cb-enable:before {
+    box-shadow: none;
+    background: transparent;
+    z-index: 3;
+    left: -30px;
+    border-radius: 0;
+}
+
+.kata-theme-options .redux-container-switch .switch-options label.cb-enable:after,
+.kata-theme-options .redux-container-switch .switch-options label.cb-enable:before {
+    z-index: 4;
+    left: 0;
+}
+
+.kata-theme-options .redux-container-switch .switch-options label.cb-enable:after {
+    left: 28px;
+}
+
+.kata-theme-options .redux-container-switch .switch-options label.selected.cb-enable:after,
+.kata-theme-options .redux-container-switch .switch-options label.selected.cb-enable:before {
+    z-index: 0;
+}
+
+.kata-theme-options .redux-container-switch .switch-options label span {
+    display: none;
+}
+
+.kata-theme-options .ui-buttonset .ui-state-active,
+.kata-theme-options .control-section-redux .ui-buttonset .ui-state-active,
+.kata-theme-options .control-panel-redux .ui-buttonset .ui-state-active,
+.kata-theme-options .redux-metabox .ui-buttonset .ui-state-active {
+    background: #eaeaff;
+    color: #403cf2;
+    border-color: #d0ceff;
+    box-shadow: -2px 1px 12px -2px #d0ceff;
+}
+
+.kata-theme-options .ui-buttonset .ui-button {
+    border-radius: 0;
+    border-left-width: 0;
+}
+
+.kata-theme-options .ui-buttonset .ui-button.ui-corner-left {
+    border-radius: 3px 0 0 3px;
+    border-left-width: 1px;
+}
+
+.kata-theme-options .ui-buttonset .ui-button.ui-corner-right {
+    border-radius: 0 3px 3px 0;
+}
+
+.kata-theme-options .ui-buttonset .ui-button.ui-corner-right.ui-state-active {
+    box-shadow: 1px 1px 12px -2px #d0ceff;
+}
+
+.kata-theme-options .select2-container .select2-choice {
+    height: 36px;
+    line-height: 36px;
+    font-size: 11px;
+    font-weight: 700;
+    background: #fff;
+    color: #75808a;
+    border: 1px solid #d5dadf;
+    border-radius: 3px;
+    box-shadow: 0 2px 11px -4px rgba(0, 0, 0, .1), 0 1px 5px -1px rgba(0, 0, 0, .06) inset;
+}
+
+.kata-theme-options .select2-container .select2-choice .select2-arrow {
+    border-color: #d5dadf;
+    background: #f0f1f2;
+    border-radius: 0 3px 3px 0;
+}
+
+.kata-theme-options .select2-container-active .select2-choice,
+.kata-theme-options .select2-container-active .select2-choices,
+.select2-drop-active {
+    border-color: #d0ceff !important;
+    box-shadow: 0 3px 12px -4px #d0ceff;
+}
+
+.select2-drop-active {
+    margin-top: -2px;
+}
+
+.kata-theme-options .select2-container .select2-choice abbr {
+    top: 10px
+}
+
+.kata-theme-options .select2-container .select2-choice .select2-arrow b {
+    background-position: 0 4px;
+}
+
+.kata-theme-options .select2-dropdown-open .select2-choice .select2-arrow b {
+    background-position: -18px 4px;
+}
+
+.select2-results li {
+    font-size: 11px;
+    font-weight: 600;
+    background: #fff;
+    color: #75808a;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.select2-results li:hover,
+.select2-results .select2-highlighted {
+    background: #eaeaff;
+    color: #403cf2;
+}
+
+.select2-search input[type=text] {
+    border-radius: 3px;
+    border-color: #d5dadf;
+    margin-top: 5px;
+    box-shadow: 0 2px 11px -2px rgba(0, 0, 0, .1), 1px 2px 3px -1px rgba(0, 0, 0, .05) inset;
+}
+
+.kata-theme-options .noUi-background {
+    background: #e0e1e2;
+    box-shadow: none;
+    border: none;
+}
+
+.kata-theme-options .noUi-horizontal {
+    height: 2px;
+    border: none;
+}
+
+.kata-theme-options .noUi-target.noUi-connect {
+    background: #403cf2;
+    border-radius: 15px;
+    box-shadow: 0 1px 12px -1px #403cf2;
+}
+
+.kata-theme-options .noUi-horizontal .noUi-handle {
+    width: 22px;
+    height: 22px;
+    top: -10px;
+    left: -18px;
+    border-radius: 17px;
+    border: 2px solid #403cf2;
+    background: #fff;
+    cursor: pointer;
+    box-shadow: 0 1px 12px 1px #d0ceff;
+    -webkit-transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7);
+    -webkit-transition: all .4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition: all .4s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.kata-theme-options .noUi-horizontal .noUi-handle:hover,
+.kata-theme-options .noUi-horizontal .noUi-handle:active,
+.kata-theme-options .noUi-horizontal .noUi-handle:focus {
+    -webkit-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.kata-theme-options .noUi-horizontal .noUi-handle:before,
+.kata-theme-options .noUi-horizontal .noUi-handle:after {
+    display: none;
+}
+
+/* Divider
+ -------------------------------------------------- */
+.kata-theme-options .divide {
+    height: 1px !important;
+    margin: 20px 0 20px 0;
+}
+
+.kata-theme-options .divide .inner {
+    position: static;
+    width: 100% !important;
+    margin-left: 0;
+}
+
+.kata-theme-options .divide .inner span {
+    display: none;
+}
+
+.kata-theme-options tr th:empty,
+.kata-theme-options tr td:empty {
+    display: none;
+}
+
+/* remove notices
+ -------------------------------------------------- */
+.redux-notice {
+    display: none;
+}
+
+/* Search
+ -------------------------------------------------- */
+#info_bar {
+    position: relative;
+}
+
+.kata-search-theme-options {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+}
+
+.kata-search-theme-options i {
+    color: #a0a1a2;
+    font-size: 14px;
+    position: absolute;
+    left: 30px;
+    top: 12px;
+    z-index: 2;
+}
+
+.kata-search-theme-options .redux_field_search {
+    position: relative;
+    min-height: 34px;
+    max-width: 200px;
+    margin: 2px 6px 0 20px;
+    padding-left: 30px;
+    border-radius: 20px;
+    border: 1px solid #e2e3e4;
+    background-color: #f6f7f8;
+    box-shadow: 0 0 7px -1px rgba(0, 0, 0, .05) inset;
+    top: auto;
+    left: auto;
+    right: auto;
+}
+
+.redux-search .redux-group-tab h2,
+.redux-search .divide {
+    display: none !important;
+}
+
+.redux-search .redux-group-tab {
+    padding: 0 25px;
+}

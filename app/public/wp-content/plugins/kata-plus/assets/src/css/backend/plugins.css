@@ -1,0 +1,129 @@
+/**
+ * Kata admin bar styles.
+ *
+ * @author  ClimaxThemes
+ * @package Kata Plus
+ * @since   1.0.0
+ */
+
+
+.kata-admin .plugins {
+    border-radius: 2px;
+    margin: 16px 0 12px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.kata-admin .plugins tbody .plugin-description {
+    display: none;
+}
+
+.kata-admin .plugins tbody td {
+    padding-top: 18px;
+    padding-bottom: 15px;
+}
+
+.kata-admin .plugins tbody th.check-column input[type=checkbox] {
+    margin-top: 8px;
+}
+
+.kata-admin .plugins thead td.check-column input[type=checkbox],
+.kata-admin .plugins tfoot td.check-column input[type=checkbox] {
+    margin-top: -2px;
+}
+
+.kata-admin .plugins thead tr, .kata-admin .plugins tfoot tr {
+    background: #f5f7f9;
+}
+
+.kata-admin .plugins thead th, .kata-admin .plugins tfoot th {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.kata-admin .plugins tbody .column-description div {
+    font-size: 12px;
+    font-weight: 600;
+    color: #747b8a;
+}
+
+.kata-admin .subsubsub a {
+    font-weight: 600;
+    color: #747b8a;
+}
+
+.kata-admin .subsubsub a:hover {
+    color: #403cf2;
+}
+
+.kata-admin .subsubsub a.current {
+    font-weight: 800;
+    color: #403cf2;
+}
+
+.kata-admin .subsubsub a .count {
+    font-size: 12px;
+    color: #747b8a;
+}
+
+.kata-admin .plugins .row-actions a {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.kata-admin .plugins tbody a {
+    color: #00a0d2;
+}
+
+.kata-admin .plugins tbody a:hover {
+    text-decoration: underline;
+}
+
+.kata-install-plusins-page input, .kata-install-plusins-page select, .kata-install-plusins-page textarea {
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.kata-install-plusins-page .search-box input[name="s"] {
+    margin: 0;
+    height: 42px;
+    width: 220px;
+    padding-left: 10px;
+}
+
+.kata-install-plusins-page select {
+    min-width: 150px;
+}
+
+.kata-install-plusins-page input[type=checkbox],
+.kata-install-plusins-page input[type=radio] {
+    width: 20px;
+    height: 20px;
+    min-height: 0;
+}
+
+.kata-install-plusins-page input[type=radio] {
+    border-radius: 20px;
+}
+
+.kata-install-plusins-page input[type=checkbox]:checked {
+    border-color: #d0ceff;
+    box-shadow: 0 2px 10px -1px #d0ceff;
+}
+
+.kata-install-plusins-page input[type=checkbox]:checked:before {
+    color: #403cf2 !important;
+    margin: -2px 0 0 -2px;
+}
+
+.kata-install-plusins-page input[type=checkbox]:checked:before {
+    color: #403cf2 !important;
+}
+
+.kata-admin .plugins td.plugin-title strong {
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.kata-admin .plugins .inactive .plugin-title strong {
+    font-weight: 600;
+}

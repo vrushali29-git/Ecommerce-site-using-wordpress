@@ -1,0 +1,23 @@
+.kata-instagram-widget li {
+    display: inline-block;
+    float: none;
+    width: 33%;
+    padding-top: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.kata-instagram-widget li a {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.kata-instagram-widget li img {
+    border-radius: 6px;
+}

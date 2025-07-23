@@ -1,0 +1,129 @@
+.kata-plus-food-menu-toggle {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.kata-plus-food-menu-toggle .kata-food-menu-content.hidden {
+    display: none;
+}
+
+.kata-plus-food-menu-toggle .kata-food-menu-content.kata-accordion-openp {
+    display: block;
+}
+
+.kata-plus-food-menu-toggle .kata-food-menu {
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+
+.kata-plus-food-menu-toggle .clearfix {
+    width: 100%;
+    clear: both;
+}
+
+.kata-plus-food-menu-toggle .kata-food-menu {
+    background-color: transparent;
+    padding: 20px 0 15px;
+    border-style: dashed;
+    border-bottom-width: 1px;
+    border-color: #e2e3e4;
+    transition: all 0.3s;
+}
+
+.kata-plus-food-menu-toggle .kata-food-menu:hover {
+    background-color: #fafbfc;
+}
+
+.kata-plus-food-menu-toggle .kata-food-menu-btn {
+    font-size: 20px;
+    color: #606162;
+    transition-duration: 0.3s;
+}
+
+.kata-plus-food-menu-toggle .kata-food-menu-content p {
+    font-size: 14px;
+    color: #909192;
+    line-height: 1em;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+    display: inline-block;
+    transition-duration: 0.3s;
+    line-height: 1.5;
+}
+
+.kata-plus-food-menu-toggle .kata-food-menu-price {
+    font-size: 18px;
+    color: #606162;
+    text-align: right;
+    font-weight: 700;
+    letter-spacing: 1px;
+    width: 50%;
+    float: right;
+    margin-top: -20px;
+    transition-duration: 0.3s;
+}
+
+.kata-plus-food-menu-toggle .kata-food-menu:hover .kata-food-menu-content p,
+.kata-plus-food-menu-toggle .kata-food-menu:hover .kata-food-menu-price {
+    color: #cb7152;
+}
+
+.kata-plus-food-menu-toggle .kata-food-menu:hover .kata-food-menu-btn {
+    color: #222222;
+}
+
+.kata-plus-food-menu-toggle .left-side-food {
+    width: 35%;
+    float: left;
+}
+
+.kata-plus-food-menu-toggle .right-side-food {
+    width: 60%;
+    float: right;
+}
+
+.kata-plus-food-menu-toggle .image-content {
+    display: none;
+}
+
+.kata-plus-food-menu-toggle .image-content.active {
+    display: block;
+}
+
+.kata-plus-food-menu-toggle .image-content .image-title {
+    display: inline-block;
+    color: #cb7152;
+    font-size: 13px;
+}
+
+.kata-plus-food-menu-toggle .image-content .image-link {
+    float: right;
+    display: inline-block;
+}
+
+.kata-plus-food-menu-toggle .image-details {
+    width: 80%;
+    float: right;
+    padding: 40px;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.kata-plus-food-menu-toggle .kata-food-menu-image img {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    float: right;
+}
+
+.kata-plus-food-menu-toggle .image-link a {
+    font-size: 13px;
+    color: #000000;
+    border-bottom: 2px solid #cb7152;
+    padding-bottom: 5px;
+}

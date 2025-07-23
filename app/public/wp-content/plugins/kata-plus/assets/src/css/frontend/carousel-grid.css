@@ -1,0 +1,315 @@
+.kata-plus-carousel-grid-wrap .hidden {
+	display: none;
+}
+
+.carousel-categories {
+	text-align: center;
+	width: 100%;
+	height: 47px;
+	padding-top: 20px;
+	margin-bottom: 42px;
+	position: relative;
+	display: block;
+}
+
+.carousel-categories .cat-item {
+	font-size: 13px;
+	color: #020202;
+	border-style: none;
+	border-radius: 2px;
+	box-shadow: 0px 0px 0px 0px #ffffff;
+	line-height: 1em;
+	padding: 10px 30px 13px;
+	cursor: pointer;
+	transition:
+		background 0.3s ease,
+		color 0.2s ease;
+	-webkit-transition:
+		background 0.3s ease,
+		color 0.2s ease;
+	text-transform: capitalize;
+}
+
+.carousel-categories .cat-item:hover {
+	box-shadow: 0 0 20px #e0e0e0;
+	color: #fff;
+}
+
+.kata-plus-carousel-grid-wrap .dots-num .owl-dots {
+	counter-reset: section;
+}
+
+.kata-plus-carousel-grid-wrap .dots-num .owl-dot::before {
+	counter-increment: section;
+	content: "0" counter(section);
+}
+
+.kata-plus-carousel-grid-wrap .owl-dots {
+	text-align: center;
+	position: relative;
+	top: 31px;
+}
+
+.kata-plus-carousel-grid-wrap .dots-num .owl-dot {
+	color: #b1b1b1;
+}
+
+.kata-plus-carousel-grid-wrap .dots-num .owl-dot.active {
+	color: #000;
+}
+
+.kata-plus-carousel-grid-wrap .dots-num .owl-dot {
+	margin-right: 7px;
+}
+
+.kata-plus-carousel-grid-wrap .owl-dots .owl-dot {
+	background: #c7c7c7;
+	width: 10px;
+	height: 10px;
+	margin-right: 5px;
+	border-radius: 50%;
+}
+
+.kata-plus-carousel-grid-wrap .owl-dots .owl-dot.active {
+	background: #000;
+}
+
+.kata-plus-carousel-grid-wrap .owl-nav .owl-prev i,
+.kata-plus-carousel-grid-wrap .owl-nav .owl-next i {
+	font-size: 40px;
+}
+
+.kata-plus-carousel-grid-wrap .owl-nav .owl-prev,
+.kata-plus-carousel-grid-wrap .owl-nav .owl-next {
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	-webkit-transform: translate(0, -50%);
+}
+
+.kata-plus-carousel-grid-wrap .owl-nav .owl-next {
+	right: -30px;
+}
+
+.kata-plus-carousel-grid-wrap .owl-nav .owl-prev {
+	left: -30px;
+}
+
+.kata-plus-carousel-grid-wrap .dots-num .owl-dots .owl-dot {
+	width: auto;
+	height: auto;
+	background: transparent;
+}
+
+.kata-plus-carousel-grid {
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	background-color: #ffffff;
+	padding: 15px;
+}
+
+.carousel-image img {
+	transition: 0.8s;
+}
+
+.ms-grid-item:hover .carousel-image img {
+	opacity: 1;
+	filter: blur(0.1px);
+}
+
+.carousel-post-meta {
+	margin-top: 15px;
+	line-height: 1.4;
+}
+
+.carousel-title {
+	font-size: 22px;
+	color: #333333;
+	text-align: left;
+	font-weight: normal;
+	padding: 10px 10px 10px 00px;
+	position: relative;
+	display: block;
+	transition: color 0.3s ease;
+	-webkit-transition: color 0.3s ease;
+}
+
+.carousel-title a,
+.carousel-title:hover a {
+	color: inherit;
+}
+
+.ms-grid-item .carousel-date {
+	padding-left: 0px;
+	position: relative;
+}
+
+.carousel-item-category {
+	text-align: left;
+	font-style: normal;
+	text-transform: capitalize;
+}
+
+.carousel-item-category {
+	color: #000000;
+	transition: 0.7s;
+	cursor: pointer;
+	margin-right: 5px;
+}
+
+.carousel-item-category a {
+	color: inherit;
+}
+
+.kata-plus-carousel-grid {
+	display: block;
+	position: relative;
+	width: 100%;
+	clear: both;
+}
+
+.kata-plus-carousel-grid {
+	box-sizing: content-box;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+.carousel-excerpt p {
+	font-size: inherit;
+	line-height: inherit;
+	font-weight: inherit;
+	color: inherit;
+	margin: inherit;
+}
+
+.ms-grid-item .open-modal {
+	cursor: pointer;
+}
+
+.kata-plus-carousel-button-wrapper {
+	text-align: center;
+}
+
+.carousel-image {
+	position: relative;
+	border-radius: 3px;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.carousel-image .grid-overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	background: var(--ct-base-color);
+}
+
+.grid-item:hover .grid-overlay {
+	opacity: 0.5;
+}
+
+@-webkit-keyframes fadeOutUp {
+	from {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+		-webkit-transform: translate3d(0, -100%, 0);
+		transform: translate3d(0, -100%, 0);
+	}
+}
+
+@keyframes fadeOutUp {
+	from {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+		-webkit-transform: translate3d(0, -100%, 0);
+		transform: translate3d(0, -100%, 0);
+	}
+}
+
+.fadeOutUp {
+	-webkit-animation-name: fadeOutUp;
+	animation-name: fadeOutUp;
+}
+
+.animated {
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+
+.animated.infinite {
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}
+
+.animated.delay-1s {
+	-webkit-animation-delay: 1s;
+	animation-delay: 1s;
+}
+
+.animated.delay-2s {
+	-webkit-animation-delay: 2s;
+	animation-delay: 2s;
+}
+
+.animated.delay-3s {
+	-webkit-animation-delay: 3s;
+	animation-delay: 3s;
+}
+
+.animated.delay-4s {
+	-webkit-animation-delay: 4s;
+	animation-delay: 4s;
+}
+
+.animated.delay-5s {
+	-webkit-animation-delay: 5s;
+	animation-delay: 5s;
+}
+
+.animated.fast {
+	-webkit-animation-duration: 800ms;
+	animation-duration: 800ms;
+}
+
+.animated.faster {
+	-webkit-animation-duration: 500ms;
+	animation-duration: 500ms;
+}
+
+.animated.slow {
+	-webkit-animation-duration: 2s;
+	animation-duration: 2s;
+}
+
+.animated.slower {
+	-webkit-animation-duration: 3s;
+	animation-duration: 3s;
+}
+
+@media (prefers-reduced-motion) {
+	.animated {
+		-webkit-animation: unset !important;
+		animation: unset !important;
+		-webkit-transition: none !important;
+		transition: none !important;
+	}
+}
+
+.open-modal {
+	cursor: pointer;
+}

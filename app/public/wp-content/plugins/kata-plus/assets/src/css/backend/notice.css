@@ -1,0 +1,78 @@
+.kata-notice.notice.is-dismissible {
+	padding-left: 20px;
+	border-left-color: #908efc;
+	min-height: 150px;
+	padding-right: 10px;
+}
+
+.kata-notice.notice.is-dismissible h2 {
+	margin-bottom: 8px;
+	margin-top: 21px;
+	font-size: 17px;
+	font-weight: 700;
+}
+
+.kata-notice.notice.is-dismissible a:not(.notice-dismiss) {
+	border-radius: 3px;
+	border-color: #6d6af8;
+	color: #fff;
+	text-shadow: unset;
+	background: #6d6af8;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	text-decoration: none;
+	text-transform: capitalize;
+	padding: 12px 20px;
+	display: inline-block;
+	margin: 7px 0 13px;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+	letter-spacing: 0.4px;
+}
+
+.kata-notice.notice.is-dismissible a:not(.notice-dismiss):hover {
+	border-color: #17202e;
+	background: #17202e;
+}
+
+.kt-dashboard-row .kata-notice.notice.is-dismissible {
+	display: block;
+	margin: 0 0 25px;
+	border-left: 4px solid #6d6af8;
+	border-radius: 2px;
+	overflow: hidden;
+	box-shadow: 0 2px 7px -1px rgba(0,0,0,0.04);
+}
+
+.kt-dashboard-row .kata-notice.notice.is-dismissible .notice-dismiss {
+	display: none;
+}
+
+.kt-dashboard-row .kata-notice.notice.is-dismissible h2 {
+	letter-spacing: -0.3px;
+}
+.kata-notice-btn i {
+	margin-right: 5px;
+	-webkit-animation: spin 4s linear infinite;
+	-moz-animation: spin 4s linear infinite;
+	animation: spin 4s linear infinite;
+}
+
+@-moz-keyframes spin {
+	100% {
+		-moz-transform: rotate(360deg);
+	}
+}
+
+@-webkit-keyframes spin {
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+@keyframes spin {
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}

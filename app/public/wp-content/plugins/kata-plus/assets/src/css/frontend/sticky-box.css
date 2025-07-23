@@ -1,0 +1,30 @@
+.kata-sticky-header-wrap .kata-sticky-box {
+	position: fixed;
+	opacity: 0;
+	z-index: -1;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+}
+
+.kata-sticky-header-wrap .kata-sticky-box.sticky {
+	opacity: 1;
+	z-index: 99;
+	transition: all 0.8s ease;
+	-webkit-transition: all 0.8s ease;
+	top: 0 !important;
+}
+
+.kata-sticky-box.sticky {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 9999;
+}
+
+.kata-sticky-box.sticky[data-pos-des="bottom"] {
+	top: auto;
+	bottom: 0;
+}
+.admin-bar .kata-sticky-box.sticky {
+	top: 32px !important;
+}

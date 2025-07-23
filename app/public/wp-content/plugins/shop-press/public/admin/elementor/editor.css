@@ -1,0 +1,424 @@
+.elementor-editor-wp-post #elementor-panel-categories {
+	display: flex;
+	flex-direction: column;
+}
+
+.elementor-editor-wp-post
+	#elementor-panel-categories
+	[id^="elementor-panel-category-sp_general"],
+.elementor-editor-wp-post
+	#elementor-panel-categories
+	[id^="elementor-panel-category-sp_woo"] {
+	order: -1;
+}
+
+.elementor-control.elementor-control-separator-after {
+	margin-bottom: 20px;
+}
+
+.elementor-editor-wp-post
+	#elementor-panel-categories
+	[id^="elementor-panel-category-sp_woo_shop"],
+.elementor-editor-wp-post
+	#elementor-panel-categories
+	[id^="elementor-panel-category-sp_wishlist"],
+.elementor-editor-wp-post
+	#elementor-panel-categories
+	[id^="elementor-panel-category-sp_compare"],
+.elementor-editor-wp-post
+	#elementor-panel-categories
+	[id^="elementor-panel-category-sp_woo_loop"],
+.elementor-editor-wp-post
+	#elementor-panel-categories
+	[id^="elementor-panel-category-sp_woo_dashboard"],
+.elementor-editor-wp-post
+	#elementor-panel-categories
+	[id^="elementor-panel-category-sp_woo_checkout"],
+.elementor-editor-wp-post
+	#elementor-panel-categories
+	[id^="elementor-panel-category-sp_woo_cart"] {
+	order: -2;
+}
+
+.elementor-editor-wp-post
+	#elementor-panel-categories
+	[id^="elementor-panel-category-sp_woo_single"] {
+	order: -3;
+}
+
+.elementor-panel .elementor-element .sp-widget {
+	background-image: url(../../images/icons/sp-widget-icons.svg);
+	background-repeat: no-repeat;
+	width: 40px !important;
+	height: 46px;
+	display: block;
+	margin: 0 auto;
+	transform: scale(0.8);
+}
+
+#elementor-panel-category-sp_woo .elementor-element:hover .title,
+#elementor-panel-category-sp_woo_cart .elementor-element:hover .title,
+#elementor-panel-category-sp_woo_checkout .elementor-element:hover .title,
+#elementor-panel-category-sp_woo_dashboard .elementor-element:hover .title,
+#elementor-panel-category-sp_woo_single .elementor-element:hover .title,
+#elementor-panel-category-sp_woo_loop .elementor-element:hover .title,
+#elementor-panel-category-sp_woo_shop .elementor-element:hover .title {
+	color: #837af5;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-add-to-cart,
+.elementor-panel .elementor-element .sp-widget.sp-eicon-custom-add-to-cart {
+	background-position: 0px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-widget.sp-eicon-product-meta {
+	background-position: -49px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-product-breadcrumbs {
+	background-position: -94px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-product-call-for-price {
+	background-position: -144px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-product-stock {
+	background-position: -195px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-product-content {
+	background-position: -240px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-product-description {
+	background-position: -285px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-product-thumbnail {
+	background-position: -332px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-product-navigation {
+	background-position: -372px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-product-price {
+	background-position: -408px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-product-video {
+	background-position: -450px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-product-rating {
+	background-position: -499px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-product-review {
+	background-position: -549px 0px;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-sale-badge {
+	background-position: -592px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-product-sharing {
+	background-position: -633px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-product-progress-bar {
+	background-position: -677px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-product-suggest-price {
+	background-position: -719px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-product-tabs {
+	background-position: -763px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-product-title {
+	background-position: -807px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-wishlist {
+	background-position: -848px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-product-countdown {
+	background-position: -890px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-product-loop {
+	background-position: -935px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-upsell-products {
+	background-position: -977px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-product-categories {
+	background-position: -1018px 0;
+}
+
+.elementor-panel
+	.elementor-element
+	.sp-widget.sp-eicon-recently-viewed-products {
+	background-position: -1066px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-order-tracking {
+	background-position: -1111px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-product-ajax-search {
+	background-position: -1155px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-products-filter {
+	background-position: -1201px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-additional-fields {
+	background-position: -1245px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-form-billing {
+	background-position: -1290px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-login-form {
+	background-position: -1381px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-payment-method {
+	background-position: -1471px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-shipping-form {
+	background-position: -1520px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-cross-sell-products {
+	background-position: -1569px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-cart-table {
+	background-position: -1615px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-cart-totals {
+	background-position: -1659px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-cart-empty-message {
+	background-position: -1708px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-return-to-shop {
+	background-position: -1754px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-my-wishlist {
+	background-position: -1799px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-order-customer-details {
+	background-position: -1846px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-compare {
+	background-position: -1893px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-addresses {
+	background-position: -1940px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-dashboard {
+	background-position: -1986px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-downloads {
+	background-position: -2028px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-edit-account {
+	background-position: -2066px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-new-badge {
+	background-position: -2104px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-quickview {
+	background-position: -2146px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-featured-products {
+	background-position: -2194px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-best-selling-products {
+	background-position: -2241px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-top-rated-products {
+	background-position: -2287px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-sales-products {
+	background-position: -2334px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-header-toggle {
+	background-position: -2379px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-product-tags {
+	background-position: -2423px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-product-loop-tags {
+	background-position: -2468px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-product-categories {
+	background-position: -2514px 0;
+}
+
+.elementor-panel
+	.elementor-element
+	.sp-widget.sp-eicon-product-loop-categories {
+	background-position: -2561px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-product-sku {
+	background-position: -2608px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-product-loop-sku {
+	background-position: -2657px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-product-attributes {
+	background-position: -2703px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-product-flash-sales {
+	background-position: -2792px 0;
+}
+
+.elementor-panel
+	.elementor-element
+	.sp-widget.sp-eicon-product-loop-flash-sales {
+	background-position: -2837px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-product-weight {
+	background-position: -2884px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-order-bump {
+	background-position: -2932px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-product-brands {
+	background-position: -2973px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-product-loop-brands {
+	background-position: -3015px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-product-size-chart {
+	background-position: -3062px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-image-hotspot {
+	background-position: -3110px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-compare-loop {
+	background-position: -3156px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-products-compare {
+	background-position: -3205px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-recent-products {
+	background-position: -3251px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-related-products {
+	background-position: -3294px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-cart-coupon {
+	background-position: -3342px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-form-coupon {
+	background-position: -3389px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-order-review {
+	background-position: -3437px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-orders {
+	background-position: -3485px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-ty-order-details {
+	background-position: -3535px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-user-notifications {
+	background-position: -3584px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-product-discount {
+	background-position: -3633px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-loop-product-discount {
+	background-position: -3681px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-mini-cart {
+	background-position: -3728px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-mini-wishlist {
+	background-position: -3775px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-login {
+	background-position: -3870px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-result-count {
+	background-position: -3919px 0;
+}
+
+.elementor-panel .elementor-element .sp-widget.sp-eicon-catalog-ordering {
+	background-position: -3967px 0;
+}
+
+.elementor-panel
+	.elementor-element
+	.sp-widget.sp-eicon-product-loop-attributes {
+	background-position: -3823px 0;
+}
+
+.sp-custom-css-field {
+	width: 100%;
+}
+
+.sp-custom-css-field .CodeMirror {
+	border: 1px solid #ddd;
+}

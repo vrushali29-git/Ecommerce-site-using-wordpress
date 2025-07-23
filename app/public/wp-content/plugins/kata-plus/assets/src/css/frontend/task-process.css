@@ -1,0 +1,56 @@
+.kata-plus-task-process .task-process {
+    box-shadow: 0px 0px 25px 2px rgba(0, 0, 0, 0.14);
+    padding: 25px 35px;
+    border-radius: 5px;
+    margin: 10px 10px 25px;
+    transition: all 0.3s;
+    position: relative;
+}
+
+.task-process-number {
+    margin-bottom: 30px;
+}
+
+.kata-plus-task-process .task-process-title {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.kata-plus-task-process .task-process-content {
+    font-size: 15px;
+}
+
+.task-process-number span {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    line-height: 1.5;
+    color: #ffffff;
+    font-size: 25px;
+    text-align: center;
+}
+
+.kata-plus-task-process:hover .task-process:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+.kata-plus-task-process:hover .task-process:after {
+    top: -31px;
+    border-color: transparent transparent transparent #ffffff;
+    border-width: 16px;
+    transform: rotate(-90deg);
+    left: 45%;
+}
+
+.kata-plus-task-process-wrapper .task-process-normal {
+    max-width: 33%;
+    display: inline-block;
+    margin-top: 15px;
+}

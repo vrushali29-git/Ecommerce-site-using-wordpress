@@ -1,0 +1,166 @@
+.kata-plus-cart-wrap {
+    display: inline-block;
+}
+
+.kata-plus-cart {
+    max-width: 396px;
+    min-width: 396px;
+    box-shadow: -5px 8px 25px rgba(0, 0, 0, 0.04);
+    display: none;
+    right: -20px;
+    border-radius: 3px;
+    margin-top: 20px;
+    border: 1px solid #e3e4e5;
+    overflow: hidden;
+}
+
+.kata-plus-cart-wrap .kata-cart-icon-wrap {
+    display: inline-block;
+}
+
+.kata-plus-cart-wrap .kata-cart-icon-wrap .kata-icon {
+    font-size: 30px;
+}
+
+.kata-plus-cart-wrap .kata-plus-cart {
+    position: absolute;
+    background: #fff;
+    z-index: 999;
+}
+
+.kata-plus-cart-wrap .kata-plus-cart-wrap {
+    position: relative;
+}
+
+.kata-plus-cart-wrap .cart-items-count {
+    text-align: center;
+    padding: 15px;
+    color: #939596;
+    font-weight: 400;
+    font-size: 13px;
+    border-bottom: 1px solid #e7e8e9;
+}
+
+.kata-plus-cart-wrap .cart-items-count .count {
+    font-weight: 600
+}
+
+.kata-plus-cart-wrap ul {
+    margin: 0;
+}
+
+.kata-plus-cart-wrap li {
+    list-style: none;
+    border-bottom: 1px solid #f1f1f1;
+    position: relative;
+    height: 100%;
+    padding: 15px 15px 15px 35px !important;
+    margin: 0;
+}
+
+.kata-plus-cart-wrap a.remove {
+    position: absolute;
+    left: 10px;
+    top: 19px;
+    display: inline-block !important;
+    text-align: center;
+    width: 18px;
+    height: 18px;
+    font-size: 16px;
+    line-height: 1;
+    border-radius: 50%;
+    color: #f00 !important;
+    font-weight: 400 !important;
+}
+
+.kata-plus-cart-wrap a.remove:hover {
+    color: #fff !important;
+}
+
+.kata-plus-cart-wrap li:last-child {
+    border-bottom: 0;
+}
+
+.kata-plus-cart-wrap li img {
+    max-width: 60px;
+    vertical-align: middle;
+    margin-right: 14px;
+}
+
+.kata-plus-cart-wrap ul.cart_list li a.remove:hover {
+    background: #ff8c8c;
+    color: #750404;
+}
+
+.kata-plus-cart-wrap li a.remove+a {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    align-items: center;
+}
+
+.kata-plus-cart-wrap li .woocommerce-Price-currencySymbol {
+    font-size: 12px;
+    font-weight: normal
+}
+
+.kata-plus-cart-wrap .woocommerce-mini-cart__total.total {
+    padding: 20px;
+    background: #f7f8f9;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.kata-plus-cart-wrap .total strong,
+.kata-plus-cart-wrap .total span {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.kata-plus-cart-wrap .total span {
+    float: right;
+}
+
+.kata-plus-cart-wrap .buttons {
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.kata-plus-cart-wrap .buttons a {
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.kata-plus-cart-wrap .buttons a.checkout {
+    float: right
+}
+
+.kata-cart-icon-wrap {
+    cursor: pointer;
+    position: relative;
+}
+
+.kata-cart-icon-wrap .count {
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    right: 0;
+    line-height: 17px;
+}
+
+.kata-plus-cart .woocommerce-mini-cart__empty-message {
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    text-transform: uppercase;
+}

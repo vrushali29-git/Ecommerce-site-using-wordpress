@@ -1,0 +1,22 @@
+.kata-social-icon {
+	line-height: 1.8;
+	font-size: 15px;
+}
+
+.kata-social-icon:before {
+	content: "";
+}
+
+.kata-social-icon,
+.kata-social-icon a {
+	color: #303132;
+}
+
+.kata-social-icon i {
+	padding: 5px;
+	vertical-align: middle;
+}
+
+.kata-social-icon-wrap.side .kata-social-icon {
+	display: inline-block;
+}

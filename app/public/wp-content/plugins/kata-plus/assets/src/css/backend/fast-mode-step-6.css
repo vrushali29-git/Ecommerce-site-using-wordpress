@@ -1,0 +1,75 @@
+/**
+ * Kata Fast Mode styles step 6
+ *
+ * @author  ClimaxThemes
+ * @package Kata Plus
+ * @since   1.0.0
+ */
+
+.kata_page_kata-plus-fast-mode .kt-fst-mod-wrapper {
+    max-width: 992px;
+}
+
+.site-ready-wrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 70px 0;
+}
+.site-ready-wrapper:after{
+    content: '';
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    width: 1px;
+    height: 200px;
+    background-color: #dde0e0;
+}
+.site-ready-wrapper .col {
+    text-align: center;
+    padding: 0 60px;
+}
+
+.site-ready-wrapper .col h3 {
+    font-size: 21px;
+    color: #4f5356;
+    font-weight: 400;
+}
+
+.site-ready-wrapper .col p {
+    font-size: 15px;
+    color: #808995;
+    padding: 0 15px;
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+
+.site-ready-wrapper .col a {
+    font-size: 18px;
+    color: #00D6F9;
+    background-color: #CCF8FF;
+    padding: 13px 46px 15px;
+    border-radius: 60px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.22s ease;
+}
+
+.site-ready-wrapper .col a:hover {
+    background-color: #defbff;
+}
+
+#kt-fst-mod-6 #page-title {
+    position: relative;
+    padding-top: 47px;
+    color: #59CE88;
+}
+
+#kt-fst-mod-6 #page-title .kata-icon {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 16px);
+    fill: #59CE88;
+}

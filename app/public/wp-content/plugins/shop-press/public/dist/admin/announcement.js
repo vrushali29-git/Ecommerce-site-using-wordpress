@@ -1,0 +1,1 @@
+(o=>{o(".sp-an-close").on("click",function(){var n={action:"shoppress_announcement",nonce:shoppressAnnouncement.nonce};o.ajax({type:"POST",url:shoppressAnnouncement.ajax_url,data:n,success:function(n){o("#sp-admin-announcement").remove(),console.log(n)},error:function(n){console.log(n)}})})})(jQuery);

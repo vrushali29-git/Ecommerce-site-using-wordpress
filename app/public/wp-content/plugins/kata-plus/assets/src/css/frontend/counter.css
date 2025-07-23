@@ -1,0 +1,67 @@
+.kata-plus-counter-icon,
+.kata-plus-counter-text-wrap {
+    text-align: center;
+}
+
+.kata-plus-counter-icon .kata-icon {
+    font-size: 30px;
+}
+
+.kata-plus-counter.horizontal.left,
+.kata-plus-counter.horizontal.left .kata-plus-counter-icon {
+    text-align: left;
+}
+
+.kata-plus-counter.horizontal.right,
+.kata-plus-counter.horizontal.right .kata-plus-counter-icon {
+    text-align: right;
+}
+
+.kata-plus-counter.horizontal.right .elementor-counter .elementor-counter-number-wrapper {
+    display: unset;
+
+}
+
+.kata-plus-counter.horizontal.right .elementor-counter .elementor-counter-number-prefix,
+.kata-plus-counter.horizontal.right .elementor-counter .elementor-counter-number-suffix,
+.kata-plus-counter.horizontal.left .elementor-counter .elementor-counter-number-prefix,
+.kata-plus-counter.horizontal.left .elementor-counter .elementor-counter-number-suffix {
+    -webkit-box-flex: unset;
+    flex-grow: unset;
+    -webkit-box-flex: unset;
+    -webkit-flex-grow: unset;
+    -ms-flex-positive: unset;
+}
+
+.kata-plus-counter.vertical .kata-plus-counter-icon,
+.kata-plus-counter.vertical .content-wrap {
+    display: inline-block;
+}
+
+.kata-plus-counter.vertical.dfalt {
+    text-align: center;
+}
+
+.kata-plus-counter.vertical.left {
+    text-align: left;
+}
+
+.kata-plus-counter.vertical.right {
+    text-align: right;
+}
+
+.kata-plus-counter.vertical.right .kata-plus-counter-icon {
+    float: right;
+    height: 100%;
+    line-height: 4.3;
+}
+
+.kata-plus-counter.vertical.right .kata-plus-counter-icon .kata-svg-icon {
+    vertical-align: middle;
+}
+
+.elementor-counter .elementor-counter-number-prefix,
+.elementor-counter .elementor-counter-number,
+.elementor-counter .elementor-counter-number-suffix {
+    color: #000;
+}

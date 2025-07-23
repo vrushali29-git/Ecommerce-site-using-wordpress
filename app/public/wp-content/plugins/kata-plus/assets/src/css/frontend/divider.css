@@ -1,0 +1,9 @@
+.kata-divider {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.kata-divider .kata-divider-separator {
+    border-top-style: solid;
+    border-top-width: 1px;
+    width: 100%;
+}

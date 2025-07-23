@@ -1,0 +1,55 @@
+.kata-plus-next-previous-post {
+	padding-bottom: 42px;
+}
+
+.kata-plus-next-previous-post .first-title {
+	width: 100%;
+	display: block;
+	padding: 42px 0;
+}
+
+.kata-plus-next-previous-post a {
+	position: relative;
+}
+
+.kata-plus-next-previous-post .align-right,
+.kata-plus-next-previous-post .align-right a {
+	text-align: right;
+	direction: rtl;
+}
+
+.kata-plus-next-previous-post .align-left,
+.kata-plus-next-previous-post .align-left a {
+	text-align: left;
+}
+
+.kata-plus-next-previous-post .prev-post-content-wrapper,
+.kata-plus-next-previous-post .next-post-content-wrapper {
+	padding: 0 20px;
+}
+
+.kata-plus-next-previous-post .kata-icon,
+.kata-plus-next-previous-post .prev-post-content-wrapper,
+.kata-plus-next-previous-post .next-post-content-wrapper {
+	display: inline-block;
+}
+
+.kata-plus-next-previous-post .kata-icon {
+	position: absolute;
+	left: 0;
+	top: 5px;
+}
+
+.kata-plus-next-previous-post .align-right .kata-icon {
+	left: auto;
+	right: 0;
+}
+
+.kata-plus-next-previous-post h3 a {
+	font-size: 16px;
+	color: #000;
+	line-height: 23px;
+	width: 50%;
+	font-weight: 500;
+	position: relative;
+}

@@ -1,0 +1,209 @@
+/**
+ * Kata Font Manager styles.
+ *
+ * @author  ClimaxThemes
+ * @package Kata Plus
+ * @since   1.0.0
+ */
+
+.kata-plus-fonts-manager-wrap {
+	direction: rtl;
+}
+
+.kata-plus-fonts-manager-wrap a.page-title-action,
+.kata-plus-fonts-manager-wrap a.page-title-action:focus,
+.kata-plus-fonts-manager-wrap a.page-title-action:active {
+	float: right;
+}
+
+.kata-plus-fonts-manager-wrap a.page-title-action:before {
+	float: right;
+	margin-right: -4px;
+	margin-left: 6px;
+}
+
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap h1 {
+	text-align: right;
+}
+
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap h1 a,
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap h1 span {
+	float: right;
+}
+
+.dashicons-arrow-right-alt2:before {
+	content: "\f341";
+}
+
+.kata-plus-fonts-manager-wrap .postbox .handlediv {
+	right: unset;
+	left: 19px;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-main-table tr {
+	margin-right: 0;
+	margin-left: 30px;
+}
+
+.kata-admin.about-wrap .kata-plus-fonts-manager-add-new-google-wrap .postbox-container .postbox label input[type="checkbox"] {
+	margin-right: 0;
+	margin-left: 6px;
+}
+
+.kata-plus-action-box>div {
+	float: right;
+}
+
+#kata_plus_pro_fonts_manager_google_categories strong:after {
+	left: unset;
+	right: 33px;
+}
+
+.kata-plus-fonts-manager-wrap .add-new-h2,
+.kata-plus-fonts-manager-wrap .page-title-action {
+	margin-left: 0 !important;
+	margin-right: 15px !important;
+}
+
+.kata-plus-fonts-manager-wrap a.page-title-action,
+.kata-plus-fonts-manager-wrap a.page-title-action:focus,
+.kata-plus-fonts-manager-wrap a.page-title-action:active {
+	left: unset;
+	right: -15px;
+}
+
+.kata-plus-action-box .kata-plus-search-box {
+	padding: 10px 40px 10px 0 !important;
+	background: transparent;
+}
+
+.kata-plus-preview-font-size-wrap b {
+	margin-left: 0;
+	margin-right: 25px;
+}
+
+.kata-plus-action-box>div {
+	border-right: none;
+	border-left: solid 1px #e7e8e9;
+}
+
+.kata-plus-action-box>div:nth-of-type(4) {
+	border-left: none;
+}
+
+#kata_plus_pro_fonts_manager_google_categories ul {
+	left: unset;
+	right: -11px;
+}
+
+.kata-plus-fonts-manager-add-new-google-wrap .col-7,
+.kata-plus-fonts-manager-add-new-typekit-wrap .col-7,
+.kata-plus-fonts-manager-add-new-custom-font-wrap .col-7 {
+	margin: 0 0 30px 25px;
+}
+
+.kata-plus-fonts-manager-wrap #kata-plus-fonts-manager-add-font-table .font-box {
+	margin-right: 0;
+	margin-left: 30px;
+}
+
+.kata-plus-fonts-manager-wrap .search-results-count {
+	float: left;
+}
+
+.kata-plus-alphabet-filter {
+	margin-right: 0px;
+	margin-left: 6px;
+	float: right;
+}
+
+.kata-admin.about-wrap .kata-plus-alphabet-filter select {
+	margin-right: 0px;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+.kata-plus-fonts-manager-wrap select {
+	background-position: left center !important;
+}
+
+.kata-plus-view-type span {
+	float: right;
+	margin-right: 0;
+	margin-left: 25px;
+}
+
+.kata-plus-fonts-manager-wrap span.font-styles-count {
+	right: unset;
+	left: 20px;
+}
+
+.kata-plus-fonts-manager-wrap .postbox input,
+.kata-plus-fonts-manager-wrap .postbox select,
+.kata-plus-fonts-manager-wrap .postbox textarea {
+	margin: 5px 0 5px 7px;
+}
+
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap .kata-plus-fonts-manager-submit-content {
+	padding-right: 0;
+	padding-left: 18px;
+}
+
+#post-body-content>div>.table.row {
+	margin: 40px -10px 10px 20px;
+}
+
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap .button {
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+.kata-plus-fonts-manager-wrap .dashicons {
+	margin-right: 0;
+	margin-left: 4px;
+}
+
+.kata-plus-action-box.typekit>div:last-child,
+.kata-plus-action-box.custom-font>div:last-child {
+	border-left: none;
+}
+
+.kata-plus-action-box>div:nth-of-type(1):before {
+	left: unset;
+	right: 15px;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-main-table td.column-name {
+	padding: 35px 15px 1px 0 !important
+}
+
+.kata-plus-fonts-manager-wrap .font-family-name {
+	padding-left: 0;
+	padding-right: 8px;
+}
+
+p.font-preview-text {
+	text-align: right;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-main-table td .row-actions {
+	padding-left: 0;
+	padding-right: 8px;
+	left: 10px;
+	right: unset;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-main-table th.check-column input {
+	margin-right: 5px;
+	margin-left: 5px;
+	float: right;
+}
+
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap label {
+	text-align: right;
+}
+
+.kata-plus-fonts-manager-wrap .column-status {
+	right: unset;
+	left: 10px;
+}

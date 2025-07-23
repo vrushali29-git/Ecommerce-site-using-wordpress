@@ -1,0 +1,19 @@
+.kata-plus-shape-element .circle-shape {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.kata-plus-shape-element .square-shape {
+    width: 100px;
+    height: 100px;
+}
+
+.kata-plus-shape-element .custom-shape {
+    width: 100px;
+    height: 100px;
+}
+
+.kata-plus-shape-element .kata-svg-icon g {
+    fill: inherit;
+}

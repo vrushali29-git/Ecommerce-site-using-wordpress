@@ -1,0 +1,61 @@
+.kata-plus-iconbox {
+	padding: 0 10px;
+}
+
+.kata-plus-iconbox .kata-icon {
+	font-size: 50px;
+}
+
+.kata-plus-iconbox.horizontal.dfalt {
+	text-align: center;
+}
+
+.kata-plus-iconbox.horizontal.right,
+.kata-plus-iconbox.vertical.right {
+	text-align: right;
+}
+
+.kata-plus-iconbox-icon-wrap {
+	margin-bottom: 20px;
+}
+
+.kata-plus-iconbox-cntt [data-class="ck-icon-box-title"] {
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+.kata-plus-iconbox-cntt [data-class="ck-icon-box-subtitle"] {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.kata-plus-iconbox.vertical .kata-plus-iconbox-icon-wrap {
+	float: left;
+	margin-right: 10px;
+}
+
+.kata-plus-iconbox.vertical.right .kata-plus-iconbox-icon-wrap {
+	float: right;
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+.kata-plus-iconbox.vertical .kata-plus-iconbox-cntt {
+	overflow: hidden;
+}
+
+.kata-plus-iconbox .kata-plus-iconbox-cntt a i.kata-icon {
+	width: 17px;
+	height: 17px;
+	font-size: 10px;
+}
+
+.icon-box-list-item {
+	list-style: none;
+}
+
+@media (max-width: 480px) {
+	.kata-plus-iconbox.vertical .kata-plus-iconbox-icon-wrap.icon {
+		float: none;
+	}
+}

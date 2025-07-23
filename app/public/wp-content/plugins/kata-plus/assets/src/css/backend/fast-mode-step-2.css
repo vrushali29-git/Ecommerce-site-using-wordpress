@@ -1,0 +1,66 @@
+/**
+ * Kata Fast Mode style step 2
+ *
+ * @author  ClimaxThemes
+ * @package Kata Plus
+ * @since   1.0.0
+ */
+
+ .kata_page_kata-plus-fast-mode .kt-fst-mod-wrapper {
+    max-width: 824px;
+}
+
+.kt-fst-get-info-row {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.kt-fst-get-info {
+    float: left;
+    width: 50%;
+    position: relative;
+}
+
+.kt-fst-get-info:nth-child(2) {
+    transform: translateX(25px);
+}
+
+.kt-fst-get-info label {
+    display: block;
+    color: #8b949f;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 9px;
+    line-height: 1.4;
+}
+
+.kt-fst-get-info input[type="text"],
+.kt-fst-get-info input[type="email"],
+.kt-fst-get-info select {
+    display: block;
+    color: #45494e;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 40px;
+    margin-right: 52px;
+    width: 100%;
+    background-color: #fff;
+    border-color: #E0E5EB;
+    border-radius: 3px;
+    padding: 15px 25px;
+}
+
+.kt-fst-get-info select {
+    background-image: url(../../fonts/svg-icons/themify/angle-down.svg);
+    background-position: right 12px top 50%;
+    display: block;
+    background-repeat: no-repeat;
+    margin-right: 0;
+    max-width: 100%;
+    background-size: 13px;
+}
+
+.kt-fst-get-info #site-title {
+    text-transform: capitalize;
+}

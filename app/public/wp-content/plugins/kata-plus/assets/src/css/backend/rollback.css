@@ -1,0 +1,56 @@
+span.select2.select2-container.select2-container--default {
+    margin-left: 20px;
+}
+
+.kata-select-version {
+	margin: 25px 0;
+}
+
+.kata-select-version button {
+    border-radius: 3px;
+    border-color: #6d6af8;
+    color: #fff;
+    text-shadow: unset;
+    background: #6d6af8;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 7px 20px;
+    display: inline-block;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+    letter-spacing: 0.4px;
+    border: none;
+    line-height: 18px;
+    margin-left: 10px;
+	cursor: pointer;
+}
+
+.kata-select-version button:hover {
+	background: #17202e;
+}
+
+.kt-btn-loading {
+	display: inline-block;
+}
+
+.kt-btn-loading:after {
+	content: "";
+    display: block;
+    width: 13px;
+    height: 13px;
+    border-radius: 100px;
+    border: 2px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: kt-btn-loading 1.2s linear infinite;
+}
+
+@keyframes kt-btn-loading {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}

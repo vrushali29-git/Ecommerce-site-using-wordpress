@@ -1,0 +1,35 @@
+.zilla-likes {
+	padding: 5px 15px 5px 0;
+	display: inline-block;
+}
+
+.zilla-likes i {
+	fill: #d2d6db;
+	font-size: 17px;
+	vertical-align: sub;
+}
+
+.zilla-likes:hover i,
+.zilla-likes.active i {
+	fill: #f56559;
+}
+
+.zilla-likes span {
+	color: #919293;
+	font-size: 13px;
+	margin-left: -3px;
+}
+
+/* Post Metadata */
+.kata-category-links,
+.kata-post-view span,
+.kata-time-to-read span,
+.kata-category-links a,
+.kata-tags-links a,
+.kata-post-date a,
+.kata-comments-number span,
+.kata-post-share-count span,
+.kata-post-author a {
+    font-size: 13px;
+    color: #919293;
+}

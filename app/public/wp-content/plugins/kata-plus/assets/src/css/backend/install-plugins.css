@@ -1,0 +1,943 @@
+/* Plugins Manager */
+
+.kata-install-plugins-wrapper .plugins-content > .subsubsub,
+.kata-install-plugins-wrapper .plugins-content > h1,
+.kata-admin.about-wrap .tgmpa.wrap h1,
+.kata-install-plugins-wrapper .plugins-content > .page-title-action,
+.kata-admin .plugins tbody .plugin-description {
+	display: none;
+}
+
+.kata-admin .wp-list-table {
+	border-radius: 2px;
+	margin: 16px 0 12px;
+	border: none;
+	overflow: hidden;
+	box-shadow: none;
+}
+
+.kata-admin .plugins tbody td {
+	padding-top: 18px;
+	padding-bottom: 15px;
+}
+
+.kata-admin .plugins tbody th.check-column input[type="checkbox"] {
+	margin-top: 8px;
+}
+
+.kata-admin .plugins thead td.check-column input[type="checkbox"],
+.kata-admin .plugins tfoot td.check-column input[type="checkbox"] {
+	margin-top: -2px;
+}
+
+.kata-admin .plugins thead tr,
+.kata-admin .plugins tfoot tr {
+	background: #fff;
+}
+
+.kata-admin .plugins thead th,
+.kata-admin .plugins tfoot th {
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.kata-admin .plugins tbody .column-description div {
+	font-size: 11px;
+	font-weight: 400;
+	color: #747b8a;
+}
+
+.kata-admin .subsubsub a {
+	font-weight: 600;
+	color: #747b8a;
+}
+
+.kata-admin .subsubsub a:hover {
+	color: #403cf2;
+}
+
+.kata-admin .subsubsub a.current {
+	font-weight: 800;
+	color: #403cf2;
+}
+
+.kata-admin .subsubsub a .count {
+	font-size: 12px;
+	color: #747b8a;
+}
+
+.kata-admin .plugins .row-actions a {
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.kata-admin .plugins tbody a {
+	color: #00a0d2;
+}
+
+.kata-admin .plugins tbody a:hover {
+	text-decoration: underline;
+}
+
+.kata-admin.kata-install-plusins-page input,
+.kata-admin.kata-install-plusins-page select,
+.kata-admin.kata-install-plusins-page textarea {
+	border-radius: 7px;
+	font-size: 12px;
+}
+
+.kata-install-plusins-page .tablenav-pages input.current-page {
+	transform: translateY(-2px);
+	max-width: 50px;
+}
+
+.kata-install-plusins-page .plugin-card .column-downloaded,
+.kata-install-plusins-page .plugin-card .column-compatibility,
+.kata-install-plusins-page .plugin-card .column-updated {
+	font-size: 11px;
+}
+
+.kata-install-plusins-page .search-form.search-plugins,
+.kata-install-plusins-page #bulk-action-form {
+	float: none;
+	width: 100%;
+}
+
+.kata-install-plusins-page .wp-filter .search-form.search-plugins {
+	float: right;
+	width: auto;
+}
+
+.kata-install-plusins-page .search-box input[name="s"] {
+	margin: 0;
+	height: 42px;
+	width: 280px;
+	padding-left: 10px;
+	float: right;
+}
+
+.kata-install-plusins-page .plugins .notice:not(.hidden) {
+	border-radius: 2px;
+	margin: -10px 20px 20px 40px;
+	border-width: 1px 1px 1px 4px;
+	border-color: #f6d98b;
+	padding: 5px 2px 7px 10px;
+}
+
+.kata-install-plusins-page .plugins .notice p {
+	font-size: 12px;
+}
+
+.kata-install-plusins-page select {
+	min-width: 150px;
+}
+
+#tgmpa-plugins .row-actions {
+	left: auto;
+}
+
+.kata-install-plugins-wrapper .row-actions .update {
+	color: transparent;
+}
+
+.kata-install-plusins-page select {
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	transition: all 0.23s ease;
+	background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0ZWQgYnkgSWNvTW9vbi5pbyAtLT4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIxNyIgaGVpZ2h0PSIxNyIgdmlld0JveD0iMCAwIDE3IDE3Ij4KPGc+CjwvZz4KCTxwYXRoIGQ9Ik0xNi4zNTQgNS4wNzVsLTcuODU1IDcuODU0LTcuODUzLTcuODU0IDAuNzA3LTAuNzA3IDcuMTQ1IDcuMTQ2IDcuMTQ4LTcuMTQ3IDAuNzA4IDAuNzA4eiIgZmlsbD0iIzAwMDAwMCIgLz4KPC9zdmc+Cg==") !important;
+	background-repeat: no-repeat !important;
+	background-size: 26px 10px !important;
+	background-position: right center !important;
+	padding-left: 10px;
+	box-shadow: none;
+	outline: none;
+	border-radius: 2px;
+	background-clip: border-box;
+	-moz-background-clip: border-box;
+	-webkit-background-clip: border-box;
+}
+
+.kata-install-plusins-page select:hover,
+.kata-install-plusins-page select:focus {
+	box-shadow: none;
+	border-color: #bebdfb;
+}
+
+.kata-install-plusins-page select:focus {
+	background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0ZWQgYnkgSWNvTW9vbi5pbyAtLT4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIxNyIgaGVpZ2h0PSIxNyIgdmlld0JveD0iMCAwIDE3IDE3Ij4KPGc+CjwvZz4KCTxwYXRoIGQ9Ik0xNi4zNTQgMTEuODk2bC0wLjcwNyAwLjcwNy03LjE0Ny03LjE0Ni03LjE0NiA3LjE0Ni0wLjcwNy0wLjcwNyA3Ljg1My03Ljg1MyA3Ljg1NCA3Ljg1M3oiIGZpbGw9IiMwMDAwMDAiIC8+Cjwvc3ZnPgo=") !important;
+}
+
+.kata-install-plusins-page select.opt::-ms-expand {
+	display: none;
+}
+
+.kata-install-plusins-page input[type="checkbox"],
+.kata-install-plusins-page input[type="radio"] {
+	width: 20px;
+	height: 20px;
+	min-height: 0;
+}
+
+.kata-install-plusins-page input[type="radio"] {
+	border-radius: 20px;
+}
+
+.kata-install-plusins-page input[type="checkbox"] {
+	width: 20px;
+	height: 20px;
+	border-radius: 3px;
+	min-height: 20px;
+	margin-right: 1px;
+	box-shadow: inset 1px 1px 2px #00000008;
+}
+
+.kata-install-plusins-page input[type="checkbox"]:checked {
+	border-color: #d0ceff;
+	box-shadow: 0 2px 5px 0 #d0ceff26;
+}
+
+.kata-install-plusins-page input[type="checkbox"]:checked:before {
+	color: #403cf2 !important;
+	margin: 8px 0 0 0;
+	font-family: "themify";
+	font-size: 16px;
+	content: "\e64c";
+	text-shadow: 0px 1px 4px #403cf230;
+}
+
+.kata-install-plusins-page input[type="checkbox"]:focus {
+	border-color: #9e9cff;
+	box-shadow: 0 0 2px #403cf266;
+}
+
+.kata-admin .plugins td.plugin-title strong {
+	font-weight: 600;
+	font-size: 13px;
+}
+
+.kata-admin .plugins .plugin-title strong {
+	font-weight: 600;
+	margin-top: 8px;
+	margin-bottom: 5px;
+}
+
+.kata-admin .plugins .plugin-title .row-actions {
+	margin-bottom: 6px;
+}
+
+.kata-install-plusins-page a.button,
+.kata-install-plusins-page input.button,
+.kata-install-plusins-page .button:focus,
+.kata-install-plusins-page .button:active,
+.action-links .plugin-action-buttons .button-disabled {
+	margin: 0 1px;
+	padding: 0 15px;
+	outline: none;
+	height: 32px;
+	min-height: 32px;
+	line-height: 30px;
+	font-size: 12px;
+	font-weight: 500;
+	color: #6e747b !important;
+	border: 1px solid #e3e4e5;
+	border-radius: 7px;
+	background-color: #f7f8f9;
+	float: left;
+	letter-spacing: 0.5px;
+	box-shadow: 0 1px 2px rgb(0 0 0 / 2%);
+	transition: all 0.22s ease;
+}
+
+.kata-install-plusins-page .button:hover {
+	background-color: #fff !important;
+	color: #403cf2 !important;
+	border-color: #bebdfb !important;
+}
+
+.kata-admin.about-wrap .kata-plus-plugins-header-wrap,
+.kata-admin.about-wrap .filter-links {
+	margin: 10px 0;
+	padding: 0;
+	border-top: 1px solid #e3e4e5;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 20px;
+	grid-auto-rows: minmax(50px, auto);
+	text-align: center;
+}
+
+.kata-admin.about-wrap .kata-plus-plugins-header-wrap .kp-menu-item {
+	position: relative;
+	padding: 0;
+	text-align: center;
+	letter-spacing: 0.2px;
+	margin: 0;
+	background: none;
+	border: none;
+	color: #737984;
+	transition: all 0.22s ease;
+}
+
+.kata-admin.about-wrap .kata-plus-plugins-header-wrap .kp-menu-item a,
+.kata-install-plusins-page .wp-filter .filter-links li > a {
+	color: #707a8d;
+	display: block;
+	padding: 16px 5px 13px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1;
+	position: relative;
+}
+
+.kata-admin.about-wrap .kata-plus-plugins-header-wrap .kp-menu-item a:hover,
+.kata-admin.about-wrap .kata-plus-plugins-header-wrap .kp-menu-item.active a,
+.kata-install-plusins-page .wp-filter .filter-links li > a:hover {
+	color: #403cf2;
+	text-decoration: none;
+}
+
+.kata-admin.about-wrap .kata-plus-plugins-header-wrap .kp-menu-item.active a {
+	font-weight: 500;
+}
+
+.kata-admin.about-wrap .kata-plus-plugins-header-wrap .kp-menu-item.active,
+.kata-install-plusins-page .wp-filter .filter-links li > a.current {
+	color: #403cf2;
+	position: relative;
+}
+
+.kata-admin.about-wrap .kata-plus-plugins-header-wrap .kp-menu-item a:after,
+.kata-install-plusins-page .wp-filter .filter-links li > a:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: -1px;
+	width: 0;
+	height: 2px;
+	left: 0;
+	opacity: 0;
+	background-color: #7c7afb;
+	transition: all 0.15s ease;
+}
+
+.kata-admin.about-wrap
+	.kata-plus-plugins-header-wrap
+	.kp-menu-item.active
+	a:after,
+.kata-install-plusins-page .wp-filter .filter-links li > a.current:before {
+	width: calc(100% - 6px);
+	opacity: 1;
+}
+
+.kata-admin.about-wrap .kata-plus-plugins-header-wrap .kp-menu-item a:before,
+.kata-admin .kata-card.kata-primary .kata-form-group i {
+	font-size: 14px;
+	vertical-align: middle;
+	margin-right: 2px;
+	margin-top: -2px;
+	width: 24px;
+	height: 24px;
+	line-height: 24px;
+	padding: 0px;
+	text-align: center;
+	border-radius: 7px;
+	background-color: #f3f5f7;
+	display: inline-block;
+	content: "\e683";
+	font-family: "themify";
+	font-weight: 400;
+}
+
+.kata-admin.about-wrap
+	.kata-plus-plugins-header-wrap
+	.kp-menu-item:nth-of-type(2)
+	a:before {
+	content: "\e687";
+}
+
+.kata-admin.about-wrap
+	.kata-plus-plugins-header-wrap
+	.kp-menu-item:nth-of-type(3)
+	a:before {
+	content: "\e6b2";
+}
+
+.kata-admin.about-wrap
+	.kata-plus-plugins-header-wrap
+	.kp-menu-item:nth-of-type(4)
+	a:before {
+	content: "\e6cb";
+}
+
+.kata-admin.about-wrap .kata-plus-plugins-header-wrap .kp-menu-item a:before {
+	background-color: #f3f3f3;
+	color: #7b7b8c;
+	margin-right: 6px;
+	transition: all 0.2s ease;
+}
+
+.kata-admin.about-wrap
+	.kata-plus-plugins-header-wrap
+	.kp-menu-item.active
+	a:before,
+.kata-admin.about-wrap
+	.kata-plus-plugins-header-wrap
+	.kp-menu-item
+	a:hover:before {
+	background-color: #ededfe;
+	color: #403cf2;
+}
+
+@media (max-width: 1200px) {
+	.kata-admin.about-wrap .kata-plus-plugins-header-wrap .kp-menu-item {
+		font-size: 11px;
+		padding: 10px 0;
+	}
+
+	.kata-admin.about-wrap .kata-plus-plugins-header-wrap .kp-menu-item a {
+		font-size: 11px;
+		padding: 10px;
+		display: block;
+		width: 100%;
+	}
+
+	.kata-admin.about-wrap
+		.kata-plus-plugins-header-wrap
+		.kp-menu-item
+		a:before {
+		display: block;
+		margin: 0 auto 10px;
+	}
+
+	.kata-admin.about-wrap .kata-plus-plugins-header-wrap .kp-menu-item.active {
+		padding: 0;
+	}
+}
+
+/* Upload plugin */
+.kata-install-plugins-wrapper .wp-upload-form {
+	width: 50%;
+	clear: both;
+	display: block;
+	padding: 30px;
+	border-radius: 7px;
+	border: 1px solid #e3e4e5;
+	background: #fafafa;
+	text-align: right;
+	margin: 10px 0 30px;
+}
+
+.kata-install-plugins-wrapper .wp-upload-form input[type="file"] {
+	padding: 8px 10px;
+	width: calc(100% - 114px);
+}
+
+.kata-install-plugins-wrapper .wp-upload-form input.button {
+	float: right;
+	background-color: #fff;
+	height: 38px;
+	width: 110px;
+}
+
+.kata-install-plugins-wrapper .plugins-content {
+	position: relative;
+	display: block;
+	grid-column: span 12;
+	padding-top: 10px;
+}
+
+.kata-install-plugins-wrapper .plugins-content .wp-header-end {
+	margin: 0;
+	border: none;
+}
+
+.kata-admin.about-wrap .kata-install-plugins-wrapper .plugins-content p {
+	width: 100%;
+	font-style: normal;
+}
+
+.plugins-content .desc.column-description p {
+	font-size: 13px;
+	padding: 0;
+}
+
+/* Add new plugin */
+.kata-install-plugins-wrapper .plugin-icon {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 64px;
+	height: 64px;
+	margin: 0 20px 20px 0;
+	border-radius: 2px;
+}
+
+.kata-install-plugins-wrapper .wp-list-table #the-list {
+	width: 100%;
+	padding: 0;
+	background: none;
+	overflow: hidden;
+}
+
+.kata-install-plugins-wrapper .wp-list-table div#the-list {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 30px;
+	grid-auto-rows: minmax(50px, auto);
+}
+
+@media (max-width: 1200px) {
+	.kata-install-plugins-wrapper .wp-list-table div#the-list {
+		grid-template-columns: auto;
+		gap: initial;
+	}
+	.kata-install-plugins-wrapper .wp-list-table div#the-list .plugin-card {
+		margin-bottom: 30px;
+	}
+}
+
+.kata-install-plugins-wrapper .wp-list-table .plugin-card {
+	width: 100% !important;
+	margin: 0;
+	border-radius: 11px;
+	box-shadow: 0 2px 3px rgb(0 0 0 / 1%);
+	border-color: #e3e4e5;
+	position: relative;
+	padding-bottom: 68px;
+}
+
+.kata-install-plugins-wrapper .wp-list-table .plugin-card .plugin-card-bottom {
+	border-radius: 0 0 10px 10px;
+	border-color: #e3e4e5;
+	margin-top: 12px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #f7f8f9;
+}
+
+.kata-install-plugins-wrapper .wp-list-table .plugin-card h3 {
+	margin-top: 10px;
+	margin-bottom: 0;
+	line-height: 1.3;
+	font-size: 17px;
+}
+
+.kata-install-plugins-wrapper .wp-list-table .plugin-card h3 a {
+	color: #2e323a;
+}
+
+.kata-install-plugins-wrapper .wp-list-table .plugin-card h3 a:hover {
+	text-decoration: underline;
+}
+
+.kata-install-plugins-wrapper
+	.wp-list-table
+	.plugin-card
+	.plugin-action-buttons {
+	text-align: center;
+}
+
+.kata-install-plugins-wrapper
+	.wp-list-table
+	.plugin-card
+	.plugin-action-buttons
+	a,
+.kata-install-plugins-wrapper
+	.wp-list-table
+	.plugin-card
+	.plugin-action-buttons
+	button {
+	margin: 0 0 10px 0;
+}
+.kata-install-plugins-wrapper
+	.wp-list-table
+	.plugin-card
+	.plugin-action-buttons
+	button[disabled="disabled"] {
+	opacity: 0.5;
+}
+.kata-install-plusins-page .wp-filter {
+	border: none;
+	box-shadow: none;
+	border-radius: 0;
+	background: #fff;
+	padding: 0;
+	margin-bottom: 0;
+}
+.kata-install-plusins-page .wp-filter ~ p {
+	background: #f9f9f9;
+	padding: 20px;
+	margin: 0 0 30px;
+	border-radius: 11px;
+	position: relative;
+}
+
+.kata-install-plusins-page .wp-filter .filter-links li > a {
+	font-size: 12px;
+	padding: 10px 10px 12px;
+	line-height: 1;
+	margin: 0;
+	border-bottom: none;
+}
+
+@media (max-width: 782px) {
+	.kata-install-plusins-page .wp-filter .filter-links li > a {
+		font-size: 10px;
+		padding: 5px;
+		line-height: 1;
+		margin: 0;
+		border-bottom: none;
+	}
+}
+
+.kata-install-plusins-page .wp-filter .filter-links li > a.current {
+	border-bottom: none;
+	padding: 10px 15px 2px;
+}
+
+.kata-install-plusins-page .tablenav .displaying-num,
+.kata-install-plusins-page .tablenav .tablenav-paging-text {
+	margin-left: 5px;
+	font-size: 12px;
+}
+
+.kata-install-plusins-page #plugin-filter .tablenav .button {
+	float: none;
+	padding: 0 4px;
+	font-size: 17px;
+	line-height: 30px;
+	height: 32px;
+}
+
+.kata-install-plusins-page #plugin-filter .tablenav .button.disabled {
+	background: #eee !important;
+	box-shadow: none !important;
+	opacity: 0.6;
+}
+
+/* Grid
+-------------------------------------------------- */
+.kata-install-plugins-wrapper,
+.kata-install-plugins-wrapper *,
+.kata-install-plugins-wrapper *::before,
+.kata-install-plugins-wrapper *::after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.kata-container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+@media (min-width: 576px) {
+	.kata-container {
+		max-width: 540px;
+	}
+}
+
+@media (min-width: 768px) {
+	.kata-container {
+		max-width: 720px;
+	}
+}
+
+@media (min-width: 992px) {
+	.kata-container {
+		max-width: 960px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.kata-container {
+		max-width: 1140px;
+	}
+}
+
+.kata-row {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.kata-col-sm-3 {
+	position: relative;
+	width: 100%;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+@media (min-width: 576px) {
+	.kata-col-sm-3 {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 25%;
+		flex: 0 0 25%;
+		max-width: 25%;
+	}
+}
+
+.lds-ripple {
+	display: inline-block;
+	position: relative;
+	width: 80px;
+	height: 80px;
+}
+
+.lds-ripple div {
+	position: absolute;
+	border: 4px solid #403cf2;
+	opacity: 1;
+	border-radius: 50%;
+	animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+
+.lds-ripple div:nth-child(2) {
+	animation-delay: -0.5s;
+}
+
+@keyframes lds-ripple {
+	0% {
+		top: 36px;
+		left: 36px;
+		width: 0;
+		height: 0;
+		opacity: 1;
+	}
+
+	100% {
+		top: 0px;
+		left: 0px;
+		width: 72px;
+		height: 72px;
+		opacity: 0;
+	}
+}
+
+.preloader-parent {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: rgba(255, 255, 255, 0.5);
+	top: 0;
+}
+
+.kata-plus-fonts-manager-loading {
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	-webkit-transform: translate(-50%, 0);
+	transform: translate(-50%, 0);
+}
+
+#the-list tr span.deactivate a,
+#the-list tr span.activate a,
+#the-list tr span.delete a,
+#the-list tr span.update a,
+.update-link #the-list tr a[data-plugin-action="install"],
+#the-list tr a[data-plugin-action="install"] {
+	pointer-events: auto;
+	opacity: 1;
+}
+
+#the-list tr td .notice:not(.hidden) {
+	display: block !important;
+	margin-bottom: 0;
+}
+
+#the-list tr td .notice p {
+	border: none !important;
+	padding: 0 !important;
+	margin: 0;
+}
+
+.kata-admin .plugins-content .widefat td,
+.kata-admin .plugins-content .widefat th,
+.kata-admin .plugins-content .widefat td ol,
+.kata-admin .plugins-content .widefat td ul {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	box-shadow: none;
+	font-size: 11px;
+	border-color: #e3e4e5;
+}
+
+.kata-admin .plugins-content .widefat td p {
+	font-size: 11px;
+	font-weight: 500;
+}
+
+.kata-admin .plugins-content .widefat tfoot td,
+.kata-admin .plugins-content .widefat tfoot th {
+	border-top: 1px solid #ececec;
+}
+
+.kata-admin .plugins-content .widefat tr.update td,
+.kata-admin .plugins-content .widefat tr.update td p,
+.kata-admin .plugins-content .widefat tr.update td ol,
+.kata-admin .plugins-content .widefat tr.update td ul {
+	border: none !important;
+}
+.kata-admin .plugins-content .widefat tr.update th {
+	border-bottom: none !important;
+}
+
+.kata-admin .plugins-content .active td,
+.kata-admin .plugins-content .active th {
+	background-color: #f8fbfe;
+}
+
+.kata-admin .plugins-content .update-message table td,
+.kata-admin .plugins-content .update-message table th {
+	background-color: transparent;
+}
+
+.kata-admin .plugins-content .widefat th.column-primary,
+.kata-admin .plugins-content .widefat td.column-primary {
+	max-width: 400px;
+	white-space: normal;
+}
+
+.kata-admin .plugins-content .widefat th.column-source,
+.kata-admin .plugins-content .widefat td.column-source {
+	display: none;
+}
+
+.kata-admin .plugins-content .widefat th.column-author,
+.kata-admin .plugins-content .widefat td.column-author {
+	width: 200px;
+}
+
+.kata-admin .plugins-content .widefat td.column-author a {
+	color: #0073aa;
+	font-size: 12px;
+}
+
+.kata-install-plugins-wrapper
+	.wp-list-table
+	.plugin-card
+	.plugin-action-buttons
+	a {
+	font-size: 12px;
+	text-decoration: none !important;
+}
+
+.kata-admin .plugins-content .widefat td.column-author a:hover,
+.kata-install-plugins-wrapper
+	.wp-list-table
+	.plugin-card
+	.plugin-action-buttons
+	a:hover {
+	text-decoration: underline;
+}
+
+.plugins-content .notice-warning .e-major-update-warning__separator {
+	margin-bottom: 10px;
+	border-bottom: 0;
+}
+
+#kata-admin-bar + .tgmpa.wrap {
+	display: none;
+}
+
+a.button.kata-btn.kata-btn-plugin-action {
+	border-radius: 7px;
+	border: none;
+	color: #6c5dee !important;
+	text-shadow: unset;
+	background-color: #ededfe;
+	box-shadow: none;
+	font-weight: 600;
+	font-size: 11px;
+	text-decoration: none;
+	padding: 6px 8px 0px;
+	display: inline-block;
+	line-height: 9px;
+	min-height: 10px;
+	height: 20px;
+	margin-top: 3px;
+	transition: all 0.2s ease;
+}
+
+a.button.kata-btn.kata-btn-plugin-action:hover {
+	background-color: #dadaf5 !important;
+}
+
+.kata-admin .wp-list-table #the-list .column-plugin,
+.kata-admin .wp-list-table #the-list .check-column {
+	padding-top: 8px !important;
+	padding-bottom: 18px;
+}
+
+.kata-admin .wp-list-table .column-plugin strong {
+	font-weight: 600;
+	font-size: 14px;
+	color: #17202e;
+}
+
+.kata-admin .wp-list-table .column-plugin strong a {
+	color: #17202e;
+}
+
+.kata-admin .wp-list-table .column-plugin strong a:hover {
+	text-decoration: underline;
+}
+
+.kata-admin .wp-list-table .column-plugin {
+	padding-left: 18px;
+	line-height: 20px;
+}
+
+.wp-list-table .column-plugin img,
+.plugins .plugin-title img {
+	width: 46px;
+	height: auto;
+	margin-right: 8px;
+	float: left;
+	padding: 0;
+	border-radius: 5px;
+}
+
+.kata-admin .plugins .plugin-title img {
+	margin-top: 3px;
+}
+
+.kata-install-plusins-page input[type="text"]:focus,
+.kata-install-plusins-page input[type="search"]:focus {
+	border-color: inherit;
+}
+
+#plugin-filter {
+	width: 100%;
+}
+
+#plugin-filter .no-plugin-results {
+	padding: 50px 0;
+}
+
+.install-help + form[method="get"] [for="user"] {
+	margin: 0 8px;
+}
+
+.plugins-content h1.wp-heading-inline,
+.page-title-action,
+form.search-form.search-plugins,
+.tgmpa.wrap > h1,
+.tgmpa.wrap > .subsubsub {
+	display: none !important;
+}
+
+.plugin-card .name,
+.plugin-card .desc {
+	margin-left: 90px;
+}

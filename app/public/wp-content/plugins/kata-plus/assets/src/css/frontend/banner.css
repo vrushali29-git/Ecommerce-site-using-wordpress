@@ -1,0 +1,41 @@
+.kata-banner-shape {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+}
+
+.kata-banner-wrap {
+	position: relative;
+}
+
+.kata-banner-description {
+	position: absolute;
+	bottom: 0;
+	padding: 30px;
+}
+
+.kata-banner-title,
+.kata-banner-subtitle {
+	color: #ffffff;
+}
+
+.kata-banner-button {
+	background: #ffffff;
+	color: #000000;
+	padding: 10px 15px;
+	border-radius: 100px;
+	display: block;
+	margin-top: 10px;
+}
+
+.kata-banner-link {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.kata-banner-link + .kata-banner-description .kata-banner-button {
+	z-index: 2;
+}

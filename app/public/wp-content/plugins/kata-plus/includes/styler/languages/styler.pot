@@ -1,0 +1,1605 @@
+# Copyright (C) 2025 Climax Themes
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Styler Pro Redux 3.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/styler-redux\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-05-31T16:49:41+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: styler\n"
+
+#. Plugin Name of the plugin
+#: styler.php
+msgid "Styler Pro Redux"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: styler.php
+msgid "https://climaxthemes.com"
+msgstr ""
+
+#. Description of the plugin
+#: styler.php
+msgid "Styler makes styling your pages easier."
+msgstr ""
+
+#. Author of the plugin
+#: styler.php
+msgid "Climax Themes"
+msgstr ""
+
+#: lib/breakpoints/manager.php:129
+msgid "Mobile"
+msgstr ""
+
+#: lib/breakpoints/manager.php:136
+msgid "M Landscape"
+msgstr ""
+
+#: lib/breakpoints/manager.php:143
+msgid "Tablet"
+msgstr ""
+
+#: lib/breakpoints/manager.php:150
+msgid "T Landscape"
+msgstr ""
+
+#: lib/breakpoints/manager.php:157
+msgid "Laptop"
+msgstr ""
+
+#: lib/breakpoints/manager.php:164
+msgid "Desktop"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:60
+#: src/App/config/config.jsx:183
+msgid "Normal"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:61
+msgid "Hover"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:63
+msgid "Parent Hover"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:67
+msgid "Before"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:68
+msgid "After"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:71
+msgid "Text"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:75
+#: src/App/config/config.jsx:84
+msgid "Content"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:89
+msgid "Text & Typography"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:95
+#: src/App/config/config.jsx:409
+#: src/App/config/config.jsx:1670
+#: src/App/config/config.jsx:1687
+msgid "Color"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:102
+msgid "Font Size"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:116
+msgid "Line Height"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:129
+msgid "Letter Spacing"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:144
+msgid "Font Family"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:160
+msgid "Font Weight"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:162
+#: src/App/config/config.jsx:295
+#: src/App/config/config.jsx:559
+#: src/App/config/config.jsx:617
+#: src/App/config/config.jsx:628
+#: src/App/config/config.jsx:640
+#: src/App/config/config.jsx:652
+#: src/App/config/config.jsx:665
+#: src/App/config/config.jsx:733
+#: src/App/config/config.jsx:2301
+msgid "unset"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:163
+msgid "100 | Thin"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:164
+msgid "200 | Extra Light"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:165
+msgid "300 | Light"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:166
+msgid "400 | Normal"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:167
+msgid "500 | Medium"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:168
+msgid "600 | Semi Bold"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:169
+msgid "700 | Bold"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:170
+msgid "800 | Extra Bold"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:171
+msgid "900 | High Bold"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:178
+msgid "Font Style"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:189
+msgid "Italic"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:195
+msgid "Oblique"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:204
+msgid "Text Align"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:209
+#: src/App/config/config.jsx:1245
+#: src/App/config/config.jsx:1333
+msgid "Left"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:214
+msgid "Center"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:219
+#: src/App/config/config.jsx:1209
+#: src/App/config/config.jsx:1297
+msgid "Right"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:224
+msgid "Justify"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:232
+msgid "Text Transform"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:237
+#: src/App/config/config.jsx:265
+msgid "None"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:242
+msgid "Uppercase"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:247
+msgid "Lowercase"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:252
+msgid "Capitalize"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:260
+msgid "Text Decoration"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:270
+msgid "Underline"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:275
+msgid "Overline"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:280
+msgid "Line Through"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:288
+msgid "Decoration Style"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:290
+msgid "solid"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:291
+msgid "double"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:292
+msgid "dotted"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:293
+msgid "dashed"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:294
+msgid "wavy"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:306
+msgid "Thickness"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:319
+msgid "Decoration Color"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:328
+msgid "Direction"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:333
+msgid "Left to Right"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:338
+msgid "Right to Left"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:346
+msgid "Text Wrap"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:348
+msgid "wrap"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:349
+msgid "nowrap"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:350
+msgid "balance"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:357
+msgid "Writing Mode"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:359
+msgid "horizontal-tb"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:360
+msgid "vertical-rl"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:361
+msgid "vertical-lr"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:368
+msgid "Text Orientation"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:370
+msgid "mixed"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:371
+msgid "upright"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:372
+msgid "sideways"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:373
+msgid "sideways-right"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:381
+#: src/App/config/config.jsx:385
+msgid "Background"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:394
+#: src/App/config/config.jsx:396
+msgid "Solid"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:399
+#: src/App/config/config.jsx:401
+msgid "Gradient"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:428
+msgid "Image"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:437
+#: src/App/config/config.jsx:2296
+msgid "Repeat"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:439
+msgid "repeat"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:440
+msgid "repeat-x"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:441
+msgid "repeat-y"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:442
+msgid "no-repeat"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:453
+msgid "Attachment"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:455
+#: src/App/config/config.jsx:655
+msgid "scroll"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:456
+msgid "fixed"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:468
+#: src/App/config/config.jsx:1578
+#: src/App/config/config.jsx:1585
+msgid "Position"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:473
+#: src/App/config/config.jsx:753
+msgid "left top"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:474
+#: src/App/config/config.jsx:754
+msgid "left center"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:475
+#: src/App/config/config.jsx:755
+msgid "left bottom"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:476
+#: src/App/config/config.jsx:756
+msgid "right top"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:477
+#: src/App/config/config.jsx:757
+msgid "right center"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:478
+#: src/App/config/config.jsx:758
+msgid "right bottom"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:479
+#: src/App/config/config.jsx:759
+msgid "center top"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:480
+#: src/App/config/config.jsx:760
+msgid "center center"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:481
+#: src/App/config/config.jsx:761
+msgid "center bottom"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:482
+#: src/App/config/config.jsx:508
+msgid "custom"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:485
+msgid "X Position"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:486
+msgid "Y Position"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:498
+#: src/App/config/config.jsx:1079
+msgid "Size"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:503
+#: src/App/config/config.jsx:656
+#: src/App/config/config.jsx:688
+msgid "auto"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:504
+#: src/App/config/config.jsx:736
+msgid "cover"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:505
+#: src/App/config/config.jsx:735
+msgid "contain"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:506
+#: src/App/config/config.jsx:594
+#: src/App/config/config.jsx:676
+#: src/App/config/config.jsx:724
+msgid "inherit"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:507
+#: src/App/config/config.jsx:593
+#: src/App/config/config.jsx:675
+#: src/App/config/config.jsx:723
+msgid "initial"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:511
+#: src/App/config/config.jsx:1083
+#: src/App/config/config.jsx:1091
+msgid "Width"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:512
+#: src/App/config/config.jsx:1128
+#: src/App/config/config.jsx:1136
+msgid "Height"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:528
+msgid "Clip Text"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:547
+#: src/App/config/config.jsx:551
+#: src/App/config/config.jsx:557
+msgid "Display"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:560
+msgid "inline"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:561
+msgid "block"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:562
+#: src/App/config/config.jsx:631
+#: src/App/config/config.jsx:708
+#: src/App/config/config.jsx:737
+msgid "none"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:563
+msgid "contents"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:564
+msgid "flex"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:565
+msgid "grid"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:566
+msgid "inline-block"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:567
+msgid "inline-flex"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:568
+msgid "inline-grid"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:569
+msgid "inline-table"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:570
+msgid "list-item"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:571
+msgid "run-in"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:572
+msgid "table"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:573
+msgid "table-caption"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:574
+msgid "table-column-group"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:578
+msgid "table-header-group"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:582
+msgid "table-footer-group"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:586
+msgid "table-row-group"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:590
+msgid "table-cell"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:591
+msgid "table-column"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:592
+msgid "table-row"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:602
+#: src/App/config/config.jsx:1709
+#: src/App/config/config.jsx:1841
+msgid "Opacity"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:615
+msgid "Box Sizing"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:618
+msgid "content-box"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:619
+msgid "border-box"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:626
+msgid "Float"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:629
+#: src/App/config/config.jsx:641
+#: src/App/config/config.jsx:749
+msgid "left"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:630
+#: src/App/config/config.jsx:642
+#: src/App/config/config.jsx:751
+msgid "right"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:638
+msgid "Clear"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:643
+msgid "both"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:650
+msgid "Overflow"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:653
+msgid "visible"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:654
+msgid "hidden"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:663
+msgid "Vertical Align"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:666
+msgid "baseline"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:667
+msgid "length"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:668
+msgid "sub"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:669
+msgid "super"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:670
+#: src/App/config/config.jsx:748
+msgid "top"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:671
+msgid "text-top"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:672
+msgid "middle"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:673
+#: src/App/config/config.jsx:752
+msgid "bottom"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:674
+msgid "text-bottom"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:683
+msgid "Cursor"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:686
+msgid "alias"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:687
+msgid "all-scroll"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:689
+msgid "cell"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:690
+msgid "context-menu"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:691
+msgid "col-resize"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:692
+msgid "copy"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:693
+msgid "crosshair"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:695
+msgid "e-resize"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:696
+msgid "ew-resize"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:697
+msgid "grab"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:698
+msgid "grabbing"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:699
+msgid "help"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:700
+msgid "move"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:701
+msgid "n-resize"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:702
+msgid "ne-resize"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:703
+msgid "nesw-resize"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:704
+msgid "ns-resize"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:705
+msgid "nw-resize"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:706
+msgid "nwse-resize"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:707
+msgid "no-drop"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:709
+msgid "not-allowed"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:710
+msgid "pointer"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:711
+msgid "progress"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:712
+msgid "row-resize"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:713
+msgid "s-resize"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:714
+msgid "se-resize"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:715
+msgid "sw-resize"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:716
+msgid "text"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:717
+msgid "URL"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:718
+msgid "vertical-text"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:719
+msgid "w-resize"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:720
+msgid "wait"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:721
+msgid "zoom-in"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:722
+msgid "zoom-out"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:731
+msgid "Object Fit"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:734
+msgid "fill"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:738
+msgid "scale-down"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:745
+msgid "Object Position"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:750
+msgid "center"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:771
+msgid "Visibility"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:783
+msgid "Flex Options"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:789
+msgid "Align Content"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:804
+msgid "Align Items"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:818
+msgid "Justify Content"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:833
+msgid "Flex Direction"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:846
+msgid "Flex Wrap"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:858
+msgid "Align Self"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:873
+msgid "Flex Flow"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:897
+msgid "Order"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:909
+msgid "Flex Grow"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:921
+msgid "Flex Shrink"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:933
+msgid "Flex Basis"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:946
+msgid "Row Gap"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:959
+msgid "Column Gap"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:973
+msgid "Grid Options"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:979
+msgid "Grid Area"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:985
+msgid "Grid Auto Columns"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:991
+msgid "Grid Auto Flow"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1009
+msgid "Grid Auto Rows"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1015
+msgid "Grid Column"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1021
+msgid "Grid Column End"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1027
+msgid "Grid Column Start"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1033
+msgid "Grid Row"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1039
+msgid "Grid Row End"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1045
+msgid "Grid Row Start"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1051
+msgid "Grid Template"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1057
+msgid "Grid Template Areas"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1063
+msgid "Grid Template Columns"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1069
+msgid "Grid Template Rows"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1104
+msgid "Min Width"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1117
+msgid "Max Width"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1149
+msgid "Min Height"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1162
+msgid "Max Height"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1175
+msgid "Spacing"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1179
+msgid "Padding"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1191
+#: src/App/config/config.jsx:1279
+msgid "Top"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1227
+#: src/App/config/config.jsx:1315
+msgid "Bottom"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1267
+msgid "Margin"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1357
+#: src/App/config/config.jsx:1361
+msgid "Border"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1367
+msgid "Border Type"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1382
+msgid "Border Width"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1391
+msgid "Border Color"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1420
+msgid "Border Radius"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1431
+msgid "Top Left"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1449
+msgid "Top Right"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1467
+msgid "Bottom Right"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1485
+msgid "Bottom Left"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1582
+msgid "Position Options"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1637
+msgid "Index"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1644
+msgid "Z-Index"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1657
+msgid "Shadow"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1664
+msgid "Box Shadow"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1671
+#: src/App/config/config.jsx:1688
+msgid "Vertical"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1672
+#: src/App/config/config.jsx:1689
+msgid "Horizontal"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1673
+#: src/App/config/config.jsx:1690
+#: src/App/config/config.jsx:1723
+#: src/App/config/config.jsx:1869
+msgid "Blur"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1674
+#: src/App/config/config.jsx:1691
+msgid "Spread"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1675
+msgid "Inset"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1676
+#: src/App/config/config.jsx:1692
+msgid "Add New Shadow"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1681
+msgid "Text Shadow"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1700
+#: src/App/config/config.jsx:1705
+msgid "Filters"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1737
+#: src/App/config/config.jsx:1855
+msgid "Grayscale"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1751
+#: src/App/config/config.jsx:1883
+msgid "Brightness"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1765
+#: src/App/config/config.jsx:1897
+msgid "Contrast"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1779
+#: src/App/config/config.jsx:1911
+msgid "Hue Rotate"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1793
+#: src/App/config/config.jsx:1925
+msgid "Invert"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1807
+#: src/App/config/config.jsx:1939
+msgid "Saturate"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1821
+#: src/App/config/config.jsx:1953
+msgid "Sepia"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1837
+msgid "Backdrop Filters"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1971
+#: src/App/config/config.jsx:1976
+msgid "Transform"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1980
+msgid "Rotate"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:1994
+msgid "Scale"
+msgstr ""
+
+#: build/styler-chunk.js:2
+msgid "Scale X"
+msgstr ""
+
+#: build/styler-chunk.js:2
+msgid "Scale Y"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:2009
+msgid "Translate X"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:2023
+msgid "Translate Y"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:2037
+msgid "Translate Z"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:2051
+msgid "Skew X"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:2065
+msgid "Skew Y"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:2083
+#: src/App/config/config.jsx:2090
+msgid "SVG"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:2093
+msgid "Fill"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:2100
+msgid "Stroke"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:2107
+msgid "Fill Opacity"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:2121
+msgid "Stroke Opacity"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:2135
+msgid "Stroke Width"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:2152
+#: src/App/config/config.jsx:2204
+msgid "Animation"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:2156
+msgid "Transition"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:2159
+msgid "FX"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:2176
+#: src/App/config/config.jsx:2362
+msgid "Duration"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:2189
+#: src/App/config/config.jsx:2375
+msgid "Delay"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:2207
+msgid "Pre-built Animation"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:2286
+msgid "Trigger"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:2302
+msgid "2 Times"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:2303
+msgid "3 Times"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:2304
+msgid "4 Times"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:2305
+msgid "5 Times"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:2306
+msgid "6 Times"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:2307
+msgid "7 Times"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:2308
+msgid "8 Times"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:2309
+msgid "9 Times"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:2310
+msgid "10 Times"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/config/config.jsx:2314
+msgid "Curve"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/lib/content/pro-message/index.jsx:7
+msgid "Requires Pro Version"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/lib/content/pro-message/index.jsx:9
+msgid "Upgrade Now"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/lib/components/context/index.jsx:261
+msgid "Devices"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/lib/components/context/index.jsx:308
+msgid "Copy Tab"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/lib/components/context/index.jsx:313
+msgid "Paste"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/lib/components/context/index.jsx:318
+msgid "Reset Tab"
+msgstr ""
+
+#: build/styler-chunk.js:2
+#: src/App/contents/form.jsx:60
+msgid "Reset"
+msgstr ""

@@ -1,0 +1,759 @@
+[
+	{
+		"id": "1e83b120",
+		"settings": {
+			"content_width": { "unit": "px", "size": 1280, "sizes": [] }
+		},
+		"elements": [
+			{
+				"id": "5db5a0e4",
+				"settings": {
+					"_column_size": 100,
+					"_inline_size": null,
+					"column_styler": {
+						"cid": "694e4d08c82ee72cbf67b6804aa88216",
+						"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"background-type\":{\"value\":\"classic\",\"important\":false},\"background-color\":{\"value\":\"#F6F7F8\",\"important\":false},\"padding-top\":{\"value\":\"43px\",\"important\":false,\"unit\":\"px\"},\"padding-right\":{\"value\":\"30px\",\"important\":false,\"unit\":\"px\"},\"padding-bottom\":{\"value\":\"22px\",\"important\":false,\"unit\":\"px\"},\"padding-left\":{\"value\":\"42px\",\"important\":false,\"unit\":\"px\"},\"border-top-left-radius\":{\"value\":\"14px\",\"important\":false,\"unit\":\"px\"},\"border-top-right-radius\":{\"value\":\"14px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-right-radius\":{\"value\":\"14px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-left-radius\":{\"value\":\"14px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-1d177529\"}},\"mobile\":{\"normal\":{\"data\":{\"padding-top\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"padding-right\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"padding-bottom\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"padding-left\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-1d177529\"}}}"
+					}
+				},
+				"elements": [
+					{
+						"id": "234a31d1",
+						"settings": { "structure": "40" },
+						"elements": [
+							{
+								"id": "5067f1d5",
+								"settings": {
+									"_column_size": 25,
+									"_inline_size": null,
+									"column_styler": {
+										"cid": "97846a41462cbdee6260c8808f8e2ba7",
+										"stdata": "{\"tabletlandscape\":{\"normal\":{\"data\":{\"width\":{\"value\":\"50%\",\"important\":false,\"unit\":\"%\"}},\"selector\":\".elementor-element.elementor-element-22d18e47\"}},\"mobile\":{\"normal\":{\"data\":{\"width\":{\"value\":\"100%\",\"important\":false,\"unit\":\"%\"}},\"selector\":\".elementor-element.elementor-element-22d18e47\"}}}"
+									}
+								},
+								"elements": [
+									{
+										"id": "17ebbd77",
+										"settings": {
+											"iconbox_layout": "vertical",
+											"iconbox_title": "Free Shipping",
+											"iconbox_title_tag": "h6",
+											"iconbox_subtitle": "",
+											"iconbox_desc": "From all orders over $100\n\n",
+											"icon_box_lists": [],
+											"symbol": "imagei",
+											"iconbox_image": {
+												"id": 1898,
+												"url": "http://katademos.com/defaults/wp-content/uploads/2023/02/pre-foo-ic1.svg"
+											},
+											"iconbox_number": "1",
+											"linkcnt": "Read More",
+											"styler_container": {
+												"cid": "1a8e098b4b0862ce74de276468af6c82",
+												"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"padding-right\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"padding-left\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-661b50ba .kata-plus-iconbox\"}}}"
+											},
+											"styler_title": {
+												"cid": "b8b2f6747ce0ae0ca668248491e286d8",
+												"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"font-size\":{\"value\":\"17px\",\"important\":false,\"unit\":\"px\"},\"line-height\":{\"value\":\"0.88em\",\"important\":false,\"unit\":\"em\"},\"margin-top\":{\"value\":\"11px\",\"important\":false,\"unit\":\"px\"},\"margin-bottom\":{\"value\":\"5px\",\"important\":false,\"unit\":\"px\"},\"margin-left\":{\"value\":\"3px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-661b50ba .kata-plus-iconbox [data-class='ck-icon-box-title']\"}}}"
+											},
+											"styler_desc": {
+												"cid": "65c17cb48759a82e109d426f2fd06424",
+												"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"color\":{\"value\":\"#959CA7\",\"important\":false},\"font-size\":{\"value\":\"14px\",\"important\":false,\"unit\":\"px\"},\"font-weight\":{\"value\":\"300\",\"important\":false},\"margin-top\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"margin-left\":{\"value\":\"3px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-661b50ba .kata-plus-iconbox [data-class='ck-icon-box-desc']\"}}}"
+											}
+										},
+										"elements": [],
+										"isInner": false,
+										"widgetType": "kata-plus-icon-box",
+										"elType": "widget"
+									}
+								],
+								"isInner": true,
+								"elType": "column"
+							},
+							{
+								"id": "4af1d4bf",
+								"settings": {
+									"_column_size": 25,
+									"_inline_size": null,
+									"column_styler": {
+										"cid": "7404a0cb86492f56f1d7e2126d29c584",
+										"stdata": "{\"tabletlandscape\":{\"normal\":{\"data\":{\"width\":{\"value\":\"50%\",\"important\":false,\"unit\":\"%\"}},\"selector\":\".elementor-element.elementor-element-6ff455d9\"}},\"mobile\":{\"normal\":{\"data\":{\"width\":{\"value\":\"100%\",\"important\":false,\"unit\":\"%\"}},\"selector\":\".elementor-element.elementor-element-6ff455d9\"}}}"
+									}
+								},
+								"elements": [
+									{
+										"id": "3f76a1e2",
+										"settings": {
+											"iconbox_layout": "vertical",
+											"iconbox_title": "24/7 Support",
+											"iconbox_title_tag": "h5",
+											"iconbox_subtitle": "",
+											"iconbox_desc": "Available 24 hours a day\n",
+											"icon_box_lists": [],
+											"symbol": "imagei",
+											"iconbox_image": {
+												"id": 1899,
+												"url": "http://katademos.com/defaults/wp-content/uploads/2023/02/pre-foo-ic2.svg"
+											},
+											"iconbox_number": "1",
+											"linkcnt": "Read More",
+											"styler_container": {
+												"cid": "2fd6466c129c21024d950af857b4e478",
+												"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"padding-right\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"padding-left\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-60bb2e0a .kata-plus-iconbox\"}}}"
+											},
+											"styler_title": {
+												"cid": "24014281265f9d2dc0a849fc6475eb67",
+												"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"font-size\":{\"value\":\"17px\",\"important\":false,\"unit\":\"px\"},\"line-height\":{\"value\":\"0.88em\",\"important\":false,\"unit\":\"em\"},\"margin-top\":{\"value\":\"11px\",\"important\":false,\"unit\":\"px\"},\"margin-bottom\":{\"value\":\"5px\",\"important\":false,\"unit\":\"px\"},\"margin-left\":{\"value\":\"3px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-60bb2e0a .kata-plus-iconbox [data-class='ck-icon-box-title']\"}}}"
+											},
+											"styler_desc": {
+												"cid": "927da251fb668f242469c084154dce07",
+												"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"color\":{\"value\":\"#959CA7\",\"important\":false},\"font-size\":{\"value\":\"14px\",\"important\":false,\"unit\":\"px\"},\"font-weight\":{\"value\":\"300\",\"important\":false},\"margin-top\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"margin-left\":{\"value\":\"3px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-60bb2e0a .kata-plus-iconbox [data-class='ck-icon-box-desc']\"}}}"
+											}
+										},
+										"elements": [],
+										"isInner": false,
+										"widgetType": "kata-plus-icon-box",
+										"elType": "widget"
+									}
+								],
+								"isInner": true,
+								"elType": "column"
+							},
+							{
+								"id": "7824090",
+								"settings": {
+									"_column_size": 25,
+									"_inline_size": null,
+									"column_styler": {
+										"cid": "84094962267d8fc65c4f5021d2ba7e14",
+										"stdata": "{\"tabletlandscape\":{\"normal\":{\"data\":{\"width\":{\"value\":\"50%\",\"important\":false,\"unit\":\"%\"}},\"selector\":\".elementor-element.elementor-element-163758e0\"}},\"mobile\":{\"normal\":{\"data\":{\"width\":{\"value\":\"100%\",\"important\":false,\"unit\":\"%\"}},\"selector\":\".elementor-element.elementor-element-163758e0\"}}}"
+									}
+								},
+								"elements": [
+									{
+										"id": "7c748268",
+										"settings": {
+											"iconbox_layout": "vertical",
+											"iconbox_title": "Secure Payment",
+											"iconbox_title_tag": "h5",
+											"iconbox_subtitle": "",
+											"iconbox_desc": "Our website is SSL protected\n",
+											"icon_box_lists": [],
+											"symbol": "imagei",
+											"iconbox_image": {
+												"id": 1900,
+												"url": "http://katademos.com/defaults/wp-content/uploads/2023/02/pre-foo-ic3.svg"
+											},
+											"iconbox_number": "1",
+											"linkcnt": "Read More",
+											"styler_container": {
+												"cid": "64f72586d291c7245b6d4c0f02a198e4",
+												"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"padding-right\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"padding-left\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-79b9323b .kata-plus-iconbox\"}}}"
+											},
+											"styler_title": {
+												"cid": "0745d6f9e682fdb75cac618429242104",
+												"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"font-size\":{\"value\":\"17px\",\"important\":false,\"unit\":\"px\"},\"line-height\":{\"value\":\"0.88em\",\"important\":false,\"unit\":\"em\"},\"margin-top\":{\"value\":\"11px\",\"important\":false,\"unit\":\"px\"},\"margin-bottom\":{\"value\":\"5px\",\"important\":false,\"unit\":\"px\"},\"margin-left\":{\"value\":\"3px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-79b9323b .kata-plus-iconbox [data-class='ck-icon-box-title']\"}}}"
+											},
+											"styler_desc": {
+												"cid": "26724c462df42978da1146e9f58c005b",
+												"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"color\":{\"value\":\"#959CA7\",\"important\":false},\"font-size\":{\"value\":\"14px\",\"important\":false,\"unit\":\"px\"},\"font-weight\":{\"value\":\"300\",\"important\":false},\"margin-top\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"margin-left\":{\"value\":\"3px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-79b9323b .kata-plus-iconbox [data-class='ck-icon-box-desc']\"}}}"
+											}
+										},
+										"elements": [],
+										"isInner": false,
+										"widgetType": "kata-plus-icon-box",
+										"elType": "widget"
+									}
+								],
+								"isInner": true,
+								"elType": "column"
+							},
+							{
+								"id": "41826d2b",
+								"settings": {
+									"_column_size": 25,
+									"_inline_size": null,
+									"column_styler": {
+										"cid": "782642bccd9984a01ed75052ff614642",
+										"stdata": "{\"tabletlandscape\":{\"normal\":{\"data\":{\"width\":{\"value\":\"50%\",\"important\":false,\"unit\":\"%\"}},\"selector\":\".elementor-element.elementor-element-7c51d0b6\"}},\"mobile\":{\"normal\":{\"data\":{\"width\":{\"value\":\"100%\",\"important\":false,\"unit\":\"%\"}},\"selector\":\".elementor-element.elementor-element-7c51d0b6\"}}}"
+									}
+								},
+								"elements": [
+									{
+										"id": "2e09b6d6",
+										"settings": {
+											"iconbox_layout": "vertical",
+											"iconbox_title": "Free Returns",
+											"iconbox_title_tag": "h5",
+											"iconbox_subtitle": "",
+											"iconbox_desc": "Return money within 30 days\n",
+											"icon_box_lists": [],
+											"symbol": "imagei",
+											"iconbox_image": {
+												"id": 1901,
+												"url": "http://katademos.com/defaults/wp-content/uploads/2023/02/pre-foo-ic4.svg"
+											},
+											"iconbox_number": "1",
+											"linkcnt": "Read More",
+											"styler_container": {
+												"cid": "5a42d796582208c606b49d1ff2ec4741",
+												"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"padding-right\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"padding-left\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-6fd19745 .kata-plus-iconbox\"}}}"
+											},
+											"styler_title": {
+												"cid": "2cc0528fd84af612699e0d77544124b6",
+												"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"font-size\":{\"value\":\"17px\",\"important\":false,\"unit\":\"px\"},\"line-height\":{\"value\":\"0.88em\",\"important\":false,\"unit\":\"em\"},\"margin-top\":{\"value\":\"11px\",\"important\":false,\"unit\":\"px\"},\"margin-bottom\":{\"value\":\"5px\",\"important\":false,\"unit\":\"px\"},\"margin-left\":{\"value\":\"3px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-6fd19745 .kata-plus-iconbox [data-class='ck-icon-box-title']\"}}}"
+											},
+											"styler_desc": {
+												"cid": "7586282192a64dfe4c5249f647b001cd",
+												"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"color\":{\"value\":\"#959CA7\",\"important\":false},\"font-size\":{\"value\":\"14px\",\"important\":false,\"unit\":\"px\"},\"font-weight\":{\"value\":\"300\",\"important\":false},\"margin-top\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"margin-left\":{\"value\":\"3px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-6fd19745 .kata-plus-iconbox [data-class='ck-icon-box-desc']\"}}}"
+											}
+										},
+										"elements": [],
+										"isInner": false,
+										"widgetType": "kata-plus-icon-box",
+										"elType": "widget"
+									}
+								],
+								"isInner": true,
+								"elType": "column"
+							}
+						],
+						"isInner": true,
+						"elType": "section"
+					}
+				],
+				"isInner": false,
+				"elType": "column"
+			}
+		],
+		"isInner": false,
+		"elType": "section"
+	},
+	{
+		"id": "53fbd537",
+		"settings": {
+			"content_width": { "unit": "px", "size": 1300, "sizes": [] }
+		},
+		"elements": [
+			{
+				"id": "65ee9ce",
+				"settings": {
+					"_column_size": 100,
+					"_inline_size": null,
+					"column_inner_wrapper_styler": {
+						"cid": "986462b27c804e401f55f4d91622ac7d",
+						"stdata": "[]"
+					}
+				},
+				"elements": [
+					{
+						"id": "5f3a5f1b",
+						"settings": {
+							"inner_scroll_height": {
+								"unit": "px",
+								"size": 55,
+								"sizes": []
+							}
+						},
+						"elements": [],
+						"isInner": false,
+						"widgetType": "kata-plus-gap",
+						"elType": "widget"
+					},
+					{
+						"id": "1d68a8e",
+						"settings": { "gap": "no", "structure": "33" },
+						"elements": [
+							{
+								"id": "2f3fca18",
+								"settings": {
+									"_column_size": 25,
+									"_inline_size": 26,
+									"column_styler": {
+										"cid": "7642f2cd5989d46441f001c5b8e72a62",
+										"stdata": "{\"tabletlandscape\":{\"normal\":{\"data\":{\"width\":{\"value\":\"100%\",\"important\":true,\"unit\":\"%\"}},\"selector\":\".elementor-element.elementor-element-64009948\"}}}"
+									},
+									"column_inner_wrapper_styler": {
+										"cid": "144c1562fd2a5f7066944920b2d8ec87",
+										"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"padding-right\":{\"value\":\"15px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-64009948\"}},\"tabletlandscape\":{\"normal\":{\"data\":{\"padding-bottom\":{\"value\":\"30px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-64009948\"}}}"
+									}
+								},
+								"elements": [
+									{
+										"id": "32f89b94",
+										"settings": {
+											"default-logo": {
+												"id": 2188,
+												"url": "http://katademos.com/defaults/wp-content/uploads/2022/07/kata-logo.svg",
+												"alt": "",
+												"source": "library",
+												"size": ""
+											},
+											"default-logo_size": "full",
+											"styler_image": {
+												"cid": "d4c798a62bd22574591e4f2140c866f0",
+												"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"border-top-left-radius\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"border-top-right-radius\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-right-radius\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-left-radius\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"height\":{\"value\":\"46px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-5f3321dc .kata-logo img\"}}}",
+												"changed": true
+											}
+										},
+										"elements": [],
+										"isInner": false,
+										"widgetType": "kata-plus-logo",
+										"elType": "widget"
+									},
+									{
+										"id": "77200a53",
+										"settings": {
+											"iconbox_layout": "vertical",
+											"iconbox_title": "315-349-5151",
+											"iconbox_title_tag": "h5",
+											"iconbox_subtitle": "",
+											"iconbox_desc": "",
+											"icon_box_lists": [],
+											"symbol": "svg",
+											"iconbox_image": {
+												"id": 1902,
+												"url": "http://katademos.com/defaults/wp-content/uploads/2023/02/kata-shoppress-tel-icon.svg"
+											},
+											"iconbox_number": "1",
+											"linkcnt": "Read More",
+											"styler_container": {
+												"cid": "57951bff68026241ec604a4d9248dc27",
+												"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"padding-right\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"padding-left\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"margin-top\":{\"value\":\"27px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-2b6cde7e .kata-plus-iconbox\"}}}"
+											},
+											"styler_icon_wrap": {
+												"cid": "d746d66af508f02475441ec28b2929c1",
+												"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"margin-bottom\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-2b6cde7e .kata-plus-iconbox-icon-wrap\"}}}"
+											},
+											"styler_title": {
+												"cid": "746fa8bc25827d20f540196c4d1926e4",
+												"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"color\":{\"value\":\"#959CA7\",\"important\":false},\"font-size\":{\"value\":\"15px\",\"important\":false,\"unit\":\"px\"},\"line-height\":{\"value\":\"1em\",\"important\":false,\"unit\":\"em\"},\"margin-top\":{\"value\":\"3px\",\"important\":false,\"unit\":\"px\"},\"margin-bottom\":{\"value\":\"5px\",\"important\":false,\"unit\":\"px\"},\"margin-left\":{\"value\":\"4px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-2b6cde7e .kata-plus-iconbox [data-class='ck-icon-box-title']\"}}}"
+											},
+											"styler_icon_svg_wrapper": {
+												"cid": "029521f8624d40dc154c78b76624fae9",
+												"stdata": "[]"
+											}
+										},
+										"elements": [],
+										"isInner": false,
+										"widgetType": "kata-plus-icon-box",
+										"elType": "widget"
+									},
+									{
+										"id": "48ebed11",
+										"settings": {
+											"iconbox_layout": "vertical",
+											"iconbox_title": "255 Oak Street, Oswego, NY",
+											"iconbox_title_tag": "h5",
+											"iconbox_subtitle": "",
+											"iconbox_desc": "",
+											"icon_box_lists": [],
+											"symbol": "svg",
+											"iconbox_image": {
+												"id": 1903,
+												"url": "http://katademos.com/defaults/wp-content/uploads/2023/02/kata-shoppress-map-icon.svg"
+											},
+											"iconbox_number": "1",
+											"linkcnt": "Read More",
+											"styler_container": {
+												"cid": "d5265149fc972d6f284c474a6e0b2081",
+												"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"padding-right\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"padding-left\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"margin-top\":{\"value\":\"12px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-589cacce .kata-plus-iconbox\"}}}"
+											},
+											"styler_icon_wrap": {
+												"cid": "25d284a182b761cef094946756402cdf",
+												"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"margin-bottom\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-589cacce .kata-plus-iconbox-icon-wrap\"}}}"
+											},
+											"styler_title": {
+												"cid": "15d0748b4f2661202764fecd9489a25c",
+												"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"color\":{\"value\":\"#959CA7\",\"important\":false},\"font-size\":{\"value\":\"15px\",\"important\":false,\"unit\":\"px\"},\"line-height\":{\"value\":\"1em\",\"important\":false,\"unit\":\"em\"},\"margin-top\":{\"value\":\"3px\",\"important\":false,\"unit\":\"px\"},\"margin-bottom\":{\"value\":\"5px\",\"important\":false,\"unit\":\"px\"},\"margin-left\":{\"value\":\"6px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-589cacce .kata-plus-iconbox [data-class='ck-icon-box-title']\"}}}"
+											},
+											"styler_icon_svg_wrapper": {
+												"cid": "e95cf22f150762148a682047d4d9c6b4",
+												"stdata": "[]"
+											}
+										},
+										"elements": [],
+										"isInner": false,
+										"widgetType": "kata-plus-icon-box",
+										"elType": "widget"
+									},
+									{
+										"id": "36e18a23",
+										"settings": {
+											"inner_scroll_height": {
+												"unit": "px",
+												"size": 36,
+												"sizes": []
+											}
+										},
+										"elements": [],
+										"isInner": false,
+										"widgetType": "kata-plus-gap",
+										"elType": "widget"
+									},
+									{
+										"id": "673705b5",
+										"settings": {
+											"icons": [
+												{
+													"social_icon": "simple-line/social-facebook",
+													"icon_name": "",
+													"icon_link": {
+														"url": "https://www.facebook.com/"
+													},
+													"_id": "f88dbcb"
+												},
+												{
+													"social_icon": "font-awesome/instagram",
+													"icon_name": "",
+													"icon_link": {
+														"url": "https://www.instagram.com/"
+													},
+													"_id": "e82c02c"
+												},
+												{
+													"_id": "c0d6bd3",
+													"social_icon": "themify/twitter",
+													"icon_name": "",
+													"icon_link": {
+														"url": "https://www.twitter.com/",
+														"is_external": "true",
+														"nofollow": "",
+														"custom_attributes": ""
+													}
+												},
+												{
+													"social_icon": "simple-line/social-linkedin",
+													"icon_name": "",
+													"icon_link": {
+														"url": "https://www.linkedin.com/"
+													},
+													"_id": "4af9dcb"
+												},
+												{
+													"_id": "b381dc0",
+													"social_icon": "eicons/youtube",
+													"icon_name": "",
+													"icon_link": {
+														"url": "https://www.youtube.com/",
+														"is_external": "true",
+														"nofollow": "",
+														"custom_attributes": ""
+													}
+												}
+											],
+											"styler_icon": {
+												"cid": "170513248422514",
+												"stdata": "{\"desktop\":{\"normal\":{\"selector\":\".elementor-element.elementor-element-f983eb6 .kata-social-icon .kata-icon\",\"data\":{\"font-size\":{\"value\":\"20px\",\"important\":false,\"unit\":\"px\"},\"display\":{\"value\":\"flex\",\"important\":false},\"margin-right\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-top-left-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-top-right-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-right-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-left-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"box-shadow\":{\"value\":\"0px 0 0\",\"object_value\":[{\"x\":\"0px\",\"y\":\"0\",\"blur\":\"0\",\"spread\":\"\",\"color\":\"\",\"inset\":false}]},\"fill\":{\"value\":\"#7F8DA0\",\"important\":false},\"transition-duration\":{\"value\":\"250ms\",\"important\":false,\"unit\":\"ms\"},\"border-style\":{\"value\":\"solid\",\"important\":false,\"unit\":false},\"border-color\":{\"value\":\"#e7e8e9\",\"important\":false,\"unit\":false},\"border-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"padding\":{\"value\":\"10px\",\"important\":false,\"unit\":false,\"lock\":true},\"margin\":{\"value\":\"10px\",\"important\":false,\"unit\":false,\"lock\":false},\"transition-timing-function\":{\"value\":\"ease\",\"important\":false,\"unit\":false}}},\"hover\":{\"selector\":\".elementor-element.elementor-element-f983eb6 .kata-social-icon .kata-icon:hover\",\"data\":{\"background-type\":{\"value\":\"classic\",\"important\":false},\"border-style\":{\"value\":\"solid\",\"important\":false,\"unit\":false},\"border-color\":{\"value\":\"#877FF3\",\"important\":false,\"unit\":false},\"fill\":{\"value\":\"#877FF3\",\"important\":false,\"unit\":false},\"background-color\":{\"value\":\"#FFFFFF\",\"important\":false,\"unit\":false},\"box-shadow\":{\"value\":\"0 0 0  #ffffff00\",\"important\":false,\"unit\":false,\"object_value\":[{\"x\":0,\"y\":0,\"blur\":0,\"spread\":0,\"color\":\"#ffffff00\",\"inset\":false}]}}}}}",
+												"changed": true
+											}
+										},
+										"elements": [],
+										"isInner": false,
+										"widgetType": "kata-plus-socials",
+										"elType": "widget"
+									}
+								],
+								"isInner": true,
+								"elType": "column"
+							},
+							{
+								"id": "7e980c34",
+								"settings": {
+									"_column_size": 25,
+									"_inline_size": 46,
+									"column_styler": {
+										"cid": "8f54911062e82dac07bd62f429c45647",
+										"stdata": "{\"tabletlandscape\":{\"normal\":{\"data\":{\"width\":{\"value\":\"50%\",\"important\":true,\"unit\":\"%\"}},\"selector\":\".elementor-element.elementor-element-5857f7c9\"}},\"tablet\":{\"normal\":{\"data\":{\"width\":{\"value\":\"100%\",\"important\":true,\"unit\":\"%\"}},\"selector\":\".elementor-element.elementor-element-5857f7c9\"}},\"mobile\":{\"normal\":{\"data\":{\"width\":{\"value\":\"100%\",\"important\":true,\"unit\":\"%\"}},\"selector\":\".elementor-element.elementor-element-5857f7c9\"}}}"
+									},
+									"column_inner_wrapper_styler": {
+										"cid": "421f75b2c08d946546d81492e26a70fc",
+										"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"padding-right\":{\"value\":\"15px\",\"important\":false,\"unit\":\"px\"},\"padding-left\":{\"value\":\"15px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-5857f7c9\"}},\"tabletlandscape\":{\"normal\":{\"data\":{\"padding-left\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-5857f7c9\"}}}"
+									}
+								},
+								"elements": [
+									{
+										"id": "5637d572",
+										"settings": {
+											"title": "Useful Links\n",
+											"subtitle": "",
+											"title_tag": "h6",
+											"shape": [],
+											"styler_title": {
+												"cid": "f6278d428b1074062946ce5a14f5c9d2",
+												"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"font-size\":{\"value\":\"18px\",\"important\":false,\"unit\":\"px\"},\"font-weight\":{\"value\":\"500\",\"important\":false},\"letter-spacing\":{\"value\":\"0.4px\",\"important\":false,\"unit\":\"px\"},\"margin-bottom\":{\"value\":\"20px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-2f21815e .kata-plus-title-wrapper .kata-plus-title\"}}}"
+											}
+										},
+										"elements": [],
+										"isInner": false,
+										"widgetType": "kata-plus-title",
+										"elType": "widget"
+									},
+									{
+										"id": "569d0529",
+										"settings": {
+											"menu_type": "vertical",
+											"nav_id": "Footer menu",
+											"styler_menu_box": {
+												"cid": "20592c12ba9c5d688f440de6441727f6",
+												"stdata": "[]"
+											},
+											"styler_menu_wrapper": {
+												"cid": "fd2a247d62481e59c10fcb7948560426",
+												"stdata": "{\"tabletlandscape\":{\"normal\":{\"data\":{\"margin-left\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-2bfa14cd .kata-nav-menu\"}},\"desktop\":{\"normal\":{\"data\":{\"margin-left\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-2bfa14cd .kata-nav-menu\"}}}"
+											},
+											"styler_menu_item": {
+												"cid": "8e6e7913a1403814f5269f06cc77bac7",
+												"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"color\":{\"value\":\"#959CA7\",\"important\":false},\"margin-bottom\":{\"value\":\"6px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-2bfa14cd .kata-nav-menu >  li.menu-item\"},\"hover\":{\"data\":{\"transition-duration\":{\"value\":\"200ms\",\"important\":false,\"unit\":\"ms\"}},\"selector\":\".elementor-element.elementor-element-2bfa14cd .kata-nav-menu >  li.menu-item:hover\"}},\"tabletlandscape\":{\"normal\":{\"data\":{\"padding-left\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"margin-left\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-2bfa14cd .kata-nav-menu >  li.menu-item\"}}}"
+											},
+											"styler_menu_item_link": {
+												"cid": "98beccf53769c1026aaf71734e861740",
+												"stdata": "{\"tabletlandscape\":{\"normal\":{\"data\":{\"padding-left\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"margin-left\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-2bfa14cd .kata-nav-menu>li.menu-item > a\"}},\"desktop\":{\"normal\":{\"data\":{\"transition-duration\":{\"value\":\"0.2s\",\"important\":false},\"transition-timing-function\":{\"value\":\"ease\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-2bfa14cd .kata-nav-menu>li.menu-item > a\"},\"hover\":{\"data\":{\"color\":{\"value\":\"#837AF5\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-2bfa14cd .kata-nav-menu>li.menu-item > a:hover\"}}}"
+											}
+										},
+										"elements": [],
+										"isInner": false,
+										"widgetType": "kata-plus-menu-navigation",
+										"elType": "widget"
+									}
+								],
+								"isInner": true,
+								"elType": "column"
+							},
+							{
+								"id": "2b71c518",
+								"settings": {
+									"_column_size": 50,
+									"_inline_size": 28,
+									"column_styler": {
+										"cid": "b16c54a7ff196330797286e7c4c1e8a0",
+										"stdata": "{\"tabletlandscape\":{\"normal\":{\"data\":{\"width\":{\"value\":\"50%\",\"important\":true,\"unit\":\"%\"}},\"selector\":\".elementor-element.elementor-element-36f08860\"}},\"tablet\":{\"normal\":{\"data\":{\"width\":{\"value\":\"100%\",\"important\":true,\"unit\":\"%\"}},\"selector\":\".elementor-element.elementor-element-36f08860\"}},\"mobile\":{\"normal\":{\"data\":{\"width\":{\"value\":\"100%\",\"important\":true,\"unit\":\"%\"}},\"selector\":\".elementor-element.elementor-element-36f08860\"}}}"
+									},
+									"column_inner_wrapper_styler": {
+										"cid": "6937476ca182a7b35c91607cee481ff0",
+										"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"padding-left\":{\"value\":\"15px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-36f08860\"}},\"tablet\":{\"normal\":{\"data\":{\"padding-left\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-36f08860\"}},\"mobile\":{\"normal\":{\"data\":{\"padding-left\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-36f08860\"}}}"
+									}
+								},
+								"elements": [
+									{
+										"id": "2a2ab522",
+										"settings": {
+											"title": "Join Our Newsletter",
+											"subtitle": "",
+											"title_tag": "h6",
+											"shape": [],
+											"styler_title": {
+												"cid": "a91f0763c57c904817f7c1682ae4eb36",
+												"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"font-size\":{\"value\":\"18px\",\"important\":false,\"unit\":\"px\"},\"font-weight\":{\"value\":\"500\",\"important\":false},\"letter-spacing\":{\"value\":\"0.4px\",\"important\":false,\"unit\":\"px\"},\"margin-bottom\":{\"value\":\"22px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-2afe617f .kata-plus-title-wrapper .kata-plus-title\"}}}"
+											}
+										},
+										"elements": [],
+										"isInner": false,
+										"widgetType": "kata-plus-title",
+										"elType": "widget"
+									},
+									{
+										"id": "27e35e54",
+										"settings": {
+											"placeholder": "Email",
+											"button": "Submit",
+											"styler_input": {
+												"cid": "ab57c1f6062431476c0889c793e7fa1e",
+												"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"font-weight\":{\"value\":\"300\",\"important\":false},\"letter-spacing\":{\"value\":\"0.3px\",\"important\":false,\"unit\":\"px\"},\"width\":{\"value\":\"calc(100% - 124px)\",\"important\":false,\"unit\":\"px\"},\"min-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"height\":{\"value\":\"46px\",\"important\":false,\"unit\":\"px\"},\"padding-top\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"padding-right\":{\"value\":\"13px\",\"important\":false,\"unit\":\"px\"},\"padding-bottom\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"padding-left\":{\"value\":\"13px\",\"important\":false,\"unit\":\"px\"},\"border-style\":{\"value\":\"solid\",\"important\":false},\"border-top-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-right-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-left-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-top-left-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-top-right-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-right-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-left-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-color\":{\"value\":\"#E3E5E7\",\"important\":false},\"box-shadow\":{\"value\":\"0 0px 0px 0px #FFFFFF00\",\"object_value\":[{\"x\":\"0\",\"y\":\"0px\",\"blur\":\"0px\",\"spread\":\"0px\",\"color\":\"#FFFFFF00\",\"inset\":false}]}},\"selector\":\".elementor-element.elementor-element-48fa5346 .kata-subscribe input[type='email']\"}},\"mobile\":{\"normal\":{\"data\":{\"width\":{\"value\":\"100%\",\"important\":false,\"unit\":\"%\"}},\"selector\":\".elementor-element.elementor-element-48fa5346 .kata-subscribe input[type='email']\"}}}",
+												"changed": true
+											},
+											"styler_button": {
+												"cid": "a37cc1e1997f0e76457b8ac4016f2638",
+												"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"color\":{\"value\":\"#837AF5\",\"important\":false},\"font-size\":{\"value\":\"15px\",\"important\":false,\"unit\":\"px\"},\"font-family\":{\"value\":\"'Be Vietnam Pro', Arial, Roboto, Sans-serif\",\"important\":false},\"letter-spacing\":{\"value\":\"0.2px\",\"important\":false,\"unit\":\"px\"},\"background-type\":{\"value\":\"classic\",\"important\":false},\"background-color\":{\"value\":\"#F7F6FF\",\"important\":false},\"width\":{\"value\":\"113px\",\"important\":false,\"unit\":\"px\"},\"height\":{\"value\":\"46px\",\"important\":false,\"unit\":\"px\"},\"padding-right\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"padding-left\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"border-style\":{\"value\":\"solid\",\"important\":false},\"border-top-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-right-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-left-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-top-left-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-top-right-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-right-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-left-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-color\":{\"value\":\"#E0DEFF\",\"important\":false},\"top\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"right\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-48fa5346 .kata-subscribe .kt-submit-sub\"},\"hover\":{\"data\":{\"background-type\":{\"value\":\"classic\",\"important\":false},\"background-color\":{\"value\":\"#FFFFFF\",\"important\":false},\"transition-duration\":{\"value\":\"200ms\",\"important\":false,\"unit\":\"ms\"}},\"selector\":\".elementor-element.elementor-element-48fa5346 .kata-subscribe .kt-submit-sub:hover\"}},\"mobile\":{\"normal\":{\"data\":{\"width\":{\"value\":\"100%\",\"important\":false,\"unit\":\"%\"},\"top\":{\"value\":\"unset\",\"important\":false},\"right\":{\"value\":\"unset\",\"important\":false},\"bottom\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"left\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-48fa5346 .kata-subscribe .kt-submit-sub\"}}}",
+												"changed": true
+											},
+											"styler_wrapper": {
+												"cid": "8747a3e74f511e86c0cca371b6690f92",
+												"stdata": "{\"mobile\":{\"normal\":{\"data\":{\"padding-bottom\":{\"value\":\"40px\",\"important\":false,\"unit\":\"px\"},\"margin-bottom\":{\"value\":\"20px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-48fa5346 .kata-subscribe\"}}}",
+												"changed": true
+											},
+											"icon": "themify/arrow-circle-right",
+											"icon_pos": "left",
+											"styler_button_icon": {
+												"cid": "491365ccc7f117087fe8ba6047926e3a",
+												"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"font-size\":{\"value\":\"12px\",\"important\":false,\"unit\":\"px\"},\"margin-right\":{\"value\":\"4px\",\"important\":false,\"unit\":\"px\"},\"transform\":{\"value\":\"translateX(0px) translateY(4px) rotate(-90deg) !important\",\"important\":true},\"fill\":{\"value\":\"#837AF5\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-48fa5346 .kata-subscribe .kata-icon\"}}}",
+												"changed": true
+											}
+										},
+										"elements": [],
+										"isInner": false,
+										"widgetType": "kata-plus-subscribe",
+										"elType": "widget"
+									},
+									{
+										"id": "13d41703",
+										"settings": {
+											"title": "",
+											"subtitle": "Join our list and get 15% off your first purchase",
+											"subtitle_tag": "p",
+											"shape": [],
+											"styler_subtitle": {
+												"cid": "f795136e13129aefa77c80447806b6cc",
+												"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"color\":{\"value\":\"#959CA7\",\"important\":false},\"font-size\":{\"value\":\"15px\",\"important\":false,\"unit\":\"px\"},\"font-weight\":{\"value\":\"300\",\"important\":false},\"margin-top\":{\"value\":\"-2px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-19d067cf .kata-plus-title-wrapper .kata-plus-subtitle\"}}}",
+												"changed": true
+											},
+											"styler_title_wrapper": {
+												"cid": "8c1738b5f6269063ea474fc1a1e079c7",
+												"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"margin-top\":{\"value\":\"3px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-19d067cf .kata-plus-title-wrapper\"}}}",
+												"changed": true
+											},
+											"styler_title": {
+												"cid": "ce8f9697f11384726a57c1ab304c0e67",
+												"stdata": "[]"
+											}
+										},
+										"elements": [],
+										"isInner": false,
+										"widgetType": "kata-plus-title",
+										"elType": "widget"
+									}
+								],
+								"isInner": true,
+								"elType": "column"
+							}
+						],
+						"isInner": true,
+						"elType": "section"
+					},
+					{
+						"id": "56d28ca5",
+						"settings": {
+							"inner_scroll_height": {
+								"unit": "px",
+								"size": 15,
+								"sizes": []
+							}
+						},
+						"elements": [],
+						"isInner": false,
+						"widgetType": "kata-plus-gap",
+						"elType": "widget"
+					},
+					{
+						"id": "46f3375f",
+						"settings": { "text": "Divider", "color": "#E3E5E7" },
+						"elements": [],
+						"isInner": false,
+						"widgetType": "divider",
+						"elType": "widget"
+					},
+					{
+						"id": "7c6f526e",
+						"settings": {
+							"gap": "no",
+							"height_inner": "min-height",
+							"custom_height_inner": {
+								"unit": "px",
+								"size": 65,
+								"sizes": []
+							},
+							"structure": "20",
+							"section_styler": {
+								"cid": "123176b5cf691ef740788a03cc79ea64",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"padding-top\":{\"value\":\"13px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-349a01be\"}},\"tablet\":{\"normal\":{\"data\":{\"margin-bottom\":{\"value\":\"30px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-349a01be\"}}}"
+							}
+						},
+						"elements": [
+							{
+								"id": "c04f842",
+								"settings": {
+									"_column_size": 50,
+									"_inline_size": null,
+									"_inline_size_tablet": 100
+								},
+								"elements": [
+									{
+										"id": "20fa477a",
+										"settings": {
+											"title": "",
+											"subtitle": "\u00a9 Copyright 2024 Kata WordPress Theme",
+											"subtitle_tag": "p",
+											"shape": [],
+											"styler_title_wrapper": {
+												"cid": "96b3ca17786791eaf54001f86c4c27e3",
+												"stdata": "{\"tablet\":{\"normal\":{\"data\":{\"text-align\":{\"value\":\"center\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-78ecbec6 .kata-plus-title-wrapper\"}}}",
+												"changed": true
+											},
+											"styler_title": {
+												"cid": "4698a7c57c13701b1ae9e3c2604f7f68",
+												"stdata": "{\"tablet\":{\"normal\":{\"data\":{\"text-align\":{\"value\":\"center\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-78ecbec6 .kata-plus-title-wrapper .kata-plus-title\"}}}",
+												"changed": true
+											},
+											"styler_subtitle": {
+												"cid": "a6ef10279c08e6ba4137184f95773cc6",
+												"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"color\":{\"value\":\"#959CA7\",\"important\":false},\"font-size\":{\"value\":\"13px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-78ecbec6 .kata-plus-title-wrapper .kata-plus-subtitle\"}}}",
+												"changed": true
+											}
+										},
+										"elements": [],
+										"isInner": false,
+										"widgetType": "kata-plus-title",
+										"elType": "widget"
+									}
+								],
+								"isInner": true,
+								"elType": "column"
+							},
+							{
+								"id": "40bb84bc",
+								"settings": {
+									"_column_size": 50,
+									"_inline_size": null,
+									"_inline_size_tablet": 100
+								},
+								"elements": [
+									{
+										"id": "77e3ff2b",
+										"settings": {
+											"nav_id": "bottom footer",
+											"styler_menu_box": {
+												"cid": "61bf01c70c6ea71cf3a77326589e4489",
+												"stdata": "[]"
+											},
+											"styler_menu_wrapper": {
+												"cid": "61097cebc837647817ff0326549aec1a",
+												"stdata": "{\"tabletlandscape\":{\"normal\":{\"data\":{\"margin-left\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-1c584e24 .kata-nav-menu\"}},\"desktop\":{\"normal\":{\"data\":{\"text-align\":{\"value\":\"right\",\"important\":false},\"margin-left\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-1c584e24 .kata-nav-menu\"}}}"
+											},
+											"styler_menu_item": {
+												"cid": "31cb67a768ef30911c4c4af7569827e0",
+												"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"color\":{\"value\":\"#959CA7\",\"important\":false},\"font-size\":{\"value\":\"14px\",\"important\":false,\"unit\":\"px\"},\"font-weight\":{\"value\":\"300\",\"important\":false},\"margin-top\":{\"value\":\"2px\",\"important\":false,\"unit\":\"px\"},\"margin-bottom\":{\"value\":\"6px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-1c584e24 .kata-nav-menu >  li.menu-item\"},\"hover\":{\"data\":{\"transition-duration\":{\"value\":\"200ms\",\"important\":false,\"unit\":\"ms\"}},\"selector\":\".elementor-element.elementor-element-1c584e24 .kata-nav-menu >  li.menu-item:hover\"},\"before\":{\"data\":{\"content\":{\"value\":\"''\",\"important\":false},\"background-type\":{\"value\":\"classic\",\"important\":false},\"background-color\":{\"value\":\"#959CA7\",\"important\":false},\"width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"height\":{\"value\":\"16px\",\"important\":false,\"unit\":\"px\"},\"position\":{\"value\":\"absolute\",\"important\":false},\"top\":{\"value\":\"50%\",\"important\":false,\"unit\":\"%\"},\"left\":{\"value\":\"13px\",\"important\":false,\"unit\":\"px\"},\"transform\":{\"value\":\"translateX(0px) translateY(-50%) !important\",\"important\":true}},\"selector\":\".elementor-element.elementor-element-1c584e24 .kata-nav-menu >  li.menu-item:before\"}},\"tabletlandscape\":{\"normal\":{\"data\":{\"padding-left\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"margin-left\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-1c584e24 .kata-nav-menu >  li.menu-item\"}}}"
+											},
+											"styler_menu_item_link": {
+												"cid": "1fbe217c09a67c469f70143a6e57838c",
+												"stdata": "{\"tabletlandscape\":{\"normal\":{\"data\":{\"padding-left\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"margin-left\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-1c584e24 .kata-nav-menu>li.menu-item > a\"}},\"desktop\":{\"normal\":{\"data\":{\"font-size\":{\"value\":\"14px\",\"important\":false,\"unit\":\"px\"},\"padding-right\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"padding-left\":{\"value\":\"30px\",\"important\":false,\"unit\":\"px\"},\"transition-duration\":{\"value\":\"0.2ms\",\"important\":false,\"unit\":\"ms\"},\"transition-timing-function\":{\"value\":\"ease\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-1c584e24 .kata-nav-menu>li.menu-item > a\"},\"hover\":{\"data\":{\"color\":{\"value\":\"#837AF5\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-1c584e24 .kata-nav-menu>li.menu-item > a:hover\"}}}"
+											},
+											"styler_menu_item_first": {
+												"cid": "10c737663518f709fec2b8471eaa946c",
+												"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"border-style\":{\"value\":\"solid\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-1c584e24 .kata-nav-menu > li.menu-item:first-child\"},\"before\":{\"data\":{\"display\":{\"value\":\"none\",\"important\":false},\"content\":{\"value\":\"''\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-1c584e24 .kata-nav-menu > li.menu-item:first-child:before\"}}}"
+											},
+											"styler_menu_item_last": {
+												"cid": "41c5ca389b67f77f701c1a804e96263e",
+												"stdata": "[]"
+											}
+										},
+										"elements": [],
+										"isInner": false,
+										"widgetType": "kata-plus-menu-navigation",
+										"elType": "widget"
+									}
+								],
+								"isInner": true,
+								"elType": "column"
+							}
+						],
+						"isInner": true,
+						"elType": "section"
+					}
+				],
+				"isInner": false,
+				"elType": "column"
+			}
+		],
+		"isInner": false,
+		"elType": "section"
+	}
+]

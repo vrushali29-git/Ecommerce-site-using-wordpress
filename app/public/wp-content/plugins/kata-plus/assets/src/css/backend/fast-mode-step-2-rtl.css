@@ -1,0 +1,44 @@
+/**
+ * Kata Fast Mode style step 2.
+ *
+ * @author  ClimaxThemes
+ * @package Kata Plus
+ * @since   1.0.0
+ */
+
+ .kt-fst-get-info input[type="text"], .kt-fst-get-info input[type="email"], .kt-fst-get-info select {
+    margin-right: 0;
+    margin-left: 52px;
+}
+
+.kt-fst-get-info select {
+    background-position: left 26px top 50%;
+}
+
+.kt-fst-mod-footer-area .prev-step {
+    float: right;
+    margin-left: 0;
+    margin-right: 80px;
+}
+
+.kt-fst-mod-footer-area .next-step {
+    float: left;
+    margin-right: 0;
+    margin-left: 80px;
+}
+.kt-fst-mod-footer-area .next-step, .kt-fst-mod-footer-area .next-step:hover {
+	float: left;
+}
+
+.kt-fst-mod-footer-area .next-step .kata-icon {
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 5px;
+    transform: rotate(180deg);
+}
+
+.kt-fst-mod-footer-area .prev-step .kata-icon {
+    display: inline-block;
+    margin-left: 5px;
+    transform: rotate(180deg);
+}

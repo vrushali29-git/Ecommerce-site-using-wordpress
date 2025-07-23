@@ -1,0 +1,710 @@
+[
+	{
+		"id": "1681090",
+		"settings": {
+			"content_position": "middle",
+			"structure": "33",
+			"border_width": {
+				"unit": "px",
+				"top": "0",
+				"right": "0",
+				"bottom": "1",
+				"left": "0",
+				"isLinked": false
+			},
+			"border_color": "#F0F1F1",
+			"section_styler": {
+				"cid": "86e63bf6b1a3df37ae8290802527bde8",
+				"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"background-type\":{\"value\":\"classic\",\"important\":false},\"background-color\":{\"value\":\"#FFFFFF\",\"important\":false},\"border-top-width\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"border-right-width\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-width\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"border-left-width\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-36563d6\"}},\"tablet\":{\"normal\":{\"data\":{\"display\":{\"value\":\"none\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-36563d6\"}},\"mobile\":{\"normal\":{\"data\":{\"display\":{\"value\":\"none\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-36563d6\"}},\"tabletlandscape\":{\"normal\":{\"data\":{\"display\":{\"value\":\"none\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-36563d6\"}},\"smallmobiles\":{\"normal\":{\"data\":{\"display\":{\"value\":\"none\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-36563d6\"}}}",
+				"changed": true
+			},
+			"height": "min-height",
+			"custom_height": { "unit": "px", "size": 120, "sizes": [] }
+		},
+		"elements": [
+			{
+				"id": "41acfaa8",
+				"settings": {
+					"_column_size": 25,
+					"_inline_size": null,
+					"_inline_size_mobile": 50,
+					"align": "flex-start",
+					"column_styler": {
+						"cid": "6665b8e9206cf3224c3636081091728e",
+						"stdata": "{\"mobile\":{\"normal\":{\"data\":{\"width\":{\"value\":\"40%\",\"important\":false,\"unit\":\"%\"}},\"selector\":\".elementor-element.elementor-element-67184429\"}}}",
+						"changed": true
+					},
+					"column_inner_wrapper_styler": {
+						"cid": "7310b8c9e6c486622285912e660f3063",
+						"stdata": "{\"desktop\":{\"normal\":{\"selector\":\".elementor-element.elementor-element-67184429 .elementor-element-populated\",\"data\":{\"padding-left\":{\"value\":\"0px\",\"important\":false,\"unit\":false},\"padding\":{\"value\":\"0px\",\"important\":false,\"unit\":false,\"lock\":false}}}}}",
+						"changed": true
+					}
+				},
+				"elements": [
+					{
+						"id": "2a393e10",
+						"settings": {
+							"default-logo": {
+								"id": 2188,
+								"url": "http://katademos.com/defaults/wp-content/uploads/2022/07/kata-logo.svg",
+								"alt": "kata-logo",
+								"source": "library",
+								"size": ""
+							},
+							"default-logo_size": "full",
+							"styler_image": {
+								"cid": "6621fe629856ec0b3436801932280c76",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"width\":{\"value\":\"134px\",\"important\":false,\"unit\":\"px\"},\"border-top-left-radius\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"border-top-right-radius\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-right-radius\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-left-radius\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-7c27c8ee .kata-logo img\"}}}",
+								"changed": true
+							}
+						},
+						"elements": [],
+						"isInner": false,
+						"widgetType": "kata-plus-logo",
+						"elType": "widget"
+					}
+				],
+				"isInner": false,
+				"elType": "column"
+			},
+			{
+				"id": "678d9d03",
+				"settings": {
+					"_column_size": 50,
+					"_inline_size": null,
+					"_inline_size_mobile": 50,
+					"align": "center",
+					"column_styler": {
+						"cid": "92ceec46b700661608f3962385226318",
+						"stdata": "{\"mobile\":{\"normal\":{\"data\":{\"display\":{\"value\":\"none\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-67bbab98\"}}}",
+						"changed": true
+					}
+				},
+				"elements": [
+					{
+						"id": "6342674c",
+						"settings": {
+							"nav_id": "Main menu",
+							"sk_menu_box": {
+								"desktop": "padding-top:12px;",
+								"tablet": " ",
+								"mobile": " ",
+								"hover": " ",
+								"rtl": ""
+							},
+							"sk_menu_item": {
+								"desktop": " ",
+								"tablet": " ",
+								"mobile": " ",
+								"hover": " ",
+								"rtl": ""
+							},
+							"sk_menu_arrow": {
+								"desktop": " ",
+								"tablet": " ",
+								"mobile": " ",
+								"hover": " ",
+								"rtl": ""
+							},
+							"sk_submenu_box": {
+								"desktop": " ",
+								"tablet": " ",
+								"mobile": " ",
+								"hover": " ",
+								"rtl": ""
+							},
+							"sk_submenu_item": {
+								"desktop": " ",
+								"tablet": " ",
+								"mobile": " ",
+								"hover": " ",
+								"rtl": ""
+							},
+							"sk_submenu_arrow": {
+								"desktop": " ",
+								"tablet": " ",
+								"mobile": " ",
+								"hover": " ",
+								"rtl": ""
+							},
+							"sk_menu_ancestor_current": {
+								"desktop": " ",
+								"tablet": " ",
+								"mobile": " ",
+								"hover": " ",
+								"rtl": ""
+							},
+							"sk_menu_parent_current": {
+								"desktop": " ",
+								"tablet": " ",
+								"mobile": " ",
+								"hover": " ",
+								"rtl": ""
+							},
+							"sk_menu_item_current": {
+								"desktop": " ",
+								"tablet": " ",
+								"mobile": " ",
+								"hover": " ",
+								"rtl": ""
+							},
+							"sk_menu_desc": {
+								"desktop": " ",
+								"tablet": " ",
+								"mobile": " ",
+								"hover": " ",
+								"rtl": ""
+							},
+							"styler_menu_box": {
+								"cid": "86c356e267b062348190c8022ef63619",
+								"stdata": "[]"
+							},
+							"styler_menu_item": {
+								"cid": "8c7e3c6b658630e2610896920321642f",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"color\":{\"value\":\"#737D8B\",\"important\":false},\"font-size\":{\"value\":\"15px\",\"important\":false,\"unit\":\"px\"},\"line-height\":{\"value\":\"2em\",\"important\":false,\"unit\":\"em\"},\"font-weight\":{\"value\":\"400\",\"important\":false},\"text-align\":{\"value\":\"left\",\"important\":false},\"letter-spacing\":{\"value\":\"0.3px\",\"important\":false,\"unit\":\"px\"},\"padding-right\":{\"value\":\"0\",\"important\":false},\"padding-left\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"margin-right\":{\"value\":\"16px\",\"important\":false,\"unit\":\"px\"},\"margin-left\":{\"value\":\"16px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-143ea9a5 .kata-nav-menu >  li.menu-item\"},\"hover\":{\"data\":{\"color\":{\"value\":\"#653CF2\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-143ea9a5 .kata-nav-menu >  li.menu-item:hover\"}}}"
+							},
+							"styler_menu_item_link": {
+								"cid": "868f20ee697c26301b931085626c2436",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"padding-right\":{\"value\":\"0\",\"important\":false},\"padding-left\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"transition-duration\":{\"value\":\"200ms\",\"important\":false,\"unit\":\"ms\"}},\"selector\":\".elementor-element.elementor-element-143ea9a5 .kata-nav-menu>li.menu-item > a\"}}}"
+							},
+							"styler_menu_arrow": {
+								"cid": "284203372619605c80986c6e663e2b1f",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"font-size\":{\"value\":\"6px\",\"important\":false,\"unit\":\"px\"},\"position\":{\"value\":\"absolute\",\"important\":false},\"top\":{\"value\":\"55%\",\"important\":false,\"unit\":\"%\"},\"right\":{\"value\":\"-13px\",\"important\":false,\"unit\":\"px\"},\"transform\":{\"value\":\"translateX(0px) translateY(-50%) !important\",\"important\":true}},\"selector\":\".elementor-element.elementor-element-143ea9a5 li.menu-item .parent-menu-icon\"}}}"
+							},
+							"styler_menu_desc": {
+								"cid": "206ce9e26b66890cf128133204676538",
+								"stdata": "[]"
+							},
+							"styler_menu_item_current": {
+								"cid": "040073c6691b83916f2e26c3825686e2",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"color\":{\"value\":\"#403CF2\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-143ea9a5 .kata-menu-wrap .kata-nav-menu:not(.mega-menu-content) li.current-menu-item\"}}}"
+							},
+							"styler_menu_ancestor_current": {
+								"cid": "103c6836236fe60918c640b76e822295",
+								"stdata": "[]"
+							},
+							"styler_menu_parent_current": {
+								"cid": "82600cb3992166872366ee6582c043f1",
+								"stdata": "[]"
+							},
+							"styler_submenu_box": {
+								"cid": "8d3f4b41b43dc39a7051879963c656d5",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"background-type\":{\"value\":\"classic\",\"important\":false},\"background-color\":{\"value\":\"#FFFFFF\",\"important\":false},\"margin-top\":{\"value\":\"13px\",\"important\":false,\"unit\":\"px\"},\"border-style\":{\"value\":\"solid\",\"important\":false},\"border-top-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-right-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-left-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-top-left-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-top-right-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-right-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-left-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-color\":{\"value\":\"#E3E4E6\",\"important\":false},\"box-shadow\":{\"value\":\"0px 2px 5px 0px #00000005\",\"object_value\":[{\"x\":\"0px\",\"y\":\"2px\",\"blur\":\"5px\",\"spread\":\"0px\",\"color\":\"#00000005\",\"inset\":false}]},\"position\":{\"value\":\"absolute\",\"important\":false},\"left\":{\"value\":\"-50%\",\"important\":false,\"unit\":\"%\"},\"z-index\":{\"value\":\"999\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-143ea9a5 .kata-nav-menu li.menu-item ul.sub-menu:not(.mega-menu-content)\"},\"before\":{\"data\":{\"content\":{\"value\":\"''\",\"important\":false},\"display\":{\"value\":\"block\",\"important\":false},\"width\":{\"value\":\"21px\",\"important\":false,\"unit\":\"px\"},\"height\":{\"value\":\"12px\",\"important\":false,\"unit\":\"px\"},\"border-style\":{\"value\":\"solid\",\"important\":false},\"border-top-width\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-right-width\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-width\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-left-width\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-top-color\":{\"value\":\"#00000000\",\"important\":false},\"border-bottom-color\":{\"value\":\"#D2D2D2\",\"important\":false},\"border-right-color\":{\"value\":\"#00000000\",\"important\":false},\"border-left-color\":{\"value\":\"#00000000\",\"important\":false},\"position\":{\"value\":\"absolute\",\"important\":false},\"top\":{\"value\":\"-20px\",\"important\":false,\"unit\":\"px\"},\"left\":{\"value\":\"30px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-143ea9a5 .kata-nav-menu li.menu-item ul.sub-menu:not(.mega-menu-content):before\"},\"after\":{\"data\":{\"content\":{\"value\":\"''\",\"important\":false},\"width\":{\"value\":\"21px\",\"important\":false,\"unit\":\"px\"},\"height\":{\"value\":\"12px\",\"important\":false,\"unit\":\"px\"},\"border-style\":{\"value\":\"solid\",\"important\":false},\"border-top-width\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-right-width\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-width\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-left-width\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-top-color\":{\"value\":\"#00000000\",\"important\":false},\"border-bottom-color\":{\"value\":\"#FFFFFF\",\"important\":false},\"border-right-color\":{\"value\":\"#00000000\",\"important\":false},\"border-left-color\":{\"value\":\"#00000000\",\"important\":false},\"position\":{\"value\":\"absolute\",\"important\":false},\"top\":{\"value\":\"-19px\",\"important\":false,\"unit\":\"px\"},\"left\":{\"value\":\"30px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-143ea9a5 .kata-nav-menu li.menu-item ul.sub-menu:not(.mega-menu-content):after\"}}}"
+							},
+							"styler_submenu_item": {
+								"cid": "7654b96a5f3d5861971d338c49403dcb",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"color\":{\"value\":\"#737D8B\",\"important\":false},\"font-size\":{\"value\":\"13px\",\"important\":false,\"unit\":\"px\"},\"line-height\":{\"value\":\"2.3em\",\"important\":false,\"unit\":\"em\"},\"font-weight\":{\"value\":\"400\",\"important\":false},\"text-transform\":{\"value\":\"capitalize\",\"important\":false},\"padding-top\":{\"value\":\"8px\",\"important\":false,\"unit\":\"px\"},\"padding-right\":{\"value\":\"5px\",\"important\":false,\"unit\":\"px\"},\"padding-bottom\":{\"value\":\"8px\",\"important\":false,\"unit\":\"px\"},\"padding-left\":{\"value\":\"29px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-143ea9a5 .kata-nav-menu ul.sub-menu:not(.mega-menu-content) > li.menu-item\"}}}"
+							},
+							"styler_submenu_arrow": {
+								"cid": "d490c3a54bd97383fd96751166548cb3",
+								"stdata": "[]"
+							},
+							"respnsive_menu": "yes",
+							"styler_menu_hbi": {
+								"cid": "fb4b831c31096d43976c64753dd595a8",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"font-size\":{\"value\":\"29px\",\"important\":false,\"unit\":\"px\"},\"float\":{\"value\":\"right\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-143ea9a5 .kata-icon.cm-ham-open-icon\"}}}"
+							},
+							"styler_menu_item_current_ancestor": {
+								"cid": "934d3c765bb49158168c7330f5a4d6d9",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"color\":{\"value\":\"#403CF2\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-143ea9a5 .kata-menu-wrap .kata-nav-menu:not(.mega-menu-content) li.current-menu-ancestor\"}}}"
+							},
+							"styler_submenu_item_link": {
+								"cid": "43f8c596c063367b4b74a5d591d318d9",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"text-transform\":{\"value\":\"capitalize\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-143ea9a5 .kata-nav-menu ul.sub-menu:not(.mega-menu-content) > li.menu-item > a\"},\"hover\":{\"data\":{\"color\":{\"value\":\"#837AF5\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-143ea9a5 .kata-nav-menu ul.sub-menu:not(.mega-menu-content) > li.menu-item > a:hover\"}}}"
+							},
+							"common_styler": {
+								"cid": "bdf5319d98735667b03a5836944c1c4d",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"text-align\":{\"value\":\"center\",\"important\":false},\"width\":{\"value\":\"100%\",\"important\":true,\"unit\":\"%\"},\"margin-right\":{\"value\":\"auto\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-143ea9a5\"}}}"
+							},
+							"styler_menu_item_current_link": {
+								"cid": "4fb6d9d89c037483b394d73a1c651556",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"color\":{\"value\":\"#653CF2\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-143ea9a5 .kata-menu-wrap .kata-nav-menu:not(.mega-menu-content) li.current-menu-item > a\"}}}"
+							},
+							"styler_menu_item_icon_ancestor": {
+								"cid": "db49390c87557d3196468b43a61cfd35",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"fill\":{\"value\":\"#653CF2\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-143ea9a5 .kata-menu-wrap .kata-nav-menu:not(.mega-menu-content) li.current-menu-ancestor > a > i.kata-icon\"}}}"
+							},
+							"styler_menu_item_current_ancestor_link": {
+								"cid": "c43b94b57855a13d636c04763199d8fd",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"color\":{\"value\":\"#653CF2\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-143ea9a5 .kata-menu-wrap .kata-nav-menu:not(.mega-menu-content) li.current-menu-ancestor > a\"}}}"
+							}
+						},
+						"elements": [],
+						"isInner": false,
+						"widgetType": "kata-plus-menu-navigation",
+						"elType": "widget"
+					}
+				],
+				"isInner": false,
+				"elType": "column"
+			},
+			{
+				"id": "2433c4ef",
+				"settings": {
+					"_column_size": 25,
+					"_inline_size": null,
+					"_inline_size_mobile": 50,
+					"align": "flex-end",
+					"column_styler": {
+						"cid": "34539a76cd6449bb5d78c89f3d650113",
+						"stdata": "{\"mobile\":{\"normal\":{\"data\":{\"width\":{\"value\":\"60%\",\"important\":false,\"unit\":\"%\"}},\"selector\":\".elementor-element.elementor-element-a61f8c7\"}},\"desktop\":{\"normal\":{\"selector\":\".elementor-element.elementor-element-a61f8c7\"}}}",
+						"changed": true
+					},
+					"column_inner_wrapper_styler": {
+						"cid": "978436b04574d6cf5531cbd39d91386a",
+						"stdata": "{\"desktop\":{\"normal\":{\"selector\":\".elementor-element.elementor-element-a61f8c7 .elementor-element-populated\",\"data\":{\"padding-right\":{\"value\":\"0px\",\"important\":false,\"unit\":false},\"padding\":{\"value\":\"0px\",\"important\":false,\"unit\":false,\"lock\":false}}}}}",
+						"changed": true
+					}
+				},
+				"elements": [
+					{
+						"id": "6e52e3f8",
+						"settings": {
+							"icon": "font-awesome/search",
+							"text": "Login",
+							"content_toggle_template": "Header Search",
+							"styler_wrapper": {
+								"cid": "9184967dcd4359347fbac56830d56b13",
+								"stdata": "[]"
+							},
+							"styler_placeholder_wrapper": {
+								"cid": "d9cd361681fd5543bb4957336a740c98",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"padding-top\":{\"value\":\"4px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-5ff15ac4 .kata-plus-content-toggle-click\"}}}",
+								"changed": true
+							},
+							"styler_placeholder_image": {
+								"cid": "079163b47536d89dba5c435fc9d41368",
+								"stdata": "[]"
+							},
+							"styler_placeholder_icon": {
+								"cid": "55633b364d9435d191a4c097887bcf6d",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"font-size\":{\"value\":\"19px\",\"important\":false,\"unit\":\"px\"},\"margin-right\":{\"value\":\"15px\",\"important\":false,\"unit\":\"px\"},\"border-style\":{\"value\":\"none\",\"important\":false},\"border-color\":{\"value\":\"#E3E3E3\",\"important\":false},\"fill\":{\"value\":\"#000000\",\"important\":false},\"transition-duration\":{\"value\":\"220ms\",\"important\":false,\"unit\":\"ms\"},\"transition-timing-function\":{\"value\":\"ease\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-5ff15ac4 .kata-plus-content-toggle-click i\"},\"hover\":{\"data\":{\"fill\":{\"value\":\"#837AF5\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-5ff15ac4 .kata-plus-content-toggle-click i:hover\"}}}",
+								"changed": true
+							},
+							"styler_placeholder_text": {
+								"cid": "991d656ab383cd548c169fb743047d53",
+								"stdata": "[]"
+							},
+							"styler_toggle_wrapper": {
+								"cid": "b49dc168d93055463358f1d6b9c7a374",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"background-type\":{\"value\":\"classic\",\"important\":false},\"background-color\":{\"value\":\"#FFFFFF00\",\"important\":false},\"width\":{\"value\":\"320px\",\"important\":false,\"unit\":\"px\"},\"border-style\":{\"value\":\"none\",\"important\":false},\"border-top-left-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-top-right-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-right-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-left-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"box-shadow\":{\"value\":\"0px 2px 5px 0px #00000005\",\"object_value\":[{\"x\":\"0px\",\"y\":\"2px\",\"blur\":\"5px\",\"spread\":\"0px\",\"color\":\"#00000005\",\"inset\":false}]},\"position\":{\"value\":\"absolute\",\"important\":false},\"top\":{\"value\":\"40px\",\"important\":false,\"unit\":\"px\"},\"right\":{\"value\":\"-15px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-5ff15ac4 .kata-plus-content-toggle-content-wrap\"},\"before\":{\"data\":{\"width\":{\"value\":\"20px\",\"important\":false,\"unit\":\"px\"},\"height\":{\"value\":\"20px\",\"important\":false,\"unit\":\"px\"},\"content\":{\"value\":\"''\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-5ff15ac4 .kata-plus-content-toggle-content-wrap:before\"}}}",
+								"changed": true
+							},
+							"image": {
+								"id": 1884,
+								"url": "http://katademos.com/defaults/wp-content/uploads/2023/02/search.svg"
+							},
+							"placeholder": "image",
+							"symbol": "svg",
+							"_element_custom_width": {
+								"unit": "px",
+								"size": "",
+								"sizes": []
+							}
+						},
+						"elements": [],
+						"isInner": false,
+						"widgetType": "kata-plus-content-toggle",
+						"elType": "widget"
+					},
+					{
+						"id": "337f0d7d",
+						"settings": {
+							"livelogin": "none",
+							"layout": "toggle",
+							"text": "",
+							"welcom_text": "",
+							"image": {
+								"id": 1885,
+								"url": "http://katademos.com/defaults/wp-content/uploads/2023/02/account.svg"
+							},
+							"image_size": "full",
+							"styler_wrap": {
+								"cid": "8337c56a39d5c91dd8690f4414b6735b",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"background-type\":{\"value\":\"classic\",\"important\":false},\"background-color\":{\"value\":\"#FFFFFF\",\"important\":false},\"min-width\":{\"value\":\"378px\",\"important\":false,\"unit\":\"px\"},\"padding-top\":{\"value\":\"30px\",\"important\":false,\"unit\":\"px\"},\"padding-right\":{\"value\":\"30px\",\"important\":false,\"unit\":\"px\"},\"padding-bottom\":{\"value\":\"30px\",\"important\":false,\"unit\":\"px\"},\"padding-left\":{\"value\":\"30px\",\"important\":false,\"unit\":\"px\"},\"border-style\":{\"value\":\"solid\",\"important\":false},\"border-top-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-right-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-left-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-top-left-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-top-right-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-right-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-left-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-color\":{\"value\":\"#E3E4E6\",\"important\":false},\"box-shadow\":{\"value\":\"0px 2px 5px 0px #00000005\",\"object_value\":[{\"x\":\"0px\",\"y\":\"2px\",\"blur\":\"5px\",\"spread\":\"0px\",\"color\":\"#00000005\",\"inset\":false}]},\"position\":{\"value\":\"absolute\",\"important\":false},\"top\":{\"value\":\"45px\",\"important\":false,\"unit\":\"px\"},\"right\":{\"value\":\"-128px\",\"important\":false,\"unit\":\"px\"},\"z-index\":{\"value\":\"999\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-11ee476c .kata-login-wrap\"},\"before\":{\"data\":{\"content\":{\"value\":\"''\",\"important\":false},\"display\":{\"value\":\"block\",\"important\":false},\"width\":{\"value\":\"21px\",\"important\":false,\"unit\":\"px\"},\"height\":{\"value\":\"12px\",\"important\":false,\"unit\":\"px\"},\"border-style\":{\"value\":\"solid\",\"important\":false},\"border-top-width\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-right-width\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-width\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-left-width\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-top-color\":{\"value\":\"#00000000\",\"important\":false},\"border-bottom-color\":{\"value\":\"#D2D2D2\",\"important\":false},\"border-right-color\":{\"value\":\"#00000000\",\"important\":false},\"border-left-color\":{\"value\":\"#00000000\",\"important\":false},\"position\":{\"value\":\"absolute\",\"important\":false},\"top\":{\"value\":\"-20px\",\"important\":false,\"unit\":\"px\"},\"right\":{\"value\":\"128px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-11ee476c .kata-login-wrap:before\"},\"after\":{\"data\":{\"content\":{\"value\":\"''\",\"important\":false},\"width\":{\"value\":\"21px\",\"important\":false,\"unit\":\"px\"},\"height\":{\"value\":\"12px\",\"important\":false,\"unit\":\"px\"},\"border-style\":{\"value\":\"solid\",\"important\":false},\"border-top-width\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-right-width\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-width\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-left-width\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-top-color\":{\"value\":\"#00000000\",\"important\":false},\"border-bottom-color\":{\"value\":\"#FFFFFF\",\"important\":false},\"border-right-color\":{\"value\":\"#00000000\",\"important\":false},\"border-left-color\":{\"value\":\"#00000000\",\"important\":false},\"position\":{\"value\":\"absolute\",\"important\":false},\"top\":{\"value\":\"-19px\",\"important\":false,\"unit\":\"px\"},\"right\":{\"value\":\"128px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-11ee476c .kata-login-wrap:after\"}}}",
+								"changed": true
+							},
+							"styler_labels": {
+								"cid": "16368c0bd93dadfb4815977534563c49",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"display\":{\"value\":\"none\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-11ee476c .kata-login-wrap label\"}}}",
+								"changed": true
+							},
+							"styler_userpasinput": {
+								"cid": "349f1d5cb5d450369d7a698367cb1834",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"height\":{\"value\":\"52px\",\"important\":false,\"unit\":\"px\"},\"border-top-left-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-top-right-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-right-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-left-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-color\":{\"value\":\"#E3E5E7\",\"important\":false},\"box-shadow\":{\"value\":\"0 0 0px 0px #FFFFFF00\",\"object_value\":[{\"x\":\"0\",\"y\":\"0\",\"blur\":\"0px\",\"spread\":\"0px\",\"color\":\"#FFFFFF00\",\"inset\":false}]}},\"selector\":\".elementor-element.elementor-element-11ee476c .kata-login-wrap input[type='text']\"}}}",
+								"changed": true
+							},
+							"styler_login": {
+								"cid": "a386c3174f69dc9b334db5780594165d",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"color\":{\"value\":\"#837AF5\",\"important\":false},\"font-size\":{\"value\":\"17px\",\"important\":false,\"unit\":\"px\"},\"line-height\":{\"value\":\"1.5em\",\"important\":false,\"unit\":\"em\"},\"font-family\":{\"value\":\"'Be Vietnam Pro', Arial, Roboto, Sans-serif\",\"important\":false},\"font-weight\":{\"value\":\"500\",\"important\":false},\"letter-spacing\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"background-type\":{\"value\":\"classic\",\"important\":false},\"background-color\":{\"value\":\"#F7F6FF\",\"important\":false},\"width\":{\"value\":\"100%\",\"important\":false,\"unit\":\"%\"},\"height\":{\"value\":\"52px\",\"important\":false,\"unit\":\"px\"},\"padding-top\":{\"value\":\"13px\",\"important\":false,\"unit\":\"px\"},\"padding-right\":{\"value\":\"30px\",\"important\":false,\"unit\":\"px\"},\"padding-bottom\":{\"value\":\"11px\",\"important\":false,\"unit\":\"px\"},\"padding-left\":{\"value\":\"30px\",\"important\":false,\"unit\":\"px\"},\"margin-bottom\":{\"value\":\"20px\",\"important\":false,\"unit\":\"px\"},\"border-style\":{\"value\":\"solid\",\"important\":false},\"border-top-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-right-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-left-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-top-left-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-top-right-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-right-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-left-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-color\":{\"value\":\"#E0DEFF\",\"important\":false},\"box-shadow\":{\"value\":\"0 0 0 0px #FFFFFF00\",\"object_value\":[{\"x\":\"0\",\"y\":\"0\",\"blur\":\"0\",\"spread\":\"0px\",\"color\":\"#FFFFFF00\",\"inset\":false}]}},\"selector\":\".elementor-element.elementor-element-11ee476c .kata-login-wrap .submit_button\"},\"hover\":{\"data\":{\"color\":{\"value\":\"#F7F6FF\",\"important\":false},\"background-type\":{\"value\":\"classic\",\"important\":false},\"background-color\":{\"value\":\"#837AF5\",\"important\":false},\"border-color\":{\"value\":\"#837AF5\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-11ee476c .kata-login-wrap .submit_button:hover\"}}}",
+								"changed": true
+							},
+							"styler_lost": {
+								"cid": "680495463f13d8bdd31765c34b975ca9",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"color\":{\"value\":\"#868686\",\"important\":false},\"font-size\":{\"value\":\"14px\",\"important\":false,\"unit\":\"px\"},\"font-weight\":{\"value\":\"300\",\"important\":false},\"text-align\":{\"value\":\"center\",\"important\":false},\"width\":{\"value\":\"100%\",\"important\":false,\"unit\":\"%\"},\"margin-top\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-11ee476c .kata-login-wrap .lost\"}}}",
+								"changed": true
+							},
+							"styler_loginbtns": {
+								"cid": "535d6193bc985da4f746c9643d10b783",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"color\":{\"value\":\"#837AF5\",\"important\":false},\"font-size\":{\"value\":\"13px\",\"important\":false,\"unit\":\"px\"},\"line-height\":{\"value\":\"1.5em\",\"important\":false,\"unit\":\"em\"},\"font-family\":{\"value\":\"'Be Vietnam Pro', Arial, Roboto, Sans-serif\",\"important\":false},\"font-weight\":{\"value\":\"400\",\"important\":false},\"letter-spacing\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"background-type\":{\"value\":\"classic\",\"important\":false},\"background-color\":{\"value\":\"#F7F6FF\",\"important\":false},\"padding-top\":{\"value\":\"6px\",\"important\":false,\"unit\":\"px\"},\"padding-right\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"padding-bottom\":{\"value\":\"5px\",\"important\":false,\"unit\":\"px\"},\"padding-left\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-style\":{\"value\":\"solid\",\"important\":false},\"border-top-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-right-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-left-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-top-left-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-top-right-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-right-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-left-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-color\":{\"value\":\"#E0DEFF\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-11ee476c .kata-login-wrap .login-btns .kata-button\"},\"hover\":{\"data\":{\"color\":{\"value\":\"#F7F6FF\",\"important\":false},\"background-type\":{\"value\":\"classic\",\"important\":false},\"background-color\":{\"value\":\"#837AF5\",\"important\":false},\"border-color\":{\"value\":\"#837AF5\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-11ee476c .kata-login-wrap .login-btns .kata-button:hover\"}}}",
+								"changed": true
+							},
+							"styler_place_holder_wrapper": {
+								"cid": "8aa71addb8092a05485c8946b1029aa8",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"margin-right\":{\"value\":\"4px\",\"important\":false,\"unit\":\"px\"},\"margin-left\":{\"value\":\"14px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-11ee476c .kt-login-open-as\"}}}",
+								"changed": true
+							},
+							"styler_place_holder_text": {
+								"cid": "8c8a1a6aa091589a0285db4b740da289",
+								"stdata": "[]"
+							},
+							"styler_welcome": {
+								"cid": "a8a6a9758482db2941581a080a9d0cab",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"font-size\":{\"value\":\"17px\",\"important\":false,\"unit\":\"px\"},\"font-family\":{\"value\":\"'Be Vietnam Pro', Arial, Roboto, Sans-serif\",\"important\":false},\"font-weight\":{\"value\":\"700\",\"important\":false},\"text-transform\":{\"value\":\"capitalize\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-11ee476c .kata-login-wrap .user-name\"}}}",
+								"changed": true
+							},
+							"styler_place_holder_icon": {
+								"cid": "947aab6008db85a28410d8aaa85291c9",
+								"stdata": "[]"
+							},
+							"styler_place_holder_image": {
+								"cid": "116b70c89abd059425aaa0aa9848882d",
+								"stdata": "[]"
+							},
+							"placeholder_icon": "",
+							"toggleplaceholder": "image",
+							"_element_custom_width": {
+								"unit": "px",
+								"size": "",
+								"sizes": []
+							},
+							"styler_pasinput": {
+								"cid": "85a9158216a04d8842ab780dab9aa09c",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"height\":{\"value\":\"52px\",\"important\":false,\"unit\":\"px\"},\"border-top-left-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-top-right-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-right-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-left-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-color\":{\"value\":\"#E3E5E7\",\"important\":false},\"box-shadow\":{\"value\":\"0 0 0px 0px #FFFFFF00\",\"object_value\":[{\"x\":\"0\",\"y\":\"0\",\"blur\":\"0px\",\"spread\":\"0px\",\"color\":\"#FFFFFF00\",\"inset\":false}]}},\"selector\":\".elementor-element.elementor-element-11ee476c .kata-login-wrap input[type='password']\"}}}",
+								"changed": true
+							}
+						},
+						"elements": [],
+						"isInner": false,
+						"widgetType": "kata-plus-login",
+						"elType": "widget"
+					},
+					{
+						"id": "651fe7bb",
+						"settings": {
+							"placeholder": "image",
+							"image": {
+								"id": 2098,
+								"url": "http://katademos.com/defaults/wp-content/uploads/2022/07/wishlist-icon.svg",
+								"alt": "",
+								"source": "library",
+								"size": ""
+							},
+							"text": "Login",
+							"content_toggle_template": "wishlist box",
+							"styler_wrapper": {
+								"cid": "72a2aa8ca8ad0b4b8989451106509da8",
+								"stdata": "[]"
+							},
+							"styler_placeholder_wrapper": {
+								"cid": "27950c5ba8a88ab62d0914a0148aa98d",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"height\":{\"value\":\"20px\",\"important\":false,\"unit\":\"px\"},\"padding-top\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"padding-right\":{\"value\":\"20px\",\"important\":false,\"unit\":\"px\"},\"padding-left\":{\"value\":\"20px\",\"important\":false,\"unit\":\"px\"},\"margin-left\":{\"value\":\"20px\",\"important\":false,\"unit\":\"px\"},\"border-style\":{\"value\":\"solid\",\"important\":false},\"border-left-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-color\":{\"value\":\"#E1E2E3\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-5584cbff .kata-plus-content-toggle-click\"}}}",
+								"changed": true
+							},
+							"styler_placeholder_image": {
+								"cid": "2aa807629d1a44889100cd8baa5b89a5",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"vertical-align\":{\"value\":\"top\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-5584cbff .kata-plus-content-toggle-click img\"}}}",
+								"changed": true
+							},
+							"styler_placeholder_icon": {
+								"cid": "184602aa08a81d984a79c9aba5058bd2",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"font-size\":{\"value\":\"20px\",\"important\":false,\"unit\":\"px\"},\"line-height\":{\"value\":\"1em\",\"important\":false,\"unit\":\"em\"},\"text-align\":{\"value\":\"center\",\"important\":false},\"display\":{\"value\":\"inline-block\",\"important\":false},\"width\":{\"value\":\"21px\",\"important\":false,\"unit\":\"px\"},\"height\":{\"value\":\"20px\",\"important\":false,\"unit\":\"px\"},\"padding-top\":{\"value\":\"2px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-5584cbff .kata-plus-content-toggle-click i\"}}}",
+								"changed": true
+							},
+							"styler_toggle_wrapper": {
+								"cid": "db9ad8198ab80a24a5ca84098760a521",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"background-type\":{\"value\":\"classic\",\"important\":false},\"background-color\":{\"value\":\"#FFFFFF\",\"important\":false},\"min-width\":{\"value\":\"378px\",\"important\":false,\"unit\":\"px\"},\"padding-top\":{\"value\":\"20px\",\"important\":false,\"unit\":\"px\"},\"padding-right\":{\"value\":\"20px\",\"important\":false,\"unit\":\"px\"},\"padding-bottom\":{\"value\":\"20px\",\"important\":false,\"unit\":\"px\"},\"padding-left\":{\"value\":\"20px\",\"important\":false,\"unit\":\"px\"},\"border-style\":{\"value\":\"solid\",\"important\":false},\"border-top-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-right-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-left-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-top-left-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-top-right-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-right-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-left-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-color\":{\"value\":\"#E3E4E6\",\"important\":false},\"box-shadow\":{\"value\":\"0px 2px 5px 0px #00000005\",\"object_value\":[{\"x\":\"0px\",\"y\":\"2px\",\"blur\":\"5px\",\"spread\":\"0px\",\"color\":\"#00000005\",\"inset\":false}]},\"position\":{\"value\":\"absolute\",\"important\":false},\"top\":{\"value\":\"40px\",\"important\":false,\"unit\":\"px\"},\"right\":{\"value\":\"-51px\",\"important\":false,\"unit\":\"px\"},\"z-index\":{\"value\":\"999\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-5584cbff .kata-plus-content-toggle-content-wrap\"},\"before\":{\"data\":{\"content\":{\"value\":\"''\",\"important\":false},\"display\":{\"value\":\"block\",\"important\":false},\"width\":{\"value\":\"21px\",\"important\":false,\"unit\":\"px\"},\"height\":{\"value\":\"12px\",\"important\":false,\"unit\":\"px\"},\"border-style\":{\"value\":\"solid\",\"important\":false},\"border-top-width\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-right-width\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-width\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-left-width\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-top-color\":{\"value\":\"#00000000\",\"important\":false},\"border-bottom-color\":{\"value\":\"#D2D2D2\",\"important\":false},\"border-right-color\":{\"value\":\"#00000000\",\"important\":false},\"border-left-color\":{\"value\":\"#00000000\",\"important\":false},\"position\":{\"value\":\"absolute\",\"important\":false},\"top\":{\"value\":\"-20px\",\"important\":false,\"unit\":\"px\"},\"right\":{\"value\":\"70px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-5584cbff .kata-plus-content-toggle-content-wrap:before\"},\"after\":{\"data\":{\"content\":{\"value\":\"''\",\"important\":false},\"width\":{\"value\":\"21px\",\"important\":false,\"unit\":\"px\"},\"height\":{\"value\":\"12px\",\"important\":false,\"unit\":\"px\"},\"border-style\":{\"value\":\"solid\",\"important\":false},\"border-top-width\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-right-width\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-width\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-left-width\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-top-color\":{\"value\":\"#00000000\",\"important\":false},\"border-bottom-color\":{\"value\":\"#FFFFFF\",\"important\":false},\"border-right-color\":{\"value\":\"#00000000\",\"important\":false},\"border-left-color\":{\"value\":\"#00000000\",\"important\":false},\"position\":{\"value\":\"absolute\",\"important\":false},\"top\":{\"value\":\"-19px\",\"important\":false,\"unit\":\"px\"},\"right\":{\"value\":\"70px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-5584cbff .kata-plus-content-toggle-content-wrap:after\"}}}",
+								"changed": true
+							},
+							"image_size": "full"
+						},
+						"elements": [],
+						"isInner": false,
+						"widgetType": "kata-plus-content-toggle",
+						"elType": "widget"
+					},
+					{
+						"id": "6b5677fc",
+						"settings": {
+							"icon": "eicons/cart-light",
+							"headercart": "Items In Shopping Bag",
+							"styler_icon": {
+								"cid": "a86a2ac507815d298804aba9b4a019d8",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"font-size\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"display\":{\"value\":\"block\",\"important\":false},\"background\":{\"value\":\"url(//climaxthemes.com/shoppress/demo/wp-content/uploads/2022/09/kata-shoppress-cart-icon.svg)\",\"important\":false},\"background-type\":{\"value\":\"classic\",\"important\":false},\"background-repeat\":{\"value\":\"no-repeat\",\"important\":false},\"background-position\":{\"value\":\"center center\",\"important\":false},\"background-position-type\":{\"value\":\"center center\",\"important\":false},\"background-size-type\":{\"value\":\"contain\",\"important\":false},\"background-size\":{\"value\":\"contain\",\"important\":false},\"width\":{\"value\":\"18px\",\"important\":false,\"unit\":\"px\"},\"height\":{\"value\":\"18px\",\"important\":false,\"unit\":\"px\"},\"margin-top\":{\"value\":\"3px\",\"important\":false,\"unit\":\"px\"},\"margin-right\":{\"value\":\"24px\",\"important\":false,\"unit\":\"px\"},\"fill\":{\"value\":\"#00000000\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-3f1b0294 .kata-cart-icon-wrap .kata-icon\"}}}",
+								"changed": true
+							},
+							"styler_cart_cart_wrap": {
+								"cid": "49adaa8012926a80bb88ca7d085549a1",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"overflow\":{\"value\":\"visible\",\"important\":false},\"background-type\":{\"value\":\"classic\",\"important\":false},\"background-color\":{\"value\":\"#FFFFFF\",\"important\":false},\"min-width\":{\"value\":\"378px\",\"important\":false,\"unit\":\"px\"},\"padding-bottom\":{\"value\":\"14px\",\"important\":false,\"unit\":\"px\"},\"border-style\":{\"value\":\"solid\",\"important\":false},\"border-top-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-right-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-left-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-top-left-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-top-right-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-right-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-left-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-color\":{\"value\":\"#E3E4E6\",\"important\":false},\"box-shadow\":{\"value\":\"0px 2px 5px 0px #00000005\",\"object_value\":[{\"x\":\"0px\",\"y\":\"2px\",\"blur\":\"5px\",\"spread\":\"0px\",\"color\":\"#00000005\",\"inset\":false}]},\"position\":{\"value\":\"absolute\",\"important\":false},\"top\":{\"value\":\"21px\",\"important\":false,\"unit\":\"px\"},\"right\":{\"value\":\"-30px\",\"important\":false,\"unit\":\"px\"},\"z-index\":{\"value\":\"999\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-3f1b0294 .kata-plus-cart-wrap .kata-plus-cart\"},\"before\":{\"data\":{\"content\":{\"value\":\"''\",\"important\":false},\"display\":{\"value\":\"block\",\"important\":false},\"width\":{\"value\":\"21px\",\"important\":false,\"unit\":\"px\"},\"height\":{\"value\":\"12px\",\"important\":false,\"unit\":\"px\"},\"border-style\":{\"value\":\"solid\",\"important\":false},\"border-top-width\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-right-width\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-width\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-left-width\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-top-color\":{\"value\":\"#00000000\",\"important\":false},\"border-bottom-color\":{\"value\":\"#D2D2D2\",\"important\":false},\"border-right-color\":{\"value\":\"#00000000\",\"important\":false},\"border-left-color\":{\"value\":\"#00000000\",\"important\":false},\"position\":{\"value\":\"absolute\",\"important\":false},\"top\":{\"value\":\"-20px\",\"important\":false,\"unit\":\"px\"},\"right\":{\"value\":\"60px\",\"important\":false,\"unit\":\"px\"},\"z-index\":{\"value\":\"999\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-3f1b0294 .kata-plus-cart-wrap .kata-plus-cart:before\"},\"after\":{\"data\":{\"content\":{\"value\":\"''\",\"important\":false},\"width\":{\"value\":\"21px\",\"important\":false,\"unit\":\"px\"},\"height\":{\"value\":\"12px\",\"important\":false,\"unit\":\"px\"},\"border-style\":{\"value\":\"solid\",\"important\":false},\"border-top-width\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-right-width\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-width\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-left-width\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-top-color\":{\"value\":\"#00000000\",\"important\":false},\"border-bottom-color\":{\"value\":\"#FFFFFF\",\"important\":false},\"border-right-color\":{\"value\":\"#00000000\",\"important\":false},\"border-left-color\":{\"value\":\"#00000000\",\"important\":false},\"position\":{\"value\":\"absolute\",\"important\":false},\"top\":{\"value\":\"-19px\",\"important\":false,\"unit\":\"px\"},\"right\":{\"value\":\"60px\",\"important\":false,\"unit\":\"px\"},\"z-index\":{\"value\":\"9999\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-3f1b0294 .kata-plus-cart-wrap .kata-plus-cart:after\"}}}",
+								"changed": true
+							},
+							"styler_cart_item_count": {
+								"cid": "9a7a204a1dbaa88a8586b1d94085902c",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"color\":{\"value\":\"#000000\",\"important\":false},\"font-size\":{\"value\":\"11px\",\"important\":false,\"unit\":\"px\"},\"font-weight\":{\"value\":\"400\",\"important\":false},\"display\":{\"value\":\"flex\",\"important\":false},\"align-content\":{\"value\":\"center\",\"important\":false},\"align-items\":{\"value\":\"center\",\"important\":false},\"justify-content\":{\"value\":\"center\",\"important\":false},\"background-type\":{\"value\":\"classic\",\"important\":false},\"background-color\":{\"value\":\"#00000000\",\"important\":false},\"background\":{\"value\":\"url(//climaxthemes.com/shoppress/demo/wp-content/uploads/2022/09/kata-shoppress-counter-bg.svg)\",\"important\":false},\"background-repeat\":{\"value\":\"no-repeat\",\"important\":false},\"background-position\":{\"value\":\"center center\",\"important\":false},\"background-position-type\":{\"value\":\"center center\",\"important\":false},\"width\":{\"value\":\"31px\",\"important\":false,\"unit\":\"px\"},\"height\":{\"value\":\"100%\",\"important\":false,\"unit\":\"%\"},\"padding-left\":{\"value\":\"3px\",\"important\":false,\"unit\":\"px\"},\"border-top-left-radius\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"border-top-right-radius\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-right-radius\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-left-radius\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"top\":{\"value\":\"50%\",\"important\":false,\"unit\":\"%\"},\"right\":{\"value\":\"-11px\",\"important\":false,\"unit\":\"px\"},\"transform\":{\"value\":\"translateX(0px) translateY(-50%) !important\",\"important\":true}},\"selector\":\".elementor-element.elementor-element-3f1b0294 .kata-cart-icon-wrap span.count\"}}}",
+								"changed": true
+							},
+							"styler_cart_buttons": {
+								"cid": "0121aaba74dc9b885d286990804a8a5a",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"color\":{\"value\":\"#837AF5\",\"important\":false},\"font-size\":{\"value\":\"15px\",\"important\":false,\"unit\":\"px\"},\"line-height\":{\"value\":\"1.5em\",\"important\":false,\"unit\":\"em\"},\"font-weight\":{\"value\":\"400\",\"important\":false},\"letter-spacing\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"background-type\":{\"value\":\"classic\",\"important\":false},\"background-color\":{\"value\":\"#F7F6FF\",\"important\":false},\"padding-top\":{\"value\":\"11px\",\"important\":false,\"unit\":\"px\"},\"padding-right\":{\"value\":\"30px\",\"important\":false,\"unit\":\"px\"},\"padding-bottom\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"padding-left\":{\"value\":\"30px\",\"important\":false,\"unit\":\"px\"},\"border-style\":{\"value\":\"solid\",\"important\":false},\"border-top-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-right-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-left-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-top-left-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-top-right-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-right-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-left-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-color\":{\"value\":\"#E0DEFF\",\"important\":false},\"transition-duration\":{\"value\":\"0.2s\",\"important\":false},\"transition-timing-function\":{\"value\":\"ease\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-3f1b0294 .kata-plus-cart-wrap .buttons a\"},\"hover\":{\"data\":{\"background-type\":{\"value\":\"classic\",\"important\":false},\"background-color\":{\"value\":\"#FFFFFF\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-3f1b0294 .kata-plus-cart-wrap .buttons a:hover\"}}}",
+								"changed": true
+							},
+							"common_styler": {
+								"cid": "cdd4aa06259aa1189004a8ba927b8588",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"display\":{\"value\":\"inline-block\",\"important\":false},\"width\":{\"value\":\"fit-content\",\"important\":false},\"padding-right\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-3f1b0294\"}}}",
+								"changed": true
+							},
+							"styler_header_cart": {
+								"cid": "4bba75d8aa0c96098a0188a49a25d812",
+								"stdata": "[]"
+							},
+							"styler_cart_item_wrap": {
+								"cid": "20a80a4910a5a99c8d7db1285a8ba486",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"padding-right\":{\"value\":\"30px\",\"important\":false,\"unit\":\"px\"},\"padding-left\":{\"value\":\"30px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-3f1b0294 .kata-plus-cart-wrap .woocommerce-mini-cart\"}}}",
+								"changed": true
+							},
+							"styler_cart_item": {
+								"cid": "110806ab2aa285d5ab97a8894dca0489",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"padding-right\":{\"value\":\"34px\",\"important\":true,\"unit\":\"px\"},\"padding-left\":{\"value\":\"0px\",\"important\":true,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-3f1b0294 .kata-plus-cart-wrap li\"}}}",
+								"changed": true
+							},
+							"styler_cart_item_remove": {
+								"cid": "4dc11aa5a098479db89ab586a28820a0",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"color\":{\"value\":\"#959CA7\",\"important\":true},\"background-type\":{\"value\":\"classic\",\"important\":false},\"background-color\":{\"value\":\"#F1F2F3\",\"important\":false},\"top\":{\"value\":\"38px\",\"important\":false,\"unit\":\"px\"},\"right\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"left\":{\"value\":\"auto\",\"important\":false},\"transition-duration\":{\"value\":\"0.2s\",\"important\":false},\"transition-timing-function\":{\"value\":\"ease\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-3f1b0294 .kata-plus-cart-wrap li a.remove\"},\"hover\":{\"data\":{\"color\":{\"value\":\"#FFFFFF\",\"important\":true},\"background-type\":{\"value\":\"classic\",\"important\":false},\"background-color\":{\"value\":\"#F37F9B\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-3f1b0294 .kata-plus-cart-wrap li a.remove:hover\"}}}",
+								"changed": true
+							},
+							"styler_cart_item_thumb": {
+								"cid": "20d2a5141a8a04a7bd588899908abca6",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"float\":{\"value\":\"left\",\"important\":false},\"background-type\":{\"value\":\"classic\",\"important\":false},\"background-color\":{\"value\":\"#F7F8F9\",\"important\":false},\"width\":{\"value\":\"64px\",\"important\":false,\"unit\":\"px\"},\"height\":{\"value\":\"64px\",\"important\":false,\"unit\":\"px\"},\"margin-right\":{\"value\":\"20px\",\"important\":false,\"unit\":\"px\"},\"margin-left\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"border-top-left-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-top-right-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-right-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-left-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-3f1b0294 .kata-plus-cart-wrap li img\"}}}",
+								"changed": true
+							},
+							"styler_cart_item_title": {
+								"cid": "8490ab9d68271a58daa1a88b0240a59c",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"color\":{\"value\":\"#1D2834\",\"important\":false},\"font-size\":{\"value\":\"14px\",\"important\":false,\"unit\":\"px\"},\"font-weight\":{\"value\":\"500\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-3f1b0294 .kata-plus-cart-wrap li a.remove+a\"}}}",
+								"changed": true
+							},
+							"styler_cart_item_qty": {
+								"cid": "820b99aaada142860a5805b8c1ad9847",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"color\":{\"value\":\"#737D8B\",\"important\":false},\"font-size\":{\"value\":\"13px\",\"important\":false,\"unit\":\"px\"},\"font-family\":{\"value\":\"'Be Vietnam Pro', Arial, Roboto, Sans-serif\",\"important\":false},\"font-weight\":{\"value\":\"300\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-3f1b0294 .kata-plus-cart-wrap li .quantity\"}}}",
+								"changed": true
+							},
+							"styler_cart_subtotal": {
+								"cid": "0fa38907ee2a6e372b88b61d68d2b5f3",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"background-type\":{\"value\":\"classic\",\"important\":false},\"background-color\":{\"value\":\"#FFFFFF\",\"important\":false},\"padding-top\":{\"value\":\"20px\",\"important\":false,\"unit\":\"px\"},\"padding-right\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"padding-bottom\":{\"value\":\"20px\",\"important\":false,\"unit\":\"px\"},\"padding-left\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"margin-top\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"margin-right\":{\"value\":\"30px\",\"important\":false,\"unit\":\"px\"},\"margin-bottom\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"margin-left\":{\"value\":\"30px\",\"important\":false,\"unit\":\"px\"},\"border-style\":{\"value\":\"solid\",\"important\":false},\"border-top-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-color\":{\"value\":\"#E3E5E7\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-3f1b0294 .kata-plus-cart-wrap .woocommerce-mini-cart__total.total\"}}}",
+								"changed": true
+							},
+							"styler_cart_subtotal_text": {
+								"cid": "e7a867320a8223dfde1b9e03b88b6f65",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"color\":{\"value\":\"#959CA7\",\"important\":false},\"font-size\":{\"value\":\"15px\",\"important\":false,\"unit\":\"px\"},\"font-weight\":{\"value\":\"400\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-3f1b0294 .kata-plus-cart-wrap .total strong\"}}}",
+								"changed": true
+							},
+							"styler_cart_subtotal_price": {
+								"cid": "9881e32be628d6b2650afe7f3adb0378",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"color\":{\"value\":\"#1D2834\",\"important\":false},\"font-size\":{\"value\":\"15px\",\"important\":false,\"unit\":\"px\"},\"font-weight\":{\"value\":\"400\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-3f1b0294 .kata-plus-cart-wrap .total span\"}}}",
+								"changed": true
+							},
+							"styler_cart_buttons_wrap": {
+								"cid": "93537e618abbb8668edfe73822d2f0a0",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"padding-top\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"padding-right\":{\"value\":\"30px\",\"important\":false,\"unit\":\"px\"},\"padding-bottom\":{\"value\":\"20px\",\"important\":false,\"unit\":\"px\"},\"padding-left\":{\"value\":\"30px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-3f1b0294 .kata-plus-cart-wrap .buttons\"}}}",
+								"changed": true
+							},
+							"styler_no_product": {
+								"cid": "a39a2852d87e3f8e0661d82bf673ebb0",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"color\":{\"value\":\"#616263\",\"important\":false},\"font-size\":{\"value\":\"13px\",\"important\":false,\"unit\":\"px\"},\"font-weight\":{\"value\":\"400\",\"important\":false},\"text-transform\":{\"value\":\"none\",\"important\":false},\"padding-top\":{\"value\":\"20px\",\"important\":false,\"unit\":\"px\"},\"margin-bottom\":{\"value\":\"5px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-3f1b0294 .kata-plus-cart .woocommerce-mini-cart__empty-message\"}}}",
+								"changed": true
+							}
+						},
+						"elements": [],
+						"isInner": false,
+						"widgetType": "kata-plus-cart",
+						"elType": "widget"
+					}
+				],
+				"isInner": false,
+				"elType": "column"
+			}
+		],
+		"isInner": false,
+		"elType": "section"
+	},
+	{
+		"id": "771af8db",
+		"settings": {
+			"content_position": "middle",
+			"structure": "20",
+			"section_styler": {
+				"cid": "7ade77973a382355b998b9a0ca095bd1",
+				"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"display\":{\"value\":\"none\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-6e72598c\"}},\"laptop\":{\"normal\":{\"data\":{\"display\":{\"value\":\"none\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-6e72598c\"}},\"tablet\":{\"normal\":{\"data\":{\"display\":{\"value\":\"block\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-6e72598c\"}},\"mobile\":{\"normal\":{\"data\":{\"display\":{\"value\":\"block\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-6e72598c\"}},\"tabletlandscape\":{\"normal\":{\"data\":{\"display\":{\"value\":\"block\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-6e72598c\"}},\"smallmobiles\":{\"normal\":{\"data\":{\"display\":{\"value\":\"block\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-6e72598c\"}}}"
+			},
+			"gap": "extended"
+		},
+		"elements": [
+			{
+				"id": "132a9839",
+				"settings": {
+					"_column_size": 50,
+					"_inline_size": null,
+					"_inline_size_mobile": 45,
+					"column_styler": {
+						"cid": "2e6e63b98d7f2615def8a208b837a3b0",
+						"stdata": "[]"
+					},
+					"_inline_size_tablet": 30
+				},
+				"elements": [
+					{
+						"id": "3cec0885",
+						"settings": {
+							"default-logo": {
+								"id": 1883,
+								"url": "http://katademos.com/defaults/wp-content/uploads/2023/02/shoppress-logo.svg"
+							},
+							"default-logo_size": "full",
+							"styler_image": {
+								"cid": "f36db8b50adae8e3780e6f228123b976",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"width\":{\"value\":\"134px\",\"important\":false,\"unit\":\"px\"},\"border-top-left-radius\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"border-top-right-radius\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-right-radius\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-left-radius\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-45aca0d6 .kata-logo img\"}}}"
+							}
+						},
+						"elements": [],
+						"isInner": false,
+						"widgetType": "kata-plus-logo",
+						"elType": "widget"
+					}
+				],
+				"isInner": false,
+				"elType": "column"
+			},
+			{
+				"id": "6a822c61",
+				"settings": {
+					"_column_size": 50,
+					"_inline_size": null,
+					"_inline_size_mobile": 55,
+					"column_styler": {
+						"cid": "6023e78bdbb6eafa6887d82f3532091e",
+						"stdata": "[]"
+					},
+					"_inline_size_tablet": 70
+				},
+				"elements": [
+					{
+						"id": "6b7e2e3e",
+						"settings": {
+							"icon": "eicons/cart-light",
+							"headercart": "Items In Shopping Bag",
+							"styler_icon": {
+								"cid": "d8e60323fb685283790ab827fb1e6aed",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"font-size\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"display\":{\"value\":\"block\",\"important\":false},\"background\":{\"value\":\"url(//climaxthemes.com/shoppress/demo/wp-content/uploads/2022/09/kata-shoppress-cart-icon.svg)\",\"important\":false},\"background-type\":{\"value\":\"classic\",\"important\":false},\"background-repeat\":{\"value\":\"no-repeat\",\"important\":false},\"background-position\":{\"value\":\"center center\",\"important\":false},\"background-position-type\":{\"value\":\"center center\",\"important\":false},\"background-size-type\":{\"value\":\"contain\",\"important\":false},\"background-size\":{\"value\":\"contain\",\"important\":false},\"width\":{\"value\":\"18px\",\"important\":false,\"unit\":\"px\"},\"height\":{\"value\":\"18px\",\"important\":false,\"unit\":\"px\"},\"margin-top\":{\"value\":\"3px\",\"important\":false,\"unit\":\"px\"},\"margin-right\":{\"value\":\"24px\",\"important\":false,\"unit\":\"px\"},\"fill\":{\"value\":\"#00000000\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-3dfe84fa .kata-cart-icon-wrap .kata-icon\"}}}"
+							},
+							"styler_cart_cart_wrap": {
+								"cid": "7678e5fbbea0936823e8d160d32fa2b8",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"overflow\":{\"value\":\"visible\",\"important\":false},\"background-type\":{\"value\":\"classic\",\"important\":false},\"background-color\":{\"value\":\"#FFFFFF\",\"important\":false},\"min-width\":{\"value\":\"378px\",\"important\":false,\"unit\":\"px\"},\"padding-bottom\":{\"value\":\"14px\",\"important\":false,\"unit\":\"px\"},\"border-style\":{\"value\":\"solid\",\"important\":false},\"border-top-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-right-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-left-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-top-left-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-top-right-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-right-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-left-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-color\":{\"value\":\"#E3E4E6\",\"important\":false},\"box-shadow\":{\"value\":\"0px 2px 5px 0px #00000005\",\"object_value\":[{\"x\":\"0px\",\"y\":\"2px\",\"blur\":\"5px\",\"spread\":\"0px\",\"color\":\"#00000005\",\"inset\":false}]},\"position\":{\"value\":\"absolute\",\"important\":false},\"top\":{\"value\":\"21px\",\"important\":false,\"unit\":\"px\"},\"right\":{\"value\":\"-30px\",\"important\":false,\"unit\":\"px\"},\"z-index\":{\"value\":\"999\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-3dfe84fa .kata-plus-cart-wrap .kata-plus-cart\"},\"before\":{\"data\":{\"content\":{\"value\":\"''\",\"important\":false},\"display\":{\"value\":\"block\",\"important\":false},\"width\":{\"value\":\"21px\",\"important\":false,\"unit\":\"px\"},\"height\":{\"value\":\"12px\",\"important\":false,\"unit\":\"px\"},\"border-style\":{\"value\":\"solid\",\"important\":false},\"border-top-width\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-right-width\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-width\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-left-width\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-top-color\":{\"value\":\"#00000000\",\"important\":false},\"border-bottom-color\":{\"value\":\"#D2D2D2\",\"important\":false},\"border-right-color\":{\"value\":\"#00000000\",\"important\":false},\"border-left-color\":{\"value\":\"#00000000\",\"important\":false},\"position\":{\"value\":\"absolute\",\"important\":false},\"top\":{\"value\":\"-20px\",\"important\":false,\"unit\":\"px\"},\"right\":{\"value\":\"60px\",\"important\":false,\"unit\":\"px\"},\"z-index\":{\"value\":\"999\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-3dfe84fa .kata-plus-cart-wrap .kata-plus-cart:before\"},\"after\":{\"data\":{\"content\":{\"value\":\"''\",\"important\":false},\"width\":{\"value\":\"21px\",\"important\":false,\"unit\":\"px\"},\"height\":{\"value\":\"12px\",\"important\":false,\"unit\":\"px\"},\"border-style\":{\"value\":\"solid\",\"important\":false},\"border-top-width\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-right-width\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-width\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-left-width\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"border-top-color\":{\"value\":\"#00000000\",\"important\":false},\"border-bottom-color\":{\"value\":\"#FFFFFF\",\"important\":false},\"border-right-color\":{\"value\":\"#00000000\",\"important\":false},\"border-left-color\":{\"value\":\"#00000000\",\"important\":false},\"position\":{\"value\":\"absolute\",\"important\":false},\"top\":{\"value\":\"-19px\",\"important\":false,\"unit\":\"px\"},\"right\":{\"value\":\"60px\",\"important\":false,\"unit\":\"px\"},\"z-index\":{\"value\":\"9999\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-3dfe84fa .kata-plus-cart-wrap .kata-plus-cart:after\"}}}"
+							},
+							"styler_cart_item_count": {
+								"cid": "be9deab2820860bd6e57133f8a8237f6",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"color\":{\"value\":\"#000000\",\"important\":false},\"font-size\":{\"value\":\"11px\",\"important\":false,\"unit\":\"px\"},\"font-weight\":{\"value\":\"400\",\"important\":false},\"display\":{\"value\":\"flex\",\"important\":false},\"align-content\":{\"value\":\"center\",\"important\":false},\"align-items\":{\"value\":\"center\",\"important\":false},\"justify-content\":{\"value\":\"center\",\"important\":false},\"background-type\":{\"value\":\"classic\",\"important\":false},\"background-color\":{\"value\":\"#00000000\",\"important\":false},\"background\":{\"value\":\"url(//climaxthemes.com/shoppress/demo/wp-content/uploads/2022/09/kata-shoppress-counter-bg.svg)\",\"important\":false},\"background-repeat\":{\"value\":\"no-repeat\",\"important\":false},\"background-position\":{\"value\":\"center center\",\"important\":false},\"background-position-type\":{\"value\":\"center center\",\"important\":false},\"width\":{\"value\":\"31px\",\"important\":false,\"unit\":\"px\"},\"height\":{\"value\":\"100%\",\"important\":false,\"unit\":\"%\"},\"padding-left\":{\"value\":\"3px\",\"important\":false,\"unit\":\"px\"},\"border-top-left-radius\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"border-top-right-radius\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-right-radius\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-left-radius\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"top\":{\"value\":\"50%\",\"important\":false,\"unit\":\"%\"},\"right\":{\"value\":\"-11px\",\"important\":false,\"unit\":\"px\"},\"transform\":{\"value\":\"translateX(0px) translateY(-50%) !important\",\"important\":true}},\"selector\":\".elementor-element.elementor-element-3dfe84fa .kata-cart-icon-wrap span.count\"}}}"
+							},
+							"styler_cart_buttons": {
+								"cid": "662f933a8b38ef8bda27e01b25678de0",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"color\":{\"value\":\"#837AF5\",\"important\":false},\"font-size\":{\"value\":\"15px\",\"important\":false,\"unit\":\"px\"},\"line-height\":{\"value\":\"1.5em\",\"important\":false,\"unit\":\"em\"},\"font-weight\":{\"value\":\"400\",\"important\":false},\"letter-spacing\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"background-type\":{\"value\":\"classic\",\"important\":false},\"background-color\":{\"value\":\"#F7F6FF\",\"important\":false},\"padding-top\":{\"value\":\"11px\",\"important\":false,\"unit\":\"px\"},\"padding-right\":{\"value\":\"30px\",\"important\":false,\"unit\":\"px\"},\"padding-bottom\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"},\"padding-left\":{\"value\":\"30px\",\"important\":false,\"unit\":\"px\"},\"border-style\":{\"value\":\"solid\",\"important\":false},\"border-top-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-right-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-left-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-top-left-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-top-right-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-right-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-left-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-color\":{\"value\":\"#E0DEFF\",\"important\":false},\"transition-duration\":{\"value\":\"0.2s\",\"important\":false},\"transition-timing-function\":{\"value\":\"ease\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-3dfe84fa .kata-plus-cart-wrap .buttons a\"},\"hover\":{\"data\":{\"background-type\":{\"value\":\"classic\",\"important\":false},\"background-color\":{\"value\":\"#FFFFFF\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-3dfe84fa .kata-plus-cart-wrap .buttons a:hover\"}}}"
+							},
+							"common_styler": {
+								"cid": "e2b29608e728581fa33a60d68fb3de7b",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"display\":{\"value\":\"inline-block\",\"important\":false},\"width\":{\"value\":\"fit-content\",\"important\":false},\"padding-right\":{\"value\":\"10px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-3dfe84fa\"}}}"
+							},
+							"styler_header_cart": {
+								"cid": "80ea98326a0b83db85372eeff627bd61",
+								"stdata": "[]"
+							},
+							"styler_cart_item_wrap": {
+								"cid": "0deba53e28672bf9ae6d337f80882b16",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"padding-right\":{\"value\":\"30px\",\"important\":false,\"unit\":\"px\"},\"padding-left\":{\"value\":\"30px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-3dfe84fa .kata-plus-cart-wrap .woocommerce-mini-cart\"}}}"
+							},
+							"styler_cart_item": {
+								"cid": "f6f82a8e28e5133e93b60d07ad8b6b27",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"padding-right\":{\"value\":\"34px\",\"important\":true,\"unit\":\"px\"},\"padding-left\":{\"value\":\"0px\",\"important\":true,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-3dfe84fa .kata-plus-cart-wrap li\"}}}"
+							},
+							"styler_cart_item_remove": {
+								"cid": "bbda88125d3e830ee976ff686b72203a",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"color\":{\"value\":\"#959CA7\",\"important\":true},\"background-type\":{\"value\":\"classic\",\"important\":false},\"background-color\":{\"value\":\"#F1F2F3\",\"important\":false},\"top\":{\"value\":\"38px\",\"important\":false,\"unit\":\"px\"},\"right\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"left\":{\"value\":\"auto\",\"important\":false},\"transition-duration\":{\"value\":\"0.2s\",\"important\":false},\"transition-timing-function\":{\"value\":\"ease\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-3dfe84fa .kata-plus-cart-wrap li a.remove\"},\"hover\":{\"data\":{\"color\":{\"value\":\"#FFFFFF\",\"important\":true},\"background-type\":{\"value\":\"classic\",\"important\":false},\"background-color\":{\"value\":\"#F37F9B\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-3dfe84fa .kata-plus-cart-wrap li a.remove:hover\"}}}"
+							},
+							"styler_cart_item_thumb": {
+								"cid": "e82d80de8b3a572e9f82663f7ab61b30",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"float\":{\"value\":\"left\",\"important\":false},\"background-type\":{\"value\":\"classic\",\"important\":false},\"background-color\":{\"value\":\"#F7F8F9\",\"important\":false},\"width\":{\"value\":\"64px\",\"important\":false,\"unit\":\"px\"},\"height\":{\"value\":\"64px\",\"important\":false,\"unit\":\"px\"},\"margin-right\":{\"value\":\"20px\",\"important\":false,\"unit\":\"px\"},\"margin-left\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"border-top-left-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-top-right-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-right-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"},\"border-bottom-left-radius\":{\"value\":\"7px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-3dfe84fa .kata-plus-cart-wrap li img\"}}}"
+							},
+							"styler_cart_item_title": {
+								"cid": "b582be787de63e2a1ad02688339b60ff",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"color\":{\"value\":\"#1D2834\",\"important\":false},\"font-size\":{\"value\":\"14px\",\"important\":false,\"unit\":\"px\"},\"font-weight\":{\"value\":\"500\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-3dfe84fa .kata-plus-cart-wrap li a.remove+a\"}}}"
+							},
+							"styler_cart_item_qty": {
+								"cid": "98e60a2ede18afb3d65387863220f7bb",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"color\":{\"value\":\"#737D8B\",\"important\":false},\"font-size\":{\"value\":\"13px\",\"important\":false,\"unit\":\"px\"},\"font-family\":{\"value\":\"'Be Vietnam Pro', Arial, Roboto, Sans-serif\",\"important\":false},\"font-weight\":{\"value\":\"300\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-3dfe84fa .kata-plus-cart-wrap li .quantity\"}}}"
+							},
+							"styler_cart_subtotal": {
+								"cid": "6b383620d8e5ebf9b8f36287a201a7de",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"background-type\":{\"value\":\"classic\",\"important\":false},\"background-color\":{\"value\":\"#FFFFFF\",\"important\":false},\"padding-top\":{\"value\":\"20px\",\"important\":false,\"unit\":\"px\"},\"padding-right\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"padding-bottom\":{\"value\":\"20px\",\"important\":false,\"unit\":\"px\"},\"padding-left\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"margin-top\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"margin-right\":{\"value\":\"30px\",\"important\":false,\"unit\":\"px\"},\"margin-bottom\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"margin-left\":{\"value\":\"30px\",\"important\":false,\"unit\":\"px\"},\"border-style\":{\"value\":\"solid\",\"important\":false},\"border-top-width\":{\"value\":\"1px\",\"important\":false,\"unit\":\"px\"},\"border-color\":{\"value\":\"#E3E5E7\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-3dfe84fa .kata-plus-cart-wrap .woocommerce-mini-cart__total.total\"}}}"
+							},
+							"styler_cart_subtotal_text": {
+								"cid": "da1897ea0673820f3e2628bb58ed6bf3",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"color\":{\"value\":\"#959CA7\",\"important\":false},\"font-size\":{\"value\":\"15px\",\"important\":false,\"unit\":\"px\"},\"font-weight\":{\"value\":\"400\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-3dfe84fa .kata-plus-cart-wrap .total strong\"}}}"
+							},
+							"styler_cart_subtotal_price": {
+								"cid": "836589b8fe013e2d0bf22d3766ab8ae7",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"color\":{\"value\":\"#1D2834\",\"important\":false},\"font-size\":{\"value\":\"15px\",\"important\":false,\"unit\":\"px\"},\"font-weight\":{\"value\":\"400\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-3dfe84fa .kata-plus-cart-wrap .total span\"}}}"
+							},
+							"styler_cart_buttons_wrap": {
+								"cid": "8d80e7a2912533886e3db2f0b7be66af",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"padding-top\":{\"value\":\"0px\",\"important\":false,\"unit\":\"px\"},\"padding-right\":{\"value\":\"30px\",\"important\":false,\"unit\":\"px\"},\"padding-bottom\":{\"value\":\"20px\",\"important\":false,\"unit\":\"px\"},\"padding-left\":{\"value\":\"30px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-3dfe84fa .kata-plus-cart-wrap .buttons\"}}}"
+							}
+						},
+						"elements": [],
+						"isInner": false,
+						"widgetType": "kata-plus-cart",
+						"elType": "widget"
+					},
+					{
+						"id": "1db25739",
+						"settings": {
+							"template": "Responsive menu",
+							"styler_open_icon": {
+								"cid": "6293a76eb83df0be5ba88d86e2203f71",
+								"stdata": "{\"desktop\":{\"normal\":{\"data\":{\"font-size\":{\"value\":\"25px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-298f5590 .kata-plus-hamburger-menu > .icons-wrap .open-icon\"},\"hover\":{\"data\":{\"fill\":{\"value\":\"#4BBDC2\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-298f5590 .kata-plus-hamburger-menu > .icons-wrap .open-icon:hover\"}},\"tablet\":{\"normal\":{\"data\":{\"font-size\":{\"value\":\"26px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-298f5590 .kata-plus-hamburger-menu > .icons-wrap .open-icon\"}},\"tabletlandscape\":{\"normal\":{\"data\":{\"font-size\":{\"value\":\"32px\",\"important\":false,\"unit\":\"px\"},\"fill\":{\"value\":\"#4C5765\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-298f5590 .kata-plus-hamburger-menu > .icons-wrap .open-icon\"}}}"
+							},
+							"styler_wrapper": {
+								"cid": "8b820d763620ade6abe31fb783895ef2",
+								"stdata": "{\"tablet\":{\"normal\":{\"data\":{\"padding-top\":{\"value\":\"4px\",\"important\":false,\"unit\":\"px\"},\"padding-right\":{\"value\":\"6px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-298f5590 .kata-plus-hamburger-menu\"}},\"tabletlandscape\":{\"normal\":{\"data\":{\"margin-left\":{\"value\":\"30px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-298f5590 .kata-plus-hamburger-menu\"}}}"
+							},
+							"open_icon": "linea/menu-open",
+							"styler_close_icon": {
+								"cid": "709a879d57c75ba93a0db923b3e895a1",
+								"stdata": "{\"tabletlandscape\":{\"normal\":{\"data\":{\"fill\":{\"value\":\"#4C5765\",\"important\":false}},\"selector\":\".elementor-element.elementor-element-298f5590 .kata-plus-hamburger-menu > .icons-wrap .close-icon\"}},\"desktop\":{\"normal\":{\"data\":{\"font-size\":{\"value\":\"24px\",\"important\":false,\"unit\":\"px\"},\"top\":{\"value\":\"12px\",\"important\":false,\"unit\":\"px\"},\"right\":{\"value\":\"12px\",\"important\":false,\"unit\":\"px\"}},\"selector\":\".elementor-element.elementor-element-298f5590 .kata-plus-hamburger-menu > .icons-wrap .close-icon\"}}}"
+							},
+							"_element_custom_width": {
+								"unit": "px",
+								"size": "",
+								"sizes": []
+							}
+						},
+						"elements": [],
+						"isInner": false,
+						"widgetType": "kata-plus-hamburger-menu",
+						"elType": "widget"
+					}
+				],
+				"isInner": false,
+				"elType": "column"
+			}
+		],
+		"isInner": false,
+		"elType": "section"
+	}
+]

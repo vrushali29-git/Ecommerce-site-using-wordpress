@@ -1,0 +1,32 @@
+/**
+ * Kata Fast Mode styles step 7.
+ *
+ * @author  ClimaxThemes
+ * @package Kata Plus
+ * @since   1.0.0
+ */
+
+ .kt-fst-mod-footer-area .prev-step {
+    float: right;
+    margin-left: 0;
+    margin-right: 80px;
+}
+
+.kt-fst-mod-footer-area .next-step {
+    float: left;
+    margin-right: 0;
+    margin-left: 80px;
+}
+
+.kt-fst-mod-footer-area .next-step .kata-icon {
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 5px;
+    transform: rotate(180deg);
+}
+
+.kt-fst-mod-footer-area .prev-step .kata-icon {
+    display: inline-block;
+    margin-left: 5px;
+    transform: rotate(180deg);
+}

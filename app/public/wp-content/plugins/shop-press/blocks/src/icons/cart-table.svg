@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="block-icon" width="34.773" height="32.193" viewBox="0 0 34.773 32.193">
+  <g id="Group_65491" data-name="Group 65491" transform="translate(-2366.998 -258.958)">
+    <g id="Group_64613" data-name="Group 64613" transform="translate(2319 224.991)">
+      <line id="Line_679" data-name="Line 679" x2="2.005" y2="6.2" transform="translate(66.924 44.332)" fill="none" stroke="#837af5" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_680" data-name="Line 680" x2="2.005" y2="6.2" transform="translate(72.247 44.332)" fill="none" stroke="#837af5" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_681" data-name="Line 681" x2="2.005" y2="6.201" transform="translate(61.601 44.329)" fill="none" stroke="#837af5" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_1612" data-name="Path 1612" d="M1473.59,515.649l-1.09-2.849a2.629,2.629,0,0,0-2.458-1.695h-1.425" transform="translate(-1419.619 -476.138)" fill="none" stroke="#b3b7c0" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <g id="Ellipse_77" data-name="Ellipse 77" transform="translate(62.329 62.174)" fill="none" stroke="#b3b7c0" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2">
+        <circle cx="0.993" cy="0.993" r="0.993" stroke="none"/>
+        <circle cx="0.993" cy="0.993" r="1.993" fill="none"/>
+      </g>
+      <g id="Ellipse_78" data-name="Ellipse 78" transform="translate(70.923 62.174)" fill="none" stroke="#b3b7c0" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2">
+        <circle cx="0.993" cy="0.993" r="0.993" stroke="none"/>
+        <circle cx="0.993" cy="0.993" r="1.993" fill="none"/>
+      </g>
+      <path id="Path_1613" data-name="Path 1613" d="M1499.13,529.112l3.048-8.913a2.633,2.633,0,0,0-2.506-3.439h-25.135l4.664,14.023a3.6,3.6,0,0,0,3.416,2.472h14.394" transform="translate(-1420.55 -477.034)" fill="none" stroke="#b3b7c0" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <circle id="Ellipse_295" data-name="Ellipse 295" cx="1.228" cy="1.228" r="1.228" transform="translate(75.411 43.178)" fill="#837af5"/>
+    </g>
+  </g>
+</svg>

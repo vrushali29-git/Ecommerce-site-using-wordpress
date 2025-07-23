@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "shop-press/product-wishlist",
+	"version": "1.0.0",
+	"title": "Wishlist Button",
+	"category": "sp-product-single",
+
+	"description": "",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "shop-press",
+	"editorScript": "file:./index.js",
+	"render": "file:./render.php",
+	"attributes": {
+		"type": {
+			"type": "string",
+			"default": "icon-label"
+		},
+		"icon": {
+			"type": "object"
+		},
+		"wrapperID": {
+			"type": "string",
+			"default": ""
+		},
+		"styler": {
+			"type": "string",
+			"default": "{}"
+		}
+	}
+}

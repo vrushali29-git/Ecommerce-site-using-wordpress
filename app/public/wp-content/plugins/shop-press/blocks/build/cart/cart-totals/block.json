@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "shop-press/cart-totals",
+  "version": "1.0.0",
+  "title": "Cart Totals",
+  "category": "sp_woo_cart",
+  "description": "",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "shop-press",
+  "editorScript": "file:./index.js",
+  "render": "file:./render.php",
+  "attributes": {
+    "header_text": {
+      "type": "string",
+      "default": "Summary"
+    },
+    "is_open_shipping_box": {
+      "type": "boolean",
+      "default": true
+    },
+    "wrapperID": {
+      "type": "string",
+      "default": ""
+    },
+    "styler": {
+      "type": "string",
+      "default": "{}"
+    }
+  }
+}

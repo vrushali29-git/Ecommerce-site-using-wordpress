@@ -1,0 +1,41 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "shop-press/loop-quick-view",
+	"version": "1.0.0",
+	"title": "Loop quick view",
+	"category": "sp_woo_loop",
+
+	"description": "",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "shop-press",
+	"editorScript": "file:./index.js",
+	"render": "file:./render.php",
+	"attributes": {
+		"label": {
+			"type": "string",
+			"default": "Quick View"
+		},
+		"overlay": {
+			"type": "boolean",
+			"default": false
+		},
+		"icon": {
+			"type": "object"
+		},
+		"icon_pos": {
+			"type": "string",
+			"default": "left"
+		},
+		"wrapperID": {
+			"type": "string",
+			"default": ""
+		},
+		"styler": {
+			"type": "string",
+			"default": "{}"
+		}
+	}
+}

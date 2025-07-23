@@ -1,0 +1,31 @@
+.search-page-1 {    
+    width: 100%;
+}
+
+.search-page-2 {
+    max-width: calc(50% - 15px);        
+}
+
+.search-page-3 {
+    max-width: calc(33% - 15px);    
+}
+
+.search-page-4 {
+    max-width: calc(25% - 15px);    
+}
+
+.search-page-5 {
+    max-width: calc(20% - 15px);    
+}
+
+.search-page-6 {
+    max-width: calc(16% - 15px);   
+}
+
+.search-page-result {
+    margin-right: 15px;
+}
+
+.search-page-result .title {
+    margin: 10px 0;
+}

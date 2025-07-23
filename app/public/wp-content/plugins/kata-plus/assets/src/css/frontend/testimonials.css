@@ -1,0 +1,55 @@
+/* default style */
+.kata-plus-testimonial {
+	border: 1px solid #e5e6e7;
+	padding: 60px 40px;
+	border-radius: 2px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+	margin-bottom: 10px;
+	margin-top: 10px;
+	background: #fff;
+}
+
+.kata-plus-testimonial .kata-plus-img-wrap {
+	margin-bottom: 25px;
+}
+
+.kata-plus-testimonial .kata-plus-img-wrap i {
+	font-size: 100%;
+}
+
+.kata-plus-testimonial .kata-plus-img-wrap .kata-plus-icon {
+	text-align: center;
+	display: inline-block;
+	font-size: 25px;
+}
+
+.kata-plus-testimonial .kata-plus-img-wrap .kata-plus-icon i {
+	vertical-align: middle;
+	height: 100%;
+}
+
+.kata-plus-testimonial .kata-plus-cnt-wrap {
+	font-size: 16px;
+	line-height: 1.5;
+	color: #919293;
+}
+
+.kata-plus-testimonial .kata-plus-name-wrap {
+	font-size: 23px;
+	color: var(--ct-base-color);
+	margin-bottom: 15px;
+	text-transform: capitalize;
+	letter-spacing: 0.4px;
+	font-weight: 700;
+}
+
+.kata-plus-testimonial .kata-plus-date-wrap {
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+.kata-plus-testimonial .kata-plus-pos-wrap,
+.kata-plus-testimonial .kata-plus-date-wrap {
+	color: #b1b2b3;
+	font-size: 17px;
+}

@@ -1,0 +1,78 @@
+.woocommerce.woocommerce-checkout form #order_review td.product-name,
+.woocommerce-page.woocommerce-checkout form #order_review td.product-name {
+	display: table-cell;
+}
+
+#order_review {
+	border-top: 2px solid var(--ast-border-color) !important;
+}
+
+.woocommerce input#coupon_code {
+	border-color: var(--ast-border-color);
+}
+
+.theme-astra .sp-order-bump:not(:empty) {
+	border-radius: 0;
+	border: 2px solid var(--ast-border-color);
+}
+
+
+.theme-astra .sp-order-bump:not(:empty).sp-order-bump-woocommerce_checkout_before_order_review,
+.theme-astra .sp-order-bump:not(:empty).sp-order-bump-woocommerce_checkout_after_order_review {
+	margin: 0;
+}
+
+.theme-astra .sp-order-bump:not(:empty).sp-order-bump-woocommerce_checkout_before_order_review {
+	border-bottom: none;
+}
+
+.theme-astra .sp-order-bump:not(:empty).sp-order-bump-woocommerce_checkout_after_order_review {
+	border-top: none;
+}
+
+@media (min-width: 922px) {
+
+	.theme-astra .sp-order-bump:not(:empty).sp-order-bump-woocommerce_checkout_before_order_review,
+	.theme-astra .sp-order-bump:not(:empty).sp-order-bump-woocommerce_checkout_after_order_review {
+		width: 40%;
+		float: right;
+	}
+}
+
+@media (min-width: 922px) {
+	.rtl.theme-astra .sp-order-bump:not(:empty).sp-order-bump-woocommerce_checkout_before_order_review,
+	.rtl.theme-astra .sp-order-bump:not(:empty).sp-order-bump-woocommerce_checkout_after_order_review {
+		float: left;
+	}
+}
+
+
+/* Shopify Checkout */
+.sp-shopify-checkout-form .ast-modern-checkout .woocommerce #payment ul.payment_methods div.payment_box {
+    padding: 10px 15px;
+}
+
+.sp-shopify-checkout-form .wc_payment_methods p {
+    margin: 10px 0 !important;
+}
+
+.sp-shopify-checkout-form a.about_paypal {
+    line-height: normal !important;
+}
+
+.sp-shopify-checkout-form p#ast-coupon-trigger {
+    display: block;
+}
+
+.sp-shopify-checkout-form .ast-back-to-cart {
+    display: none;
+}
+
+.sp-shopify-checkout-form .woocommerce-billing-fields h2.title-section {
+    display: none;
+}
+
+.sp-shopify-checkout-form span.woocommerce-terms-and-conditions-checkbox-text {
+    padding-top: 10px;
+    display: inline-block;
+}

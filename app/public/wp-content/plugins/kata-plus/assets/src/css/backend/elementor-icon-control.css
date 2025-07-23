@@ -1,0 +1,1067 @@
+/**
+ * Kata Icon Manager styles.
+ *
+ * @author  ClimaxThemes
+ * @package Kata Plus
+ * @since   1.0.0
+ */
+
+.kata-remove-icon,
+a.kata-open-icons-dialog-btn {
+	box-sizing: border-box;
+	float: right;
+	display: inline-block;
+	background-color: #fff;
+	background: linear-gradient(0deg, #f3f4f5 0, #fff 55%, #fff 100%);
+	padding: 1px 15px 0;
+	color: #5d6267 !important;
+	border: 1px solid #d5dadf !important;
+	border-radius: 4px;
+	margin-right: 1px;
+	font-size: 11px !important;
+	font-weight: 500 !important;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.035), inset 0 0 0 1px #fff;
+	transition: all 0.2s ease;
+	height: 33px;
+	line-height: 31px;
+}
+
+a.kata-open-icons-dialog-btn:hover {
+	border: 1px solid #bfbffb !important;
+}
+
+a.kata-open-icons-dialog-btn {
+	text-decoration: none;
+}
+
+.elementor-control-type-kata_plus_icons .elementor-control-input-wrapper {
+	position: relative;
+}
+
+.elementor-control-type-kata_plus_icons .kata-remove-icon {
+	clear: right;
+	position: absolute;
+	left: -10px;
+	top: -8px;
+	width: 18px;
+	height: 18px;
+	padding: 0 0 0 1px;
+	text-align: center;
+	font-size: 9px !important;
+	color: #fff !important;
+	line-height: 18px;
+	border: none !important;
+	border-radius: 40px;
+	background: #ed5252;
+	box-shadow: 0 1px 10px -4px #ff181826;
+	margin-left: 0;
+}
+
+.kata-menu-icon-field label {
+	position: relative;
+	display: inline-block;
+}
+
+.kata-menu-icon-field label .kata-remove-icon {
+	margin: 0;
+	left: 100%;
+	top: 10px;
+	padding: 10px 0 0;
+	width: 33px;
+	height: 33px;
+	text-align: center;
+	margin-right: 5px;
+}
+
+.kata-menu-icon-field label .kata-remove-icon i {
+	display: inline-block;
+	text-align: center;
+}
+
+.kata-remove-icon:hover,
+a.kata-open-icons-dialog-btn:hover {
+	background-color: #222;
+}
+
+.kata-icon-control + img {
+	box-sizing: border-box;
+	float: left;
+	display: inline-block;
+	padding: 2px 3px 1px;
+	border-radius: 4px;
+	border: 1px solid #bfbffb !important;
+	background: #fff;
+	box-shadow: 0 1px 6px -3px #bfbffb;
+	transition: all 0.2s ease;
+	margin-right: 4px;
+	width: 40px !important;
+	height: 33px !important;
+	max-height: none !important;
+}
+
+.kata-dialog,
+.kata-icon-control + img[src=""],
+.kata-icon-control + img[src=""] + a + a {
+	display: none;
+}
+
+.kata-menu-icon-field .kata-remove-icon,
+.kata-menu-icon-field a.kata-open-icons-dialog-btn {
+	box-sizing: border-box;
+	line-height: 1;
+	padding: 9px 10px;
+}
+
+.kata-dialog,
+.kata-dialog *,
+.kata-dialog ::after,
+.kata-dialog ::before,
+.kata-dialog::after,
+.kata-dialog::before {
+	box-sizing: border-box;
+}
+
+.kata-dialog {
+	font-family: inherit;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-left: -450px;
+	margin-top: -276px;
+	z-index: 999999 !important;
+	background: #fff;
+	width: 630px;
+	border: 1px solid #ced4dc;
+	border-bottom-width: 6px;
+	border-radius: 4px;
+	box-shadow: 0 3px 30px -2px rgba(0, 0, 0, 0.2);
+}
+
+.kata-dialog .kata-dialog-header {
+	position: relative;
+	font-size: 17px;
+	font-family: inherit;
+	line-height: 1;
+	outline: 0;
+	padding: 15px 20px;
+	letter-spacing: 0.4px;
+	height: 48px;
+	cursor: move;
+	color: #fff;
+	background-color: #000;
+	border-radius: 4px 4px 0 0;
+	margin: -1px;
+	z-index: 997;
+}
+
+.kata-dialog .kata-dialog-close-btn {
+	cursor: pointer;
+	color: rgba(255, 255, 255, 0.5);
+	position: absolute;
+	top: calc(50% - 8px);
+	right: 11px;
+}
+
+.kata-dialog .kata-dialog-close-btn:hover {
+	color: red;
+}
+
+.kata-dialog .kata-dialog-close-btn i {
+	font-size: 14px;
+	font-weight: 100;
+	padding: 5px;
+}
+
+.kata-dialog .kata-dialog-body {
+	padding: 18px 10px 15px 20px;
+	height: 494px;
+	display: block;
+	position: relative;
+	overflow-x: hidden;
+}
+
+.kata-search-icons input {
+	line-height: 40px;
+	font-family: inherit;
+	font-size: 14px;
+	margin: 5px 2px 12px 1px;
+	border-radius: 4px;
+	padding-left: 15px;
+	background: #fff;
+	width: 98%;
+	border: 1px solid #e3e4e5;
+	box-shadow: 1px 1px 2px #00000008 inset;
+}
+
+.kata-search-icons input:focus {
+	background-color: #fff;
+}
+
+ul.kata-filter-icons {
+	margin: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 0 0 0 20px;
+	background-color: #f9fafb;
+	border-bottom: 1px solid #e1e2e3;
+}
+
+ul.kata-filter-icons li {
+	float: left;
+	display: block;
+	margin-bottom: -1px !important;
+}
+
+ul.kata-filter-icons li[data-name="uploaded-icons"] {
+	float: right;
+	padding-right: 5px;
+	position: relative;
+}
+
+ul.kata-filter-icons li a {
+	display: block;
+	color: #869099;
+	padding: 15px 12px;
+	margin: 0;
+	border-radius: 3px;
+	font-size: 11px;
+	font-family: inherit;
+	font-weight: 500;
+	letter-spacing: 0.3px;
+	border-right: 1px solid #f9fafb;
+	border-left: 1px solid #f9fafb;
+	text-decoration: none;
+	transition: all 0.2s ease;
+}
+
+ul.kata-filter-icons li a:hover {
+	color: #000;
+}
+
+ul.kata-filter-icons li.active a {
+	color: #000;
+	background: #fff;
+	position: relative;
+	border-bottom: 0;
+	border-radius: 0;
+	border-top: 0;
+	border-color: #dfe3e6;
+	padding-bottom: 14px;
+}
+
+ul.kata-filter-icons li.active a:after,
+ul.kata-filter-icons li.active a:before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 50%;
+	margin-left: -5px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 5px;
+	z-index: 98;
+}
+
+ul.kata-filter-icons li.active a:before {
+	bottom: -11px;
+	border-color: #d4d9dc transparent transparent;
+}
+
+ul.kata-filter-icons li.active a:after {
+	bottom: -10px;
+	border-color: #fff transparent transparent;
+}
+
+.icons-wrap {
+	transition: opacity 0.3s ease;
+}
+
+.icons-wrap.deactivated:not(.search-resaul),
+.search-result.icons-wrap {
+	opacity: 0;
+}
+
+.search-result.icons-wrap.activated {
+	opacity: 1;
+}
+
+ul.kata-icons {
+	overflow: hidden;
+	margin-top: 40px;
+}
+
+ul.kata-icons li {
+	float: left;
+	margin-bottom: 0;
+}
+
+ul.kata-icons .icons-wrap .icon-pack-wrap {
+	margin: 0;
+}
+
+.section.icon-pack-section li,
+ul.kata-icons .icons-wrap li {
+	border-radius: 4px;
+	height: 61px;
+	margin: 5px;
+}
+
+ul.kata-icons .icons-wrap li {
+	padding: 0;
+	width: 64px;
+	line-height: 54px;
+	background: #fff;
+	text-align: center;
+	transition: all 0.22s ease;
+}
+
+ul.kata-icons .icons-wrap li:hover {
+	box-shadow: 0 0 0 1px #e7e8e9, 0 1px 4px rgba(38, 43, 47, 0.05);
+}
+
+ul.kata-icons input[type="radio"] {
+	display: none;
+}
+
+.kata-filter-icons .more-menu-btn i {
+	position: relative;
+	top: 4px;
+}
+
+ul.kata-icons label {
+	display: block;
+	width: 100%;
+	height: 61px;
+	cursor: pointer;
+	padding: 10px 0 0;
+	border: 1px solid transparent;
+	color: #72777d;
+}
+
+ul.kata-icons i {
+	display: inline-block;
+	font-size: 20px;
+}
+
+ul.kata-icons label:hover {
+	color: #403cf2;
+}
+
+ul.kata-icons input:checked + label,
+ul.kata-icons input[checked="checked"] + label {
+	border-radius: 4px;
+	background: #bfbffb1c;
+	box-shadow: 0 0 0 1px #bfbffb, 0 1px 4px -2px #bfbffb;
+}
+
+ul.kata-icons li img {
+	width: 30px !important;
+	height: 28px;
+	opacity: 0;
+	transition: all 0.22s ease;
+}
+
+ul.kata-icons li img.kata-loaded {
+	opacity: 0.5;
+}
+
+ul.kata-icons .icons-wrap li input:checked + label img,
+ul.kata-icons .icons-wrap li:hover img.kata-loaded {
+	opacity: 1;
+}
+
+.kata-icons-dialog .management-btn {
+	position: absolute;
+	top: 9px;
+	right: 45px;
+	color: #ffffffe0;
+	opacity: 1;
+	float: right;
+	height: 20px;
+	line-height: 21px;
+	text-align: center;
+	cursor: pointer;
+	border-right: solid 1px #ffffff66;
+	font-size: 12px;
+	font-weight: 500;
+	border-radius: 0;
+	margin-top: 5px;
+	transition: all 0.2s ease;
+	padding-right: 15px;
+}
+
+.kata-icons-dialog .management-btn.active:hover,
+.kata-icons-dialog .management-btn:hover {
+	color: #fff;
+}
+
+.kata-icons-dialog .management-btn:before {
+	content: "\e61a";
+	font-size: 10px;
+	display: inline-block;
+	line-height: 1;
+	margin-right: 5px;
+	font-family: themify;
+	speak: none;
+	font-style: normal;
+	font-weight: 400;
+	vertical-align: middle;
+}
+
+.kata-icons-dialog .management-btn.active:before {
+	content: "\e629";
+}
+
+.kata-icons-dialog .section.management-section {
+	margin-bottom: 20px;
+	position: relative;
+	display: block;
+	clear: both;
+}
+
+.kata-icons-dialog .icons-management-area {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	background: #fff;
+	width: 100%;
+	min-height: 100%;
+	height: 100%;
+	transition: 0.2s;
+	z-index: 98;
+	overflow: hidden;
+	overflow-y: scroll;
+	font-family: Inter, sans-serif;
+}
+
+.kata-icons-dialog .icons-management-area.hidden {
+	display: block;
+	position: relative;
+	height: auto;
+}
+
+.kata-icons-dialog .icons-management-area .sections {
+	position: relative;
+	display: block;
+	padding: 20px;
+	width: 100%;
+	min-height: 100%;
+}
+
+.kata-icons-dialog ul.kata-icon-packs-list li {
+	display: inline-block;
+	position: relative;
+	line-height: 2;
+	direction: ltr;
+	color: #ddd;
+	background-color: #fff;
+	border-radius: 4px;
+	padding: 16px 20px;
+	margin-bottom: 10px;
+	border: 1px solid #e3e5e7;
+	box-sizing: border-box;
+	box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.04);
+	width: calc(50% - 20px);
+	margin-right: 15px;
+	text-align: left;
+	transition: all 0.2s ease;
+}
+
+.kata-icons-dialog ul.kata-icon-packs-list li:hover {
+	box-shadow: 0 1px 4px -1px rgba(0, 0, 0, 0.05);
+}
+
+.kata-icons-dialog ul.kata-icon-packs-list li > a {
+	color: #7e8e9c;
+	font-weight: 400;
+	transition: all 0.2s ease;
+}
+
+.kata-icons-dialog ul.kata-icon-packs-list li.icon-pack-wrapper.active {
+	border-color: #bab7ff;
+}
+
+.kata-icons-dialog ul.kata-icon-packs-list li .buttons-wrap {
+	position: absolute;
+	right: 0;
+	top: 0;
+	line-height: 2;
+	padding: 16px 20px;
+}
+
+.kata-icons-dialog ul.kata-icon-packs-list:after {
+	content: "";
+	width: 100%;
+	height: 1px;
+	display: block;
+	position: relative;
+	clear: both;
+}
+
+.kata-icons-dialog ul.kata-icon-packs-list {
+	width: calc(100% + 15px);
+	display: block;
+	position: relative;
+	height: auto;
+	clear: both;
+}
+
+.kata-icons-dialog
+	ul.kata-icon-packs-list
+	li
+	.buttons-wrap
+	span.delete-icon-pack,
+.kata-icons-dialog
+	ul.kata-icon-packs-list
+	li
+	.buttons-wrap
+	span.edit-icon-pack {
+	padding: 0 5px 4px;
+	cursor: pointer;
+	font-size: 0;
+	position: absolute;
+	right: 8px;
+	top: 12px;
+	color: #c7cbd2;
+	transition: all 0.17s ease;
+}
+
+.kata-icons-dialog
+	ul.kata-icon-packs-list
+	li
+	.buttons-wrap
+	span.edit-icon-pack {
+	right: 40px;
+	top: 14px;
+}
+
+.kata-icons-dialog
+	ul.kata-icon-packs-list
+	li
+	.buttons-wrap
+	span.edit-icon-pack:hover {
+	color: #403cf2;
+	font-size: 13px;
+}
+
+.kata-icons-dialog
+	ul.kata-icon-packs-list
+	li
+	.buttons-wrap
+	span.delete-icon-pack:hover {
+	color: #fc5568;
+}
+
+.kata-icons-dialog
+	ul.kata-icon-packs-list
+	li
+	.buttons-wrap
+	span.delete-icon-pack:before,
+.kata-icons-dialog
+	ul.kata-icon-packs-list
+	li
+	.buttons-wrap
+	span.edit-icon-pack:before {
+	content: "\e61d";
+	font-family: themify;
+	font-size: 17px;
+	font-weight: 400;
+	display: inline;
+	vertical-align: baseline;
+	margin-right: 5px;
+}
+
+.kata-icons-dialog
+	ul.kata-icon-packs-list
+	li
+	.buttons-wrap
+	span.delete-icon-pack:before {
+	content: "\e605";
+	font-size: 19px;
+}
+
+.section.icon-pack-section {
+	position: relative;
+	display: block;
+	height: auto;
+	list-style: none;
+	padding-top: 30px;
+}
+
+.section.icon-pack-section ul.active:after {
+	content: "";
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 2px;
+	clear: both;
+}
+
+.section.icon-pack-section li label {
+	display: block;
+	width: 100%;
+	height: 61px;
+	cursor: pointer;
+	padding: 10px 0 0;
+	border: 1px solid transparent;
+	color: #72777d;
+}
+
+.section.icon-pack-section li img.kata-loaded {
+	opacity: 0.6;
+}
+
+.section.icon-pack-section li input:checked + label,
+.section.icon-pack-section li input[checked="checked"] + label {
+	border-radius: 4px;
+	border: 1px solid #bfbffb;
+	background: #eef;
+	box-shadow: 0 1px 12px -3px #bfbffb;
+	color: #403cf2;
+}
+
+.section.icon-pack-section li {
+	padding: 0;
+	width: 67px;
+	line-height: 54px;
+	background: #fff;
+	text-align: center;
+	float: left;
+	transition: all 0.22s ease;
+	position: relative;
+}
+
+.section.icon-pack-section li img {
+	opacity: 0;
+	transition: all 0.22s ease;
+	height: 40px;
+}
+
+.section.icon-pack-section li input {
+	display: none;
+}
+
+.icons-management-area:not(.hidden) .section.icon-pack-section .icon-pack-wrap,
+.icons-management-area:not(.hidden)
+	.section.icon-pack-section
+	.icon-pack-wrap:not(.active) {
+	display: none !important;
+}
+
+.icons-management-area:not(.hidden)
+	.section.icon-pack-section
+	.icon-pack-wrap.active {
+	display: block !important;
+}
+
+.kata-icons-dialog ul.kata-icon-packs-menu {
+	position: absolute;
+	bottom: 100%;
+	width: 120px;
+	background-color: #f9fafb;
+	padding: 0 0 1px;
+	cursor: default;
+	z-index: 10000;
+	display: none;
+	height: max-content;
+	right: 3px;
+	top: 40px;
+	margin: 0;
+	opacity: 1;
+	border: 1px solid #d4d9dc;
+	border-radius: 0 0 3px 3px;
+	color: #717a82;
+	box-shadow: 0 2px 8px rgba(43, 51, 60, 0.1);
+	box-sizing: content-box;
+}
+
+.kata-icons-dialog ul.kata-icon-packs-menu:after,
+.kata-icons-dialog ul.kata-icon-packs-menu:before {
+	content: "";
+	display: block;
+	position: absolute;
+	right: 12px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 5px;
+	z-index: 98;
+	bottom: auto;
+	top: -10px;
+}
+
+.kata-icons-dialog ul.kata-icon-packs-menu:before {
+	top: -11px;
+	border-color: transparent transparent #d4d9dc;
+}
+
+.kata-icons-dialog ul.kata-icon-packs-menu:after {
+	bottom: -10px;
+	border-color: transparent transparent #f9fafb;
+}
+
+.kata-icons-dialog ul.kata-icon-packs-menu.active {
+	display: block;
+}
+
+.kata-icons-dialog li[data-name="uploaded-icons"] .more-menu-btn {
+	padding: 6px 0;
+	cursor: pointer;
+	font-size: 11px;
+}
+
+.kata-icons-dialog li[data-name="uploaded-icons"] .more-menu-btn:hover {
+	color: #403cf2;
+}
+
+.kata-icons-dialog ul.kata-icon-packs-menu li {
+	position: relative;
+	display: block;
+	clear: both;
+	line-height: 1.1;
+	width: 100%;
+	text-align: left;
+}
+
+.kata-icons-dialog ul.kata-icon-packs-menu li.active a {
+	width: 100%;
+	color: #403cf2;
+	box-shadow: none;
+	font-weight: bolder;
+	border: none;
+	background: #fff;
+}
+
+.kata-icons-dialog ul.kata-icon-packs-menu li:last-child a {
+	border-radius: 0 0 3px 3px;
+}
+
+.kata-icons-dialog ul.kata-icon-packs-menu li.active a:after,
+.kata-icons-dialog ul.kata-icon-packs-menu li.active a:before {
+	display: none;
+}
+
+.kata-icons-dialog .section.management-section .kata-back-wrap {
+	position: relative;
+	display: inline-block;
+	height: 45px;
+	padding-left: 5px;
+}
+
+.kata-icons-dialog .section.management-section .kata-new-pack-wrap {
+	position: relative;
+	display: inline-block;
+	height: 30px;
+	padding-left: 5px;
+}
+
+.kata-icons-dialog .kata-new-pack-form-wrap .kata-new-pack-back-step,
+.kata-icons-dialog .kata-new-pack-form-wrap .kata-new-pack-next-step,
+.kata-icons-dialog .section.management-section .kata-back-wrap a,
+.kata-icons-dialog .section.management-section .kata-new-pack-wrap a {
+	font-size: 12px;
+	line-height: 1;
+	font-weight: 500;
+	padding: 8px 15px 9px 12px;
+	border-radius: 22px;
+	border: 1px solid #d0ceff;
+	background-color: #fff;
+	color: #403cf2;
+	margin: 1px 5px 5px 0;
+	display: inline-block;
+	transition: all 0.2s ease;
+}
+
+.kata-icons-dialog .section.management-section .kata-new-pack-wrap a:hover {
+	background-color: #fff;
+}
+
+.kata-icons-dialog .section.management-section .kata-back-wrap a:before,
+.kata-icons-dialog .section.management-section .kata-new-pack-wrap a:before {
+	content: "\e61a";
+	background-color: #fff;
+	font-size: 8px;
+	padding: 4px 4px 0;
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	line-height: 1;
+	border-radius: 33px;
+	border: 1px solid #b8b5f0;
+	margin-right: 6px;
+	font-family: themify;
+	speak: none;
+	font-style: normal;
+	font-weight: 400;
+	vertical-align: baseline;
+}
+
+.kata-icons-dialog .section.management-section .kata-back-wrap a {
+	color: #8e8da1;
+	border-color: transparent;
+}
+
+.kata-icons-dialog .section.management-section .kata-back-wrap a:before {
+	content: "\e629";
+}
+
+.kata-icons-dialog .section.management-section .kata-back-wrap a:hover {
+	color: #403cf2;
+}
+
+.section.icon-pack-section li span.remove-icon {
+	position: absolute;
+	left: auto;
+	right: -3px;
+	top: -6px;
+	display: inline-block;
+	cursor: pointer;
+	z-index: 99999;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	padding: 0 1px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	border-radius: 40px;
+	background-color: #ff1818;
+	background: linear-gradient(10deg, #ff1818 0, #f94f3f 25%, #f37777 100%);
+	box-shadow: 0 1px 10px -4px #ff1818;
+	opacity: 0.8;
+	transition: all 0.3s ease;
+}
+
+.kata-icons-dialog .icons-management-area.hidden .add-new-icon-pack-section,
+.kata-icons-dialog .icons-management-area.hidden .management-section,
+.kata-icons-dialog
+	.icons-management-area.hidden
+	.section.icon-pack-section
+	.icon-pack-name,
+.kata-icons-dialog
+	.icons-management-area.hidden
+	.section.icon-pack-section
+	.save-and-close-edit-area,
+.kata-icons-dialog
+	.icons-management-area.hidden
+	.section.icon-pack-section
+	li
+	span.remove-icon {
+	display: none !important;
+}
+
+.section.icon-pack-section li span.remove-icon:hover {
+	box-shadow: 0 1px 11px -2px #ff1818;
+	opacity: 1;
+}
+
+.kata-icons-dialog .icons-management-area.hidden {
+	padding: 0;
+	margin: 0;
+	top: 0;
+	background-color: transparent;
+}
+
+.kata-icons-dialog .icons-management-area.hidden .sections {
+	padding: 0;
+	margin: 0;
+}
+
+.kata-icons-dialog .icons-management-area.hidden .section.icon-pack-section {
+	padding: inherit;
+}
+
+.kata-icons-dialog .section.add-new-icon-pack-section-modal {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.kata-icons-dialog .section.add-new-icon-pack-section {
+	display: none;
+}
+
+.kata-icons-dialog span.save-and-close-edit-area {
+	position: relative;
+	display: inline-block;
+	padding: 12px 16px;
+	color: #fff;
+	border-radius: 4px;
+	cursor: pointer;
+	font-family: inherit;
+	margin: 5px;
+	background: #4ac75a;
+	transition: all 0.2s ease;
+}
+
+.kata-icons-dialog span.save-and-close-edit-area:hover {
+	background: #31bc43;
+}
+
+.kata-icons-dialog input.icon-pack-name {
+	margin: 20px 5px 5px;
+	width: calc(100% - 10px);
+	padding: 5px 0;
+	background-color: transparent;
+	line-height: 2;
+	border-width: 1px 0 0;
+	border-radius: 0;
+	font-family: inherit;
+	font-size: 13px;
+	font-weight: 600;
+	cursor: default;
+	border-color: #e1e2e3 !important;
+}
+
+.kata-icons-dialog .icons-management-area.loading {
+	filter: blur(1px);
+	cursor: wait;
+}
+
+.kata-icons-dialog .icons-management-area.loading * {
+	pointer-events: none;
+}
+
+.kata-icons-dialog .kata-new-pack-form-wrap {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #eceef0;
+	z-index: 9999;
+	text-align: center;
+}
+
+.kata-icons-dialog .kata-new-pack-form-wrap input.kata-new-pack-name {
+	line-height: 2;
+	margin: 20% auto auto;
+	width: 80%;
+	display: block;
+	background-color: #fff;
+	font-size: 17px;
+	padding: 10px;
+	border: unset;
+	text-align: center;
+	border-radius: 4px;
+	box-shadow: 0 2px 7px rgba(0, 0, 0, 0.025);
+	font-family: inherit;
+}
+
+.kata-icons-dialog .kata-new-pack-form-wrap .kata-new-pack-back-step,
+.kata-icons-dialog .kata-new-pack-form-wrap .kata-new-pack-next-step {
+	margin: 20px 5px;
+	padding: 12px 24px;
+	font-size: 14px;
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+
+.kata-icons-dialog .kata-new-pack-form-wrap .kata-new-pack-back-step {
+	background-color: #f7f8f9;
+	border-color: #e2e3e4;
+	box-shadow: 0 2px 7px -2px rgba(0, 0, 0, 0.04);
+}
+
+.kata-icons-dialog .kata-new-pack-form-wrap .kata-new-pack-back-step:hover,
+.kata-icons-dialog .kata-new-pack-form-wrap .kata-new-pack-next-step:hover {
+	background: #fff;
+}
+
+.kata-icons-dialog .kata-new-pack-form-wrap .kata-new-pack-back-step:before,
+.kata-icons-dialog .kata-new-pack-form-wrap .kata-new-pack-next-step:after {
+	content: "\e629";
+	font-size: 12px;
+	font-family: themify;
+	speak: none;
+	font-style: normal;
+	font-weight: 400;
+	vertical-align: baseline;
+	margin: 0 8px 0 0;
+}
+
+.kata-icons-dialog .kata-new-pack-form-wrap .kata-new-pack-next-step:after {
+	content: "\e628";
+	margin: 0 0 0 8px;
+}
+
+.kata-icons-dialog .kata-new-pack-form-wrap .kata-new-pack-message {
+	position: relative;
+	display: block;
+	font-size: 15px;
+	font-weight: 700;
+	color: #ff9800;
+}
+
+.kata-icons-dialog .add-new-icon-pack-modal-section.hidden {
+	display: none;
+}
+
+.kata-icons-dialog li.hidden {
+	display: none !important;
+}
+
+.section.icon-pack-section li svg {
+	width: 33px;
+	height: auto;
+	max-height: 33px;
+	fill: grey;
+}
+
+.add-new-icon-pack-section .drag-drop #drag-drop-area {
+	border: 2px dashed #d9dcdf;
+	border-radius: 4px;
+	margin: 0 5px;
+	height: 160px;
+}
+
+.add-new-icon-pack-section .drag-drop-buttons input#plupload-browse-button {
+	min-width: 10px;
+	min-height: 32px;
+	line-height: 30px;
+	width: auto;
+	font-family: inherit;
+	padding: 0 15px;
+	margin: 0 0 5px;
+	letter-spacing: 0.3px;
+	border-radius: 3px;
+	border-color: #d5dadf;
+	background: #f7f8f9;
+	box-shadow: 0 2px 6px -3px rgba(0, 0, 0, 0.1);
+	transition: all 0.22s;
+}
+
+.add-new-icon-pack-section
+	.drag-drop-buttons
+	input#plupload-browse-button:hover {
+	background-color: #fff;
+	cursor: pointer;
+}
+
+.add-new-icon-pack-section .drag-drop .drag-drop-inside p.allowed-files {
+	font-size: 11px;
+	line-height: 1;
+	margin: 20px 0;
+	font-weight: 300;
+	color: #a7a8a9;
+}
+
+.add-new-icon-pack-section .drag-drop .drag-drop-inside {
+	margin: 20px auto 0;
+	width: 340px;
+}
+
+.kata-new-pack-form-wrap .kata-plus-elementor-error {
+	width: 80%;
+	margin: 15px auto 0;
+}
+
+.add-new-icon-pack-modal-section[style="display: block;"] .hidden {
+	display: block;
+}

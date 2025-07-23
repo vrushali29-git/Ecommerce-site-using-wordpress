@@ -1,0 +1,63 @@
+.sp-mobile-panel {
+	display: flex;
+	justify-content: space-around;
+	position: fixed;
+	bottom: 0;
+	background-color: #fff;
+	border-top: 1px solid #e5e5e5;
+	padding: 7px 0;
+	z-index: 999999;
+	width: 100%;
+	text-align: center;
+	height: 52px;
+}
+
+.sp-mobile-panel a {
+	display: block;
+	text-decoration: none;
+	position: relative;
+}
+
+.sp-mobile-panel a span {
+	position: absolute;
+	top: -2px;
+	right: -5px;
+	width: 14px;
+	height: 14px;
+	font-family: var(--ct-font-primary);
+	font-size: 7px;
+	font-weight: 400;
+	line-height: 14px;
+	color: #fff;
+	background: var(--ct-color-primary);
+	border-radius: 50%;
+}
+
+.rtl .sp-mobile-panel a span {
+	right: unset;
+	left: -5px;
+}
+
+
+.sp-mobile-panel p {
+	margin-bottom: 0;
+	font-size: 10px;
+	font-weight: 500;
+	line-height: 1.15;
+	color: #000;
+}
+
+@media (min-width: 769px) {
+	.sp-mobile-panel {
+		display: none;
+	}
+}
+
+@media (max-width: 769px) {
+	body.sp-active-mobile-panel .sp-sticky-add-to-cart {
+		bottom: 52px;
+		border-left: none;
+		border-right: none;
+		border-bottom: none;
+	}
+}

@@ -1,0 +1,8 @@
+.kata-plus-track-play,
+.kata-plus-track-pause {
+    cursor: pointer;
+}
+
+.kata-plus-track .mejs-time-handle {
+    display: none;
+}

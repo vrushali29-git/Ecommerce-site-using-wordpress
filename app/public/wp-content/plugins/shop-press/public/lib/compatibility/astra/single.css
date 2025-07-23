@@ -1,0 +1,8 @@
+.ast-container {
+	flex-wrap: wrap;
+}
+
+.ast-container .woocommerce-notices-wrapper{
+	flex-shrink: 2;
+    flex: 0 0 100%;
+}

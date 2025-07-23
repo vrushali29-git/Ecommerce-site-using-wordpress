@@ -1,0 +1,121 @@
+{
+    "packages": [
+        {
+            "name": "cerdic/css-tidy",
+            "version": "v2.1.0",
+            "version_normalized": "2.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Cerdic/CSSTidy.git",
+                "reference": "50e4e31adfde7fdb08d815a7dc52c3370596f4e7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Cerdic/CSSTidy/zipball/50e4e31adfde7fdb08d815a7dc52c3370596f4e7",
+                "reference": "50e4e31adfde7fdb08d815a7dc52c3370596f4e7",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1 || ^8"
+            },
+            "require-dev": {
+                "pear/text_diff": "^1.2",
+                "simpletest/simpletest": "dev-main"
+            },
+            "time": "2023-09-21T08:24:51+00:00",
+            "bin": [
+                "bin/pcsstidy"
+            ],
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "class.csstidy_optimise.php",
+                    "class.csstidy_print.php",
+                    "class.csstidy.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Cédric MORIN",
+                    "email": "changeme@mailinator.com"
+                }
+            ],
+            "description": "CSSTidy is a CSS minifier",
+            "support": {
+                "issues": "https://github.com/Cerdic/CSSTidy/issues",
+                "source": "https://github.com/Cerdic/CSSTidy/tree/v2.1.0"
+            },
+            "install-path": "../cerdic/css-tidy"
+        },
+        {
+            "name": "css-crush/css-crush",
+            "version": "v4.1.3",
+            "version_normalized": "4.1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/peteboere/css-crush.git",
+                "reference": "19956cbf25263204db5b832b784deebad5236c0e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/peteboere/css-crush/zipball/19956cbf25263204db5b832b784deebad5236c0e",
+                "reference": "19956cbf25263204db5b832b784deebad5236c0e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "8.*",
+                "psr/log": "1.0.*@dev",
+                "twig/twig": "1.*"
+            },
+            "time": "2022-09-05T10:24:14+00:00",
+            "bin": [
+                "bin/csscrush"
+            ],
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "lib/functions.php"
+                ],
+                "psr-0": {
+                    "CssCrush": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pete Boere",
+                    "email": "pete@the-echoplex.net"
+                },
+                {
+                    "name": "GitHub contributors",
+                    "homepage": "https://github.com/peteboere/css-crush/contributors"
+                }
+            ],
+            "description": "CSS preprocessor",
+            "homepage": "http://the-echoplex.net/csscrush",
+            "keywords": [
+                "css",
+                "preprocessor"
+            ],
+            "support": {
+                "issues": "https://github.com/peteboere/css-crush/issues",
+                "source": "https://github.com/peteboere/css-crush/tree/v4.1.3"
+            },
+            "install-path": "../css-crush/css-crush"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

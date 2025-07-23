@@ -1,0 +1,266 @@
+.elementor-editor-active
+	.elementor-widget-kata-plus-hamburger-menu
+	.kata-plus-hamburger-menu {
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+}
+
+.kt-hamburger-activated {
+	overflow: hidden;
+}
+
+.kata-hamburger-menu-template.kata-hamburger-full {
+	position: fixed;
+	z-index: 99999;
+	background: #fff;
+	width: 100%;
+	height: 100vh !important;
+	top: 0;
+	left: 0;
+	display: none;
+	overflow-y: scroll;
+}
+
+.kata-hamburger-menu-template {
+	background: #ffffff;
+	height: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.kata-hamburger-slide .kata-widget-notice {
+	color: #fff;
+}
+
+.kata-hamburger-menu-template.kata-hamburger-slide .icons-wrap {
+	fill: #fff;
+}
+
+.kata-plus-hamburger-menu .elementor-section-height-full {
+	height: 100vh;
+}
+
+.kata-plus-hamburger-menu .icons-wrap .kata-icon {
+	font-size: 30px;
+	cursor: pointer;
+}
+
+.kata-hamburger-menu-template.kata-hamburger-full .kata-icon.close-icon {
+	position: absolute;
+	top: 35px;
+	right: 35px;
+	z-index: 9999;
+}
+
+.kata-hamburger-slide .kata-hamburger-menu-template .container,
+.kata-hamburger-slide
+	.kata-hamburger-menu-template
+	.elementor-section.elementor-section-boxed
+	> .elementor-container {
+	max-width: 100%;
+}
+
+.kata-hamburger-slide
+	.kata-hamburger-menu-template
+	.elementor-container
+	.elementor-widget-wrap
+	> .elementor-element {
+	width: 100%;
+}
+
+.kata-hamburger-slide .kata-hamburger-menu-template {
+	position: fixed;
+	top: 0;
+	max-width: 400px;
+	width: 400px;
+	z-index: 9999;
+	height: 100vh;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.logged-in .kata-hamburger-slide .kata-hamburger-menu-template {
+	top: 33px;
+}
+
+@media (max-width: 768px) {
+	.logged-in .kata-hamburger-slide .kata-hamburger-menu-template {
+		top: 46px;
+	}
+}
+
+.kata-hamburger-slide .kata-hamburger-menu-template .icons-wrap {
+	position: fixed;
+	top: 50px;
+	z-index: 9999;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+}
+
+.kata-hamburger-slide
+	.kata-hamburger-menu-template.open-from-right
+	.icons-wrap {
+	right: -1000px;
+}
+
+.kata-hamburger-slide .kata-hamburger-menu-template.open-from-left .icons-wrap {
+	left: -1000px;
+}
+
+.kata-hamburger-slide
+	.open-hamburger.kata-hamburger-menu-template.open-from-right
+	.icons-wrap {
+	right: 0;
+	top: 0;
+}
+
+.kata-hamburger-slide
+	.open-hamburger.kata-hamburger-menu-template.open-from-left
+	.icons-wrap {
+	position: absolute;
+	right: 0px;
+	top: 0;
+	left: auto;
+}
+
+.kata-hamburger-slide .kata-hamburger-menu-template.open-from-right {
+	right: -1000px;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+}
+
+.kata-hamburger-slide .kata-hamburger-menu-template.open-from-left {
+	left: -1000px;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+}
+
+.kata-hamburger-slide.activated-hamburger-menu
+	.kata-hamburger-menu-template.open-from-right {
+	right: 0;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+}
+
+.kata-hamburger-slide.activated-hamburger-menu
+	.kata-hamburger-menu-template.open-from-left {
+	left: 0;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+}
+
+.kata-hamburger-menu-template
+	.elementor-container
+	.elementor-widget-wrap
+	> .elementor-widget:not(.elementor-widget__width-auto) {
+	width: 100%;
+	display: unset;
+	vertical-align: unset;
+}
+
+@media (max-width: 1024px) {
+	.kata-plus-hamburger-menu .elementor-section-height-full {
+		height: 100vh;
+	}
+}
+
+.kata-plus-hamburger-menu .icons-wrap {
+	position: relative;
+	display: inline-block;
+}
+
+.kata-plus-hamburger-menu .icons-wrap i.close-icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.kata-hamburger-menu-template.kata-hamburger-slide .icons-wrap i.close-icon {
+	top: 30px;
+	left: auto;
+	right: 18px;
+	fill: #000;
+	font-size: 20px;
+	z-index: 3;
+}
+
+.kata-hamburger-menu-template
+	.elementor-widget:not(.elementor-widget-kata-plus-gap) {
+	transform: translateY(10px);
+	-webkit-transform: translateY(10px);
+	opacity: 0;
+}
+
+.kata-hamburger-menu-template
+	.elementor-widget:not(.elementor-widget-kata-plus-gap):nth-of-type(1) {
+	transition: all 0.1s ease 0.1s;
+}
+
+.kata-hamburger-menu-template
+	.elementor-widget:not(.elementor-widget-kata-plus-gap):nth-of-type(2) {
+	transition: all 0.2s ease 0.2s;
+}
+
+.kata-hamburger-menu-template
+	.elementor-widget:not(.elementor-widget-kata-plus-gap):nth-of-type(3) {
+	transition: all 0.3s ease 0.3s;
+}
+
+.kata-hamburger-menu-template
+	.elementor-widget:not(.elementor-widget-kata-plus-gap):nth-of-type(4) {
+	transition: all 0.4s ease 0.4s;
+}
+
+.kata-hamburger-menu-template
+	.elementor-widget:not(.elementor-widget-kata-plus-gap):nth-of-type(5) {
+	transition: all 0.5s ease 0.5s;
+}
+
+.kata-hamburger-menu-template
+	.elementor-widget:not(.elementor-widget-kata-plus-gap):nth-of-type(6) {
+	transition: all 0.6s ease 0.6s;
+}
+
+.kata-hamburger-menu-template
+	.elementor-widget:not(.elementor-widget-kata-plus-gap):nth-of-type(7) {
+	transition: all 0.8s ease 0.6s;
+}
+
+.kata-hamburger-menu-template
+	.elementor-widget:not(.elementor-widget-kata-plus-gap):nth-of-type(8) {
+	transition: all 0.8s ease 0.6s;
+}
+
+.kata-hamburger-menu-template.open-hamburger
+	.elementor-widget:not(.elementor-widget-kata-plus-gap) {
+	transform: translateY(0);
+	-webkit-transform: translateY(0);
+	opacity: 1;
+}
+
+.kata-hamburger-slide.kata-plus-hamburger-menu:not(
+		.kata-hamburger-menu-template
+	)
+	.icons-wrap {
+	position: relative;
+	display: inline-block;
+}
+
+.kata-plus-hamburger-menu .icon-text,
+.kata-plus-hamburger-menu .close-icon-text {
+	cursor: pointer;
+}
+
+.kata-hamburger-menu-template.kata-hamburger-full .icons-wrap .close-icon svg {
+	width: inherit;
+	height: inherit;
+}
+
+.kata-hamburger-menu-template.kata-hamburger-full .icons-wrap .close-icon {
+	position: relative;
+	z-index: 9;
+	top: 20px;
+	left: 20px;
+	padding: 7px;
+}

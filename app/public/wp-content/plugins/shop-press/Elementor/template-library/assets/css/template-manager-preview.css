@@ -1,0 +1,303 @@
+/* Change elementor columns padding
+----------------------------------------------*/
+@media (min-width: 768px) {
+	.elementor-column-wrap.elementor-element-empty .elementor-widget-wrap {
+		margin: 15px;
+	}
+}
+
+.elementor-widget:not(:last-child),
+.sp-header .elementor-widget:not(:last-child) {
+	margin-bottom: 0;
+}
+
+@media (max-width: 320px) {
+	.elementor:not(.elementor-edit-area-active) .elementor-hidden-smallmobile {
+		display: none;
+	}
+}
+
+@media (max-width: 1024px) {
+	.elementor:not(.elementor-edit-area-active)
+		.elementor-hidden-tabletlandscape {
+		display: none;
+	}
+}
+
+@media (max-width: 1366px) {
+	.elementor:not(.elementor-edit-area-active) .elementor-hidden-laptop {
+		display: none;
+	}
+}
+
+/* Responsive Class
+-------------------------------------------------- */
+@media (min-width: 1025px) {
+	.elementor:not(.elementor-edit-area-active) .elementor-hidden-desktop,
+	.elementor:not(.elementor-edit-area-active) .hide-in-desktop {
+		display: none;
+	}
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+	.elementor:not(.elementor-edit-area-active) .elementor-hidden-tablet,
+	.elementor:not(.elementor-edit-area-active) .hide-in-tablet {
+		display: none;
+	}
+}
+
+/* mobile */
+@media (max-width: 767px) {
+	.elementor:not(.elementor-edit-area-active) .elementor-hidden-phone,
+	.elementor:not(.elementor-edit-area-active) .hide-in-mobile {
+		display: none;
+	}
+}
+
+[data-elementor-device-mode="laptop"] .elementor-hidden-laptop,
+[data-elementor-device-mode="tabletlandscape"]
+	.elementor-hidden-tabletlandscape,
+[data-elementor-device-mode="smallmobile"] .elementor-hidden-smallmobile {
+	background: -webkit-repeating-linear-gradient(
+		325deg,
+		rgba(0, 0, 0, 0.05),
+		rgba(0, 0, 0, 0.05) 1px,
+		transparent 2px,
+		transparent 9px
+	);
+	background: -o-repeating-linear-gradient(
+		325deg,
+		rgba(0, 0, 0, 0.05),
+		rgba(0, 0, 0, 0.05) 1px,
+		transparent 2px,
+		transparent 9px
+	);
+	background: repeating-linear-gradient(
+		125deg,
+		rgba(0, 0, 0, 0.05),
+		rgba(0, 0, 0, 0.05) 1px,
+		transparent 2px,
+		transparent 9px
+	);
+	border: 1px solid rgba(0, 0, 0, 0.02);
+}
+
+[data-elementor-device-mode="laptop"]
+	.elementor-hidden-laptop.elementor-section
+	> .elementor-element-overlay,
+[data-elementor-device-mode="tabletlandscape"]
+	.elementor-hidden-tabletlandscape.elementor-section
+	> .elementor-element-overlay,
+[data-elementor-device-mode="smallmobile"]
+	.elementor-hidden-smallmobile.elementor-section
+	> .elementor-element-overlay {
+	background-color: #d5dadf;
+	mix-blend-mode: color;
+}
+
+[data-elementor-device-mode="laptop"]
+	.elementor-hidden-laptop.elementor-section:before,
+[data-elementor-device-mode="tabletlandscape"]
+	.elementor-hidden-tabletlandscape.elementor-section:before,
+[data-elementor-device-mode="smallmobile"]
+	.elementor-hidden-smallmobile.elementor-section:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.6);
+	z-index: 9997;
+}
+
+[data-elementor-device-mode="laptop"]
+	.elementor-hidden-laptop
+	> .elementor-widget-container,
+[data-elementor-device-mode="laptop"]
+	.elementor-hidden-laptop
+	> .elementor-column-wrap,
+[data-elementor-device-mode="tablet"]
+	.elementor-hidden-tablet
+	> .elementor-widget-container,
+[data-elementor-device-mode="tablet"]
+	.elementor-hidden-tablet
+	> .elementor-column-wrap,
+[data-elementor-device-mode="smallmobile"]
+	.elementor-hidden-smallmobile
+	> .elementor-widget-container,
+[data-elementor-device-mode="smallmobile"]
+	.elementor-hidden-smallmobile
+	> .elementor-column-wrap {
+	-webkit-filter: opacity(0.4) saturate(0);
+	filter: opacity(0.4) saturate(0);
+}
+
+/* Full site editor
+------------------------------------ */
+.elementor {
+	position: relative;
+}
+
+.elementor:not(.elementor-edit-mode):hover {
+	box-shadow: 0 0 0 1px #403cf2 !important;
+	-webkit-box-shadow: 0 0 0 1px #403cf2 !important;
+}
+
+.elementor-editor-preview .shoppress-full-site-edit {
+	display: none;
+}
+
+.elementor-document-handle {
+	background-color: #403cf2 !important;
+}
+
+.elementor .shoppress-full-site-edit {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	background: #403cf2;
+	color: #fff;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 7px 10px;
+	letter-spacing: 0.5px;
+	display: none;
+	cursor: pointer;
+	border-radius: 3px;
+	z-index: 2;
+	line-height: 1;
+	font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		sans-serif;
+}
+
+.single-post
+	.shoppress-content
+	.shoppress-single
+	> [data-elementor-type="wp-post"]:before,
+.single-post
+	.shoppress-content
+	.shoppress-post-content
+	[data-elementor-type="wp-post"]
+	.shoppress-full-site-edit {
+	display: none !important;
+}
+
+.elementor .shoppress-full-site-edit:before,
+.elementor .shoppress-full-site-edit:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	z-index: 1;
+}
+
+.elementor .shoppress-full-site-edit:before {
+	width: 0;
+	height: 0;
+	border-top: 27px solid #403cf2;
+	border-top-right-radius: 3px;
+	border-right: 23px solid transparent;
+	right: -21px;
+}
+
+.elementor-document-handle:before {
+	border-right-color: #403cf2 !important;
+	border-width: 0 23px 25px 0 !important;
+}
+
+.elementor-document-handle:after {
+	border-left-color: #403cf2 !important;
+	border-width: 0 0 25px 23px !important;
+}
+
+.elementor .shoppress-full-site-edit:after {
+	width: 0;
+	height: 0;
+	border-top: 27px solid #403cf2;
+	border-top-left-radius: 3px;
+	border-left: 23px solid transparent;
+	left: -21px;
+}
+
+.elementor:not(.elementor-edit-mode):hover .shoppress-full-site-edit {
+	display: block;
+}
+
+.elementor .shoppress-full-site-edit .eicon-edit {
+	margin-right: 5px;
+	text-decoration: none;
+}
+
+.elementor.elementor-edit-mode .shoppress-full-site-edit {
+	display: none;
+}
+
+.shoppress-make-header-transparent
+	.shoppress-builder-wrap.sp-header
+	.shoppress-full-site-edit {
+	left: 42%;
+	transform: translateX(-42%);
+	-webkit-transform: translateX(-42%);
+}
+
+.shoppress-make-header-transparent
+	.shoppress-site:hover
+	.shoppress-content
+	.shoppress-page-title
+	+ .elementor-editor-preview
+	> .shoppress-full-site-edit {
+	display: block;
+}
+
+.elementor[data-elementor-title="Post"]:not(.elementor-edit-area-active):hover:before {
+	opacity: 1;
+}
+
+.elementor-add-new-section .shoppress-elementor-add-template-button i {
+	width: 16px;
+	height: 16px;
+}
+
+.elementor-editor-active .shoppress-lazyload img {
+	background-image: none;
+}
+
+.elementor-add-new-section .shoppress-elementor-add-template-button {
+	position: relative;
+	top: 15px;
+	margin-left: 30px;
+}
+.elementor-add-new-section
+	.elementor-add-section-area-button.shoppress-elementor-add-template-button {
+	width: 110px;
+	height: 40px;
+	border-radius: 22px;
+	background-color: #837af5;
+	background: linear-gradient(-90deg, #675cf9 0, #837af5 40%, #9592fb 100%);
+	color: #fff;
+	font-family: "Be Vietnam Pro", "Inter", Arial, sans-serif;
+	font-size: 11px;
+	font-weight: 500;
+	box-shadow: 0 2px 9px -1px #837af547;
+	top: auto;
+}
+.elementor-add-new-section
+	.elementor-add-section-area-button.shoppress-elementor-add-template-button:after {
+	content: "ShopPress";
+}
+
+.elementor-add-new-section
+	.elementor-add-section-area-button.shoppress-elementor-add-template-button:before {
+	content: "\e91f";
+	font-family: eicons;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1;
+	font-size: 14px;
+	margin-right: 6px;
+	transform: translateY(-1px);
+}

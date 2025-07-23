@@ -1,0 +1,63 @@
+.kata-plus-blog-posts-widget-wrapper .kata-post-thumbnail {
+    position: relative;
+    float: left;
+    padding: 0 15px;
+}
+
+.kata-plus-blog-posts-widget-wrapper .kata-post-content {
+    overflow: hidden;
+}
+
+.kata-plus-blog-posts-widget-wrapper .kata-post-thumbnail img {
+    text-align: left;
+    text-transform: capitalize;
+    width: 130px;
+    min-width: 130px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    box-shadow: 0px 7px 23px 0px rgba(0, 0, 0, 0.07);
+    position: absolute;
+    top: -32px;
+    left: -114px;
+}
+
+.kata-plus-blog-posts-widget-wrapper .kata-post-title {
+    font-size: 16px;
+    line-height: 22px;
+    font-family: Source Serif Pro;
+    font-weight: 600;
+    text-align: left;
+    text-transform: none;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.kata-plus-blog-posts-widget-wrapper .kata-blog-post {
+    text-align: left;
+    text-transform: capitalize;
+    max-width: 254px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    margin-left: 123px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.kata-plus-blog-posts-widget-wrapper .kata-icon {
+    font-size: 13px;
+}
+.kata-plus-blog-posts-widget-wrapper .kata-entry-date {
+    color: #000000;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: capitalize;
+    margin-right: 15px;
+}

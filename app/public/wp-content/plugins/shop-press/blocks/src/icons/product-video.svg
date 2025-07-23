@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="block-icon" width="38.653" height="35.014" viewBox="0 0 38.653 35.014">
+  <g id="Product_Video" data-name="Product Video" transform="translate(1.002 0.993)">
+    <g id="Group_72091" data-name="Group 72091">
+      <g id="Group_71994" data-name="Group 71994">
+        <g id="Group_71987" data-name="Group 71987">
+          <path id="Path_10066" data-name="Path 10066" d="M1342.02,1314.55h-19.048a1.867,1.867,0,0,1-1.765-1.954v-19.1c-.236-3.4,2.2-6.311,5.279-6.311h21.2c3.084,0,5.516,2.908,5.279,6.311v6.251" transform="translate(-1321.191 -1283.332)" fill="none" stroke="#b3b7c0" stroke-width="2"/>
+          <path id="Path_10068" data-name="Path 10068" d="M1345.13,1286.5v1.955a1.955,1.955,0,0,1-1.955,1.954H1331.45a1.955,1.955,0,0,1-1.954-1.954V1286.5" transform="translate(-1321.417 -1274.14)" fill="none" stroke="#b3b7c0" stroke-width="2"/>
+          <path id="Path_10120" data-name="Path 10120" d="M-296.755,293.013s3.4-6.963,6.686-6.963,13.8-.211,17.063,0,6.812,6.777,6.812,6.777" transform="translate(297.327 -285.957)" fill="none" stroke="#b3b7c0" stroke-width="2"/>
+        </g>
+      </g>
+      <path id="Path_10181" data-name="Path 10181" d="M1645.12,874.667l-3.62-2.167v4.335Z" transform="translate(-1612.818 -848.451)" fill="none" stroke="#837af5" stroke-width="1.2"/>
+    </g>
+    <g id="Ellipse_629" data-name="Ellipse 629" transform="translate(22.385 18.755)" fill="none" stroke="#837af5" stroke-width="1.5">
+      <circle cx="7.633" cy="7.633" r="7.633" stroke="none"/>
+      <circle cx="7.633" cy="7.633" r="6.883" fill="none"/>
+    </g>
+  </g>
+</svg>

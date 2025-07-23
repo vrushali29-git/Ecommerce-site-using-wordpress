@@ -1,0 +1,2011 @@
+/**
+* Kata Elementor styles.
+*
+* @author  ClimaxThemes
+* @package Kata Plus
+* @since   1.0.0
+*/
+.elementor-control .select2-container,
+.elementor-input-style,
+.elementor-panel,
+.elementor-panel input,
+.elementor-panel select,
+.elementor-panel textarea,
+.elementor-panel-controls-stack input,
+.elementor-panel-controls-stack select,
+.elementor-panel-controls-stack textarea,
+.elementor-templates-modal .dialog-widget-content,
+.elementor-templates-modal .elementor-templates-modal__header__item > i:after,
+.flatpickr-calendar,
+.select2-container--default .select2-selection--single {
+	font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		sans-serif;
+}
+
+.elementor-control {
+	padding-bottom: 25px;
+	width: 100%;
+}
+
+.elementor-control.elementor-control-separator-after {
+	margin-bottom: 20px;
+}
+
+.elementor-control-type-section,
+.elementor-control-type-tab {
+	padding-bottom: 0;
+	margin-top: -1px;
+	margin-bottom: 0;
+}
+
+.elementor-panel .elementor-panel-menu-group-title,
+.elementor-panel .panel-elements-category-title {
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	margin-top: 10px;
+	color: #403cf2;
+	padding-top: 6px;
+}
+
+.elementor-control-type-structure
+	.elementor-control-structure-more-presets-title,
+.elementor-control-type-structure .elementor-control-structure-title,
+.elementor-panel-heading-title {
+	font-weight: 500;
+	font-size: 12px;
+	letter-spacing: 0.2px;
+	color: #4c5156;
+}
+
+.elementor-control-type-section.elementor-open .elementor-panel-heading-title {
+	color: #403cf2;
+}
+
+.elementor-panel-heading-toggle {
+	width: 12px;
+	color: #8b9299;
+}
+
+.elementor-control-type-section.elementor-open .elementor-panel-heading-toggle {
+	color: #403cf2;
+}
+
+.elementor-panel-heading {
+	height: 44px;
+	border-top-width: 1px;
+	font-family: inherit;
+}
+
+.elementor-control-type-section:first-child .elementor-panel-heading {
+	border-top: none;
+}
+
+.elementor-button,
+.elementor-panel #elementor-panel-saver-button-publish,
+.elementor-panel #elementor-panel-saver-button-save-options {
+	font-family: inherit;
+}
+
+.elementor-button.elementor-repeater-add {
+	font-size: 11px;
+	background-color: #5fc26c;
+}
+
+.elementor-button.elementor-repeater-add:hover {
+	font-size: 11px;
+	background-color: #53b860;
+}
+
+.elementor-panel .elementor-panel-navigation {
+	margin-bottom: 5px;
+	background-color: #f9fafb;
+	border-bottom: 1px solid #dfe3e6;
+}
+
+.elementor-panel .elementor-panel-navigation .elementor-panel-navigation-tab a,
+.elementor-panel
+	.elementor-panel-navigation
+	.elementor-panel-navigation-tab
+	span {
+	display: block;
+	text-align: center;
+	padding: 15px 0;
+	font-size: 12px;
+	line-height: 13px;
+	font-weight: 600;
+	letter-spacing: 0.2px;
+	color: #7e8e9c;
+	transition: all 0.2s ease;
+}
+
+.elementor-panel
+	.elementor-panel-navigation
+	.elementor-panel-navigation-tab
+	a:before,
+.elementor-panel
+	.elementor-panel-navigation
+	.elementor-panel-navigation-tab
+	span:before {
+	font-size: 14px;
+	font-weight: 400;
+	display: inline;
+	margin-bottom: 0;
+	margin-right: 6px;
+	vertical-align: baseline;
+}
+
+.elementor-panel
+	#elementor-panel-elements-navigation
+	.elementor-panel-navigation-tab.elementor-active,
+.elementor-panel
+	#elementor-panel-elements-navigation
+	.elementor-panel-navigation-tab:hover,
+.elementor-panel .elementor-element:hover .icon,
+.elementor-panel .elementor-element:hover .title,
+.elementor-panel
+	.elementor-panel-navigation
+	.elementor-panel-navigation-tab
+	a:hover,
+.elementor-panel
+	.elementor-panel-navigation
+	.elementor-panel-navigation-tab.elementor-active
+	a,
+.elementor-panel .elementor-panel-scheme-discard .elementor-button:hover,
+.elementor-panel .elementor-panel-scheme-reset .elementor-button:hover {
+	color: #000;
+}
+
+.elementor-panel
+	#elementor-panel-elements-navigation
+	.elementor-panel-navigation-tab {
+	padding: 14px 0 12px;
+	font-size: 11px;
+	font-weight: 600;
+	color: #8f9ca9;
+	letter-spacing: 0.2px;
+}
+
+.elementor-panel
+	.elementor-panel-navigation
+	.elementor-panel-navigation-tab.elementor-active {
+	border-bottom: none;
+	box-shadow: -2px 4px 5px 0px rgba(0, 0, 0, 0.02) inset;
+	background: #fff;
+	border-right: 1px solid #dfe3e6;
+	position: relative;
+	border-left: 1px solid #dfe3e6;
+}
+
+.elementor-control-type-tab.elementor-tab-active:after,
+.elementor-control-type-tab.elementor-tab-active:before,
+.elementor-panel
+	.elementor-panel-navigation
+	.elementor-panel-navigation-tab.elementor-active:after,
+.elementor-panel
+	.elementor-panel-navigation
+	.elementor-panel-navigation-tab.elementor-active:before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 50%;
+	margin-left: -5px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 5px;
+	transform: translateY(100%);
+}
+
+.elementor-control-type-tab.elementor-tab-active:before,
+.elementor-panel
+	.elementor-panel-navigation
+	.elementor-panel-navigation-tab.elementor-active:before {
+	bottom: -1px;
+	border-color: #c1cdd6 transparent transparent;
+}
+
+.elementor-control-type-tab.elementor-tab-active:after,
+.elementor-panel
+	.elementor-panel-navigation
+	.elementor-panel-navigation-tab.elementor-active:after {
+	bottom: 0;
+	border-color: #fff transparent transparent;
+}
+
+.elementor-panel .elementor-element .title-wrapper {
+	height: 32px;
+	transform: translateY(-4px);
+}
+
+.elementor-panel .elementor-element .title {
+	font-size: 11px;
+	font-weight: 500;
+	letter-spacing: 0.2px;
+	color: #474e54;
+	transition: all 0.3s ease;
+}
+
+.elementor-panel .elementor-control-title {
+	font-size: 11px;
+	line-height: 1.5;
+	font-weight: 500;
+}
+
+.elementor-control .select2-container,
+.elementor-input-style,
+.elementor-panel input,
+.elementor-panel select,
+.elementor-panel textarea,
+.elementor-panel-controls-stack input,
+.elementor-panel-controls-stack select,
+.elementor-panel-controls-stack textarea,
+.select2-container--default .select2-selection--single {
+	background: #fff;
+	min-height: 32px;
+}
+
+.elementor-control-type-text .elementor-control-dynamic-switcher,
+.elementor-control-type-url.elementor-control-dynamic-value
+	.elementor-control-url-more,
+.elementor-control-type-url:not(.elementor-control-dynamic)
+	.elementor-control-url-more {
+	min-height: 32px;
+}
+
+.elementor-control-type-global-style-repeater
+	.elementor-control-title
+	input:not(:focus) {
+	box-shadow: none;
+}
+
+.elementor-panel .elementor-panel-alert {
+	font-style: normal;
+}
+
+.elementor-control-dynamic-switcher.elementor-control-unit-1 {
+	margin-left: -2px;
+	background: #f8f9fa;
+	border-left: 1px solid #d5dadf;
+}
+
+.elementor-control-type-media
+	.elementor-control-dynamic-switcher.elementor-control-unit-1 {
+	background: rgba(109, 120, 130, 0.85);
+}
+
+.elementor-control-type-dimensions li .elementor-link-dimensions,
+.elementor-control-type-dimensions li input {
+	height: 32px;
+	border-color: #d5dadf;
+}
+
+.elementor-control-type-dimensions li:first-child input {
+	border-left-color: #d5dadf;
+}
+
+.elementor-control-type-dimensions .elementor-link-dimensions .elementor-linked,
+.elementor-control-type-dimensions .elementor-link-dimensions:not(.unlinked) {
+	color: #403cf2;
+	background: #eef;
+	border-color: #d5dadf;
+}
+
+.elementor-button i {
+	margin-right: 4px;
+}
+
+.elementor-panel-footer-tool i {
+	font-size: 16px;
+}
+
+.elementor-control-type-dimensions .elementor-control-dimension-label,
+.elementor-panel .elementor-panel-scheme-color-title {
+	color: #9ca1a5;
+	font-size: 8px;
+	letter-spacing: 0.4px;
+}
+
+.elementor-panel .elementor-panel-scheme-color-system-scheme .elementor-title {
+	color: #9ca1a5;
+	font-style: normal;
+}
+
+.elementor-panel .elementor-element {
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.01);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.01);
+	border-radius: 4px;
+	transition: all 0.28s ease;
+}
+
+.elementor-panel .elementor-element:hover {
+	-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.03);
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.03);
+	background: unset;
+}
+
+.elementor-panel .elementor-panel-menu-item {
+	height: 48px;
+	transition: all 0.22s ease;
+}
+
+.elementor-panel .elementor-panel-menu-item-title {
+	font-size: 12px;
+	font-weight: 500;
+	letter-spacing: 0.4px;
+}
+
+.elementor-panel .elementor-panel-menu-item:hover {
+	color: #444;
+}
+
+.elementor-control-type-popover_toggle
+	.elementor-control-popover-toggle-toggle:checked
+	+ .elementor-control-popover-toggle-toggle-label {
+	color: #403cf2;
+	border-color: #bfbffb;
+	background: #eef;
+	box-shadow: 0 1px 5px -1px #bfbffb7a;
+	transition: all 0.22s ease;
+}
+
+.elementor-control-type-popover_toggle
+	.elementor-control-popover-toggle-toggle:checked:hover
+	+ .elementor-control-popover-toggle-toggle-label:hover {
+	box-shadow: 0 1px 7px -1px #bfbffb7a;
+}
+
+[class*=" icon-software"]:before,
+[class*=" icon-basic"]:before,
+[class*=" icon-ecommerce"]:before,
+[class*=" icon-arrows"]:before,
+[class^="icon-arrows"]:before,
+[class^="icon-basic"]:before,
+[class^="icon-ecommerce"]:before,
+[class^="icon-software"]:before {
+	line-height: 24px;
+}
+
+.elementor-control.elementor-control-type-divider.elementor-hidden-control
+	+ .elementor-control:not(.elementor-control-type-section) {
+	padding-top: 0;
+}
+
+.elementor-panel .elementor-units-choices label {
+	font-size: 10px;
+	line-height: 10px;
+	font-weight: 400;
+	letter-spacing: 0;
+	padding: 1px 3px 0;
+	color: #a4afb7 !important;
+	border-radius: 20px;
+}
+
+.elementor-panel .elementor-units-choices input:checked + label {
+	text-decoration: none;
+	color: #403cf2 !important;
+}
+
+.elementor-panel
+	.elementor-panel-category:first-child
+	.elementor-panel-category-title {
+	padding-top: 0;
+}
+
+.elementor-panel .elementor-panel-category-title {
+	font-weight: 600;
+	letter-spacing: 0.2px;
+	font-size: 13px;
+	text-transform: none;
+	color: #403cf2;
+	box-shadow: none;
+}
+
+.elementor-panel .elementor-panel-category-title:before {
+	font-weight: 400;
+	font-size: 9px;
+	background: #fff;
+	padding: 0;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	border-radius: 15px;
+	margin-top: -3px;
+	color: #c2c5c7;
+}
+
+.elementor-panel .elementor-responsive-panel {
+	grid-template-columns: repeat(
+		auto-fill,
+		minmax(Min(90px, calc(33.333% - 5px)), 1fr)
+	);
+}
+
+.elementor-panel .elementor-element .icon {
+	font-size: 40px;
+	padding-top: 10px;
+	color: #b9bcc4;
+	transition: all 0.3s ease;
+}
+
+.elementor-slider {
+	height: 2px;
+	background-color: #dadee1;
+	transition: all 0.12s;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+.elementor-slider .noUi-handle,
+.elementor-slider .ui-slider-handle {
+	width: 15px;
+	height: 15px;
+	border: 2px solid #8c8ae1;
+	top: -7px;
+	right: -9px;
+	box-shadow: none;
+	-webkit-transform: scale(0.8);
+	transform: scale(0.8);
+	-webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+	transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.elementor-slider .noUi-handle:hover,
+.elementor-slider .ui-slider-handle:hover {
+	border-color: #8280ec;
+	box-shadow: 0 1px 2px rgb(175, 175, 255, 0.3);
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+}
+
+.elementor-choices {
+	max-width: 190px;
+	border-spacing: 0;
+	overflow: unset;
+}
+
+.elementor-control-background_overlay_background .elementor-choices {
+	max-width: 100px;
+}
+
+.elementor-choices input:not(:checked) + .elementor-choices-label:hover {
+	color: #403cf2;
+}
+
+.elementor-choices input:checked + .elementor-choices-label {
+	color: #403cf2;
+	z-index: 8;
+	background: #eaeaff;
+	border: none;
+	border-radius: 3px;
+	box-shadow: 0 0 0 1px #bdb7fb, 0 1px 9px -2px #bdb7fb;
+	transition: all 0.1s ease;
+}
+
+.wp-picker-clear.button,
+.wp-picker-container input[type="text"].wp-color-picker,
+.wp-picker-default.button {
+	min-height: 5px;
+}
+
+.wp-picker-container.wp-picker-active {
+	border-radius: 5px;
+	box-shadow: 0 2px 17px rgba(0, 0, 0, 0.17);
+}
+
+.elementor-panel #elementor-panel-header-title {
+	font-size: 13px;
+	font-weight: 600;
+	letter-spacing: 0.4px;
+}
+
+.elementor-control-type-switcher .elementor-switch-label {
+	font-size: 9px;
+	text-transform: capitalize;
+	letter-spacing: 0.5px;
+	font-weight: 600;
+}
+
+.elementor-control-type-switcher
+	.elementor-switch-input
+	~ .elementor-switch-label {
+	background: #e7eaeb;
+}
+
+.elementor-control-type-switcher
+	.elementor-switch-input:checked
+	~ .elementor-switch-label {
+	background: #96e1a5;
+}
+
+.elementor-control-type-switcher .elementor-switch {
+	width: 60px;
+	height: 26px;
+	line-height: 26px;
+}
+
+.elementor-control-type-switcher .elementor-switch-handle {
+	width: 20px;
+	height: 20px;
+	right: auto;
+	left: 3px;
+	top: 3px;
+	border-radius: 12px;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.06);
+}
+
+.elementor-control-type-switcher
+	.elementor-switch-input:checked
+	~ .elementor-switch-handle {
+	left: auto;
+	right: 3px;
+	top: 3px;
+}
+
+.elementor-control-type-switcher .elementor-switch-label:after,
+.elementor-control-type-switcher .elementor-switch-label:before {
+	line-height: 26px;
+}
+
+.elementor-control
+	.select2-container.select2-container--default
+	.select2-selection {
+	font-size: 12px;
+}
+
+.select2-container--default
+	.select2-selection--single
+	.select2-selection__arrow {
+	height: 30px;
+}
+
+.elementor-control-type-tab {
+	background-color: #edf0f2;
+	color: #7e8e9c;
+	font-size: 11px;
+	font-weight: 600;
+	padding: 4px;
+	letter-spacing: 0.6px;
+	line-height: 28px;
+	border: none !important;
+}
+
+.elementor-control-type-tab.e-tab-active,
+.elementor-control-type-tab:hover {
+	color: #000000;
+	background-color: #edf0f2;
+}
+
+.elementor-control-type-tab.e-tab-active .elementor-panel-tab-heading {
+	background-color: #fff;
+	border-radius: 4px;
+	box-shadow: 0px 1px 2px rgb(0 0 0 / 5%);
+}
+
+.elementor-panel #elementor-panel-elements-search-input {
+	min-height: 38px;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.01) inset;
+	font-style: normal;
+	letter-spacing: 0.5px;
+	border-radius: 3px;
+}
+
+.elementor-control-type-url .elementor-control-dynamic-switcher,
+.elementor-control-type-url .elementor-control-url-more {
+	height: 32px;
+	border-radius: 0 3px 3px 0;
+}
+
+.elementor-control-type-url input {
+	border-start-start-radius: var(--e-a-border-radius);
+	border-start-end-radius: 0;
+	border-end-end-radius: 0;
+	border-end-start-radius: var(--e-a-border-radius);
+}
+
+.elementor-template-library-menu-item {
+	width: auto;
+	padding: 19px 28px 15px;
+	font-weight: 700;
+}
+
+.elementor-template-library-template-remote
+	.elementor-template-library-template-footer {
+	text-align: center;
+	font-size: 12px;
+	line-height: 22px;
+}
+
+.elementor-panel-controls-stack textarea::-webkit-input-placeholder {
+	color: #a9a9a9;
+}
+
+.elementor-panel-controls-stack textarea:-moz-placeholder {
+	color: #a9a9a9;
+}
+
+.elementor-panel-controls-stack textarea::-moz-placeholder {
+	color: #a9a9a9;
+}
+
+.elementor-panel-controls-stack textarea:-ms-input-placeholder {
+	color: #a9a9a9;
+}
+
+.elementor-panel .elementor-control-field-description a {
+	color: #403cf2;
+}
+
+.elementor-panel .elementor-panel-category:not(.elementor-active):after {
+	height: 8px;
+	background: 0 0;
+	border-bottom: 1px solid #d5d9dc;
+}
+
+.kata-template-library-filter {
+	margin-left: 20px;
+	padding-left: 19px;
+	border-left: 1px solid #d5dadf;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+#elementor-template-library-templates-container .kata-template-library-badge,
+.kata-template-library-filter-button {
+	border-radius: 3px;
+	background-position: center;
+	height: auto;
+	padding: 4px 5px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	line-height: 1;
+}
+
+.kata-template-library-filter label.kata-template-library-filter-active,
+.kata-template-library-filter label:hover {
+	color: #403cf2;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+#elementor-template-library-templates-container
+	.elementor-template-library-template.elementor-template-library-template-remote {
+	display: block;
+	position: relative;
+}
+
+#elementor-template-library-templates-container
+	.elementor-template-library-template-page {
+	margin-top: 15px !important;
+}
+
+#elementor-template-library-templates-container .kata-template-library-badge {
+	background-color: #403cf2;
+	font-size: 12px;
+	box-shadow: 0 2px 6px -2px #403cf2;
+	color: #fff;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	z-index: 99;
+	text-transform: lowercase;
+}
+
+.kata-template-library-filter-button {
+	font-size: 11px;
+	transition: 0.25s;
+	text-transform: uppercase;
+}
+
+.kata-template-library-filter-button:before {
+	content: "";
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	border: 1px solid #a4afb7;
+	margin-right: 7px;
+	border-radius: 5px;
+}
+
+.kata-template-library-filter-active {
+	color: #403cf2;
+}
+
+.kata-template-library-filter-active:before {
+	border: 2px solid #403cf2;
+}
+
+.kata-template-library-filter-active:hover,
+.kata-template-library-filter-button:hover {
+	color: #556068;
+}
+
+.kata-custom-css-field .CodeMirror {
+	border: 1px solid #ddd;
+}
+
+.cm-s-default .cm-keyword {
+	color: #000;
+}
+
+.cm-s-default .cm-atom {
+	color: #06960e;
+}
+
+.cm-s-default .cm-number {
+	color: #0000cd;
+}
+
+.cm-s-default .cm-qualifier {
+	color: #318495;
+}
+
+.cm-s-default .cm-builtin {
+	color: #930f80;
+}
+
+.cm-s-default .cm-operator,
+.cm-s-default .cm-property,
+.cm-s-default .cm-punctuation,
+.cm-s-default .cm-variable {
+	color: #6d79de;
+}
+
+.kata-custom-css-field {
+	width: 100%;
+}
+
+.elementor-control-type-repeater .elementor-repeater-row-tools > div {
+	font-weight: 600;
+	font-size: 12px;
+	letter-spacing: 0.4px;
+}
+
+.elementor-control-type-repeater .elementor-repeater-row-tools > div:hover {
+	background: inherit;
+}
+
+.elementor-control-type-repeater .elementor-repeater-row-tools {
+	background-color: transparent !important;
+	border-radius: 3px;
+	border: 1px solid #d5dadf;
+}
+
+.elementor-control-type-media .elementor-control-input-wrapper {
+	border-radius: 3px;
+	overflow: hidden;
+}
+
+.elementor-control-type-repeater .elementor-repeater-row-controls {
+	border-radius: 0 0 3px 3px;
+	background: #f8f9fa;
+	margin-top: -2px;
+	overflow: hidden;
+	margin-bottom: 15px;
+	border-top: 1px solid #e3e5e7;
+}
+
+.elementor-control-raw-html.kata-admin-notification-message {
+	margin-top: 5px;
+	font-size: 11px;
+	line-height: 1.4;
+	color: #b77800;
+	background: #ffeac4;
+	padding: 10px;
+	border-radius: 3px;
+	font-weight: 600;
+	letter-spacing: 0.2px;
+}
+
+.elementor-panel .elementor-control-field-description,
+.elementor-panel .elementor-descriptor {
+	font-style: normal;
+}
+
+.elementor-control.elementor-control-type-divider hr {
+	background-color: #f8f9fa;
+}
+
+.elementor-control-type-switcher.elementor-label-inline
+	> .elementor-control-content
+	.elementor-control-field
+	.elementor-control-title {
+	width: auto;
+}
+
+#elementor-panel-categories {
+	display: flex;
+	flex-direction: column;
+}
+
+#elementor-panel-categories [id^="elementor-panel-category-kata_plus"] {
+	order: -1;
+}
+
+[id^="elementor-panel-category-kata_plus"]
+	.elementor-panel-category-items[style="display: block;"] {
+	display: flex !important;
+	flex-wrap: wrap;
+}
+
+[id^="elementor-panel-category-kata_plus"] [data-name="Kata Title"] {
+	order: -10;
+}
+
+[id^="elementor-panel-category-kata_plus"] [data-name="Kata Text"],
+[id^="elementor-panel-category-kata_plus"] [data-name="Kata Spacer"] {
+	order: -3;
+}
+
+[id^="elementor-panel-category-kata_plus"] [data-name="Kata Image"],
+[id^="elementor-panel-category-kata_plus"] [data-name="Kata Button"] {
+	order: -2;
+}
+
+[id^="elementor-panel-category-kata_plus"] [data-name="Kata Icon Box"],
+[id^="elementor-panel-category-kata_plus"] [data-name="Kata Testimonial"],
+[id^="elementor-panel-category-kata_plus"] [data-name="Kata Video Player"] {
+	order: -1;
+}
+
+.elementor-device-largescreens #elementor-preview-responsive-wrapper {
+	width: 100%;
+}
+
+.elementor-device-laptop #elementor-preview-responsive-wrapper {
+	width: 1366px;
+	height: 640px;
+	padding: 40px 10px 70px;
+}
+
+.elementor-device-tabletlandscape #elementor-preview-responsive-wrapper {
+	width: 1024px;
+	height: 640px;
+	padding: 40px 10px 70px;
+}
+
+.elementor-device-smallmobile #elementor-preview-responsive-wrapper {
+	width: 320px;
+	height: 640px;
+	padding: 40px 10px 70px;
+}
+
+.elementor-panel {
+	min-width: var(--e-editor-panel-width);
+}
+
+.eicon-device-largescreens,
+.eicon-device-smallmobile,
+.eicon-device-tabletlandscape,
+.eicon-devicelaptop {
+	color: #a4afb7;
+}
+
+.eicon-device-laptop:before {
+	content: "\e8ee";
+}
+
+.eicon-device-smallmobile:before {
+	content: "\e887" !important;
+	font-size: 13px;
+}
+
+.eicon-device-tabletlandscape:before {
+	content: "\e886";
+}
+
+#e-responsive-bar-switcher .eicon-device-tabletlandscape {
+	transform: rotate(-90deg);
+}
+
+.small-icon:before {
+	font-size: 13px;
+}
+
+.kata-plus-elementor-error {
+	background: rgba(255, 0, 0, 0.17);
+	color: #444545;
+	padding: 5px 10px;
+	font-size: 12px;
+	border-radius: 2px;
+	line-height: 1.5;
+}
+
+.elementor-update-preview {
+	margin: 15px;
+}
+
+.xelementor-control-type-heading {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.xelementor-control-type-heading .elementor-control-content {
+	background: #fff;
+	padding: 15px;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	font-weight: 400;
+}
+
+.elementor-control.elementor-control-type-heading .elementor-control-title {
+	font-weight: 600;
+}
+
+#elementor-panel-content-wrapper input[type="checkbox"],
+#elementor-panel-content-wrapper input[type="radio"] {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	width: 20px;
+	min-width: 20px;
+	height: 20px;
+	background: #fff;
+	min-height: 0;
+	line-height: 10px;
+	margin: 4px 5px 7px 0;
+	padding: 0;
+	vertical-align: middle;
+	border: 1px solid #d5dadf;
+	border-radius: 3px;
+	font-size: 13px;
+	max-width: -webkit-fill-available;
+	box-shadow: 0 2px 11px -4px rgba(0, 0, 0, 0.1),
+		0 1px 5px -1px rgba(0, 0, 0, 0.06) inset;
+}
+
+#elementor-panel-content-wrapper input[type="radio"] {
+	border-radius: 20px;
+	margin: 0 5px 0 0;
+}
+
+#elementor-panel-content-wrapper input[type="checkbox"]:checked {
+	border-color: #d0ceff;
+	box-shadow: 0 2px 10px -1px #d0ceff;
+}
+
+#elementor-panel-content-wrapper input[type="checkbox"]:checked:before {
+	color: #403cf2 !important;
+	margin: -5px 0 0 2px;
+	font-family: themify;
+	font-size: 19px;
+	content: "\e64c";
+	text-shadow: 0 1px 12px;
+	background: 0 0;
+	transform: rotate(0);
+	-webkit-transform: rotate(0);
+	width: 16px;
+}
+
+#elementor-panel-content-wrapper .ps__rail-x,
+#elementor-panel-content-wrapper .ps__rail-y {
+	display: none;
+}
+
+.kata-elementor-description-error .elementor-control-field-description {
+	background-color: #403cf2;
+	background: linear-gradient(90deg, #332fe0 0, #403cf2 40%, #716ef7 100%);
+	box-shadow: 1px 2px 10px -4px #403cf2;
+	padding: 8px;
+	border-radius: 3px;
+	color: #fff;
+}
+
+.flatpickr-calendar {
+	width: 300px;
+	padding: 11px 10px 6px;
+	box-shadow: 0 3px 17px rgba(0, 0, 0, 0.3);
+}
+
+.flatpickr-calendar .flatpickr-current-month {
+	font-size: 15px;
+	line-height: 18px;
+}
+
+.flatpickr-calendar .flatpickr-month {
+	margin-bottom: 10px;
+}
+
+.flatpickr-weekdays span.flatpickr-weekday {
+	color: #403cf2;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.flatpickr-days span.flatpickr-day {
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.flatpickr-day.endRange,
+.flatpickr-day.endRange.inRange,
+.flatpickr-day.endRange.nextMonthDay,
+.flatpickr-day.endRange.prevMonthDay,
+.flatpickr-day.endRange:focus,
+.flatpickr-day.endRange:hover,
+.flatpickr-day.selected.inRange,
+.flatpickr-day.selected.nextMonthDay,
+.flatpickr-day.selected.prevMonthDay,
+.flatpickr-day.selected:focus,
+.flatpickr-day.selected:hover,
+.flatpickr-day.startRange,
+.flatpickr-day.startRange.inRange,
+.flatpickr-day.startRange.nextMonthDay,
+.flatpickr-day.startRange.prevMonthDay,
+.flatpickr-day.startRange:focus,
+.flatpickr-day.startRange:hover,
+.flatpickr-days span.selected {
+	background: #e5e4ff;
+	color: #403cf2;
+	border-color: #e5e4ff;
+	font-weight: 700;
+}
+
+.flatpickr-calendar .flatpickr-next-month,
+.flatpickr-calendar .flatpickr-prev-month {
+	background: #fff;
+	border-radius: 40px;
+	line-height: 26px;
+	width: 26px;
+	height: 26px;
+	padding: 3px;
+	transition: all 0.22s ease;
+}
+
+.flatpickr-calendar .flatpickr-next-month:hover,
+.flatpickr-calendar .flatpickr-prev-month:hover {
+	background: #e5e4ff;
+}
+
+.flatpickr-calendar .flatpickr-next-month:hover svg,
+.flatpickr-calendar .flatpickr-prev-month:hover svg {
+	fill: #403cf2;
+}
+
+.elementor-control-type-color.e-control-global
+	.e-global__popover-toggle:not(.e-global__popover-toggle--active)
+	~ .pickr {
+	background: transparent !important;
+	padding: 0;
+}
+
+.wp-picker-container:not(.wp-picker-active) .wp-color-result {
+	min-height: 24px;
+}
+
+.elementor-panel .elementor-element .icon i {
+	width: 50px;
+	height: 50px;
+	display: block;
+	margin: 0 auto;
+	transform: scale(0.85);
+}
+
+.elementor-control-hide_title,
+.elementor-panel .elementor-element .icon i.kata-widget:before {
+	display: none;
+}
+
+.elementor-panel .elementor-element .kata-widget {
+	background-image: url(../../images/admin/elementor/widget-icons.svg);
+	background-repeat: no-repeat;
+}
+
+.elementor-panel .elementor-element .kata-widget.kata-eicon-text {
+	background-position: 5px 0;
+}
+
+.elementor-panel
+	.elementor-element
+	.kata-widget.kata-eicon-testimonial-carousel {
+	background-position: -53px 0;
+}
+
+.elementor-panel
+	.elementor-element
+	.kata-widget.kata-eicon-testimonial-vertical {
+	background-position: -2452px 0;
+}
+
+.elementor-panel .elementor-element .kata-widget.kata-eicon-circle {
+	background-position: -111px 0;
+}
+
+.elementor-panel .elementor-element .kata-widget.kata-eicon-editor-h1 {
+	background-position: -162px 0;
+}
+
+.elementor-panel .elementor-element .kata-widget.kata-eicon-image {
+	background-position: -217px 0;
+}
+
+.elementor-panel .elementor-element .kata-widget.kata-eicon-button {
+	background-position: -274px 0;
+}
+
+.elementor-panel .elementor-element .kata-widget.kata-eicon-icon-box {
+	background-position: -328px 0;
+}
+
+.elementor-panel .elementor-element .kata-widget.kata-eicon-v-align-stretch {
+	background-position: -374px 0;
+	width: 40px;
+}
+
+.elementor-panel .elementor-element .kata-widget.kata-eicon-alert {
+	background-position: -416px 0;
+}
+
+.elementor-panel .elementor-element .kata-widget.kata-eicon-youtube {
+	background-position: -472px 0;
+}
+
+.elementor-panel .elementor-element .kata-widget.kata-eicon-editor-list-ul {
+	background-position: -526px 0;
+}
+
+.elementor-panel .elementor-element .kata-widget.kata-eicon-image-rollover {
+	background-position: -580px 0;
+}
+
+.elementor-panel .elementor-element .kata-widget.kata-eicon-accordion {
+	background-position: -633px 0;
+}
+
+.elementor-panel .elementor-element .kata-widget.kata-eicon-counter {
+	background-position: -688px 0;
+}
+
+.elementor-panel .elementor-element .kata-widget.kata-eicon-posts-grid {
+	background-position: -744px 0;
+}
+
+.elementor-panel .elementor-element .kata-widget.kata-eicon-toggle {
+	background-position: -800px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-form-horizontal {
+	background-position: -856px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-image-before-after {
+	background-position: -963px 0;
+}
+
+.elementor-panel .elementor-element .kata-widget.kata-eicon-mail {
+	background-position: -2235px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-post-slider {
+	background-position: -1064px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-countdown {
+	background-position: -1168px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-divider {
+	background-position: -1216px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-person {
+	background-position: -1320px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-food-menu {
+	background-position: -1375px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-food-menu-toggle {
+	background-position: -1430px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-welcome {
+	background-position: -1485px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-google-maps {
+	background-position: -1538px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-image-hotspot {
+	background-position: -1595px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-slider-push {
+	background-position: -912px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-image-slider {
+	background-position: -1643px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-zoom-in {
+	background-position: -1695px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-gallery-grid {
+	background-position: -1743px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-posts-masonry {
+	background-position: -1792px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-price-plan {
+	background-position: -1848px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-price-table {
+	background-position: -1903px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-skill-bar {
+	background-position: -1956px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-dashboard {
+	background-position: -2065px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-section {
+	background-position: -2178px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-subscribe {
+	background-position: -2235px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-tabs {
+	background-position: -2290px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-form-vertical {
+	background-position: -2345px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-team-person {
+	background-position: -2397px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-vertical-testimonial-carousel {
+	background-position: -2452px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-time-line {
+	background-position: -2511px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-h-align-left {
+	background-position: -2570px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-archive-posts {
+	background-position: -2628px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-call-to-action {
+	background-position: -2686px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-call-to-action-page {
+	background-position: -2743px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-post-list {
+	background-position: -2797px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-post-navigation {
+	background-position: -2852px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-comments {
+	background-position: -2910px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-post-content {
+	background-position: -2965px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-featured-image {
+	background-position: -3020px 0;
+}
+
+.elementor-panel .elementor-element .kata-widget.kata-eicon-contact-form {
+	background-position: -3860px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-post-info {
+	background-position: -3076px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-post-title {
+	background-position: -3130px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-related-post-list {
+	background-position: -3187px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-site-search {
+	background-position: -1265px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-social-icons {
+	background-position: -2127px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-cart {
+	background-position: -3358px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-tabel {
+	background-position: -3410px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-food-menu {
+	background-position: -4260px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-food-menu-toggle {
+	background-position: -4310px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-text-area {
+	background-position: -3520px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-lock-user {
+	background-position: -3575px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-logo {
+	background-position: -3631px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-nav-menu {
+	background-position: -3688px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-related-posts {
+	background-position: -3187px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-search {
+	background-position: -3745px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-phone {
+	background-position: -3922px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-email {
+	background-position: -3979px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-address {
+	background-position: -4039px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-gallery {
+	background-position: -4152px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-single-testimonial {
+	background-position: -4096px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-template-loader {
+	background-position: -4208px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-audio-player {
+	background-position: -4417px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-tabel {
+	background-position: -4625px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-menu-toggle {
+	background-position: -3465px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-recipes {
+	background-position: -4468px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-testimonial-carousel-vertical {
+	background-position: -2452px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-recent-posts {
+	background-position: -4574px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-social-share {
+	background-position: -3302px 0;
+}
+
+.elementor-panel .elementor-element .kata-animated-text {
+	background-position: -4790px 0;
+}
+
+.elementor-panel .elementor-element .kata-lottie-animation {
+	background-position: -4845px -1px;
+}
+
+.elementor-panel .elementor-element .kata-eicon-content-toggle {
+	background-position: -1113px 0;
+}
+
+@-moz-document url-prefix() {
+	.elementor-panel .elementor-element .kata-widget.kata-eicon-text {
+		background-position: -3px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-widget.kata-eicon-editor-h1 {
+		background-position: -172px 0;
+	}
+
+	.elementor-panel
+		.elementor-element
+		.kata-widget.kata-eicon-testimonial-carousel {
+		background-position: -63px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-widget.kata-eicon-button {
+		background-position: -284px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-widget.kata-eicon-icon-box {
+		background-position: -337px 0;
+	}
+
+	.elementor-panel
+		.elementor-element
+		.kata-widget.kata-eicon-v-align-stretch {
+		background-position: -382px 0;
+		width: 40px;
+	}
+
+	.elementor-panel .elementor-element .kata-widget.kata-eicon-image {
+		background-position: -226px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-eicon-address {
+		background-position: -4034px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-widget.kata-eicon-image-rollover {
+		background-position: -589px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-widget.kata-eicon-accordion {
+		background-position: -639px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-eicon-single-testimonial {
+		background-position: -4090px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-eicon-post-slider {
+		background-position: -1071px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-eicon-food-menu-toggle {
+		background-position: -4302px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-widget.kata-eicon-posts-grid {
+		background-position: -749px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-eicon-image-slider {
+		background-position: -1646px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-eicon-gallery-grid {
+		background-position: -1745px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-widget.kata-eicon-editor-list-ul {
+		background-position: -532px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-eicon-recipes {
+		background-position: -4460px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-eicon-tabel {
+		background-position: -4615px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-eicon-person {
+		background-position: -1325px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-eicon-template-loader {
+		background-position: -4200px -3px;
+	}
+
+	.elementor-panel .elementor-element .kata-eicon-recent-posts {
+		background-position: -4564px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-eicon-text-area {
+		background-position: -3514px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-widget.kata-eicon-contact-form {
+		background-position: -3852px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-eicon-email {
+		background-position: -3974px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-widget.kata-eicon-alert {
+		background-position: -422px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-widget.kata-eicon-toggle {
+		background-position: -805px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-eicon-audio-player {
+		background-position: -4407px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-eicon-slider-push {
+		background-position: -917px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-eicon-food-menu {
+		background-position: -4250px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-animated-text {
+		background-position: -4780px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-lottie-animation {
+		background-position: -4834px -1px;
+	}
+}
+
+.lds-ripple-wrap:before {
+	content: "";
+	position: absolute;
+	background: rgba(222, 228, 235, 0.7);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.lds-ripple {
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	width: 80px;
+	height: 80px;
+}
+
+.elementor-control-post_title,
+.kt-back-to-template-btn {
+	display: none;
+}
+
+.lds-ripple div {
+	position: absolute;
+	border: 4px solid #332fe0;
+	opacity: 1;
+	border-radius: 50%;
+	animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+	transition: all 9s ease 5s;
+}
+
+.lds-ripple div:nth-child(2) {
+	animation-delay: -0.5s;
+}
+
+@keyframes lds-ripple {
+	0% {
+		top: 50px;
+		left: 50px;
+		width: 0;
+		height: 0;
+		opacity: 1;
+	}
+
+	100% {
+		top: 0;
+		left: 0;
+		width: 100px;
+		height: 100px;
+		opacity: 0;
+	}
+}
+
+.elementor-control
+	.select2-container.select2-container--default
+	.select2-selection {
+	min-width: 100%;
+}
+
+.elementor-control-field .elementor-button {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.elementor-control-_css_classes input.elementor-control-tag-area,
+.elementor-control-_element_id input.elementor-control-tag-area {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+#elementor-mode-switcher-preview[title="Show Panel"] i {
+	color: #fff;
+}
+
+.kata-page-name {
+	height: 22px;
+	background: rgb(12 13 14 / 96%);
+	color: #fff;
+	letter-spacing: 0.5px;
+	font-size: 10px;
+	font-weight: 400;
+	text-align: center;
+	padding: 6px;
+	position: absolute;
+	bottom: 40px;
+	left: 0;
+	right: 0;
+	border-bottom: 1px solid #ffffff0f;
+	box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.2);
+	z-index: 88888;
+}
+
+.kata-page-name span {
+	color: #58bb0a;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	white-space: nowrap;
+	max-width: 200px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#elementor-panel-page-settings,
+.elementor-controls-stack > #elementor-controls {
+	padding-bottom: 36px;
+	/* padding-top: 5px; */
+}
+
+#elementor-panel-get-pro-elements-sticky .elementor-get-pro-sticky-message {
+	padding-bottom: 25px;
+}
+
+#elementor-template-library-templates-container
+	.elementor-template-library-template
+	.elementor-go-pro {
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+	background: #d30c5c;
+	font-size: 10px;
+	font-weight: 400;
+	padding: 1px 8px 0;
+	width: 92%;
+}
+
+#elementor-template-library-templates-container
+	.elementor-template-library-template-block
+	.elementor-go-pro {
+	width: auto;
+	left: auto;
+	right: 0;
+}
+
+#elementor-template-library-templates-container
+	.elementor-template-library-template
+	.elementor-go-pro
+	* {
+	color: #fff;
+}
+
+.elementor-panel .elementor-panel-footer-tool {
+	width: 14%;
+}
+
+.kt-show-back-btn .kt-back-to-template-btn {
+	display: block;
+}
+
+span.elementor-templates-modal__header__logo__title + span {
+	padding: 0 10px;
+	margin-left: 10px;
+	border-radius: 3px;
+	border: 1px solid;
+	box-shadow: 0 1px 8px -4px #17191d;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+}
+
+span.elementor-templates-modal__header__logo__title + span i {
+	font-size: 8px;
+	padding: 3px 4px 0;
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	line-height: 1;
+	border-radius: 33px;
+	border: 1px solid #b8b5f0;
+	margin-right: 6px;
+	speak: none;
+	font-style: normal;
+	font-weight: 400;
+	vertical-align: baseline;
+}
+
+.elementor-control-type-wp_widget .widget-inside {
+	background: #f8f9fa;
+}
+
+#kata-elementor-template-library-modal
+	.dialog-widget-content.dialog-lightbox-widget-content {
+	margin: auto;
+	position: relative;
+	top: 10px;
+}
+
+#kata-elementor-template-library-modal
+	#elementor-template-library-templates-container
+	.elementor-template-library-template {
+	display: none !important;
+}
+
+#kata-elementor-template-library-modal
+	#elementor-template-library-templates-container
+	.elementor-template-library-template.active {
+	display: block !important;
+}
+
+#kata-elementor-template-library-modal.elementor-templates-modal
+	.dialog-header {
+	display: none !important;
+}
+
+#kata-elementor-template-library-modal.elementor-templates-modal
+	.dialog-header.active {
+	display: block !important;
+}
+
+.elementor-control a.elementor-button.elementor-button-success {
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.kata-admin .plugins-content .tablenav {
+	height: auto;
+}
+
+.kt-presets {
+	width: 100%;
+	padding: 0 0 20px;
+}
+
+.kt-presets .kt-preset-item {
+	margin: 10px 0;
+	background: #fff;
+	border: 1px solid #e5e8eb;
+	border-radius: 3px;
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+	width: 100%;
+	transition: all 0.22s ease;
+}
+
+.kt-presets .kt-preset-item:hover,
+.kt-presets .kt-preset-item.active {
+	box-shadow: 0 0 5px -2px #a7a5f24d;
+	border-color: #a7a5f2;
+}
+
+.kt-presets .kt-preset-item .ti-check {
+	display: none;
+}
+
+.kt-presets.loading .kata-plus-element-presets-empty,
+.kt-presets .kata-plus-element-presets-loading {
+	display: none;
+}
+
+.kt-presets .kata-plus-element-presets-empty,
+.kt-presets.loading .kata-plus-element-presets-loading {
+	display: block;
+}
+
+.kata-plus-presets-sync span {
+	display: block;
+	padding: 10px 20px;
+	border-radius: 3px;
+	background-color: #0ea937;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+	transition: all 0.22s ease;
+}
+
+.kata-plus-presets-sync span:hover {
+	opacity: 0.85;
+}
+
+.kt-presets .kt-preset-item.active .ti-check {
+	display: inline-block;
+	text-align: center;
+	position: absolute;
+	background: #817ef6;
+	border-radius: 0 1px 0 2px;
+	color: #fff;
+	top: 0;
+	right: 0;
+	font-size: 14px;
+	padding: 3px;
+}
+
+.kt-presets .kt-preset-item figcaption {
+	color: #3a4a59;
+	padding: 6px 10px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 1;
+	display: block;
+	background: #f0f3f6;
+}
+
+.elementor-color-picker__header {
+	box-shadow: none;
+	border-bottom: 1px solid #e7e8e9;
+}
+
+.elementor-repeater-row-item-title {
+	text-transform: capitalize;
+}
+
+#elementor-preview-loading {
+	z-index: 999;
+}
+
+#elementor-template-library-header-preview-back {
+	border-right: none;
+}
+
+.elementor-tag-settings-popup {
+	z-index: 999;
+}
+
+p.kata-multi-lang-links {
+	text-transform: capitalize;
+	line-height: 2;
+}
+
+p.kata-multi-lang-links:not(:last-child) {
+	border-bottom: 1px solid #e6e9ec;
+}
+
+.eicon-preview-medium.hido {
+	position: relative;
+}
+
+.eicon-preview-medium.hido:after {
+	content: "";
+	width: 2px;
+	height: 17px;
+	border-left: 2px solid;
+	transform: rotate(45deg);
+	position: absolute;
+	left: 6px;
+	top: -1px;
+}
+
+.mce-btn.mce-active button,
+.mce-btn.mce-active:hover button,
+.mce-btn.mce-active i,
+.mce-btn.mce-active:hover i {
+	color: #000;
+	display: block;
+	background: #f0f3f6;
+}
+
+.elementor-repeater-row-item-title {
+	text-transform: capitalize;
+}
+
+#elementor-preview-loading {
+	z-index: 999;
+}
+
+#elementor-template-library-header-preview-back {
+	border-right: none;
+}
+
+.elementor-tag-settings-popup {
+	z-index: 999;
+}
+
+p.kata-multi-lang-links {
+	text-transform: capitalize;
+	line-height: 2;
+}
+
+p.kata-multi-lang-links:not(:last-child) {
+	border-bottom: 1px solid #e6e9ec;
+}
+
+.eicon-preview-medium.hido {
+	position: relative;
+}
+
+.eicon-preview-medium.hido:after {
+	content: "";
+	width: 2px;
+	height: 17px;
+	border-left: 2px solid;
+	transform: rotate(45deg);
+	position: absolute;
+	left: 6px;
+	top: -1px;
+}
+
+.mce-btn.mce-active button,
+.mce-btn.mce-active:hover button,
+.mce-btn.mce-active i,
+.mce-btn.mce-active:hover i {
+	color: #000;
+}
+
+#elementor-editor-wrapper-v2 {
+	margin-left: 50px;
+}
+
+:dir(rtl) {
+	#elementor-editor-wrapper-v2 {
+		margin-left: 0;
+		margin-right: 50px;
+	}
+}
+
+.panelcollaps #elementor-editor-wrapper-v2 {
+	margin-left: 0;
+}
+
+[aria-label^="Small Mobile"] {
+	width: 0.85em;
+	height: 0.85em;
+}
+
+input#e-responsive-bar-switch-smallmobile + i.eicon-device-mobile {
+	font-size: 13px;
+}
+
+.e-responsive-bar__input-size {
+	border-color: #ffffff45;
+}
+
+.e-responsive-bar--pipe::before {
+	background: #ffffff45;
+}

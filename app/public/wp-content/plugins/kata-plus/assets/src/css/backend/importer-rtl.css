@@ -1,0 +1,113 @@
+/* importer */
+
+.kata-lightbox-wrapper {
+	direction: ltr;
+}
+
+.kata-plus-notice-list-item span {
+	float: none;
+}
+
+.kata-admin .kata-col-sm-4 a:after {
+	content: "\e628";
+	margin-left: 5px;
+	margin-right: 0;
+}
+
+.kata-required-plugin .update-message p:before,
+.kata-required-plugin .updating-message p:before,
+.kata-required-plugin .import-php .updating-message:before,
+.kata-required-plugin .button.updating-message:before,
+.kata-required-plugin .button.installing:before {
+	margin-right: 5px;
+	margin-left: 0;
+}
+
+.kata-demo-importer-search-tools .kata-logo {
+	left: unset;
+	right: 0;
+	border-right: none;
+	border-left: 1px solid #e3e5e7;
+}
+
+.kata-demo-importer-cats-and-search {
+	float: right;
+	padding-left: 110px;
+	padding-right: 100px;
+}
+
+.kata-demo-importer-search-tools .kata-demo-importer-wish-list {
+	right: unset;
+	left: 0;
+	border-left: none;
+	border-right: 1px solid #e3e5e7;
+}
+
+.kata-demo-importer-search-tools .demo-categories,
+.kata-demo-importer-search-tools .kata-demo-importer-search-box,
+.kata-demo-importer-search-tools .kata-demo-importer-wish-list {
+	float: right;
+}
+
+.kata-demo-importer-search-tools .demo-categories .nice-select {
+	padding-right: 18px;
+	padding-left: 30px;
+	text-align: right !important;
+	border-right: none;
+	border-left: 1px solid #e3e5e7;
+}
+
+.nice-select:after {
+	right: unset !important;
+	left: 12px;
+}
+
+.kata-demo-importer-search-tools .kata-demo-importer-search-box i {
+	right: unset;
+	left: 10px;
+}
+
+.kata-demo-importer-search-tools .kata-demos-demo-type-wrapper ul li span {
+	float: left;
+	margin-left: 0;
+	margin-right: 5px;
+}
+
+.kata-demo-importer-search-tools .kata-demos-demo-type-wrapper ul li.active {
+	position: relative;
+	top: -2px;
+}
+
+.kata-demo-importer-search-tools .kata-demos-demo-type-wrapper ul li span {
+	float: left;
+	margin-left: 0;
+	margin-right: 5px;
+}
+
+.kata-importer h3.kata-importer-name {
+	text-align: right;
+	padding-left: 0;
+	padding-right: 20px;
+}
+
+.kata-admin .kata-importer button.kata-btn-importer,
+.kata-admin .kata-importer a.kata-btn.kata-btn-importer {
+	float: left;
+	margin: -30px 0 0 20px;
+}
+
+.kata-admin .kata-importer button:before {
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+.kata-importer h3.kata-importer-name:before {
+	right: unset;
+	left: 112px;
+}
+
+.kata-demo-addto-wishlist,
+.kata-demo-addto-wishlist .kata-icon {
+	right: unset;
+	left: 7px;
+}

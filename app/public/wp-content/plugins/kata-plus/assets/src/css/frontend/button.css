@@ -1,0 +1,32 @@
+.kata-button {
+	color: #fff;
+	padding: 20px;
+	cursor: pointer;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	text-align: center;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.kata-button .after {
+	content: "";
+	position: absolute;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.kata-button .kata-icon {
+	fill: #ffffff;
+}
+
+.kata-button-text {
+	position: relative;
+}
+
+.kata-button:hover {
+	color: #ffffff;
+}

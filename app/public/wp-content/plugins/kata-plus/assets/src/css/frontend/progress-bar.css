@@ -1,0 +1,82 @@
+.kata-plus-progress-bar .bar {
+    height: 18px;
+    width: 0;
+    transition: width .8s ease;
+    -webkit-transition: width .8s ease;
+}
+
+.kata-plus-progress-bar .bar-wrapper {
+    width: 100%;
+    height: 18px;
+    background: #eee;
+    border-radius: 15px;
+}
+
+.kata-plus-progress-bar .bar-wrapper.action .bar {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.kata-plus-progress-bar p {
+    margin: 10px 0;
+}
+
+.kata-plus-progress-bar:nth-child(1) .bar {
+    transition-delay: .2s;
+}
+
+.kata-plus-progress-bar:nth-child(2) .bar {
+    transition-delay: .4s;
+}
+
+.kata-plus-progress-bar:nth-child(3) .bar {
+    transition-delay: .6s;
+}
+
+.kata-plus-progress-bar:nth-child(4) .bar {
+    transition-delay: .8s;
+}
+
+.kata-plus-progress-bar:nth-child(5) .bar {
+    transition-delay: 1s;
+}
+
+.kata-plus-progress-bar:nth-child(6) .bar {
+    transition-delay: 1.2s;
+}
+
+.kata-plus-progress-bar:nth-child(7) .bar {
+    transition-delay: 1.4s;
+}
+
+.kata-plus-progress-bar:nth-child(8) .bar {
+    transition-delay: 1.6s;
+}
+
+.kata-plus-progress-bar:nth-child(9) .bar {
+    transition-delay: 1.8s;
+}
+
+.kata-plus-progress-bar:nth-child(10) .bar {
+    transition-delay: 2s;
+}
+
+.kata-plus-progress-bar:nth-child(11) .bar {
+    transition-delay: 2.2s;
+}
+
+.kata-plus-progress-bar:nth-child(12) .bar {
+    transition-delay: 2.4s;
+}
+
+.kata-plus-progress-bar:nth-child(13) .bar {
+    transition-delay: 2.6s;
+}
+
+.kata-plus-progress-bar:nth-child(14) .bar {
+    transition-delay: 2.8s;
+}
+
+.kata-plus-progress-bar:nth-child(15) .bar {
+    transition-delay: 3s;
+}

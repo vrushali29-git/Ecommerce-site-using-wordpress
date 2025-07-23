@@ -1,0 +1,843 @@
+#shoppress-library-modal #elementor-template-library-filter {
+	display: none;
+}
+
+#shoppress-library-modal
+	.elementor-template-library-template-insert.elementor-button {
+	right: 20px;
+	letter-spacing: 0.5px;
+	border-radius: 5px;
+	padding: 6px;
+	font-size: 9px !important;
+	line-height: 1;
+	margin-top: 2px;
+}
+
+#shoppress-library-modal
+	.elementor-template-library-template-remote
+	.elementor-template-library-favorite {
+	position: relative;
+	/* right: -8px; */
+}
+
+#shoppress-library-modal .dialog-message.dialog-lightbox-message {
+	padding-left: 140px;
+	margin-top: 0;
+	padding-right: 0px;
+	padding-top: 10px;
+}
+
+#shoppress-library-modal
+	.dialog-message.dialog-lightbox-message
+	#elementor-template-library-templates-container {
+	padding-bottom: 60px;
+}
+
+#shoppress-library-modal
+	.elementor-template-library-template-remote:not(
+		.elementor-template-library-template-page
+	):not(.elementor-template-library-template-lp)
+	.elementor-template-library-template-footer {
+	/* position: relative; */
+	padding: 0 10px 2px;
+}
+
+#shoppress-library-modal .elementor-templates-modal__header__menu-area {
+	position: absolute;
+	left: 0;
+	min-width: 140px;
+	max-width: 140px;
+	top: 50px;
+	padding-bottom: 5px;
+	box-shadow: none;
+	border: none;
+}
+
+#shoppress-library-modal #elementor-template-library-header-menu {
+	height: 655px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	padding-left: 10px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	box-shadow: none;
+	margin-top: 1px;
+	background-color: #fff;
+	background: linear-gradient(180deg, #f7f8f9 0, #fafafa 90%, #ffffff 100%);
+}
+
+#shoppress-library-modal .elementor-component-tab {
+	display: block;
+	text-align: left;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 17px;
+	letter-spacing: 0.3px;
+	text-decoration: none;
+	color: #5a6471;
+	padding: 6px 12px;
+	margin-bottom: 1px;
+	border: 1px solid transparent;
+	border-radius: 30px 0 0 30px;
+	transition: all 0.2s ease;
+}
+
+#shoppress-library-modal .elementor-component-tab:hover {
+	color: #000;
+}
+
+#shoppress-library-modal .elementor-component-tab.elementor-active {
+	cursor: default;
+	position: relative;
+	background: #fff;
+	color: #000;
+	border: 1px solid #dfe3e6;
+	border-right: 1px solid #fff;
+	z-index: 2;
+	font-weight: 500;
+}
+
+#shoppress-library-modal .elementor-component-tab:before,
+#shoppress-library-modal .elementor-component-tab:after {
+	display: none;
+}
+
+#shoppress-library-modal .elementor-templates-modal__header__menu-area:before {
+	background-color: #dfe3e6;
+	background: linear-gradient(180deg, #dfe3e6 0, #dfe3e6 90%, #f1f3f5 100%);
+	content: "";
+	width: 1px;
+	height: 100%;
+	position: absolute;
+	right: 0px;
+	top: 0;
+	bottom: 0;
+	display: block;
+	border: none;
+	left: auto;
+	margin: 0;
+	z-index: 1;
+}
+
+.shoppress-elementor-control-presets
+	.shoppress-elementor-element-presets-wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+}
+
+.shoppress-elementor-control-presets .shoppress-elementor-element-presets {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.shoppress-elementor-control-presets .shoppress-elementor-element-presets-item {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border: 1px solid #ebebeb;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	cursor: pointer;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-preferred-size: 49%;
+	flex-basis: 49%;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	margin-bottom: 15px;
+	padding: 10px 5px;
+	position: relative;
+	text-align: center;
+}
+
+.shoppress-elementor-control-presets
+	.shoppress-elementor-element-presets-item
+	img {
+	max-width: 100%;
+}
+
+.shoppress-elementor-control-presets
+	.shoppress-elementor-element-presets-item
+	i {
+	background: #71d7f7;
+	border-radius: 50%;
+	color: white;
+	display: none;
+	font-size: 10px;
+	height: 16px;
+	left: -8px;
+	line-height: 16px;
+	position: absolute;
+	top: -8px;
+	width: 16px;
+}
+
+.shoppress-elementor-control-presets
+	.shoppress-elementor-element-presets-item-title {
+	line-height: 1.2;
+}
+
+.shoppress-elementor-control-presets
+	.shoppress-elementor-element-presets-item.active,
+.shoppress-elementor-control-presets
+	.shoppress-elementor-element-presets-item:hover {
+	border: 2px solid #71d7f7;
+}
+
+.shoppress-elementor-control-presets
+	.shoppress-elementor-element-presets-item.active
+	i {
+	display: block;
+}
+
+.shoppress-elementor-control-presets
+	.shoppress-elementor-element-presets-item.active
+	.shoppress-elementor-control-presets
+	.shoppress-elementor-element-presets-item-title,
+.shoppress-elementor-control-presets
+	.shoppress-elementor-element-presets-item:hover
+	.shoppress-elementor-control-presets
+	.shoppress-elementor-element-presets-item-title {
+	color: #71d7f7;
+}
+
+.shoppress-elementor-control-presets
+	.shoppress-elementor-element-presets-loading {
+	display: none;
+}
+
+.shoppress-elementor-control-presets
+	.shoppress-elementor-element-presets.loading
+	.shoppress-elementor-element-presets-loading {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.shoppress-elementor-control-presets
+	.shoppress-elementor-element-presets.loading
+	.shoppress-elementor-element-presets-loading
+	span {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.shoppress-elementor-control-presets
+	.shoppress-elementor-element-presets.loading
+	.shoppress-elementor-element-presets-404,
+.shoppress-elementor-control-presets
+	.shoppress-elementor-element-presets.loading
+	.shoppress-elementor-element-presets-item {
+	display: none;
+}
+
+.shoppress-elementor-control-custom-presets {
+	width: 100%;
+}
+
+.shoppress-elementor-control-custom-presets
+	.shoppress-elementor-element-custom-presets-wrapper {
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+}
+
+.shoppress-elementor-control-custom-presets
+	.shoppress-elementor-element-custom-presets-wrapper
+	.elementor-panel-alert
+	.elementor-button {
+	background-color: #d30c5c;
+	color: white;
+	font-size: 10px;
+	font-style: normal;
+	text-transform: none;
+}
+
+.shoppress-elementor-control-custom-presets
+	.shoppress-elementor-element-custom-presets-wrapper
+	.elementor-panel-alert
+	.elementor-button:hover,
+.shoppress-elementor-control-custom-presets
+	.shoppress-elementor-element-custom-presets-wrapper
+	.elementor-panel-alert
+	.elementor-button:active {
+	background-color: #f22074;
+	color: white;
+	border-bottom: 1px dotted transparent;
+}
+
+.shoppress-elementor-control-custom-presets
+	.shoppress-elementor-element-custom-presets-wrapper
+	.elementor-panel-alert
+	.elementor-button
+	i {
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+.shoppress-elementor-control-custom-presets
+	.shoppress-elementor-element-custom-presets-input-wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+
+.shoppress-elementor-control-custom-presets
+	.shoppress-elementor-element-custom-presets-input-wrapper
+	> div:first-child {
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+}
+
+.shoppress-elementor-control-custom-presets
+	.shoppress-elementor-element-custom-presets-input-wrapper
+	.elementor-control-input-wrapper {
+	width: 100%;
+}
+
+.shoppress-elementor-control-custom-presets
+	.shoppress-elementor-element-custom-presets-input-wrapper
+	.elementor-button-wrapper {
+	margin-left: 5px;
+}
+
+.shoppress-elementor-control-custom-presets
+	.shoppress-elementor-element-custom-presets-input-wrapper
+	.elementor-button.elementor-button-default {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background-color: #f8f8f9;
+	border: 1px solid #d5dadf;
+	color: #6f7a83;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	font-size: 12px;
+	height: 26px;
+	padding: 0 7px;
+	text-transform: capitalize;
+}
+
+.shoppress-elementor-control-custom-presets
+	.shoppress-elementor-element-custom-presets-input-wrapper
+	.elementor-button
+	i {
+	color: #6f7a83;
+	font-size: 16px;
+	margin-right: 5px;
+}
+
+.shoppress-elementor-control-custom-presets
+	.shoppress-elementor-element-custom-presets-item {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border: 1px solid #d5dadf;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	height: 37px;
+	margin-bottom: 10px;
+}
+
+.shoppress-elementor-control-custom-presets
+	.shoppress-elementor-element-custom-presets-item:hover {
+	background-color: #f8f8f9;
+}
+
+.shoppress-elementor-control-custom-presets
+	.shoppress-elementor-element-custom-presets-item-title {
+	-ms-flex-preferred-size: calc(100% - 74px);
+	flex-basis: calc(100% - 74px);
+	padding-left: 5px;
+}
+
+.shoppress-elementor-control-custom-presets
+	.shoppress-elementor-element-custom-presets-item-delete {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	color: #6f7a83;
+	cursor: pointer;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	height: 100%;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	width: 37px;
+}
+
+.shoppress-elementor-control-custom-presets
+	.shoppress-elementor-element-custom-presets-item-delete
+	i {
+	font-size: 16px;
+}
+
+.shoppress-elementor-control-custom-presets
+	.shoppress-elementor-element-custom-presets-item-delete
+	i:hover {
+	color: #58626b;
+}
+
+.shoppress-elementor-control-custom-presets
+	.shoppress-elementor-element-custom-presets-item-apply {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border-left: 1px solid lightgrey;
+	color: #6f7a83;
+	cursor: pointer;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	height: 100%;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	width: 37px;
+}
+
+.shoppress-elementor-control-custom-presets
+	.shoppress-elementor-element-custom-presets-item-apply
+	i {
+	font-size: 16px;
+}
+
+.shoppress-elementor-control-custom-presets
+	.shoppress-elementor-element-custom-presets-item-apply
+	i:hover {
+	color: #58626b;
+}
+
+.shoppress-elementor-control-custom-presets
+	.shoppress-elementor-element-custom-presets-loading {
+	display: none;
+}
+
+.shoppress-elementor-control-custom-presets
+	.shoppress-elementor-element-custom-presets.loading
+	.shoppress-elementor-element-custom-presets-loading {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.shoppress-elementor-control-custom-presets
+	.shoppress-elementor-element-custom-presets.loading
+	.shoppress-elementor-element-custom-presets-loading
+	span {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.shoppress-elementor-control-custom-presets
+	.shoppress-elementor-element-custom-presets.loading
+	.shoppress-elementor-element-custom-presets-item {
+	display: none;
+}
+
+/* Elementor library */
+#elementor-template-library-save-template-form {
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	max-width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#elementor-template-library-save-template-form .shoppress-elementor-checkbox {
+	margin-top: 10px;
+	width: 100%;
+	text-align: left;
+}
+
+.elementor-template-library-template-more {
+	width: 175px;
+	right: 54px !important;
+}
+
+.elementor-template-library-template-more:before {
+	right: 63px;
+}
+
+/* library */
+#shoppress-library-modal #elementor-template-library-header-import,
+#shoppress-library-modal #elementor-template-library-header-save,
+#shoppress-library-modal .elementor-template-library-blank-footer,
+#shoppress-library-modal
+	.elementor-template-library-template-controls
+	> .elementor-template-library-template-preview,
+#shoppress-library-modal .elementor-template-library-template-export {
+	display: none;
+}
+
+#shoppress-library-modal .elementor-templates-modal__header__logo-area {
+	width: 100px;
+}
+
+#shoppress-library-modal.elementor-templates-modal .dialog-header {
+	border-radius: 4px 4px 0 0;
+	border-bottom: 1px solid #dfe3e6;
+}
+
+#shoppress-library-modal #elementor-template-library-header-preview-back {
+	width: 160px;
+	border-color: transparent !important;
+	font-size: 14px;
+}
+
+#shoppress-library-modal
+	.elementor-templates-modal__header__logo__icon-wrapper {
+	display: none;
+}
+
+#shoppress-library-modal
+	.elementor-templates-modal__header__logo__icon-wrapper
+	i {
+	display: none;
+}
+
+#shoppress-library-modal .elementor-templates-modal__header__logo__title {
+	text-transform: none;
+	white-space: nowrap;
+	font-size: 17px;
+}
+
+#shoppress-library-modal .elementor-template-library-template-insert {
+	margin-left: 0;
+}
+
+#shoppress-library-modal .elementor-template-library-filter-toolbar {
+	width: 100%;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	padding: 5px 15px;
+}
+
+#shoppress-library-modal .elementor-template-library-filter-toolbar > div {
+	border-right-width: 0;
+}
+
+#shoppress-library-modal
+	.elementor-template-library-order-input:checked
+	+ .elementor-template-library-order-label {
+	padding-right: 22px;
+	color: #d30c5c !important;
+}
+
+#shoppress-library-modal
+	.elementor-template-library-order-input:checked
+	+ .elementor-template-library-order-label::after {
+	display: none;
+}
+
+#shoppress-library-modal #elementor-template-library-filter .select2 {
+	width: 150px !important;
+}
+
+#shoppress-elementor-save-template-dialog .dialog-lightbox-header {
+	text-align: left;
+	padding: 20px 20px 15px;
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+	position: relative;
+	z-index: 1;
+	border-bottom: 1px solid #ffffff1c;
+}
+
+#shoppress-elementor-save-template-dialog .dialog-lightbox-message {
+	text-align: left;
+	padding: 20px;
+	line-height: 2;
+	max-height: 300px;
+	overflow-y: auto;
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+}
+
+#shoppress-elementor-save-template-dialog
+	.dialog-lightbox-message::-webkit-scrollbar {
+	width: 0px;
+}
+
+#shoppress-elementor-save-template-dialog
+	.shoppress-elementor-save-template-dialog-error {
+	color: red;
+}
+
+.shoppress-library-modal
+	.elementor-template-library-template-remote
+	.elementor-template-library-template-preview {
+	background-color: rgb(109 106 247 / 35%);
+}
+
+.shoppress-library-modal
+	.elementor-template-library-template-remote
+	.elementor-template-library-template-preview
+	i {
+	font-size: 26px;
+	color: #fff;
+}
+
+.shoppress-library-modal .elementor-template-library-template-remote {
+	box-shadow: 0 1px 2px rgb(0 0 0 / 2%);
+	/* padding-bottom: 0; */
+}
+
+.shoppress-library-modal
+	.elementor-template-library-template-remote
+	.elementor-template-library-template-insert.elementor-button {
+	background: #6fd475;
+	box-shadow: none;
+}
+
+.shoppress-library-modal
+	.elementor-template-library-template-remote
+	.elementor-template-library-template-insert.elementor-button:hover {
+	background: #2ebf36;
+	box-shadow: 0 2px 4px -2px #50ca57;
+}
+
+.shoppress-library-modal.elementor-templates-modal .dialog-message {
+	min-height: 660px;
+}
+
+.shoppress-library-modal #elementor-template-library-my-favorites {
+	min-width: 210px;
+	padding-left: 0;
+}
+
+.shoppress-library-modal #elementor-template-library-my-favorites label {
+	font-weight: 500;
+	color: #747e86;
+}
+
+.shoppress-library-modal
+	#elementor-template-library-filter-my-favorites-label
+	i {
+	font-size: 16px;
+	vertical-align: text-bottom;
+}
+
+#shoppress-library-modal.back-to-lib .dialog-message.dialog-lightbox-message {
+	padding-left: 30px;
+}
+
+#shoppress-library-modal.back-to-lib
+	.elementor-templates-modal__header__menu-area {
+	display: none;
+}
+
+#shoppress-library-modal #elementor-template-library-templates-container:after {
+	background-color: #dfe3e6;
+	background: linear-gradient(180deg, #ffffff00 0, #f1f3f5 80%);
+	content: "";
+	width: 100%;
+	height: 60px;
+	position: absolute;
+	right: 0;
+	top: auto;
+	bottom: 0;
+	display: block;
+	border: none;
+	left: 0;
+	margin: 0;
+	z-index: 7;
+}
+
+#shoppress-library-modal #elementor-template-library-filter-text-wrapper {
+	padding-right: 20px;
+	z-index: 99999;
+	width: 200px;
+}
+
+#shoppress-library-modal #elementor-template-library-filter-text {
+	border: none;
+	background-color: #fff;
+	border-radius: 0;
+	height: 26px;
+	padding: 0 15px 0 0;
+	border-bottom: 1px solid #e5e6e7 !important;
+}
+
+#shoppress-library-modal #elementor-template-library-filter-text-wrapper i {
+	color: #515962;
+	right: 20px;
+}
+
+#shoppress-library-modal
+	#elementor-template-library-filter-text::-webkit-input-placeholder {
+	font-family: inter, arial;
+	letter-spacing: 0.5px;
+	font-size: 12px;
+	color: #ffffff82;
+	text-transform: capitalize;
+}
+
+#shoppress-library-modal
+	#elementor-template-library-filter-text::-moz-placeholder {
+	font-family: inter, arial;
+	letter-spacing: 0.5px;
+	font-size: 12px;
+	color: #ffffff82;
+	text-transform: capitalize;
+}
+
+#shoppress-library-modal
+	#elementor-template-library-filter-text::-ms-input-placeholder {
+	font-family: inter, arial;
+	letter-spacing: 0.5px;
+	font-size: 12px;
+	color: #ffffff82;
+	text-transform: capitalize;
+}
+
+#shoppress-library-modal #elementor-template-library-filter-text::placeholder {
+	font-family: inter, arial;
+	letter-spacing: 0.5px;
+	font-size: 12px;
+	color: #ffffff82;
+	text-transform: capitalize;
+}
+
+#shoppress-library-modal #elementor-template-library-filter-text:focus {
+	border: none;
+	background-color: #fffffff0;
+}
+
+.mce-btn.mce-active button,
+.mce-btn.mce-active:hover button,
+.mce-btn.mce-active i,
+.mce-btn.mce-active:hover i {
+	color: #fff;
+}
+
+#elementor-template-library-templates-container
+	.elementor-template-library-template.elementor-template-library-template-remote:hover {
+	background: transparent;
+}
+
+#shoppress-elementor-template-library-templates-kata-popup-notice {
+	display: none;
+	position: fixed;
+	z-index: 999;
+	background: rgba(0, 0, 0, 0.3);
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+}
+
+#shoppress-elementor-template-library-templates-kata-popup-notice.open {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#shoppress-elementor-template-library-templates-kata-popup-notice
+	#shoppress-elementor-template-library-templates-kata-popup-notice-wrapper {
+	position: relative;
+	background: #fff;
+	border-radius: 7px;
+	border: 1px solid #e3e5e7;
+	max-width: 600px;
+}
+
+#shoppress-elementor-template-library-templates-kata-popup-notice
+	#shoppress-elementor-template-library-templates-kata-popup-notice-wrapper
+	#shoppress-elementor-template-library-templates-kata-popup-notice-close {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	border-radius: 50%;
+	background: #f1f2f3;
+	padding: 5px;
+	font-size: 10px;
+	cursor: pointer;
+}
+
+#shoppress-elementor-template-library-templates-kata-popup-notice
+	#shoppress-elementor-template-library-templates-kata-popup-notice-wrapper
+	#shoppress-elementor-template-library-templates-kata-popup-notice-close:hover {
+		opacity: 0.7;
+	}
+
+#shoppress-elementor-template-library-templates-kata-popup-notice
+	#shoppress-elementor-template-library-templates-kata-popup-notice-content {
+	padding: 65px 35px 50px;
+}
+
+#shoppress-elementor-template-library-templates-kata-popup-notice
+	#shoppress-elementor-template-library-templates-kata-popup-notice-content
+	h3 {
+	color: #454c54;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+
+#shoppress-elementor-template-library-templates-kata-popup-notice
+	#shoppress-elementor-template-library-templates-kata-popup-notice-content
+	p {
+	color: #808995;
+	font-size: 14px;
+}
+
+#shoppress-elementor-template-library-templates-kata-popup-notice
+	#shoppress-elementor-template-library-templates-kata-popup-notice-wrapper
+	#shoppress-elementor-template-library-templates-kata-popup-notice-actions {
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px solid #e3e5e7;
+}
+
+#shoppress-elementor-template-library-templates-kata-popup-notice
+	#shoppress-elementor-template-library-templates-kata-popup-notice-wrapper
+	#shoppress-elementor-template-library-templates-kata-popup-notice-actions
+	a {
+	width: 33%;
+	padding: 15px;
+	font-weight: 900;
+}
+
+#shoppress-elementor-template-library-templates-kata-popup-notice
+	#shoppress-elementor-template-library-templates-kata-popup-notice-wrapper
+	#shoppress-elementor-template-library-templates-kata-popup-notice-actions
+	a:nth-child(1) {
+	color: #22ac3f;
+}
+
+#shoppress-elementor-template-library-templates-kata-popup-notice
+	#shoppress-elementor-template-library-templates-kata-popup-notice-wrapper
+	#shoppress-elementor-template-library-templates-kata-popup-notice-actions
+	a:nth-child(2) {
+	border: 1px solid #e3e5e7;
+	border-width: 0 1px 0;
+	color: #80868d;
+}
+
+#shoppress-elementor-template-library-templates-kata-popup-notice
+	#shoppress-elementor-template-library-templates-kata-popup-notice-wrapper
+	#shoppress-elementor-template-library-templates-kata-popup-notice-actions
+	a:nth-child(3) {
+	color: #837af5;
+}

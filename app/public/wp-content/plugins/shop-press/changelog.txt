@@ -1,0 +1,316 @@
+== Changelog ==
+= 1.4.15 - 7 May 2025 =
+Added: Qr Code Widget
+Improved: Styler
+Fixed: Checkout Style 
+Fixed: Minor issues
+
+= 1.4.14 - 12 February 2025 =
+Improved: Styler
+Fixed: Minor issues
+
+= 1.4.13 - 02 February 2025 =
+Fixed: Minor issues
+
+= 1.4.12 - 21 October 2024 =
+Fixed: Minor issues
+
+= 1.4.11 - 20 October 2024 =
+Fixed: Minor issues
+
+= 1.4.10 - 16 October 2024 =
+Fixed: Minor issues
+
+= 1.4.9 - 14 September 2024 =
+Added: Products hotspot widget (Pro)
+Added: Ajax products tabs widget (Pro)
+Fixed: Drawer close icon on mobile
+Fixed: Display shipping total in shopify checkout module
+Fixed: Convert dropdown to drawer on mobile
+
+= 1.4.8 - 3 September 2024 =
+Added: Brand attribute for variation swatches
+Added: New gallery type for product gallery (Pro)
+Fixed: Display attribute image on change variation
+Fixed: Woo filters
+
+= 1.4.7 - 20 August 2024 =
+Added: Carousel and heading options for recently viewed products widget
+Fixed: Woo my account lost password issues
+Fixed: Product loop builder status
+Fixed: Modern quantity styling issue
+
+= 1.4.6 - 12 August 2024 =
+Added: Product gallery slider view type (Pro)
+Added: "Catalog Ordering" widget
+Added: "Result Count" widget
+Added: Slider gallery navigation type for loop thumbnails
+Added: Mobile drawer for filters widget
+Added: Loop builder for recently viewed products widget
+Fixed: "Product Badges" issues
+Fixed: Variation swatches color display issue
+Fixed: Loop builder template loading issue
+Fixed: Shop filters error and update content issue
+Fixed: Shop load more button issue
+
+= 1.4.5 - 3 August 2024 =
+Fixed: Slider issues
+
+= 1.4.4 - 1 August 2024 =
+Fixed: Minor issues
+
+= 1.4.3 - 9 July 2024 =
+Fixed: Catalog mode issues
+Fixed: Guest wishlist
+Fixed: Wishlist social share link
+Fixed: My wishlist thumbnail size
+Fixed: Size chart issues
+Fixed: Multi-step checkout issue with new cart blocks
+Fixed: Rating widget display in quick view
+Fixed: Product stock display issue
+Fixed: Add to cart link in loop builder
+Fixed: Empty compare section
+Fixed: Brand display image issue
+Fixed: Sales notification display issue
+Fixed: Linked variation issues
+Fixed: Minor issues
+
+= 1.4.2 - 26 June 2024 =
+Fixed: Cart table issue
+Fixed: Variation Swatches, display label
+Fixed: Off-Canvas widget template issue
+Fixed: Minor issues
+
+= 1.4.1 - 22 June 2024 =
+Added: SVG support for brand thumbnails
+Fixed: Style loading in the block editor
+Fixed: Variation Swatches, quick shop styles
+Fixed: Product gallery module display issues
+
+= 1.4.0 - 18 June 2024 =
+Added: Product single, Gutenberg builder
+Added: Shop, Gutenberg builder
+Added: Wishlist, Gutenberg builder
+Added: Checkout, Gutenberg builder
+Added: Cart, Gutenberg builder
+Added: Empty cart, Gutenberg builder
+Added: Archive, Gutenberg builder
+Added: Products loop, Gutenberg builder
+Added: My account, Gutenberg builder
+Added: Quick view, Gutenberg builder
+Added: Thank you, Gutenberg builder
+Added: Compare, Gutenberg builder
+Added: Linked Variations module (Pro)
+Added: Frequently Bought Together module (Pro)
+Added: Video Gallery (Pro)
+Added: Variation Swatches, Quick Shop (Pro)
+Added: Variation images gallery (Pro)
+Added: Dual color variation swatches (Pro)
+Added: Disabled swatches styles
+Added: Swatches "Hide to price"
+Added: Swatches shape styles
+Added: "Blur or hide", out of variations
+Added: Product based swatches customization
+Added: Move to another wishlist (Pro)
+Added: Popular products in wishlists (Pro)
+Added: My wishlists bulk actions (Pro)
+Added: Compare "Field to show"
+Added: Compare "Thumbnail Size"
+Added: Product SKU in compare table
+Added: Limit the number of products can be added to the compare
+Added: Highlight attributes fields with different values in compare (Pro)
+Added: Compare "Show clear all button" (Pro)
+Added: Compare "Social Sharing" (Pro)
+Added: Login page builder
+Added: Catalog Mode "Change text and link of the add to cart button"
+Added: Catalog Mode "Add to cart custom link"
+Added: Catalog Mode "Price Placeholder"
+Added: Catalog Mode "Hide the review tab"
+Added: Catalog Mode "Custom Rules"
+Fixed: Minor issues
+
+= 1.3.9 - 5 June 2024 =
+Fixed: Minor issues
+
+= 1.3.8 - 1 May 2024 =
+Fixed: Woo fragment loading
+Fixed: Quick Checkout issues
+
+= 1.3.7 - 15 April 2024 =
+Added: Single Variation module (Pro)
+Added: My wishlist grid view
+Added: Quick view social share
+Improved: Multi-step checkout
+Improved: Shopify checkout
+Improved: Mini cart drawer (Pro)
+Fixed: Minor issues
+
+= 1.3.6 - 4 April 2024 =
+Improved: Mobile Panel
+Fixed: Minor issues
+
+= 1.3.5 - 13 March 2024 =
+Added: Display the selected attribute label
+Improved: Product loop builder
+Improved: Product loop thumbnail size options
+Fixed: Minor issues
+
+= 1.3.4 - 10 March 2024 =
+Added: Product Tabs Manager Module (Pro)
+Added: New Add to Cart view type
+Fixed: Size chart popup issues
+Fixed: Product carousel minor issue
+Fixed: Cart table widget minor issue
+Fixed: Quick view style
+Fixed: Minor styling issues
+
+= 1.3.3 - 4 March 2024 =
+Added: Product link to wishlist dropdown
+Improved: Display product gallery (Pro)
+Fixed: Single Add to Cart widget icon
+Fixed: Single product review widget styler issues
+Fixed: Size Chart widget icon styler issues
+Fixed: Cart table issues
+Fixed: Minor styling issues
+Fixed: Display wishlist items count
+Fixed: Show more filters
+Fixed: Display product gallery in Elementor edit mode (Pro)
+Fixed: Minor issues
+
+= 1.3.2 - 28 February 2024 =
+Fixed: Minor issues
+
+= 1.3.1 - 27 February 2024 =
+Improved: Hide view cart link after ajax add to cart
+Improved: Hide the wishlist header if is empty
+Improved: Responsive breakpoints
+Fixed: Load image in mini cart and mini wishlist
+Fixed: Mini wishlist, mini cart default icons
+Fixed: Infinite slide speed
+Fixed: Loop Thumbnails slider link
+Fixed: Display notices in Shopify checkout
+Fixed: Display zoom icon in product gallery (Pro)
+Fixed: Display badges issue on mobile (Pro)
+Fixed: CSS gap in product gallery (Pro)
+Fixed: Open mini cart drawer after add to cart (Pro)
+Fixed: Image Hotspot widget issues (Pro)
+Fixed: Display zoom icon in product gallery (Pro)
+
+= 1.3.0 - 13 February 2024 =
+Added: Product Gallery Module (Pro)
+Added: Product Badges Module (Pro)
+Added: Quick Checkout Module (Pro)
+Added: Sales Notifications Module (Pro)
+Added: Wishlist Social Share (Pro)
+Added: Multi-wishlist (Pro)
+Added: Thumbnails slider in the loop
+Added: Step validation for Multi-step checkout
+
+= 1.2.6 - 10 February 2024 =
+Fixed: Quick view styles
+Fixed: Styles options of mini cart and mini wishlist widgets
+Fixed: Product navigation render issue
+
+= 1.2.5 - 4 February 2024 =
+Fixed: Shopify module, order page style
+Fixed: Minor issues
+
+= 1.2.4 - 31 January 2024 =
+Fixed: Minor issues
+
+= 1.2.3 - 20 January 2024 =
+Fixed: Minor issues
+
+= 1.2.2 - 10 January 2024 =
+Fixed: Minor issues
+
+= 1.2.1 - 2 January 2024 =
+Fixed: Minor issues
+
+= 1.2.0 - 1 January 2024 =
+Added: Loop Builder
+Added: Flash Sale Countdown
+Added: Single Ajax Add to Cart
+Added: Pre-Order (Pro)
+Added: Partial Payment (Pro)
+Added: Cross Sell Popup (Pro)
+Added: Order Bump (Pro)
+Added: Mini Cart Drawer (Pro)
+Fixed: Minor issues
+
+= 1.1.6 - 13 February 2023 =
+Added: Carousel to Product Category Widget
+Fixed: Quick View (style and variation products)
+Fixed: Loop Builder widgets (Pro)
+Fixed: Add to Wishlist
+Fixed: Minor issues
+
+= 1.1.5 - 31 January 2023 =
+Added: Overlay buttons in loop builder (Pro)
+Fixed: Style Popup Settings
+Fixed: Update Menu Wishlist by Ajax
+Fixed: Style Popup Quick View
+Fixed: Minor issues
+
+= 1.1.4 - 14 January 2023 =
+Fixed: WordPress permalink issue
+Fixed: Display the wishlist widget in the single product
+Fixed: Display the single product compare widget
+Fixed: Display image in Loop Product
+Fixed: Display the title widget in Single Product
+Fixed: Cart table button
+Fixed: Display the product details in the Quick View
+Fixed: Product Price
+Fixed: Menu Wishlist
+Fixed: Menu Cart
+Fixed: Variation in Quick View Modal
+Fixed: Minor issues
+Improved: Sticky add to cart
+
+= 1.1.3 - 11 December 2022 =
+Added: product brand
+Added: my account notification
+Added: product ajax
+Fixed: Minor issues
+
+= 1.1.2 - 9 November 2022 =
+Fixed: Minor issues
+
+= 1.1.1 - 8 November 2022 =
+Fixed: Minor issues
+
+= 1.1.0 - 6 November 2022 =
+Added: Cart builder
+Added: Empty Cart builder
+Added: Checkout builder
+Added: Quick View builder
+Added: Compare builder
+Added: Wishlist builder
+Added: Thank You builder
+Added: Archive builder
+Added: Call for Price Widget
+Added: Suggest Price Widget
+Added: Recently Viewed Products Widget
+Added: Rename Label
+Added: Backorder
+Added: Shopify Style Checkout
+Added: Ajax Search Widget
+Added: Templates by Category
+Added: Custom Single Template
+Added: Menu Wishlist
+
+= 1.0.3 - 13 September 2022 =
+Fixed: Minor issues
+
+= 1.0.2 - 7 September 2022 =
+Fixed: multi step checkout style
+Fixed: recent products builder
+Fixed: sales notification
+Fixed: wishlist style
+Fixed: my account style
+
+= 1.0.1 - 5 September 2022 =
+Fixed: Minor issues
+
+= 1.0.0 - 5 September 2022 =
+Initial Release

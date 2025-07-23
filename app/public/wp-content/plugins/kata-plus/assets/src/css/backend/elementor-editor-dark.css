@@ -1,0 +1,4969 @@
+/**
+* Kata Elementor styles.
+*
+* @author  ClimaxThemes
+* @package Kata Plus
+* @since   1.0.0
+*/
+.elementor-control .select2-container,
+.elementor-input-style,
+.elementor-panel,
+.elementor-panel input,
+.elementor-panel select,
+.elementor-panel textarea,
+.elementor-panel-controls-stack input,
+.elementor-panel-controls-stack select,
+.elementor-panel-controls-stack textarea,
+.elementor-templates-modal .dialog-widget-content,
+.elementor-templates-modal .elementor-templates-modal__header__item > i:after,
+.flatpickr-calendar,
+.select2-container--default .select2-selection--single {
+	font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		sans-serif;
+}
+.elementor-control-type-popover_toggle
+	.elementor-control-popover-toggle-toggle-label,
+.e-global__popover-toggle,
+.elementor-control-type-textarea .elementor-control-dynamic-switcher,
+.elementor-control-type-code .elementor-control-dynamic-switcher,
+.elementor-control-type-url .elementor-control-url-more,
+.elementor-control-type-url .elementor-control-dynamic-switcher {
+	border-color: #121314;
+}
+
+.elementor-control {
+	padding-bottom: 25px;
+	width: 100%;
+}
+
+.elementor-control.elementor-control-separator-after {
+	margin-bottom: 20px;
+}
+
+.elementor-control-type-section,
+.elementor-control-type-tab {
+	padding-bottom: 0;
+	margin-top: -1px;
+	margin-bottom: 0;
+}
+
+.elementor-panel .elementor-panel-menu-group-title,
+.elementor-panel .panel-elements-category-title {
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	margin-top: 10px;
+	color: #ffffff;
+	padding-top: 6px;
+}
+
+.elementor-control-type-structure
+	.elementor-control-structure-more-presets-title,
+.elementor-control-type-structure .elementor-control-structure-title,
+.elementor-panel-heading-title {
+	font-weight: 500;
+	font-size: 12px;
+	letter-spacing: 0.2px;
+	color: #fff;
+}
+
+.elementor-control-type-section.elementor-open .elementor-panel-heading-title {
+	color: #403cf2;
+}
+
+.elementor-panel-heading-toggle {
+	width: 12px;
+	color: #8b9299;
+}
+
+.elementor-control-type-section.elementor-open .elementor-panel-heading-toggle {
+	color: #403cf2;
+}
+
+.elementor-panel-heading {
+	height: 44px;
+	border-block-start-width: 1px;
+	border-color: #121314;
+	font-family: inherit;
+}
+
+.elementor-control-type-section:first-child .elementor-panel-heading {
+	border-top: none;
+}
+
+.elementor-button,
+.elementor-panel #elementor-panel-saver-button-publish,
+.elementor-panel #elementor-panel-saver-button-save-options {
+	font-family: inherit;
+}
+
+.elementor-panel #elementor-panel-saver-button-publish:not(.elementor-disabled),
+.elementor-panel
+	#elementor-panel-saver-button-save-options:not(.elementor-disabled) {
+	-webkit-border-end: 1px solid #00000030;
+	border-inline-end: 1px solid #00000030;
+}
+
+.elementor-button.elementor-repeater-add {
+	font-size: 11px;
+	background-color: #5fc26c;
+}
+
+.elementor-button.elementor-repeater-add:hover {
+	font-size: 11px;
+	background-color: #53b860;
+}
+
+.elementor-panel .elementor-panel-navigation {
+	margin-bottom: 5px;
+	background-color: #191a1c;
+	border-bottom: 1px solid #121314;
+}
+
+.elementor-panel
+	.elementor-panel-navigation
+	.elementor-panel-navigation-tab
+	a:before {
+	font-size: 14px;
+	font-weight: 400;
+	display: inline;
+	margin-bottom: 0;
+	margin-right: 6px;
+	vertical-align: baseline;
+}
+
+.elementor-panel .elementor-panel-navigation .elementor-panel-navigation-tab a {
+	display: block;
+	text-align: center;
+	padding: 15px 0;
+	font-size: 12px;
+	line-height: 13px;
+	font-weight: 600;
+	letter-spacing: 0.2px;
+	color: #afb2b5;
+	transition: all 0.2s ease;
+}
+
+.elementor-panel
+	#elementor-panel-elements-navigation
+	.elementor-panel-navigation-tab.elementor-active,
+.elementor-panel
+	#elementor-panel-elements-navigation
+	.elementor-panel-navigation-tab:hover,
+.elementor-panel .elementor-element:hover .icon,
+.elementor-panel .elementor-element:hover .title,
+.elementor-panel
+	.elementor-panel-navigation
+	.elementor-panel-navigation-tab
+	a:hover,
+.elementor-panel
+	.elementor-panel-navigation
+	.elementor-panel-navigation-tab.elementor-active
+	a,
+.elementor-panel .elementor-panel-scheme-discard .elementor-button:hover,
+.elementor-panel .elementor-panel-scheme-reset .elementor-button:hover {
+	color: #fff;
+}
+
+.elementor-panel .elementor-panel-navigation .elementor-panel-navigation-tab {
+	font-size: 12px;
+	font-weight: 600;
+	color: #ffffff82;
+	letter-spacing: 0.2px;
+	background: #292c30;
+}
+
+.elementor-panel
+	#elementor-panel-elements-navigation
+	.elementor-panel-navigation-tab {
+	padding: 14px 0 12px;
+}
+
+.elementor-panel
+	.elementor-panel-navigation
+	.elementor-panel-navigation-tab:hover {
+	color: #fff;
+}
+
+.elementor-panel .elementor-panel-navigation .elementor-panel-navigation-tab a,
+.elementor-panel
+	.elementor-panel-navigation
+	.elementor-panel-navigation-tab
+	span {
+	display: block;
+	text-align: center;
+	padding: 15px 0;
+	font-size: 12px;
+	line-height: 13px;
+	font-weight: 600;
+	letter-spacing: 0.2px;
+	transition: all 0.2s ease;
+}
+
+.elementor-panel
+	.elementor-panel-navigation
+	.elementor-panel-navigation-tab.elementor-active {
+	border-bottom: none;
+	box-shadow: -2px 4px 5px 0px rgba(0, 0, 0, 0.2) inset;
+	background: #1f2124;
+	border-right: 1px solid #121314;
+	position: relative;
+	border-left: 1px solid #121314;
+}
+
+.elementor-panel
+	.elementor-panel-navigation
+	.elementor-panel-navigation-tab:last-child {
+	border-right: none !important;
+}
+
+.elementor-panel
+	.elementor-panel-navigation
+	.elementor-panel-navigation-tab:first-child {
+	border-left: none !important;
+}
+
+.elementor-panel
+	.elementor-panel-navigation
+	.elementor-panel-navigation-tab
+	a:before,
+.elementor-panel
+	.elementor-panel-navigation
+	.elementor-panel-navigation-tab
+	span:before {
+	font-size: 14px;
+	font-weight: 400;
+	display: inline;
+	margin-bottom: 0;
+	margin-right: 6px;
+	vertical-align: baseline;
+}
+
+.elementor-control-type-tab.elementor-tab-active:after,
+.elementor-control-type-tab.elementor-tab-active:before,
+.elementor-panel
+	.elementor-panel-navigation
+	.elementor-panel-navigation-tab.elementor-active:after,
+.elementor-panel
+	.elementor-panel-navigation
+	.elementor-panel-navigation-tab.elementor-active:before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 50%;
+	margin-left: -5px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 5px;
+}
+
+.elementor-control-type-tab.elementor-tab-active:before,
+.elementor-panel
+	.elementor-panel-navigation
+	.elementor-panel-navigation-tab.elementor-active:before {
+	bottom: -11px;
+	border-color: #121314 transparent transparent;
+}
+
+.elementor-control-type-tab.elementor-tab-active:after,
+.elementor-panel
+	.elementor-panel-navigation
+	.elementor-panel-navigation-tab.elementor-active:after {
+	bottom: -10px;
+	border-color: #1f2124 transparent transparent;
+}
+
+.elementor-panel .elementor-element .title-wrapper {
+	height: 32px;
+	transform: translateY(-4px);
+}
+
+.elementor-panel .elementor-element .title {
+	font-size: 11px;
+	font-weight: 400;
+	letter-spacing: 0.3px;
+	color: #eee;
+	transition: all 0.3s ease;
+}
+
+.elementor-panel .elementor-control-title {
+	font-size: 11px;
+	line-height: 1.5;
+	font-weight: 500;
+}
+
+.wp-customizer .kirki-react-select__control,
+.elementor-control .select2-container,
+.elementor-input-style,
+.elementor-panel input,
+.elementor-panel select,
+.elementor-panel textarea,
+.elementor-panel-controls-stack input,
+.elementor-panel-controls-stack select,
+.elementor-panel-controls-stack textarea,
+.select2-container--default .select2-selection--single {
+	min-height: 32px;
+	border-color: #121314;
+	background-color: #292c30;
+}
+
+.elementor-control-type-dimensions li:first-child input {
+	border-color: #121314;
+}
+
+.elementor-control-type-text .elementor-control-dynamic-switcher,
+.elementor-control-type-url.elementor-control-dynamic-value
+	.elementor-control-url-more,
+.elementor-control-type-url:not(.elementor-control-dynamic)
+	.elementor-control-url-more {
+	min-height: 32px;
+}
+
+.elementor-control-type-global-style-repeater
+	.elementor-control-title
+	input:not(:focus) {
+	box-shadow: none;
+}
+
+.elementor-panel .elementor-panel-alert {
+	font-style: normal;
+}
+
+.elementor-control-type-media
+	.elementor-control-dynamic-switcher.elementor-control-unit-1 {
+	background: rgba(109, 120, 130, 0.85);
+}
+
+.elementor-control-type-dimensions li .elementor-link-dimensions,
+.elementor-control-type-dimensions li input {
+	height: 32px;
+}
+
+.elementor-control-type-dimensions .elementor-link-dimensions.unlinked {
+	border-color: #121314;
+}
+
+.elementor-control-type-dimensions .elementor-link-dimensions:not(.unlinked) {
+	border-color: #010203;
+	background-color: #121314;
+}
+
+.elementor-button i {
+	margin-right: 4px;
+}
+
+.elementor-panel-footer-tool i {
+	font-size: 16px;
+}
+
+.elementor-control-type-dimensions .elementor-control-dimension-label,
+.elementor-panel .elementor-panel-scheme-color-title {
+	color: #9ca1a5;
+	font-size: 8px;
+	letter-spacing: 0.4px;
+}
+
+.elementor-panel .elementor-panel-scheme-color-system-scheme .elementor-title {
+	color: #9ca1a5;
+	font-style: normal;
+}
+
+.elementor-panel .elementor-element {
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.01);
+	border-radius: 4px;
+	transition: all 0.28s ease;
+	border-color: #121314;
+}
+
+.elementor-panel .elementor-element:hover {
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.03);
+	background: unset;
+	border-color: #010203;
+}
+
+.elementor-panel .elementor-panel-menu-item {
+	height: 48px;
+	transition: all 0.22s ease;
+}
+
+.elementor-panel .elementor-panel-menu-item-title {
+	font-size: 12px;
+	font-weight: 500;
+	letter-spacing: 0.4px;
+}
+
+.elementor-panel .elementor-panel-menu-item:hover {
+	color: #fff;
+}
+
+[class*=" icon-software"]:before,
+[class*=" icon-basic"]:before,
+[class*=" icon-ecommerce"]:before,
+[class*=" icon-arrows"]:before,
+[class^="icon-arrows"]:before,
+[class^="icon-basic"]:before,
+[class^="icon-ecommerce"]:before,
+[class^="icon-software"]:before {
+	line-height: 24px;
+}
+
+.elementor-control.elementor-control-type-divider.elementor-hidden-control
+	+ .elementor-control:not(.elementor-control-type-section) {
+	padding-top: 0;
+}
+
+.elementor-panel .elementor-units-choices label {
+	font-size: 10px;
+	line-height: 10px;
+	font-weight: 400;
+	letter-spacing: 0;
+	padding: 1px 3px 0;
+	color: #a4afb7 !important;
+	border-radius: 20px;
+}
+
+.elementor-panel .elementor-units-choices input:checked + label {
+	text-decoration: none;
+	color: #403cf2 !important;
+}
+
+.elementor-panel
+	.elementor-panel-category:first-child
+	.elementor-panel-category-title {
+	padding-top: 0;
+}
+
+.elementor-panel .elementor-panel-category-title {
+	font-weight: 600;
+	letter-spacing: 0.2px;
+	font-size: 13px;
+	text-transform: none;
+	color: #403cf2;
+	box-shadow: none;
+	font-family: inter, sans-serif;
+}
+
+.elementor-panel .elementor-panel-category-title:before {
+	font-weight: 400;
+	font-size: 9px;
+	background: #fff;
+	padding: 0;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	border-radius: 15px;
+	margin-top: -3px;
+	color: #c2c5c7;
+}
+
+.elementor-panel .elementor-responsive-panel {
+	grid-template-columns: repeat(
+		auto-fill,
+		minmax(Min(90px, calc(33.333% - 5px)), 1fr)
+	);
+}
+
+.elementor-panel .elementor-element .icon {
+	font-size: 40px;
+	padding-top: 10px;
+	color: #b9bcc4;
+	transition: all 0.3s ease;
+}
+
+.elementor-slider {
+	height: 2px;
+	background-color: #ffffff30;
+	transition: all 0.12s;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+.elementor-slider .noUi-handle,
+.elementor-slider .ui-slider-handle {
+	width: 14px;
+	height: 14px;
+	background: #b3b5b7;
+	border: 2px solid #1f2124;
+	top: -6px;
+	right: -9px;
+	box-shadow: none;
+	transform: none;
+	transition: all 0.16s ease;
+}
+
+.elementor-slider .noUi-handle:hover,
+.elementor-slider .ui-slider-handle:hover {
+	background: #fff;
+}
+
+.elementor-choices {
+	max-width: 190px;
+	border-spacing: 0;
+	overflow: unset;
+}
+
+.elementor-control-background_overlay_background .elementor-choices {
+	max-width: 100px;
+}
+
+.elementor-choices input:not(:checked) + .elementor-choices-label:hover {
+	color: #9693fb;
+}
+.elementor-choices .elementor-choices-label,
+.elementor-choices .elementor-choices-label:last-child {
+	border-color: #121314;
+}
+
+.elementor-choices input:checked + .elementor-choices-label {
+	z-index: 8;
+	border: none;
+	border-radius: 2px;
+	background: #121314;
+	color: #fff;
+	box-shadow: 0 0 0 1px #010203;
+	transition: all 0.1s ease;
+}
+
+.wp-picker-clear.button,
+.wp-picker-container input[type="text"].wp-color-picker,
+.wp-picker-default.button {
+	min-height: 5px;
+}
+
+.wp-picker-container.wp-picker-active {
+	border-radius: 5px;
+	box-shadow: 0 2px 17px rgba(0, 0, 0, 0.17);
+}
+
+.elementor-panel #elementor-panel-header-title {
+	font-size: 13px;
+	font-weight: 600;
+	letter-spacing: 0.4px;
+}
+
+.elementor-control-type-switcher .elementor-switch-label {
+	font-size: 9px;
+	text-transform: capitalize;
+	letter-spacing: 0.5px;
+	font-weight: 600;
+}
+
+.elementor-control-type-switcher
+	.elementor-switch-input
+	~ .elementor-switch-label {
+	background: #313539;
+}
+
+.elementor-control-type-switcher
+	.elementor-switch-input:checked
+	~ .elementor-switch-label {
+	background: var(--e-a-btn-bg-success);
+}
+
+.elementor-control-type-switcher .elementor-switch {
+	width: 60px;
+	height: 26px;
+	line-height: 26px;
+	border: 1px solid #121314;
+}
+
+.elementor-control-type-switcher .elementor-switch-handle {
+	width: 20px;
+	height: 20px;
+	right: auto;
+	left: 3px;
+	top: 3px;
+	border-radius: 12px;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.01);
+	background: #191a1c;
+}
+
+.elementor-control-type-switcher
+	.elementor-switch-input:checked
+	~ .elementor-switch-handle {
+	left: auto;
+	right: 3px;
+	top: 3px;
+	background: #191a1c;
+}
+
+.elementor-control-type-switcher .elementor-switch-label:after,
+.elementor-control-type-switcher .elementor-switch-label:before {
+	line-height: 26px;
+}
+
+.elementor-control
+	.select2-container.select2-container--default
+	.select2-selection {
+	font-size: 12px;
+}
+
+.select2-container--default
+	.select2-selection--single
+	.select2-selection__arrow {
+	height: 30px;
+}
+
+.elementor-control-type-tab {
+	background-color: #191a1c;
+	color: #ffffff85;
+	font-size: 11px;
+	font-weight: 600;
+	padding: 4px;
+	letter-spacing: 0.6px;
+	line-height: 28px;
+	border: none !important;
+}
+
+.elementor-control-type-tab.e-tab-active,
+.elementor-control-type-tab:hover {
+	color: #fff;
+	background-color: #191a1c;
+}
+
+.elementor-control-type-tab.e-tab-active .elementor-panel-tab-heading {
+	background-color: #25272b;
+	border-radius: 3px;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.18);
+}
+
+.elementor-panel #elementor-panel-elements-search-input {
+	min-height: 38px;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.01) inset;
+	font-style: normal;
+	letter-spacing: 0.5px;
+	border-radius: 3px;
+	border-color: #121314;
+}
+
+.elementor-control-type-url .elementor-control-dynamic-switcher,
+.elementor-control-type-url .elementor-control-url-more {
+	height: 32px;
+	border-radius: 0 3px 3px 0;
+}
+
+.elementor-control-type-url input {
+	border-start-start-radius: var(--e-a-border-radius);
+	border-start-end-radius: 0;
+	border-end-end-radius: 0;
+	border-end-start-radius: var(--e-a-border-radius);
+}
+
+.elementor-template-library-menu-item {
+	width: auto;
+	padding: 19px 28px 15px;
+	font-weight: 700;
+}
+
+.elementor-template-library-template-remote
+	.elementor-template-library-template-footer {
+	text-align: center;
+	font-size: 12px;
+	line-height: 22px;
+}
+
+.elementor-panel-controls-stack textarea::-webkit-input-placeholder {
+	color: #a9a9a9;
+}
+
+.elementor-panel-controls-stack textarea:-moz-placeholder {
+	color: #a9a9a9;
+}
+
+.elementor-panel-controls-stack textarea::-moz-placeholder {
+	color: #a9a9a9;
+}
+
+.elementor-panel-controls-stack textarea:-ms-input-placeholder {
+	color: #a9a9a9;
+}
+
+.elementor-panel .elementor-control-field-description a {
+	color: #403cf2;
+}
+
+.elementor-panel .elementor-panel-category:not(.elementor-active):after {
+	height: 8px;
+	background: 0 0;
+	border-bottom: 1px solid #d5d9dc;
+}
+
+.kata-template-library-filter {
+	margin-left: 20px;
+	padding-left: 19px;
+	border-left: 1px solid #d5dadf;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+#elementor-template-library-templates-container .kata-template-library-badge,
+.kata-template-library-filter-button {
+	border-radius: 3px;
+	background-position: center;
+	height: auto;
+	padding: 4px 5px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	line-height: 1;
+}
+
+.kata-template-library-filter label.kata-template-library-filter-active,
+.kata-template-library-filter label:hover {
+	color: #403cf2;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+#elementor-template-library-templates-container
+	.elementor-template-library-template.elementor-template-library-template-remote {
+	display: block;
+	position: relative;
+}
+
+#elementor-template-library-templates-container
+	.elementor-template-library-template-page {
+	margin-top: 15px !important;
+}
+
+#elementor-template-library-templates-container .kata-template-library-badge {
+	background-color: #403cf2;
+	font-size: 12px;
+	box-shadow: 0 2px 6px -2px #403cf2;
+	color: #fff;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	z-index: 99;
+	text-transform: lowercase;
+}
+
+.kata-template-library-filter-button {
+	font-size: 11px;
+	transition: 0.25s;
+	text-transform: uppercase;
+}
+
+.kata-template-library-filter-button:before {
+	content: "";
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	border: 1px solid #a4afb7;
+	margin-right: 7px;
+	border-radius: 5px;
+}
+
+.kata-template-library-filter-active {
+	color: #403cf2;
+}
+
+.kata-template-library-filter-active:before {
+	border: 2px solid #403cf2;
+}
+
+.kata-template-library-filter-active:hover,
+.kata-template-library-filter-button:hover {
+	color: #556068;
+}
+
+.kata-custom-css-field .CodeMirror {
+	border: 1px solid #ddd;
+}
+
+.cm-s-default .cm-keyword {
+	color: #000;
+}
+
+.cm-s-default .cm-atom {
+	color: #06960e;
+}
+
+.cm-s-default .cm-number {
+	color: #0000cd;
+}
+
+.cm-s-default .cm-qualifier {
+	color: #318495;
+}
+
+.cm-s-default .cm-builtin {
+	color: #930f80;
+}
+
+.cm-s-default .cm-operator,
+.cm-s-default .cm-property,
+.cm-s-default .cm-punctuation,
+.cm-s-default .cm-variable {
+	color: #6d79de;
+}
+
+.kata-custom-css-field {
+	width: 100%;
+}
+
+.elementor-control-type-repeater .elementor-repeater-row-tools > div {
+	font-weight: 600;
+	font-size: 12px;
+	letter-spacing: 0.4px;
+}
+
+.elementor-control-type-repeater .elementor-repeater-row-tools {
+	background-color: transparent !important;
+	border-radius: 3px;
+	border: 1px solid #d5dadf;
+}
+
+.elementor-control-type-media .elementor-control-input-wrapper {
+	border-radius: 3px;
+	overflow: hidden;
+}
+
+.elementor-control-type-repeater .elementor-repeater-row-controls {
+	border-radius: 0 0 3px 3px;
+	background: #f8f9fa;
+	margin-top: -2px;
+	box-shadow: 0 3px 7px -3px rgba(0, 0, 0, 0.08),
+		0 2px 9px rgba(0, 0, 0, 0.05) inset;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+
+.elementor-control-raw-html.kata-admin-notification-message {
+	margin-top: 5px;
+	font-size: 11px;
+	line-height: 1.4;
+	color: #b77800;
+	background: #ffeac4;
+	padding: 10px;
+	border-radius: 3px;
+	font-weight: 600;
+	letter-spacing: 0.2px;
+}
+
+.elementor-panel .elementor-control-field-description,
+.elementor-panel .elementor-descriptor {
+	font-style: normal;
+}
+
+.elementor-control.elementor-control-type-divider hr {
+	background-color: #f8f9fa;
+}
+
+.elementor-control-type-switcher.elementor-label-inline
+	> .elementor-control-content
+	.elementor-control-field
+	.elementor-control-title {
+	width: auto;
+}
+
+#elementor-panel-categories {
+	display: flex;
+	flex-direction: column;
+}
+
+#elementor-panel-categories [id^="elementor-panel-category-kata_plus"] {
+	order: -1;
+}
+
+[id^="elementor-panel-category-kata_plus"]
+	.elementor-panel-category-items[style="display: block;"] {
+	display: flex !important;
+	flex-wrap: wrap;
+}
+
+[id^="elementor-panel-category-kata_plus"] [data-name="Kata Title"] {
+	order: -10;
+}
+
+[id^="elementor-panel-category-kata_plus"] [data-name="Kata Text"],
+[id^="elementor-panel-category-kata_plus"] [data-name="Kata Spacer"] {
+	order: -3;
+}
+
+[id^="elementor-panel-category-kata_plus"] [data-name="Kata Image"],
+[id^="elementor-panel-category-kata_plus"] [data-name="Kata Button"] {
+	order: -2;
+}
+
+[id^="elementor-panel-category-kata_plus"] [data-name="Kata Icon Box"],
+[id^="elementor-panel-category-kata_plus"] [data-name="Kata Testimonial"],
+[id^="elementor-panel-category-kata_plus"] [data-name="Kata Video Player"] {
+	order: -1;
+}
+
+.elementor-device-largescreens #elementor-preview-responsive-wrapper {
+	width: 100%;
+}
+
+.elementor-device-laptop #elementor-preview-responsive-wrapper {
+	width: 1366px;
+	height: 640px;
+	padding: 40px 10px 70px;
+}
+
+.elementor-device-tabletlandscape #elementor-preview-responsive-wrapper {
+	width: 1024px;
+	height: 640px;
+	padding: 40px 10px 70px;
+}
+
+.elementor-device-smallmobile #elementor-preview-responsive-wrapper {
+	width: 320px;
+	height: 640px;
+	padding: 40px 10px 70px;
+}
+
+.elementor-panel {
+	min-width: var(--e-editor-panel-width);
+}
+
+.eicon-device-largescreens,
+.eicon-device-smallmobile,
+.eicon-device-tabletlandscape,
+.eicon-devicelaptop {
+	color: #a4afb7;
+}
+
+.eicon-device-laptop:before {
+	content: "\e8ee";
+}
+
+.eicon-device-smallmobile:before {
+	content: "\e887" !important;
+	font-size: 13px;
+}
+
+.eicon-device-tabletlandscape:before {
+	content: "\e886";
+}
+
+#e-responsive-bar-switcher .eicon-device-tabletlandscape {
+	transform: rotate(-90deg);
+}
+
+.small-icon:before {
+	font-size: 13px;
+}
+
+.kata-plus-elementor-error {
+	background: rgba(255, 0, 0, 0.17);
+	color: #e7e7e7;
+	padding: 5px 10px;
+	font-size: 12px;
+	border-radius: 2px;
+	line-height: 1.5;
+}
+
+.elementor-update-preview {
+	margin: 15px;
+}
+
+.xelementor-control-type-heading {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.xelementor-control-type-heading .elementor-control-content {
+	background: #fff;
+	padding: 15px;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	font-weight: 400;
+}
+
+.elementor-control.elementor-control-type-heading .elementor-control-title {
+	font-weight: 600;
+}
+
+#elementor-panel-content-wrapper input[type="checkbox"],
+#elementor-panel-content-wrapper input[type="radio"] {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	width: 20px;
+	min-width: 20px;
+	height: 20px;
+	background: #fff;
+	min-height: 0;
+	line-height: 10px;
+	margin: 4px 5px 7px 0;
+	padding: 0;
+	vertical-align: middle;
+	border: 1px solid #d5dadf;
+	border-radius: 3px;
+	font-size: 13px;
+	max-width: -webkit-fill-available;
+	box-shadow: 0 2px 11px -4px rgba(0, 0, 0, 0.1),
+		0 1px 5px -1px rgba(0, 0, 0, 0.06) inset;
+}
+
+#elementor-panel-content-wrapper input[type="radio"] {
+	border-radius: 20px;
+	margin: 0 5px 0 0;
+}
+
+#elementor-panel-content-wrapper input[type="checkbox"]:checked {
+	border-color: #d0ceff;
+	box-shadow: 0 2px 10px -1px #d0ceff;
+}
+
+#elementor-panel-content-wrapper input[type="checkbox"]:checked:before {
+	color: #403cf2 !important;
+	margin: -5px 0 0 2px;
+	font-family: themify;
+	font-size: 19px;
+	content: "\e64c";
+	text-shadow: 0 1px 12px;
+	background: 0 0;
+	transform: rotate(0);
+	-webkit-transform: rotate(0);
+	width: 16px;
+}
+
+#elementor-panel-content-wrapper .ps__rail-x,
+#elementor-panel-content-wrapper .ps__rail-y {
+	display: none;
+}
+
+.kata-elementor-description-error .elementor-control-field-description {
+	background-color: #403cf2;
+	background: linear-gradient(90deg, #332fe0 0, #403cf2 40%, #716ef7 100%);
+	box-shadow: 1px 2px 10px -4px #403cf2;
+	padding: 8px;
+	border-radius: 3px;
+	color: #fff;
+}
+
+.elementor-panel-footer-sub-menu [data-device-mode="smallmobile"],
+.elementor-panel-footer-sub-menu [data-device-mode="tabletlandscape"],
+.elementor-panel-footer-sub-menu [data-device-mode="laptop"] {
+	display: none;
+}
+
+.flatpickr-calendar {
+	width: 300px;
+	padding: 11px 10px 6px;
+	box-shadow: 0 3px 17px rgba(0, 0, 0, 0.3);
+}
+
+.flatpickr-calendar .flatpickr-current-month {
+	font-size: 15px;
+	line-height: 18px;
+}
+
+.flatpickr-calendar .flatpickr-month {
+	margin-bottom: 10px;
+}
+
+.flatpickr-weekdays span.flatpickr-weekday {
+	color: #403cf2;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.flatpickr-days span.flatpickr-day {
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.flatpickr-day.endRange,
+.flatpickr-day.endRange.inRange,
+.flatpickr-day.endRange.nextMonthDay,
+.flatpickr-day.endRange.prevMonthDay,
+.flatpickr-day.endRange:focus,
+.flatpickr-day.endRange:hover,
+.flatpickr-day.selected.inRange,
+.flatpickr-day.selected.nextMonthDay,
+.flatpickr-day.selected.prevMonthDay,
+.flatpickr-day.selected:focus,
+.flatpickr-day.selected:hover,
+.flatpickr-day.startRange,
+.flatpickr-day.startRange.inRange,
+.flatpickr-day.startRange.nextMonthDay,
+.flatpickr-day.startRange.prevMonthDay,
+.flatpickr-day.startRange:focus,
+.flatpickr-day.startRange:hover,
+.flatpickr-days span.selected {
+	background: #e5e4ff;
+	color: #403cf2;
+	border-color: #e5e4ff;
+	font-weight: 700;
+}
+
+.flatpickr-calendar .flatpickr-next-month,
+.flatpickr-calendar .flatpickr-prev-month {
+	background: #fff;
+	border-radius: 40px;
+	line-height: 26px;
+	width: 26px;
+	height: 26px;
+	padding: 3px;
+	transition: all 0.22s ease;
+}
+
+.flatpickr-calendar .flatpickr-next-month:hover,
+.flatpickr-calendar .flatpickr-prev-month:hover {
+	background: #e5e4ff;
+}
+
+.flatpickr-calendar .flatpickr-next-month:hover svg,
+.flatpickr-calendar .flatpickr-prev-month:hover svg {
+	fill: #403cf2;
+}
+
+.wp-picker-container:not(.wp-picker-active) .wp-color-result {
+	min-height: 24px;
+}
+
+.elementor-panel .elementor-element .icon i {
+	width: 50px;
+	height: 50px;
+	display: block;
+	margin: 0 auto;
+	transform: scale(0.85);
+}
+
+.elementor-control-hide_title,
+.elementor-panel .elementor-element .icon i.kata-widget:before {
+	display: none;
+}
+
+.elementor-panel .elementor-element .kata-widget {
+	background-image: url(../../images/admin/elementor/widget-icons.svg);
+	background-repeat: no-repeat;
+}
+
+.elementor-panel .elementor-element .kata-widget.kata-eicon-text {
+	background-position: 5px 0;
+}
+
+.elementor-panel
+	.elementor-element
+	.kata-widget.kata-eicon-testimonial-carousel {
+	background-position: -53px 0;
+}
+
+.elementor-panel
+	.elementor-element
+	.kata-widget.kata-eicon-testimonial-vertical {
+	background-position: -2452px 0;
+}
+
+.elementor-panel .elementor-element .kata-widget.kata-eicon-circle {
+	background-position: -111px 0;
+}
+
+.elementor-panel .elementor-element .kata-widget.kata-eicon-editor-h1 {
+	background-position: -162px 0;
+}
+
+.elementor-panel .elementor-element .kata-widget.kata-eicon-image {
+	background-position: -217px 0;
+}
+
+.elementor-panel .elementor-element .kata-widget.kata-eicon-button {
+	background-position: -274px 0;
+}
+
+.elementor-panel .elementor-element .kata-widget.kata-eicon-icon-box {
+	background-position: -328px 0;
+}
+
+.elementor-panel .elementor-element .kata-widget.kata-eicon-v-align-stretch {
+	background-position: -374px 0;
+	width: 40px;
+}
+
+.elementor-panel .elementor-element .kata-widget.kata-eicon-alert {
+	background-position: -416px 0;
+}
+
+.elementor-panel .elementor-element .kata-widget.kata-eicon-youtube {
+	background-position: -472px 0;
+}
+
+.elementor-panel .elementor-element .kata-widget.kata-eicon-editor-list-ul {
+	background-position: -526px 0;
+}
+
+.elementor-panel .elementor-element .kata-widget.kata-eicon-image-rollover {
+	background-position: -580px 0;
+}
+
+.elementor-panel .elementor-element .kata-widget.kata-eicon-accordion {
+	background-position: -633px 0;
+}
+
+.elementor-panel .elementor-element .kata-widget.kata-eicon-counter {
+	background-position: -688px 0;
+}
+
+.elementor-panel .elementor-element .kata-widget.kata-eicon-posts-grid {
+	background-position: -744px 0;
+}
+
+.elementor-panel .elementor-element .kata-widget.kata-eicon-toggle {
+	background-position: -800px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-form-horizontal {
+	background-position: -856px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-image-before-after {
+	background-position: -963px 0;
+}
+
+.elementor-panel .elementor-element .kata-widget.kata-eicon-mail {
+	background-position: -2235px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-post-slider {
+	background-position: -1064px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-countdown {
+	background-position: -1168px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-divider {
+	background-position: -1216px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-person {
+	background-position: -1320px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-food-menu {
+	background-position: -1375px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-food-menu-toggle {
+	background-position: -1430px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-welcome {
+	background-position: -1485px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-google-maps {
+	background-position: -1538px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-image-hotspot {
+	background-position: -1595px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-slider-push {
+	background-position: -912px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-image-slider {
+	background-position: -1643px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-zoom-in {
+	background-position: -1695px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-gallery-grid {
+	background-position: -1743px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-posts-masonry {
+	background-position: -1792px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-price-plan {
+	background-position: -1848px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-price-table {
+	background-position: -1903px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-skill-bar {
+	background-position: -1956px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-dashboard {
+	background-position: -2065px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-section {
+	background-position: -2178px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-subscribe {
+	background-position: -2235px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-tabs {
+	background-position: -2290px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-form-vertical {
+	background-position: -2345px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-team-person {
+	background-position: -2397px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-vertical-testimonial-carousel {
+	background-position: -2452px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-time-line {
+	background-position: -2511px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-h-align-left {
+	background-position: -2570px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-archive-posts {
+	background-position: -2628px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-call-to-action {
+	background-position: -2686px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-call-to-action-page {
+	background-position: -2743px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-post-list {
+	background-position: -2797px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-post-navigation {
+	background-position: -2852px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-comments {
+	background-position: -2910px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-post-content {
+	background-position: -2965px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-featured-image {
+	background-position: -3020px 0;
+}
+
+.elementor-panel .elementor-element .kata-widget.kata-eicon-contact-form {
+	background-position: -3860px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-post-info {
+	background-position: -3076px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-post-title {
+	background-position: -3130px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-related-post-list {
+	background-position: -3187px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-site-search {
+	background-position: -1265px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-social-icons {
+	background-position: -2127px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-cart {
+	background-position: -3358px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-tabel {
+	background-position: -3410px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-food-menu {
+	background-position: -4260px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-food-menu-toggle {
+	background-position: -4310px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-text-area {
+	background-position: -3520px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-lock-user {
+	background-position: -3575px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-logo {
+	background-position: -3631px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-nav-menu {
+	background-position: -3688px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-related-posts {
+	background-position: -3187px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-search {
+	background-position: -3745px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-phone {
+	background-position: -3922px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-email {
+	background-position: -3979px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-address {
+	background-position: -4039px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-gallery {
+	background-position: -4152px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-single-testimonial {
+	background-position: -4096px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-template-loader {
+	background-position: -4208px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-audio-player {
+	background-position: -4417px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-tabel {
+	background-position: -4625px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-menu-toggle {
+	background-position: -3465px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-recipes {
+	background-position: -4468px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-testimonial-carousel-vertical {
+	background-position: -2452px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-recent-posts {
+	background-position: -4574px 0;
+}
+
+.elementor-panel .elementor-element .kata-eicon-social-share {
+	background-position: -3302px 0;
+}
+
+.elementor-panel .elementor-element .kata-animated-text {
+	background-position: -4790px 0;
+}
+
+.elementor-panel .elementor-element .kata-lottie-animation {
+	background-position: -4845px -1px;
+}
+
+.elementor-panel .elementor-element .kata-eicon-content-toggle {
+	background-position: -1113px 0;
+}
+
+@-moz-document url-prefix() {
+	.elementor-panel .elementor-element .kata-widget.kata-eicon-text {
+		background-position: -3px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-widget.kata-eicon-editor-h1 {
+		background-position: -172px 0;
+	}
+
+	.elementor-panel
+		.elementor-element
+		.kata-widget.kata-eicon-testimonial-carousel {
+		background-position: -63px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-widget.kata-eicon-button {
+		background-position: -284px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-widget.kata-eicon-icon-box {
+		background-position: -337px 0;
+	}
+
+	.elementor-panel
+		.elementor-element
+		.kata-widget.kata-eicon-v-align-stretch {
+		background-position: -382px 0;
+		width: 40px;
+	}
+
+	.elementor-panel .elementor-element .kata-widget.kata-eicon-image {
+		background-position: -226px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-eicon-address {
+		background-position: -4034px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-widget.kata-eicon-image-rollover {
+		background-position: -589px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-widget.kata-eicon-accordion {
+		background-position: -639px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-eicon-single-testimonial {
+		background-position: -4090px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-eicon-post-slider {
+		background-position: -1071px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-eicon-food-menu-toggle {
+		background-position: -4302px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-widget.kata-eicon-posts-grid {
+		background-position: -749px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-eicon-image-slider {
+		background-position: -1646px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-eicon-gallery-grid {
+		background-position: -1745px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-widget.kata-eicon-editor-list-ul {
+		background-position: -532px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-eicon-recipes {
+		background-position: -4460px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-eicon-tabel {
+		background-position: -4615px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-eicon-person {
+		background-position: -1325px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-eicon-template-loader {
+		background-position: -4200px -3px;
+	}
+
+	.elementor-panel .elementor-element .kata-eicon-recent-posts {
+		background-position: -4564px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-eicon-text-area {
+		background-position: -3514px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-widget.kata-eicon-contact-form {
+		background-position: -3852px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-eicon-email {
+		background-position: -3974px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-widget.kata-eicon-alert {
+		background-position: -422px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-widget.kata-eicon-toggle {
+		background-position: -805px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-eicon-audio-player {
+		background-position: -4407px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-eicon-slider-push {
+		background-position: -917px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-eicon-food-menu {
+		background-position: -4250px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-animated-text {
+		background-position: -4780px 0;
+	}
+
+	.elementor-panel .elementor-element .kata-lottie-animation {
+		background-position: -4834px -1px;
+	}
+}
+
+.lds-ripple-wrap:before {
+	content: "";
+	position: absolute;
+	background: rgba(222, 228, 235, 0.7);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.lds-ripple {
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 80px;
+	height: 80px;
+}
+
+.elementor-control-post_title,
+.kt-back-to-template-btn {
+	display: none;
+}
+
+.lds-ripple div {
+	position: absolute;
+	border: 4px solid #332fe0;
+	opacity: 1;
+	border-radius: 50%;
+	animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+	transition: all 9s ease 5s;
+}
+
+.lds-ripple div:nth-child(2) {
+	animation-delay: -0.5s;
+}
+
+@keyframes lds-ripple {
+	0% {
+		top: 50px;
+		left: 50px;
+		width: 0;
+		height: 0;
+		opacity: 1;
+	}
+
+	100% {
+		top: 0;
+		left: 0;
+		width: 100px;
+		height: 100px;
+		opacity: 0;
+	}
+}
+
+.elementor-control
+	.select2-container.select2-container--default
+	.select2-selection {
+	min-width: 100%;
+}
+
+.elementor-control-field .elementor-button {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.elementor-control-_css_classes input.elementor-control-tag-area,
+.elementor-control-_element_id input.elementor-control-tag-area {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+#elementor-mode-switcher-preview[title="Show Panel"] i {
+	color: #fff;
+}
+
+.kata-page-name {
+	height: 22px;
+	background: rgb(12 13 14 / 96%);
+	color: #fff;
+	letter-spacing: 0.5px;
+	font-size: 10px;
+	font-weight: 400;
+	text-align: center;
+	padding: 6px;
+	position: absolute;
+	bottom: 40px;
+	left: 0;
+	right: 0;
+	border-bottom: 1px solid #ffffff0f;
+	box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.2);
+	z-index: 8;
+}
+
+.kata-page-name span {
+	color: #58bb0a;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	white-space: nowrap;
+	max-width: 200px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#elementor-panel-get-pro-elements-sticky .elementor-get-pro-sticky-message {
+	padding-bottom: 25px;
+}
+
+#elementor-panel-page-settings,
+.elementor-controls-stack > #elementor-controls {
+	padding-bottom: 36px;
+	/* padding-top: 5px; */
+}
+
+#elementor-template-library-templates-container
+	.elementor-template-library-template
+	.elementor-go-pro {
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+	background: #d30c5c;
+	font-size: 10px;
+	font-weight: 400;
+	padding: 1px 8px 0;
+	width: 92%;
+}
+
+#elementor-template-library-templates-container
+	.elementor-template-library-template-block
+	.elementor-go-pro {
+	width: auto;
+	left: auto;
+	right: 0;
+}
+
+#elementor-template-library-templates-container
+	.elementor-template-library-template
+	.elementor-go-pro
+	* {
+	color: #fff;
+}
+
+.elementor-panel .elementor-panel-footer-tool {
+	width: 14%;
+}
+
+.kt-show-back-btn .kt-back-to-template-btn {
+	display: block;
+}
+
+span.elementor-templates-modal__header__logo__title + span {
+	padding: 0 10px;
+	margin-left: 10px;
+	border-radius: 3px;
+	border: 1px solid;
+	box-shadow: 0 1px 8px -4px #17191d;
+	transition: all 0.3s ease;
+}
+
+span.elementor-templates-modal__header__logo__title + span i {
+	font-size: 8px;
+	padding: 3px 4px 0;
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	line-height: 1;
+	border-radius: 33px;
+	border: 1px solid #b8b5f0;
+	margin-right: 6px;
+	speak: none;
+	font-style: normal;
+	font-weight: 400;
+	vertical-align: baseline;
+}
+
+.elementor-control-type-wp_widget .widget-inside {
+	background: #f8f9fa;
+}
+
+#kata-elementor-template-library-modal
+	.dialog-widget-content.dialog-lightbox-widget-content {
+	margin: auto;
+	position: relative;
+	top: 10px;
+}
+
+#kata-elementor-template-library-modal
+	#elementor-template-library-templates-container
+	.elementor-template-library-template {
+	display: none !important;
+}
+
+#kata-elementor-template-library-modal
+	#elementor-template-library-templates-container
+	.elementor-template-library-template.active {
+	display: block !important;
+}
+
+#kata-elementor-template-library-modal.elementor-templates-modal
+	.dialog-header {
+	display: none !important;
+}
+
+#kata-elementor-template-library-modal.elementor-templates-modal
+	.dialog-header.active {
+	display: block !important;
+}
+
+.elementor-control a.elementor-button.elementor-button-success {
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.kata-admin .plugins-content .tablenav {
+	height: auto;
+}
+
+.kt-presets {
+	width: 100%;
+	padding: 0 0 20px;
+}
+
+.kt-presets .kt-preset-item {
+	margin: 10px 0;
+	background: #fff;
+	border: 1px solid #e5e8eb;
+	border-radius: 3px;
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+	width: 100%;
+	transition: all 0.22s ease;
+}
+
+.kt-presets .kt-preset-item:hover,
+.kt-presets .kt-preset-item.active {
+	box-shadow: 0 0 5px -2px #a7a5f24d;
+	border-color: #a7a5f2;
+}
+
+.kt-presets .kt-preset-item .ti-check {
+	display: none;
+}
+
+.kt-presets.loading .kata-plus-element-presets-empty,
+.kt-presets .kata-plus-element-presets-loading {
+	display: none;
+}
+
+.kt-presets .kata-plus-element-presets-empty,
+.kt-presets.loading .kata-plus-element-presets-loading {
+	display: block;
+}
+
+.kata-plus-presets-sync span {
+	display: block;
+	padding: 10px 20px;
+	border-radius: 3px;
+	background-color: #0ea937;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+	transition: all 0.22s ease;
+}
+
+.kata-plus-presets-sync span:hover {
+	opacity: 0.85;
+}
+
+.kt-presets .kt-preset-item.active .ti-check {
+	display: inline-block;
+	text-align: center;
+	position: absolute;
+	background: #817ef6;
+	border-radius: 0 1px 0 2px;
+	color: #fff;
+	top: 0;
+	right: 0;
+	font-size: 14px;
+	padding: 3px;
+}
+
+.kt-presets .kt-preset-item figcaption {
+	color: #3a4a59;
+	padding: 6px 10px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 1;
+	display: block;
+	background: #f0f3f6;
+}
+
+.elementor-repeater-row-item-title {
+	text-transform: capitalize;
+}
+
+#elementor-preview-loading {
+	z-index: 999;
+}
+
+#elementor-template-library-header-preview-back {
+	border-right: none;
+}
+
+.elementor-tag-settings-popup {
+	z-index: 999;
+}
+
+p.kata-multi-lang-links {
+	text-transform: capitalize;
+	line-height: 2;
+}
+
+p.kata-multi-lang-links:not(:last-child) {
+	border-bottom: 1px solid #e6e9ec;
+}
+
+.eicon-preview-medium.hido {
+	position: relative;
+}
+
+.eicon-preview-medium.hido:after {
+	content: "";
+	width: 2px;
+	height: 17px;
+	border-left: 2px solid;
+	transform: rotate(45deg);
+	position: absolute;
+	left: 6px;
+	top: -1px;
+}
+
+.mce-btn.mce-active button,
+.mce-btn.mce-active:hover button,
+.mce-btn.mce-active i,
+.mce-btn.mce-active:hover i {
+	color: #000;
+	display: block;
+	background: #f0f3f6;
+}
+
+.elementor-repeater-row-item-title {
+	text-transform: capitalize;
+}
+
+#elementor-preview-loading {
+	z-index: 999;
+}
+
+#elementor-template-library-header-preview-back {
+	border-right: none;
+}
+
+.elementor-tag-settings-popup {
+	z-index: 999;
+}
+
+p.kata-multi-lang-links {
+	text-transform: capitalize;
+	line-height: 2;
+}
+
+p.kata-multi-lang-links:not(:last-child) {
+	border-bottom: 1px solid #e6e9ec;
+}
+
+.eicon-preview-medium.hido {
+	position: relative;
+}
+
+.eicon-preview-medium.hido:after {
+	content: "";
+	width: 2px;
+	height: 17px;
+	border-left: 2px solid;
+	transform: rotate(45deg);
+	position: absolute;
+	left: 6px;
+	top: -1px;
+}
+
+.mce-btn.mce-active button,
+.mce-btn.mce-active:hover button,
+.mce-btn.mce-active i,
+.mce-btn.mce-active:hover i {
+	color: #000;
+}
+
+/* Styler
+----------------------------------------------- */
+.wp-picker-container:not(.wp-picker-active) .wp-color-result {
+	min-height: 24px;
+}
+
+.styler-wrap .top-bar {
+	background: #0c0d0e;
+}
+
+.styler-wrap .top-bar span {
+	border-color: #ffffff21;
+}
+
+.kata-remove-icon,
+a.kata-open-icons-dialog-btn,
+.styler-dialog-btn,
+.kata-icon-control + img {
+	color: #8d8df9;
+	border: 1px solid #121314 !important;
+	border-radius: 4px;
+	background: #404346;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+a.kata-open-icons-dialog-btn {
+	color: #fff !important;
+}
+
+.kata-remove-icon,
+a.kata-open-icons-dialog-btn,
+.styler-dialog-btn:hover {
+	background-color: transparent;
+	box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.2);
+	color: #fff;
+}
+
+.styler-dialog-btn img {
+	-moz-filter: invert(100%) grayscale(100%) brightness(130%);
+	-webkit-filter: invert(100%) grayscale(100%) brightness(130%);
+	filter: invert(100%) grayscale(100%) brightness(130%);
+}
+
+.styler-wrap .actions span {
+	background: #292c30;
+	color: #ffffff82;
+	border-bottom-color: #121314;
+}
+
+.styler-wrap .actions span.active {
+	color: #fff;
+	background: #1e2023;
+	box-shadow: -2px 4px 5px 0px rgba(0, 0, 0, 0.15) inset;
+	border-color: #121314;
+}
+
+.styler-wrap .actions span:hover {
+	color: #fff;
+	background: #292c30;
+}
+
+.styler-wrap .actions span.active:after {
+	border-top-color: #1d1f22;
+}
+
+.styler-wrap .actions span.active:before {
+	border-top-color: #121314;
+}
+
+.styler-wrap .left-side {
+	border-color: #121314;
+	background: #292c30;
+}
+
+.styler-wrap {
+	background: #1f2124;
+	border-color: #121314;
+	box-shadow: 0 3px 30px -2px rgba(0, 0, 0, 0.4);
+}
+
+.styler-wrap .left-side ul > li > a {
+	color: #ffffffab;
+	border-color: #292c30;
+}
+
+.styler-wrap .left-side ul > li:hover a,
+.styler-wrap .left-side ul > li > a:focus,
+.styler-wrap .left-side ul > li > a:hover {
+	color: #9a9af9;
+	box-shadow: none;
+	outline: none;
+}
+
+.styler-wrap .left-side ul > li:hover > a,
+.styler-wrap .left-side ul > li:hover > i,
+.styler-wrap .left-side ul > li.active > a,
+.styler-wrap .left-side ul > li.active:hover > a,
+.styler-wrap .left-side ul > li.active > a:focus,
+.styler-wrap .left-side ul > li.active > a:hover,
+.styler-wrap .left-side ul > li.active > i,
+.styler-wrap .styler-tab h3,
+#kt-library-modal .elementor-component-tab.elementor-active,
+#kt-library-modal .elementor-component-tab:hover {
+	color: #fff;
+}
+
+.styler-wrap .left-side ul > li.active > a,
+.styler-wrap .left-side ul > li.active:hover > a,
+.styler-wrap.mini .left-side ul > li.active > a,
+.styler-wrap .left-side ul > li.active > a:focus,
+.styler-wrap .left-side ul > li.active > a:hover {
+	background: #1f2124;
+	border-color: #121314;
+	border-right-color: #1f2124;
+}
+
+.styler-wrap .styler-tab label {
+	color: #ffffffde;
+}
+
+.styler-wrap .styler-tab h3 {
+	font-weight: 700;
+}
+
+.styler-wrap .styler-tab input,
+.styler-wrap .styler-tab select,
+.styler-wrap .styler-tab textarea {
+	background-color: #292c30;
+	border-color: #121314;
+	box-shadow: none;
+	color: #fff;
+}
+
+.styler-wrap .styler-tab input:focus,
+.styler-wrap .styler-tab select:focus,
+.styler-wrap .styler-tab textarea:focus {
+	border-color: #000 !important;
+}
+
+.styler-wrap .styler-tab select:hover {
+	border-color: #060708;
+}
+
+.styler-wrap .styler-tab select,
+.elementor-control.elementor-control-type-select
+	.elementor-control-input-wrapper
+	select {
+	background-color: #292c30;
+	box-shadow: 0 2px 4px rgb(0 0 0 / 2%) !important;
+	border-color: #121314;
+	border-radius: 3px;
+}
+
+.elementor-control.elementor-control-type-select
+	.elementor-control-input-wrapper
+	select:hover,
+.elementor-control.elementor-control-type-select
+	.elementor-control-input-wrapper
+	select:active,
+.elementor-control.elementor-control-type-select
+	.elementor-control-input-wrapper
+	select:focus {
+	border-color: #020304;
+}
+
+#customize-controls
+	.customize-control-kirki-slider
+	.kirki-control-form
+	input[type="range"],
+.styler-wrap .styler-tab .range-wrap input {
+	border-color: #ffffff30;
+	box-shadow: none !important;
+	background: none;
+}
+
+.styler-wrap .styler-tab .range-wrap input:hover,
+.customize-control input[type="range"]:hover,
+#customize-controls
+	.customize-control-kirki-slider
+	.kirki-control-form
+	input[type="range"]:hover {
+	box-shadow: none !important;
+}
+
+.elementor-slider .noUi-handle:hover,
+.elementor-slider .ui-slider-handle:hover {
+	transform: scale(1);
+}
+
+.kata-plus-action-box
+	.kata-plus-preview-font-size-wrap
+	input[type="range"]::-webkit-slider-thumb,
+.styler-wrap .styler-tab .range-wrap input[type="range"]::-webkit-slider-thumb,
+#customize-controls
+	.customize-control-kirki-slider
+	.kirki-control-form
+	input[type="range"]::-webkit-slider-thumb {
+	width: 14px;
+	height: 14px;
+	background-color: #b3b5b7;
+	border: 2px solid #1f2124;
+	box-shadow: none !important;
+}
+
+.kata-plus-action-box
+	.kata-plus-preview-font-size-wrap
+	input[type="range"]::-moz-range-thumb,
+.styler-wrap input[type="range"]::-moz-range-thumb,
+#customize-controls
+	.customize-control-kirki-slider
+	.kirki-control-form
+	input[type="range"]::-moz-range-thumb {
+	width: 10px;
+	height: 10px;
+	background-color: #b3b5b7;
+	border: 2px solid #1f2124;
+	box-shadow: none !important;
+	cursor: pointer;
+	border-radius: 10px;
+	transform: translate(-2px, -1px);
+}
+
+.tipsy .tipsy-inner,
+.mini-styler-tooltip[data-tooltip]:before,
+.styler-tooltip[data-tooltip]:before {
+	background-color: #292c30 !important;
+	border: 1px solid #121314;
+	color: #fff;
+	font-weight: 400;
+	box-shadow: 0 2px 11px rgba(0, 0, 0, 0.4) !important;
+}
+
+.tipsy .tipsy-arrow {
+	border-bottom: 1px solid #121314 !important;
+	border-right: 1px solid #121314 !important;
+	background-color: #292c30;
+}
+
+.tipsy-n .tipsy-arrow {
+	border-top: 1px solid #414650 !important;
+	border-left: 1px solid #414650 !important;
+}
+
+.mini-styler-tooltip[data-tooltip]:after,
+.styler-tooltip[data-tooltip]:after {
+	border-color: #121314 transparent transparent transparent;
+	background-color: #292c30;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
+}
+
+.styler-wrap.mini .left-side ul > li > a {
+	font-size: 0;
+}
+.styler-wrap .custom-select {
+	background: #292c30;
+	border: 1px solid #121314;
+	box-shadow: none !important;
+}
+
+.styler-wrap .custom-select span {
+	border-right-color: #121314;
+}
+
+.styler-wrap .styler-tab label span strong {
+	color: #b1b8bd;
+}
+
+.styler-wrap .custom-select span:hover strong,
+.styler-wrap .custom-select span.active strong {
+	color: #fff;
+}
+
+.styler-wrap .custom-select span.active {
+	background: #181a1c;
+	color: #fff;
+	box-shadow: none;
+	border-radius: initial;
+}
+
+.styler-wrap .custom-select span.active svg path,
+.styler-wrap .custom-select span.active i {
+	fill: #fff;
+	color: #fff;
+}
+
+.styler-wrap .units-selector span {
+	background: transparent;
+	color: #cdd4da !important;
+	line-height: 1;
+	padding: 2px 3px !important;
+}
+
+.styler-wrap .units-selector span:hover {
+	color: #fff !important;
+}
+
+.styler-wrap .units-selector span.active {
+	background: #010203;
+	color: #fff !important;
+}
+
+.styler-wrap .wp-color-result,
+.styler-wrap .wp-color-result:hover,
+.styler-wrap .wp-color-result:focus {
+	border: 1px solid #424950 !important;
+	box-shadow: 0 2px 11px -4px rgba(0, 0, 0, 0.1), inset 0 0 0 2px #3b414c !important;
+}
+
+.styler-wrap .styler-tabs-items {
+	background: #191a1c !important;
+	color: #fff;
+	border-color: #292c30;
+	padding: 4px;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.styler-wrap .styler-tabs-items span {
+	background: transparent;
+	color: rgba(255, 255, 255, 0.45);
+}
+
+.styler-wrap .styler-tabs-items span:hover {
+	color: #fff;
+}
+.styler-wrap .styler-tabs-items span.active {
+	color: #fff;
+	background-color: #25272b !important;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.styler_upload .image-container > a,
+.styler_upload .image-container,
+.styler-wrap .connect-all,
+.styler-wrap .actions-menu,
+.styler-wrap .top-bar .platforms.kata-dropdown {
+	background: #292c30;
+	color: rgba(255, 255, 255, 0.45);
+	border-color: #121314;
+}
+
+.styler_upload .image-container {
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), inset 0 0 0 3px #424950 !important;
+}
+
+.styler_upload .image-container > a:hover {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+.styler-wrap .connect-all:hover {
+	color: rgba(255, 255, 255, 0.85);
+	background: #1f2124;
+}
+
+.styler-wrap .actions-menu li,
+.styler-wrap .top-bar .platforms.kata-dropdown {
+	color: rgba(255, 255, 255, 0.75);
+}
+
+.styler-wrap .connect-all.active,
+.styler-wrap .connect-all.active:hover,
+.styler-wrap .top-bar .platforms li:hover,
+.styler-wrap .top-bar .platforms li.active,
+.styler-wrap .actions-menu li:hover {
+	color: #fff;
+	background: #1d1f22;
+	border-color: #121314;
+}
+
+.styler-wrap .inline-inputs label:last-of-type input {
+	border-color: #121314;
+}
+
+.styler-wrap .top-bar .platforms.kata-dropdown:before,
+.styler-wrap ul.actions-menu:before {
+	border-color: transparent transparent #292c30 transparent;
+}
+
+.styler-wrap .top-bar .platforms.kata-dropdown::after,
+.styler-wrap ul.actions-menu::after {
+	border-color: transparent transparent #121314;
+}
+
+.select2-container--classic .select2-results > .select2-results__options,
+.select2-container--default .select2-results > .select2-results__options {
+	overflow-x: hidden;
+}
+
+/* Kata Admin */
+body[class*="page_kata"] {
+	background: #1f2124;
+}
+
+.kata-install-plugins-wrapper .wp-list-table .plugin-card,
+.kata-install-plugins-wrapper .wp-list-table #the-list,
+.kata-admin.about-wrap {
+	background: #242a2f;
+	border-color: #121314;
+	box-shadow: 0 2px 13px -4px rgba(0, 0, 0, 0.65);
+}
+
+.kata-admin.about-wrap,
+.kata-admin.about-wrap p,
+.kata-admin.about-wrap .about-text {
+	color: #ffffffeb;
+}
+
+.kata-admin.about-wrap a,
+.kata-admin.about-wrap h2.nav-tab-wrapper .nav-tab:hover,
+.kata-admin.about-wrap h2.nav-tab-wrapper .nav-tab-active,
+.kata-admin.about-wrap h2.nav-tab-wrapper .nav-tab-active i,
+.kata-plus-fonts-manager-wrap td .row-actions span a:hover:before,
+.kata-plus-fonts-manager-wrap > h1 span:last-child {
+	color: #8e8ded;
+}
+
+.kata-admin.about-wrap h1 {
+	color: #fff;
+}
+
+.kata-plus-fonts-manager-wrap #post-body-content > div > .table.row {
+	background: #1f2124;
+}
+
+.kata-plus-action-box.typekit div.ti-help-alt:hover {
+	background-color: #1e2225;
+}
+
+.kata-plus-fonts-manager-wrap.kata-plus-fonts-manager-add-new-google-wrap {
+	background: #2c3237;
+	border-color: #3b434a;
+}
+
+.font-entry-content {
+	border-color: #3b434a !important;
+}
+
+.font-entry-content,
+.kata-plus-fonts-manager-category-name {
+	color: #fff !important;
+}
+
+.kata-admin .notice {
+	background: #2c3237;
+	border-color: #485056;
+	border-left-color: #9a9af9;
+}
+
+.kata-plus-action-box.typekit div.ti-help-alt span:after,
+.kata-plus-action-box.typekit div.ti-help-alt span {
+	background: #2c3237;
+	border-color: #2c3237;
+}
+
+.kata-admin .kata-card.kata-primary {
+	background: #171a1d;
+}
+
+.kata-admin.about-wrap h2,
+.kata-admin.about-wrap h3,
+.kata-admin.about-wrap h4,
+.kata-admin.about-wrap h5,
+.kata-admin.about-wrap h6 {
+	color: #fff;
+}
+
+.kata-admin input,
+.kata-admin select,
+.kata-admin textarea {
+	background: #292c30;
+	border: 1px solid #121314;
+	color: #d1d6db;
+	box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.1) inset;
+}
+
+.kata-admin select {
+	line-height: 31px;
+}
+
+.kata-plus-fonts-manager-wrap a.page-title-action,
+.kata-plus-fonts-manager-wrap a.page-title-action:focus,
+.kata-plus-fonts-manager-wrap a.page-title-action:active,
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap a.button,
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap div.button,
+.kata-admin.about-wrap
+	.kata-plus-fonts-manager-wrap
+	input[type="button"].button,
+.bulkactions input.button.action,
+.kata-install-plugins-wrapper
+	.wp-list-table
+	.plugin-card
+	.plugin-action-buttons
+	a.button,
+.kata-install-plugins-wrapper .wp-upload-form input.button,
+.wp-list-table.widefat.fixed a.button,
+.action-links .plugin-action-buttons .button-disabled,
+.kata-install-plusins-page a.button,
+.kata-install-plusins-page input.button,
+.kata-install-plusins-page .button:focus,
+.kata-install-plusins-page .button:active,
+.action-links .plugin-action-buttons .button-disabled,
+.kata-admin-notification .kata-btn,
+.kata-admin .help-links {
+	background-color: #292c30 !important;
+	border-color: #121314 !important;
+	color: #fff !important;
+	text-shadow: none !important;
+	box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.1),
+		0 -4px 6px -2px rgba(0, 0, 0, 0.1) inset !important;
+}
+
+.kata-plus-fonts-manager-wrap a.page-title-action:last-of-type {
+	background-color: #7373f2 !important;
+	color: #fff !important;
+	border-color: #7d7df9 !important;
+}
+
+.kata-plus-fonts-manager-wrap a.page-title-action:last-of-type:hover {
+	background-color: #7d7df9 !important;
+}
+
+.kata-plus-fonts-manager-wrap a.page-title-action:hover,
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap .button:hover,
+.kata-plus-fonts-manager-wrap a.page-title-action:last-of-type:hover,
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap div.button:hover,
+.bulkactions input.button.action:hover,
+.kata-install-plugins-wrapper .wp-upload-form input.button:hover,
+.kata-install-plugins-wrapper
+	.wp-list-table
+	.plugin-card
+	.plugin-action-buttons
+	a.button:hover,
+.kata-admin.about-wrap
+	.kata-plus-fonts-manager-wrap
+	input[type="button"].button:hover,
+.wp-list-table.widefat.fixed a.button:hover,
+.kata-install-plusins-page a.button:hover,
+.kata-install-plusins-page input.button:hover,
+.kata-install-plusins-page .button:focus,
+.kata-install-plusins-page .button:active,
+.kata-admin-notification .kata-btn:hover,
+.kata-admin .help-links:hover {
+	box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.3),
+		0 -4px 6px -2px rgba(0, 0, 0, 0.1) inset !important;
+}
+
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap .button:hover,
+.kata-plus-fonts-manager-wrap select:hover,
+.kata-plus-fonts-manager-wrap select:focus {
+	border-color: #020304 !important;
+}
+
+.kata-plus-fonts-manager-wrap a.page-title-action:hover {
+	background: #292c30 !important;
+	border-color: #020304 !important;
+	color: #fff !important;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-main-table tr,
+.kata-plus-fonts-manager-wrap table.kata-font-manager-add-new-table tbody tr {
+	border-color: #121314 !important;
+	background: #292c30 !important;
+	box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.kata-plus-fonts-manager-wrap .font-family-name,
+.kata-plus-fonts-manager-wrap
+	table.kata-font-manager-add-new-table
+	tbody
+	tr
+	td {
+	color: #dde1e4;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-main-table tr:hover {
+	box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.3) !important;
+}
+
+.kata-plus-fonts-manager-wrap
+	table.kata-font-manager-main-table
+	th.check-column,
+.kata-plus-fonts-manager-wrap .tablenav .displaying-num {
+	background: #292c30 !important;
+	color: #d1d6db;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-main-table,
+.kata-plus-fonts-manager-wrap table.kata-font-manager-add-new-table {
+	background: #242a2f !important;
+}
+
+.kata-plus-fonts-manager-wrap
+	table.kata-font-manager-main-table
+	td.column-name {
+	background: #292c30 !important;
+}
+
+.kata-plus-fonts-manager-wrap
+	table.kata-font-manager-add-new-table
+	tr
+	td.column-title {
+	background: #3c4146 !important;
+	border-radius: 3px 3px 0 0;
+}
+
+.kata-plus-fonts-manager-wrap
+	table.kata-font-manager-add-new-table
+	tbody
+	tr:hover {
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.24), 0 0 0px 7px rgb(154, 154, 249);
+}
+
+.kata-plus-fonts-manager-wrap .preview.column-preview iframe,
+#font_preview_wrap iframe,
+.font-pack.has-iframe iframe {
+	-moz-filter: invert(100%);
+	-webkit-filter: invert(100%);
+	filter: invert(100%);
+}
+
+.kata-plus-action-box {
+	border-color: #121314;
+	background: #1e2225;
+	box-shadow: 0 2px 11px -2px rgba(0, 0, 0, 0.25);
+}
+
+.kata-plus-action-box > div {
+	border-color: #121314;
+}
+
+.kata-plus-action-box > div:nth-of-type(1)::before {
+	color: #020304;
+}
+
+.kata-plus-action-box .kata-plus-preview-font-size-wrap input {
+	background-color: #414650;
+}
+
+.kata-plus-action-box .kata-plus-preview-font-size-wrap input:hover {
+	box-shadow: none !important;
+}
+
+.kata-plus-action-box
+	.kata-plus-preview-font-size-wrap
+	input::-webkit-slider-thumb {
+	background-color: #5f5bff;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+	border: 2px solid #5f5bff;
+}
+
+.kata-plus-action-box
+	.kata-plus-preview-font-size-wrap
+	input::-webkit-slider-thumb:hover {
+	border-color: #deddff;
+	box-shadow: none !important;
+}
+
+.kata-plus-action-box
+	.kata-plus-preview-font-size-wrap
+	input::-moz-slider-thumb {
+	background-color: #5f5bff;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+	border: 2px solid #5f5bff;
+}
+
+.kata-plus-action-box
+	.kata-plus-preview-font-size-wrap
+	input::-moz-slider-thumb:hover {
+	border-color: #deddff;
+	box-shadow: none !important;
+}
+
+#kata_plus_fonts_manager_google_categories strong:after {
+	border-right-color: #9a9af9;
+	border-bottom-color: #9a9af9;
+}
+
+.kata-plus-view-type span.active,
+.kata-plus-fonts-manager-font-family .name,
+.font-preview-header > div {
+	color: #9a9af9;
+}
+
+.kata-plus-fonts-manager-wrap #poststuff .stuffbox > h3,
+.kata-plus-fonts-manager-wrap #poststuff h2,
+.kata-plus-fonts-manager-wrap #poststuff h3.hndle {
+	background: rgba(255, 255, 255, 0.07);
+	border-color: #485056 !important;
+	color: #d1d6db !important;
+}
+
+.kata-plus-fonts-manager-wrap #poststuff h3.hndle {
+	background: transparent;
+}
+
+.kata-plus-fonts-manager-wrap input[type="text"]:focus {
+	border-color: #010203;
+}
+
+.kata-plus-fonts-manager-wrap input[type="checkbox"]:checked,
+.kata-plus-fonts-manager-wrap input[type="radio"]:checked {
+	border-color: #485056;
+}
+
+.kata-admin.about-wrap
+	.kata-plus-fonts-manager-wrap
+	input[type="checkbox"]:checked {
+	box-shadow: none;
+	border-color: #020304;
+}
+
+.kata-admin.about-wrap
+	.kata-plus-fonts-manager-wrap
+	input[type="checkbox"]:checked:before {
+	color: #9e9cff !important;
+}
+
+.kata-plus-fonts-manager-wrap input[type="checkbox"]:checked:before {
+	color: #fff !important;
+	margin: 4px 0 0 2px;
+	opacity: 1;
+}
+
+.kata-plus-fonts-manager-wrap input[type="radio"]:checked:before {
+	background: #1f2124;
+}
+
+.postbox {
+	background: rgba(0, 0, 0, 0.16);
+	border-color: #121314 !important;
+	box-shadow: 0 2px 8px -1px rgba(0, 0, 0, 0.3);
+}
+
+.kata-plus-fonts-manager-wrap .postbox-container-footer {
+	background: rgba(255, 255, 255, 0.03);
+}
+
+.kata-plus-fonts-manager-wrap .postbox .handlediv {
+	background-color: rgba(255, 255, 255, 0.07);
+}
+
+.kata-plus-fonts-manager-wrap .postbox:hover .handlediv {
+	background-color: rgba(255, 255, 255, 0.09) !important;
+}
+
+#kata-plus-fonts-manager-add-font-table {
+	background: transparent;
+}
+
+.kata-plus-fonts-manager-wrap #kata-plus-fonts-manager-add-font-table .font-box,
+.upload-font-result .font-pack {
+	background: rgba(0, 0, 0, 0.1);
+	box-shadow: 0 2px 11px -1px rgba(0, 0, 0, 0.3);
+	border-color: #121314 !important;
+}
+
+.kata-plus-fonts-manager-wrap .kata-show-font-preview:before {
+	color: #9a9aec !important;
+	opacity: 1;
+}
+
+.kata-plus-fonts-manager-wrap .font-box .font-box-footer,
+.upload-font-result .font-pack .font-pack-footer {
+	background-color: rgba(255, 255, 255, 0.08);
+}
+
+.kata-plus-fonts-manager-wrap .font-box label {
+	border-top-color: #121314;
+}
+
+.kata-plus-fonts-manager-wrap span.font-name-category b,
+.kata-plus-preview-font-size-wrap b {
+	color: #dde1e4;
+}
+
+.kata-plus-fonts-manager-wrap
+	#kata-plus-fonts-manager-add-font-table
+	.font-box.active {
+	background-color: rgba(0, 0, 0, 0.12) !important;
+	box-shadow: 0 1px 5px -1px rgba(0, 0, 0, 0.25);
+	border-color: #000 !important;
+}
+
+.kata-plus-fonts-manager-wrap .font-box.active span.font-name-category b,
+.kata-plus-fonts-manager-wrap
+	#kata-plus-fonts-manager-add-font-table
+	.font-box.active
+	label {
+	color: #9a9af9 !important;
+	border-top-color: #000;
+}
+
+#kata_plus_fonts_manager_google_categories ul,
+.kata-plus-fonts-manager-add-new-google-wrap .col-3 .fonts-manager-sticky {
+	background: #30363b;
+	box-shadow: 0 2px 11px -1px rgba(0, 0, 0, 0.36);
+	border-color: #121314 !important;
+}
+
+#kata_plus_fonts_manager_google_categories
+	ul
+	li.kata-plus-google-categories-go {
+	color: #9a9af9 !important;
+	background: rgba(255, 255, 255, 0.05) !important;
+}
+
+#kata_plus_fonts_manager_google_categories ul li,
+.kata-plus-fonts-manager-font-family .title {
+	color: #dde1e4;
+}
+
+div#font_preview_wrap .font-pack {
+	border-color: #485056 !important;
+}
+
+.kata-plus-action-box.typekit div.ti-help-alt {
+	background: #1e2225;
+	color: #9a9af9 !important;
+}
+
+.kata-admin .kata-help-intro {
+	background-color: #14232a;
+}
+
+.kata-plus-extensions-wrap .extension {
+	background: #30363b;
+	box-shadow: 0 2px 11px -1px rgba(0, 0, 0, 0.36);
+	border-color: #485056 !important;
+}
+
+.kata-plus-extensions-wrap .extension.active {
+	border-color: #9a9af9 !important;
+	box-shadow: 0 2px 11px -3px rgba(0, 0, 0, 0.86);
+	color: #9a9af9;
+}
+
+#dashboard-widgets h3,
+#dashboard-widgets h4,
+#dashboard_quick_press .drafts h2 {
+	color: #9a9af9 !important;
+}
+
+.kata-admin .system-status .table-striped tbody tr:nth-of-type(even) {
+	background-color: rgba(255, 255, 255, 0.04);
+}
+
+.kata-admin .system-status,
+.kata-admin .kata-col-sm-4 .kata-card,
+.kata-admin .kata-card.change-log {
+	border-color: #485056;
+	background-color: #242a2f;
+	box-shadow: 0 2px 11px -1px rgba(0, 0, 0, 0.36);
+}
+
+.kata-admin .system-status .table td,
+.kata-admin .system-status .table th {
+	border-color: #485056;
+	color: #e5e9ec;
+}
+
+.kata-admin .kata-card.change-log {
+	background: #1f2529;
+	box-shadow: 0 2px 41px rgba(0, 0, 0, 0.16) inset;
+}
+
+/* Importer */
+.kata-required-plugin .update-message p:before,
+.kata-required-plugin .updating-message p:before,
+.kata-required-plugin .import-php .updating-message:before,
+.kata-required-plugin .button.updating-message:before,
+.kata-required-plugin .button.installing:before {
+	color: #fff;
+}
+.kata-admin.about-wrap .kata-lightbox h2,
+.kata-suc-imp-title {
+	color: #fff;
+	border-color: #121314;
+}
+
+.kata-importer h3.kata-importer-name {
+	border-color: #121314;
+	font-weight: 600;
+}
+
+.kata-admin .kata-lightbox a.kata-btn-install-plugins {
+	box-shadow: 0 5px 58px -10px rgba(64, 60, 242, 0.26);
+}
+
+.kata-required-plugins .kata-required-plugin,
+.kata-lightbox-content.kata-importer-settings,
+.kata-admin.about-wrap .kata-lightbox h2,
+.kata-admin .kata-col-sm-4.kata-importer .kata-demp-wrapper,
+.kata-suc-imp-title,
+.kata-importer h3.kata-importer-name {
+	background: #292c30;
+}
+
+.kata-checkbox-wrap input[type="checkbox"]:checked:before {
+	color: #d0ceff !important;
+}
+
+.kata-checkbox-wrap input[type="checkbox"]:checked,
+.kata-admin .kata-col-sm-4.kata-importer .kata-demp-wrapper {
+	box-shadow: none;
+	border-color: #3b434a;
+}
+
+.kata-required-plugins .kata-required-plugin.active,
+.kata-import-demo-done-100::before {
+	box-shadow: none;
+	border-color: #29bf1d;
+}
+
+.kata-required-plugins .kata-required-plugin a.button {
+	background-color: #242a2f;
+	color: #fcfcff;
+	border-color: #3b434a;
+}
+
+.kata-lightbox-wrapper i,
+.kata-lightbox-contents,
+.kata-importer-tasks ul li:before {
+	background: #2c3237 !important;
+	border-color: #3b434a !important;
+}
+
+.kata-importer-tasks ul li.kata-import-done:before,
+.kata-importer-tasks ul li.kata-import-active.kata-import-done:before,
+.kata-importer-tasks ul li.kata-import-active:before,
+.kata-importer-tasks ul li.kata-import-error:before,
+.kata-importer-tasks ul li:before {
+	background: #2c3237;
+	border-color: #3b434a;
+}
+
+.kata-lightbox-wrapper i {
+	color: #bfbfbf;
+}
+
+.kata-importer-tasks ul li.kata-import-active:before {
+	border-color: #50da82 #3b434a #3b434a #3b434a !important;
+}
+
+.meter {
+	background: #3b434a;
+	box-shadow: none;
+}
+
+.kata-admin .kata-importer img {
+	border-color: #121314;
+}
+
+.kata-lightbox-wrapper.wp-clearfix.active-modal:before {
+	background-color: rgba(31, 32, 33, 0.99) !important;
+}
+
+/* Plugins manager */
+.kata-admin .kata-install-plugin {
+	background: transparent;
+	border-color: #2e363c;
+	box-shadow: 0 2px 7px -3px rgba(0, 0, 0, 0.26);
+}
+
+.kata-admin .kata-install-plugin:hover {
+	border-color: #434e56;
+}
+
+.kata-admin .kata-install-plugin.active {
+	background: #1a1e22;
+	border-color: #2b3136;
+	box-shadow: 0 2px 7px -2px rgba(0, 0, 0, 0.04),
+		inset 0 1px 7px -1px rgba(0, 0, 0, 0.1);
+}
+
+.kata-admin .kata-install-plugin a.button {
+	background: #1f2124;
+	border-color: #121314;
+}
+
+.kata-admin .kata-install-plugin.active a.button {
+	color: #fff;
+}
+
+/* Options(Customizer) */
+#customize-sidebar-outer-content,
+#customize-header-actions,
+.wp-customizer #customize-controls form#customize-controls,
+.wp-customizer #customize-controls .wp-full-overlay-sidebar,
+#customize-theme-controls .customize-pane-child.accordion-section-content,
+.outer-section-open #customize-controls .wp-full-overlay-sidebar-content,
+.wp-customizer .wp-full-overlay-sidebar-content,
+body.adding-menu-items.wp-customizer #available-menu-items,
+#customize-controls .customize-info .accordion-section-title,
+#customize-theme-controls .accordion-section-title,
+#customize-theme-controls .control-panel-themes > .accordion-section-title,
+#customize-theme-controls
+	.control-panel-themes
+	> .accordion-section-title:hover,
+.customize-control-kirki-custom h1,
+.customize-control-kirki-custom h2,
+.customize-control-kirki-custom h3,
+.customize-control-kirki-custom h4,
+.customize-control-kirki-custom h5,
+.customize-control-kirki-custom h6 {
+	background: #1f2124 !important;
+	border-color: #121314;
+	color: #dde1e4;
+}
+
+.search-field-wrapper #customizer-search-input {
+	background-color: #292c30;
+	border-color: #1f2124;
+}
+
+#accordion-section-customizer-search {
+	border-color: #121314 !important;
+}
+
+.wp-customizer #screen-options-wrap {
+	border-color: #121314 !important;
+	background-color: #2f353b !important;
+}
+
+#customize-controls .control-section .accordion-section-title:focus,
+#customize-controls .control-section .accordion-section-title:hover,
+#customize-controls .control-section.open .accordion-section-title,
+#customize-controls .control-section:hover > .accordion-section-title {
+	background: #1d2024 !important;
+	color: #9a9af9;
+}
+
+.wp-customizer #customize-controls .customize-panel-back,
+.wp-customizer #customize-controls .customize-section-back,
+.wp-customizer #customize-controls .customize-controls-close,
+.wp-customizer #customize-controls .customize-section-title,
+.wp-customizer #customize-controls .redux-main .customize-control,
+#customize-controls .customize-info .customize-panel-description,
+#customize-controls .customize-info .customize-section-description,
+#customize-controls .no-widget-areas-rendered-notice,
+#customize-outer-theme-controls .customize-info .customize-section-description,
+.widget-inside,
+.customize-control-widget_form .widget-top,
+#available-menu-items,
+#available-widgets,
+#widgets-left #available-widgets .widget-tpl,
+#widgets-left #available-widgets .widget-tpl,
+.wp-customizer #customize-controls .menu-item-handle,
+.wp-customizer .menu-item-settings,
+#available-menu-items .accordion-section,
+#widgets-left #available-widgets-filter,
+#available-menu-items #available-menu-items-search .accordion-section-title,
+.wp-customizer .menu-item-bar .menu-item-handle,
+#available-menu-items .accordion-section-title {
+	background: #1f2124 !important;
+	border-color: #121314 !important;
+	color: #dde1e4 !important;
+}
+
+.customize-control-title,
+#customize-controls
+	.control-panel-themes
+	h3.accordion-section-title
+	span.customize-action,
+#customize-controls .customize-pane-child .customize-section-title h3 span,
+#customize-controls .description,
+#widgets-left #available-widgets .widget-title h3,
+#widgets-left #available-widgets .widget-title:before {
+	color: #dde1e4;
+}
+
+#customize-controls .customize-info .panel-title,
+#customize-controls .customize-pane-child .customize-section-title h3,
+#customize-controls .widget-title h3 {
+	color: #fff;
+	font-weight: 600;
+}
+
+#customize-controls .control-section .accordion-section-title:hover,
+#customize-theme-controls
+	.control-section:hover
+	> .accordion-section-title:after,
+#customize-controls .control-section .accordion-section-title:focus,
+.customize-panel-back:focus,
+.customize-panel-back:hover,
+.customize-section-back:focus,
+.customize-section-back:hover {
+	color: #9a9af9 !important;
+	border-left-color: #9a9af9 !important;
+}
+
+.wp-customizer #customize-controls .customize-controls-close:hover {
+	color: #9a9af9;
+	border-top-color: #9a9af9;
+}
+
+#customize-controls .customize-info {
+	border-color: #121314;
+}
+
+#customize-controls .control-panel-themes h3.accordion-section-title,
+#customize-controls .control-panel-themes h3.accordion-section-title:hover,
+#customize-theme-controls .control-section .accordion-section-title:focus:after,
+#customize-controls .cannot-expand:hover .accordion-section-title,
+#customize-controls .panel-meta.customize-info .accordion-section-title:hover,
+.wp-customizer #customize-controls a,
+.wp-full-overlay-footer .devices button:focus:before,
+#customize-controls .customize-info .customize-help-toggle:focus,
+#customize-controls .customize-info .customize-help-toggle:hover,
+#customize-controls .customize-info.open .customize-help-toggle,
+#customize-outer-theme-controls
+	.control-section
+	.accordion-section-title:focus:after,
+#customize-outer-theme-controls
+	.control-section
+	.accordion-section-title:hover:after,
+#customize-outer-theme-controls
+	.control-section.open
+	.accordion-section-title:after,
+#customize-outer-theme-controls
+	.control-section:hover
+	> .accordion-section-title:after,
+#customize-theme-controls .control-section .accordion-section-title:focus:after,
+#customize-theme-controls .control-section .accordion-section-title:hover:after,
+#customize-theme-controls .control-section.open .accordion-section-title:after,
+#customize-theme-controls
+	.control-section:hover
+	> .accordion-section-title:after,
+.wp-customizer #customize-controls .button-link,
+.wp-customizer #customize-controls .button-link:hover,
+.wp-customizer #customize-controls .button-link:focus {
+	color: #9a9af9 !important;
+}
+
+#customize-theme-controls .control-section:last-of-type.open,
+#customize-theme-controls
+	.control-section:last-of-type
+	> .accordion-section-title {
+	border-bottom-color: #121314 !important;
+}
+.wp-customizer .control-section-nav_menu .menu-location-settings {
+	border-top-color: #121314 !important;
+}
+#customize-theme-controls
+	.control-panel-content:not(.control-panel-nav_menus)
+	.control-section:nth-child(2),
+#customize-theme-controls .control-panel-nav_menus .control-section-nav_menu,
+#customize-theme-controls
+	.control-section-nav_menu_locations
+	.accordion-section-title,
+#widgets-left #available-widgets-list {
+	border-top-color: #121314;
+}
+
+.expanded .wp-full-overlay-footer {
+	border-top-color: #121314;
+	background: #202428;
+}
+
+.wp-full-overlay-sidebar {
+	background: #1f2124;
+	border-right: none;
+	box-shadow: 6px 2px 16px -1px rgba(0, 0, 0, 0.36);
+}
+
+.devices-wrapper #selected-device {
+	background: #202428;
+	color: #dde1e4;
+}
+
+.devices-wrapper #selected-device:hover,
+.wp-full-overlay .collapse-sidebar-arrow:before {
+	background: #556068;
+}
+
+.wp-core-ui .wp-full-overlay .collapse-sidebar,
+.wp-core-ui .wp-full-overlay .collapse-sidebar:hover {
+	color: #9a9af9 !important;
+}
+
+.wp-core-ui
+	.wp-full-overlay
+	.collapse-sidebar:hover
+	.collapse-sidebar-arrow:before {
+	background: #403cf2;
+}
+
+.CodeMirror {
+	-moz-filter: invert(100%);
+	-webkit-filter: invert(100%);
+	filter: invert(100%);
+	opacity: 0.8;
+}
+
+#customize-controls .customize-info button:focus:before,
+#customize-controls .cannot-expand:hover .accordion-section-title,
+#customize-controls .panel-meta.customize-info .accordion-section-title:hover {
+	background: transparent;
+}
+
+#widgets-left #available-widgets .widget-tpl.selected,
+#widgets-left #available-widgets .widget-tpl:hover {
+	border-left-color: #9a9af9;
+	background: #1f2124;
+}
+
+#widgets-left #available-widgets-filter input,
+#available-menu-items-search input,
+#available-menu-items .menu-item-handle,
+#available-menu-items .new-content-item .create-item-input,
+.customize-control-dropdown-pages .new-content-item .create-item-input,
+.accordion-section-content input {
+	border-color: #3c434a;
+	background: #1f2124;
+}
+
+.wp-customizer .menu-item-bar .menu-item-handle:hover,
+#available-menu-items .accordion-section,
+#available-menu-items #available-menu-items-search .accordion-section-title,
+#available-menu-items .open .accordion-section-title,
+#available-menu-items .accordion-section-content .new-content-item,
+.customize-control-dropdown-pages .new-content-item {
+	background: #1f2124 !important;
+	color: #9a9af9 !important;
+	border-color: #3c434a !important;
+}
+
+.wp-customizer
+	#customize-controls
+	#available-menu-items
+	.menu-item-handle:hover
+	.item-add,
+.menu-item-handle:hover .item-edit,
+.wp-customizer #customize-controls .menu-item-handle:hover .item-type,
+.wp-customizer #customize-controls .menu-item-handle:hover,
+#available-menu-items .menu-item-handle:hover span,
+#available-menu-items .menu-item-handle:hover .item-add,
+#available-menu-items .accordion-section-title:hover {
+	color: #9a9af9 !important;
+}
+
+.accordion-section-content input.button,
+.wp-customizer #customize-controls button.button:not(.collapse-sidebar),
+.customize-control-repeater button.repeater-add {
+	border-color: #121314 !important;
+	color: #d1d6db !important;
+	text-shadow: none !important;
+	box-shadow: none !important;
+}
+
+.wp-customizer #customize-controls .search-field-wrapper .clear-search {
+	border-radius: 16px;
+}
+
+.accordion-section-content input.button {
+	background-color: #3c434a !important;
+}
+
+.accordion-section-content input.button:hover,
+.customize-control-repeater button.repeater-add:hover {
+	background-color: #7373f2 !important;
+	color: #fff !important;
+	box-shadow: 0 2px 11px -4px rgba(0, 0, 0, 0.4),
+		0 -4px 6px -2px rgba(0, 0, 0, 0.23) inset !important;
+}
+
+.select2-dropdown {
+	background-color: #34383c !important;
+}
+
+.styler-trash-btn {
+	color: #fff;
+	background-color: #f23c3c !important;
+	border-color: #f23c3c !important;
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+}
+
+#customize-controls #customize-notifications-area,
+#customize-notifications-area .notice,
+#customize-notifications-area .updated,
+#customize-notifications-area .error {
+	background: #363c41;
+	color: #c2c6ca;
+	border-top-color: #121314;
+	border-bottom-color: #121314;
+}
+
+#customize-theme-controls
+	.customize-control-kirki-radio-buttonset
+	.buttonset
+	.switch-input
+	+ .switch-label,
+body .customize-control-kirki-switch .switch-off,
+body .customize-control-kirki-switch .switch-on {
+	background: #363c41 !important;
+	color: #fff !important;
+	border-color: #121314 !important;
+	box-shadow: -2px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+#customize-theme-controls
+	.customize-control-kirki-radio-buttonset
+	.buttonset
+	.switch-input:checked
+	+ .switch-label,
+body .customize-control-kirki-switch input:not(:checked) + label .switch-off,
+body .customize-control-kirki-switch input:checked + label .switch-on {
+	background: var(--e-a-btn-bg-primary) !important;
+	color: #fff !important;
+	border-color: #121314 !important;
+	box-shadow: -2px 1px 12px rgba(0, 0, 0, 0.28);
+}
+
+.wp-customizer .select2-container,
+.wp-customizer #customize-controls a.select2-choice {
+	border-color: #3c434a;
+	background: #202428;
+}
+
+.wp-customizer
+	.select2-container--default
+	.select2-selection--single
+	.select2-selection__arrow {
+	border-left: 1px solid #3c434a;
+	background: #262a2e;
+	width: 26px;
+	color: #d1d6db !important;
+}
+
+.wp-customizer
+	.select2-container--default
+	.select2-selection--single
+	.select2-selection__arrow
+	b {
+	left: 11px;
+	top: 15px;
+	width: 12px;
+	height: 8px;
+}
+
+.wp-customizer
+	.select2-container--default
+	.select2-selection--single
+	.select2-selection__rendered {
+	color: #d1d6db !important;
+}
+
+.select2-container--open .select2-dropdown--below {
+	border-color: #3c434a;
+	background: #202428;
+}
+
+.select2-container--default .select2-results__option[data-selected="true"] {
+	background-color: #202428;
+}
+
+.select2-container--default .select2-search--dropdown .select2-search__field {
+	border-color: #3c434a;
+	background: #262a2e;
+}
+
+#customize-controls input[type="checkbox"]:checked,
+.wp-customizer #customize-controls input[type="radio"]:checked {
+	border-color: #7d7aff;
+	box-shadow: 0 2px 10px -1px #000;
+	background: #7d7aff;
+}
+
+.wp-customizer #customize-controls input[type="checkbox"]:checked:before {
+	color: #fff !important;
+	margin: 8px 0 0 -1px;
+	opacity: 1;
+}
+
+.wp-customizer #customize-controls input[type="radio"]:checked:before {
+	background: #1f2124;
+}
+
+/* Elementor Hidden
+------------------------------------------ */
+.elementor-control-hide_title {
+	display: none;
+}
+
+/* Plugin Manager
+------------------------------------------ */
+.kata-admin.about-wrap
+	.kata-plus-plugins-header-wrap
+	.kp-menu-item.active
+	a:before,
+.kata-admin.about-wrap .kata-plus-plugins-header-wrap,
+.kata-install-plugins-wrapper .wp-list-table .plugin-card .plugin-card-bottom,
+.plugins tr {
+	background: #292c30;
+	border-color: #121314;
+}
+
+.plugins .active td,
+.plugins .active th,
+.kata-admin.about-wrap .kata-plus-plugins-header-wrap .kp-menu-item.active,
+.kata-install-plusins-page .wp-filter .filter-links li > a.current,
+.kata-admin.about-wrap .kata-plus-plugins-header-wrap .kp-menu-item a:before,
+.kata-admin.about-wrap
+	.kata-plus-plugins-header-wrap
+	.kp-menu-item.active:after,
+.kata-install-plusins-page .wp-filter .filter-links li > a.current:after {
+	background: #242a2f;
+	border-color: #3b434a;
+}
+
+.kata-admin .plugins td.plugin-title strong,
+.kata-admin .plugins-content .plugin.column-plugin strong {
+	color: #d1d6db;
+}
+
+.kata-admin .plugins thead tr,
+.kata-admin .plugins tfoot tr,
+.kata-admin .plugins-content thead tr,
+.kata-admin .plugins-content tfoot tr {
+	background: #292c30;
+}
+
+.kata-admin .plugins-content .tablenav {
+	height: auto;
+}
+
+.kata-admin .plugins-content ul.subsubsub,
+.kata-admin .plugins-content h1 {
+	display: none;
+}
+
+.kata-admin .plugins-content .widefat td,
+.kata-admin .plugins-content .widefat th,
+.kata-admin .plugins-content .widefat td p,
+.kata-admin .plugins-content .widefat td ol,
+.kata-admin .plugins-content .widefat td ul {
+	border-bottom: 1px solid #121314 !important;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.kata-admin .plugins-content .widefat td,
+.kata-admin .plugins-content .widefat th,
+.kata-admin .plugins-content .widefat td p,
+.kata-admin .plugins-content .widefat td ol,
+.kata-admin .plugins-content .widefat td ul,
+.kata-admin .wp-list-table .column-plugin strong a {
+	color: #ececec;
+}
+
+.kata-admin .plugins-content .wp-list-table,
+.kata-admin .plugins thead th,
+.kata-admin .plugins tfoot th,
+.kata-admin .plugins,
+.plugins thead td.check-column,
+.plugins tfoot td.check-column,
+.plugins .inactive th.check-column,
+.kata-admin .plugins-content .widefat thead tr th,
+.kata-admin .plugins-content .widefat thead tr td,
+.kata-admin .plugins-content .widefat tfoot tr th,
+.kata-admin .plugins-content .widefat tfoot tr td {
+	border-color: #3b434a;
+	color: #fff;
+}
+
+.plugins thead td.check-column,
+.plugins tfoot td.check-column,
+.plugins .inactive th.check-column {
+	box-shadow: none;
+}
+
+.kata-admin.about-wrap .popular-tags,
+.kata-install-plugins-wrapper .wp-list-table #the-list,
+.kata-install-plusins-page .wp-filter,
+.kata-install-plugins-wrapper .wp-upload-form {
+	border: 1px solid #121314;
+	background: #1f2124;
+}
+
+.plugins tr.active.plugin-update-tr + tr.inactive th,
+.plugins tr.active.plugin-update-tr + tr.inactive td,
+.plugins tr.active + tr.inactive th,
+.plugins tr.active + tr.inactive td {
+	border-top: 1px solid rgb(53, 60, 66);
+	box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.02), inset 0 -1px 0 #3b434a;
+}
+
+.plugins .active th.check-column,
+.plugin-update-tr.active td {
+	border-left-color: #9a9af9;
+}
+
+.kata-admin .plugins tbody a,
+.kata-admin .plugins tbody .network_active {
+	color: #9a9af9;
+}
+
+.notice-warning.notice-alt {
+	background-color: #1f2124;
+	border-color: #3b434a;
+}
+
+.kata-admin.about-wrap .kata-plus-plugins-header-wrap .kp-menu-item.active,
+.kata-install-plusins-page .wp-filter .filter-links li > a.current,
+.kata-admin.about-wrap .kata-plus-plugins-header-wrap .kp-menu-item a:hover,
+.kata-admin.about-wrap .kata-plus-plugins-header-wrap .kp-menu-item.active a,
+.kata-install-plusins-page .wp-filter .filter-links li > a:hover,
+.kata-admin.about-wrap .kata-plus-plugins-header-wrap .kp-menu-item a:before {
+	color: #fff;
+	border-top-color: #9a9af9;
+}
+
+.preloader-parent {
+	background: rgba(36, 42, 47, 0.5);
+}
+
+.kata-install-plusins-page #plugin-filter .tablenav .button {
+	background: #242a2f;
+	border-color: #3b434a;
+}
+
+.kata-install-plusins-page #plugin-filter .tablenav .button.disabled {
+	background: #3b434a !important;
+	border-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+/* Preloader
+------------------------------------- */
+.lds-ripple-wrap:before {
+	content: "";
+	position: absolute;
+	background: rgba(49, 55, 62, 0.7);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.lds-ripple {
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 80px;
+	height: 80px;
+}
+
+.lds-ripple div {
+	position: absolute;
+	border: 4px solid #706df7;
+	opacity: 1;
+	border-radius: 50%;
+	animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+	transition: all 9s ease 5s;
+}
+
+.lds-ripple div:nth-child(2) {
+	animation-delay: -0.5s;
+}
+
+@keyframes lds-ripple {
+	0% {
+		top: 50px;
+		left: 50px;
+		width: 0;
+		height: 0;
+		opacity: 1;
+	}
+
+	100% {
+		top: 0px;
+		left: 0px;
+		width: 100px;
+		height: 100px;
+		opacity: 0;
+	}
+}
+
+/* Elementor 2.9 Fixes
+----------------------------------------- */
+.elementor-panel-scheme-content .elementor-panel-scheme-item {
+	width: 50px;
+}
+
+.elementor-panel-scheme-content .elementor-panel-scheme-items {
+	width: 93%;
+}
+
+/* custom msg
+----------------------------------------- */
+.kata-admin-notification {
+	background: #242a2f !important;
+	border: 1px solid #3b434a;
+}
+
+.kata-admin-notification ul li,
+.kata-admin-notification p {
+	color: #d1d6db !important;
+}
+
+.kata-admin-notification a {
+	color: #9a9af9;
+}
+
+.kata-notification-header {
+	background: #1d2125;
+}
+
+.kata-notification-header .kata-notification-close {
+	background: #242a2f !important;
+}
+
+/* customizer responsive tools
+----------------------------------------- */
+.devices-wrapper .devices {
+	background: #34383c;
+	border-top: #121314;
+}
+
+.devices-wrapper .devices button[type="button"] {
+	background: #1f2124;
+	border-bottom-color: #121314;
+	border-top-color: #121314;
+	color: #d5dadf;
+}
+
+.devices-wrapper .devices button[type="button"]:hover,
+.devices-wrapper .devices button.active[type="button"],
+.devices-wrapper .devices button.active[type="button"]:before {
+	background: #4c4f56;
+	color: #fff;
+}
+
+.devices-wrapper .devices button[type="button"]:hover {
+	border-bottom-color: transparent;
+	border-top-color: transparent;
+}
+
+/* box shadow repeater controls */
+.multi-box-shadow-actions-wrap:before {
+	background: #323740;
+	border-color: #121314;
+}
+
+.elementor-control
+	.select2-container.select2-container--default
+	.select2-selection {
+	min-width: 100%;
+	border-color: #121314;
+	background: #292c30;
+}
+
+#customize-save-button-wrapper .button-primary {
+	border-color: #3b4247 !important;
+	border-width: 1px 0 1px 1px !important;
+	background: var(--e-a-btn-bg-primary) !important;
+}
+
+#customize-save-button-wrapper .button-primary[disabled] {
+	background: #3b4247 !important;
+	border-color: #3b4247 !important;
+}
+
+.elementor-control-post_title {
+	display: none;
+}
+
+.customize-control-kirki-slider .wrapper .slider-reset {
+	color: #fff !important;
+}
+
+.elementor-control {
+	width: 100%;
+}
+
+/* section template */
+
+#elementor-mode-switcher-preview[title="Show Panel"] i {
+	color: #fff;
+}
+
+.initial-notice {
+	background: #292c30;
+}
+
+.initial-notice .resume-import-progress {
+	border-color: #9a9af9;
+}
+
+.initial-notice .resume-import-progress:hover {
+	background: #9a9af9;
+}
+
+.elementor-template-library-template-page
+	.elementor-template-library-template-footer {
+	margin-bottom: 30px;
+}
+
+.elementor-template-library-template-page
+	.elementor-template-library-template-insert.elementor-button {
+	bottom: 10px;
+	left: 7px;
+	right: 8px;
+}
+
+.kata-admin.about-wrap.kata-install-plusins-page
+	input[type="checkbox"]:checked:before {
+	color: #9a9af9 !important;
+}
+
+.kata-admin.about-wrap.kata-install-plusins-page
+	input[type="checkbox"]:checked {
+	box-shadow: 0 2px 10px -1px #2c3237 !important;
+	border-color: #9a9af9 !important;
+}
+
+.wp-core-ui .kata-install-plusins-page select#bulk-action-selector-top:focus {
+	color: #bebdfb;
+}
+
+#elementor-mode-switcher {
+	background-color: #292e33;
+}
+
+.elementor-control.elementor-control-separator-before:before {
+	background-color: #121314;
+}
+
+.elementor-control-type-text .elementor-control-dynamic-switcher,
+.elementor-control-type-color .elementor-control-dynamic-switcher {
+	background-color: #1f2124;
+	border-color: #121314;
+}
+
+.elementor-control-media__content__upload-button {
+	background-color: #32373e;
+}
+
+.elementor-control-media .elementor-control-input-wrapper,
+.pickr {
+	border-color: #121314;
+}
+
+.elementor-control-type-color.e-control-global
+	.e-global__popover-toggle:not(.e-global__popover-toggle--active)
+	~ .pickr {
+	border-color: #121314;
+	background: transparent;
+}
+
+.elementor-control-media .eicon-plus-circle {
+	color: #858d99;
+}
+
+.elementor-controls-stack > #elementor-controls,
+#elementor-panel-page-settings {
+	padding-bottom: 36px;
+}
+
+.kata-icons-dialog li[data-name="uploaded-icons"] .more-menu-btn:hover {
+	color: #a2a0f9;
+}
+
+.kata-icons-dialog ul.kata-icon-packs-menu {
+	background: #363c41;
+	border-color: #424950;
+}
+
+.kata-icons-dialog ul.kata-icon-packs-menu:before {
+	border-color: transparent transparent #424950 transparent;
+}
+
+.kata-icons-dialog ul.kata-icon-packs-menu:after {
+	border-color: transparent transparent #363c41 transparent;
+}
+
+.kata-icons-dialog ul.kata-icon-packs-menu li.active a {
+	color: #a2a0f9;
+	background: #191c1f;
+}
+
+.kata-icons-dialog .icons-management-area {
+	background: #2e333a;
+}
+
+.kata-icons-dialog ul.kata-icon-packs-list li,
+.add-new-icon-pack-section .drag-drop #drag-drop-area,
+.kata-required-plugins .kata-required-plugin,
+.kata-admin .kata-lightbox a.kata-btn-install-plugins {
+	border-color: #121314;
+}
+
+.kata-icons-dialog input.icon-pack-name {
+	border-color: #424950 !important;
+}
+
+.add-new-icon-pack-section .drag-drop-buttons input#plupload-browse-button,
+.kata-icons-dialog .section.management-section .kata-back-wrap a,
+span.elementor-templates-modal__header__logo__title + span,
+.kata-icons-dialog .kata-new-pack-form-wrap .kata-new-pack-back-step,
+.kata-icons-dialog .kata-new-pack-form-wrap .kata-new-pack-next-step {
+	background: #3d434b;
+	text-shadow: none;
+	border-color: #424950;
+	box-shadow: 0 3px 8px -4px #17191d;
+}
+
+.kata-icons-dialog .kata-new-pack-form-wrap {
+	background: #272b31;
+}
+
+.kata-icons-dialog .kata-new-pack-form-wrap input.kata-new-pack-name {
+	background: #323740;
+	border: 1px solid #494e56;
+}
+
+.kata-icons-dialog .kata-new-pack-form-wrap .kata-new-pack-back-step,
+.kata-icons-dialog .kata-new-pack-form-wrap .kata-new-pack-next-step {
+	color: #8e8da1;
+}
+
+span.elementor-templates-modal__header__logo__title + span {
+	padding: 0 10px;
+	margin-left: 10px;
+	border-radius: 3px;
+	border: 1px solid;
+	box-shadow: 0 1px 8px -4px #17191d;
+	transition: all 0.3s ease;
+}
+
+span.elementor-templates-modal__header__logo__title + span i {
+	font-size: 8px;
+	padding: 3px 4px 0;
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	line-height: 1;
+	border-radius: 33px;
+	border: 1px solid #b8b5f0;
+	margin-right: 6px;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	vertical-align: baseline;
+}
+
+.add-new-icon-pack-section
+	.drag-drop-buttons
+	input#plupload-browse-button:hover {
+	background: #282d34;
+}
+
+.kata-icons-dialog .section.management-section .kata-new-pack-wrap a:before,
+.kata-icons-dialog .section.management-section .kata-back-wrap a:before {
+	background: transparent;
+	border-color: #424950;
+}
+
+.kata-icons-dialog .section.management-section .kata-new-pack-wrap a,
+.kata-admin.about-wrap .kata-suc-imp-links a,
+.kata-admin .kata-importer button.kata-btn-importer {
+	background: #2f3337;
+	text-shadow: none;
+	border-color: #121314;
+	box-shadow: 0 1px 2px 0px #00000026;
+	color: #fff;
+}
+
+.kata-icons-dialog .section.management-section .kata-new-pack-wrap a:hover,
+.kata-icons-dialog .section.management-section .kata-back-wrap a:hover,
+.kata-admin.about-wrap .kata-suc-imp-links a:hover,
+.kata-admin .kata-importer button.kata-btn-importer:hover,
+.kata-admin .help-links.chat-link:hover,
+.kata-admin .help-links:hover {
+	border-color: #010203;
+	box-shadow: 0 1px 2px 0px #00000056;
+	color: #fff;
+}
+
+.kata-icons-dialog ul.kata-icon-packs-list li:hover > a,
+.kata-icons-dialog
+	ul.kata-icon-packs-list
+	li
+	.buttons-wrap
+	span.edit-icon-pack:hover,
+.kata-icons-dialog ul.kata-icon-packs-list li.icon-pack-wrapper.active a {
+	color: #a2a0f9;
+}
+
+.kata-icons-dialog ul.kata-icon-packs-list li.icon-pack-wrapper.active {
+	border-color: #a2a0f9;
+}
+
+.kata-lightbox-contents {
+	box-shadow: 0 3px 28px -1px #17191d;
+}
+
+.kata-importer h3.kata-importer-name:before {
+	background: #121314;
+}
+
+/* go pro label in section template */
+#elementor-template-library-templates-container
+	.elementor-template-library-template
+	.elementor-go-pro {
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+	background: #d30c5c;
+	font-size: 10px;
+	font-weight: normal;
+	padding: 1px 8px 0;
+	width: 92%;
+}
+
+#elementor-template-library-templates-container
+	.elementor-template-library-template-block
+	.elementor-go-pro {
+	width: auto;
+	left: auto;
+	right: 0;
+}
+
+#elementor-template-library-templates-container
+	.elementor-template-library-template
+	.elementor-go-pro
+	* {
+	color: #fff;
+}
+
+.kata-plus-fonts-manager-wrap input[type="radio"]:checked {
+	background-color: #7373f2;
+	box-shadow: 0 1px 9px -3px #7373f2;
+}
+
+#customize-controls select,
+.kata-plus-fonts-manager-wrap select,
+.kata-install-plusins-page select,
+.styler-wrap .styler-tab select,
+.elementor-control.elementor-control-type-select
+	.elementor-control-input-wrapper
+	select {
+	box-shadow: 0 2px 4px rgb(0 0 0 / 2%) !important;
+	border-color: #121314;
+	border-radius: 3px;
+	background-color: #292c30;
+	background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 600"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>') !important;
+	background-size: 28px 12px !important;
+	background-repeat: no-repeat;
+	background-position: right center;
+	color: #dfe3e7 !important;
+}
+
+#customize-controls select:focus,
+.kata-plus-fonts-manager-wrap select:focus,
+.kata-install-plusins-page select:focus,
+.styler-wrap .styler-tab select:focus,
+.elementor-control.elementor-control-type-select
+	.elementor-control-input-wrapper
+	select:focus {
+	background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 512 512"><path d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z"/></svg>') !important;
+}
+
+.elementor-panel .elementor-panel-footer-tool {
+	width: 14%;
+}
+
+.kata-admin .change-log span.date {
+	color: #7373f2;
+}
+
+.kata-admin .change-log .change-list {
+	color: #bcc3ca;
+}
+
+.customize-control .attachment-media-view .button-add-media {
+	background-color: #32383e;
+	color: #bcc3ca;
+	border-color: #71797e;
+	border-radius: 2px;
+}
+
+.customize-control .attachment-media-view .button-add-media:hover,
+.customize-control .attachment-media-view .button-add-media:focus {
+	background-color: #24292f;
+}
+
+.kata-admin .kata-install-plusins-page .wp-list-table {
+	box-shadow: 0 2px 9px -1px #17191d;
+}
+
+.styler-wrap.mini .left-side ul > li:after {
+	border-color: transparent #292c30 transparent transparent;
+	display: none;
+}
+
+/* selected icon */
+.section.icon-pack-section li input:checked + label,
+.section.icon-pack-section li input[checked="checked"] + label {
+	border-radius: 4px;
+	border: 1px solid #6c69f8;
+	background: #6c69f8;
+	box-shadow: 0 1px 12px -3px #6c69f8;
+	color: #403cf2;
+}
+
+/* section templates back button */
+.kt-back-to-template-btn {
+	display: none;
+}
+
+.kt-show-back-btn .kt-back-to-template-btn {
+	display: block;
+}
+
+/* Instagram */
+.elementor-control a.elementor-button.elementor-button-success {
+	padding: 10px;
+	margin-top: 10px;
+}
+
+/* Site Options
+----------------------*/
+.elementor-control-type-global-style-repeater
+	.elementor-control-title
+	input:not(:focus) {
+	border: 1px solid #494e56;
+}
+
+.elementor-editor-kit #elementor-panel-footer-navigator {
+	display: table-cell;
+}
+
+/* Theme Page
+--------------------------*/
+.kt-dashboard-header,
+.pro-features .kt-dashboard-ul .kt-dashboard-li:nth-child(odd) {
+	background-color: #2c3237;
+	border-bottom: 1px solid #3b434a;
+}
+
+.pro-features .kt-dashboard-ul .kt-dashboard-li:nth-child(even) {
+	background-color: transparent;
+}
+
+.kt-dashboard-box .kt-dashboard-box-title,
+.kt-dashboard-navigation li.kt-dashboard-navitem a,
+.kata-notice h2,
+.kt-dashboard-box-title {
+	color: #d1d6db;
+}
+
+.kt-dashboard-ul .kt-dashboard-li a,
+.kt-dashboard-main-content p,
+.appearance_page_kata p {
+	color: #d1d6db;
+}
+
+.kt-dashboard-box,
+.kata-dashboard-box-inner,
+.kata-help-intro.kata-dashboard-box {
+	background-color: #242a2f;
+}
+
+.kt-dashboard-box .kt-dashboard-box-title,
+.kt-dashboard-box,
+.kt-dashboard-ul .kt-dashboard-li,
+.kd-dashboard-sidebar .kt-dashboard-box,
+.kata-dashboard-box-inner,
+.kt-dashboard-box-title,
+.kata-help-intro.kata-dashboard-box {
+	border-color: #121314;
+}
+
+.kt-dashboard-links {
+	color: #908efc;
+}
+
+.appearance_page_kata-dashboard .kt-dashboard-main-content {
+	background-color: #2c3237;
+}
+
+/* Styler Switcher
+---------------------------- */
+.switcher-wrap {
+	background: #313539;
+	box-shadow: 0 0 0 1px #121314;
+}
+
+.styler-wrap .switcher-wrap .switcher-circle:before {
+	background-color: #191a1c;
+}
+
+.styler-wrap
+	.styler-tab
+	input[type="checkbox"]:checked
+	+ .switcher-circle::after {
+	background-color: #049c53;
+}
+
+/* Image select
+---------------------------- */
+#customize-controls .customize-control-kirki-radio-image img {
+	background: #1d2125;
+	border-color: #121314;
+}
+
+.customize-control-kirki-radio-image input:checked + label img {
+	border-color: #5f5bff !important;
+}
+
+/* Customizer Buttons
+---------------------------- */
+#customize-theme-controls
+	.control-panel-themes
+	.accordion-section-title
+	.change-theme,
+.wp-customizer #customize-controls button.button {
+	background: #292c30;
+}
+
+/* Customizer Action
+---------------------------- */
+#customize-outer-theme-controls
+	.customize-pane-child
+	.customize-inside-control-row,
+.customize-control-notifications-container li,
+.control-panel-themes .customize-themes-section-title {
+	background-color: #1d2125;
+	border-color: #121314 !important;
+	color: #dde1e4;
+}
+
+#customize-controls
+	.preview-link-wrapper
+	.customize-copy-preview-link.preview-control-element.button,
+.customize-control-repeater button.repeater-add {
+	background-color: #363c41 !important;
+}
+
+#customize-control-changeset_scheduled_date,
+.control-panel-themes #accordion-section-installed_themes {
+	background: #2f353b;
+	border-color: #121314 !important;
+}
+
+.control-panel-themes
+	.theme-section
+	.customize-themes-section-title.selected:after {
+	background-color: #817eff;
+}
+
+.control-panel-themes .customize-themes-section-title:hover,
+.control-panel-themes .customize-themes-section-title.selected,
+.kata-admin .kata-lightbox a.kata-btn-install-plugins {
+	color: #817eff;
+}
+
+.customize-themes-full-container,
+.control-panel-themes .customize-themes-section-title:hover {
+	background: #1f2124 !important;
+}
+
+.customize-control-theme .theme,
+.customize-control-theme .theme .theme-name,
+.customize-control-theme .theme .theme-actions,
+.customize-preview-header.themes-filter-bar {
+	border-color: #121314;
+	background: #23282d;
+}
+
+#customize-control-installed_theme_kata .theme.active .customize-theme {
+	background: #817eff !important;
+}
+
+/* elementor widgets go pro button
+-------------------------------------- */
+.kata-plus-pro-button {
+	display: block;
+	text-align: center;
+}
+
+/* Font Manager
+-------------------------------------- */
+#kata_plus_pro_fonts_manager_google_categories ul {
+	background-color: #26282c !important;
+	border-color: #121314;
+}
+
+#kata_plus_pro_fonts_manager_google_categories strong::after {
+	border-color: #020304;
+}
+
+#kata_plus_pro_fonts_manager_google_categories
+	ul
+	li.kata-plus-google-categories-go {
+	background-color: #242a2f !important;
+	color: #9a9af9 !important;
+	border-color: #121314;
+}
+
+#kata_plus_pro_fonts_manager_google_categories
+	ul
+	li.kata-plus-google-categories-go:hover {
+	background-color: #1e2225 !important;
+}
+
+#customize-controls .customize-control-repeater .repeater-row-header,
+#customize-controls .customize-control-repeater .repeater-row-content,
+#customize-controls .customize-control-repeater .repeater-fields .repeater-row,
+#customize-controls .customize-control-repeater .repeater-field {
+	background-color: #32383e;
+	border-color: #121314;
+}
+
+/* importer */
+.kata-demo-importer-search-tools,
+.kata-demo-importer-search-tools .demo-categories .nice-select,
+.kata-demo-importer-search-tools .kata-logo,
+.kata-demo-importer-search-tools .kata-demo-importer-search-box,
+.kata-demo-importer-search-tools .demo-categories,
+.kata-demo-importer-search-tools .kata-demo-importer-wish-list,
+.kata-demo-importer-search-tools .kata-demos-demo-type-wrapper,
+.kata-demo-importer-search-tools input,
+.kata-demo-importer-search-tools .demo-categories .nice-select,
+.kata-admin .kata-col-sm-4.kata-importer .kata-demp-wrapper {
+	border-color: #121314;
+	background: #292c30;
+}
+
+.kata-demo-importer-search-tools .kata-logo {
+	border-radius: 8px 0 0 8px;
+}
+
+.kata-demo-importer-search-tools .kata-demo-importer-wish-list {
+	border-radius: 0 8px 8px 0;
+}
+
+.kata-demo-importer-search-tools,
+.kata-admin .kata-col-sm-4.kata-importer .kata-demp-wrapper {
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.07);
+}
+
+.kata-demo-importer-search-tools .kata-demos-demo-type-wrapper ul li span {
+	background: #485057;
+	border-color: #121314;
+}
+
+.kata-demo-importer-wish-list .kata-icon {
+	fill: #656c73;
+}
+
+.kata-demo-importer-search-tools .nice-select .list {
+	background: #2c333a;
+	box-shadow: 0 0 0 1px #1e2225, 0 2px 9px rgba(0, 0, 0, 0.7);
+}
+
+.kata-demo-importer-search-tools .nice-select .list .option:hover,
+.kata-demo-importer-search-tools .nice-select .list .option.focus,
+.kata-demo-importer-search-tools .nice-select .list .option.selected.focus {
+	background: #242a2f;
+}
+
+.kata-demo-addto-wishlist,
+.kata-demo-addto-wishlist .kata-icon {
+	fill: #fff;
+}
+
+.elementor-repeater-row-item-title {
+	text-transform: capitalize;
+}
+
+.kata-demo-importer-search-tools .kata-demos-demo-type-wrapper ul li {
+	color: #d1d6db;
+}
+
+.kata-demo-importer-search-tools .kata-demos-demo-type-wrapper ul li:hover {
+	color: #fff;
+}
+
+.kata-demo-importer-search-tools .kata-demos-demo-type-wrapper ul li.active {
+	color: #7471fd;
+	font-weight: bold;
+}
+
+.kata-importer h3.kata-importer-name .demo-type {
+	background: #f85c31;
+	line-height: 1.4;
+}
+
+.kata-importer h3.kata-importer-name .demo-type.fast {
+	background: #e1a500;
+}
+
+.kata-importer h3.kata-importer-name .demo-type.free {
+	background: #44b748;
+}
+
+.kt-presets {
+	width: 100%;
+	padding: 0 0 20px;
+}
+
+.kt-presets .kt-preset-item {
+	margin: 10px 0;
+	background: #fff;
+	border: 1px solid #404850;
+	border-radius: 2px;
+	overflow: hidden;
+	box-shadow: 0 -2px 3px #00000008;
+	position: relative;
+	cursor: pointer;
+	width: 100%;
+	transition: all 0.22s ease;
+}
+
+.kt-presets .kt-preset-item:hover,
+.kt-presets .kt-preset-item.active {
+	box-shadow: 0 0 5px -2px #a7a5f2;
+	border-color: #a7a5f2;
+}
+
+.kt-presets .kt-preset-item .ti-check {
+	display: none;
+}
+
+.kata-plus-presets-sync span {
+	display: block;
+	padding: 10px 20px;
+	border-radius: 3px;
+	background-color: #1cbc1e;
+	background: linear-gradient(1deg, #0ea937 0, #1cbc1e 50%, #5fbb07 100%);
+	box-shadow: 0 2px 6px -2px rgba(0, 0, 0, 0.15);
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+	transition: all 0.22s ease;
+}
+
+.kata-plus-presets-sync span:hover {
+	opacity: 0.85;
+}
+
+.kata-plus-presets-sync span:focus,
+.kata-plus-presets-sync span:active {
+	background: linear-gradient(1deg, #1cbc1e 0, #5fbb07 50%, #5fbb07 100%);
+}
+
+.kt-presets .kt-preset-item.active .ti-check {
+	display: inline-block;
+	text-align: center;
+	position: absolute;
+	background: #817ef6;
+	border-radius: 0 1px 0 2px;
+	color: #fff;
+	top: 0;
+	right: 0;
+	font-size: 14px;
+	padding: 3px;
+}
+
+.kt-presets .kt-preset-item figcaption {
+	color: #fff;
+	padding: 6px 10px;
+	font-size: 12px;
+	line-height: 1;
+	display: block;
+	background: #363c41;
+}
+
+.kt-presets.loading .kata-plus-element-presets-empty,
+.kt-presets .kata-plus-element-presets-loading {
+	display: none;
+}
+
+.kt-presets .kata-plus-element-presets-empty,
+.kt-presets.loading .kata-plus-element-presets-loading {
+	display: block;
+}
+
+#elementor-preview-loading {
+	z-index: 999;
+	background-color: #292e33;
+}
+
+#elementor-template-library-header-preview-back {
+	border-right: none;
+}
+
+.elementor-panel #elementor-panel-elements-search-area {
+	background: transparent;
+}
+
+.elementor-tag-settings-popup {
+	z-index: 999;
+}
+
+p.kata-multi-lang-links {
+	text-transform: capitalize;
+	line-height: 2;
+}
+
+p.kata-multi-lang-links:not(:last-child) {
+	border-bottom: 1px solid #e6e9ec;
+}
+
+.eicon-preview-medium.hido {
+	position: relative;
+}
+
+.eicon-preview-medium.hido:after {
+	content: "";
+	width: 2px;
+	height: 17px;
+	border-left: 2px solid;
+	transform: rotate(45deg);
+	position: absolute;
+	left: 6px;
+	top: -1px;
+}
+
+/* new from v1.2.7 */
+.kata-admin.about-wrap .wp-badge {
+	background-color: #121314;
+}
+
+.kata-install-plugins-wrapper .wp-list-table #the-list,
+.kata-admin.about-wrap,
+.kata-admin .kata-card.kata-primary {
+	background: none;
+	border: none;
+	box-shadow: none;
+}
+
+.kt-dashboard-box,
+.kata-dashboard-box-inner,
+.kata-help-intro.kata-dashboard-box,
+.kata-install-plusins-page .wp-filter .filter-links li > a.current {
+	background-color: transparent;
+}
+
+.kata-admin .kata-help-intro p:before {
+	color: #fff;
+}
+
+ul.kata-icons .icons-wrap li,
+.kata-finder-category-item {
+	border: none;
+}
+
+.kata-admin .plugins-content .wp-list-table,
+.kata-admin.about-wrap .kata-plus-plugins-header-wrap .kp-menu-item.active,
+.kata-install-plugins-wrapper .wp-list-table .plugin-card {
+	background: #1f2124;
+}
+
+.kata-admin.about-wrap
+	.kata-plus-plugins-header-wrap
+	.kp-menu-item.active
+	a:before,
+.kata-admin.about-wrap
+	.kata-plus-plugins-header-wrap
+	.kp-menu-item
+	a:hover:before {
+	background-color: #020304;
+	color: #9a9af9;
+}
+
+.kata-admin .plugins-content .active td,
+.kata-admin .plugins-content .active th,
+.kata-install-plusins-page .wp-filter ~ p {
+	background-color: #25272b;
+}
+
+.kata-admin .plugins-content .plugin-update-tr td.plugin-update {
+	border-left-color: #d63638;
+}
+
+.kata-admin .elementor-plugins-gopro {
+	text-shadow: none;
+}
+
+.kata-install-plusins-page .wp-filter {
+	border: none !important;
+}
+
+.kata-admin.about-wrap .filter-links {
+	border-top-color: #121314;
+}
+
+.kata-install-plugins-wrapper .wp-list-table .plugin-card h3 a,
+.kata-admin.about-wrap .kata-plus-plugins-header-wrap .kp-menu-item a,
+.kata-install-plusins-page .wp-filter .filter-links li > a {
+	color: #fff;
+}
+
+.kata-install-plugins-wrapper .wp-list-table .plugin-card {
+	box-shadow: none;
+}
+
+.kata-install-plusins-page .plugins .notice:not(.hidden) {
+	border-color: #121314;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-main-table,
+.kata-plus-fonts-manager-wrap table.kata-font-manager-add-new-table {
+	background: transparent !important;
+}
+
+.kata-plus-fonts-manager-wrap .kata-plus-action-box,
+.kata-plus-fonts-manager-wrap
+	.kata-plus-action-box
+	input.kata-plus-preview-text-box,
+.kata-plus-fonts-manager-add-new-google-wrap .col-3 .fonts-manager-sticky {
+	background: #26282c;
+	box-shadow: none;
+}
+
+.kata-plus-fonts-manager-wrap #kata-plus-fonts-manager-add-font-table .font-box,
+.upload-font-result .font-pack.has-iframe {
+	background: #26282c;
+	box-shadow: none;
+}
+
+.kata-plus-fonts-manager-wrap
+	#kata-plus-fonts-manager-add-font-table
+	.font-box
+	iframe {
+	filter: invert(100%);
+}
+
+.kata-plus-fonts-manager-add-new-google-wrap
+	#kata-plus-fonts-manager-add-font-table
+	.font-box
+	iframe {
+	filter: invert(0%);
+}
+
+.kata-plus-fonts-manager-wrap .font-box .font-box-footer,
+.upload-font-result .font-pack .font-pack-footer {
+	background-color: #26282c;
+}
+
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap h1 a {
+	color: #fff;
+}
+
+#customize-controls a:focus,
+#customize-controls input:focus {
+	box-shadow: 0 1px 12px -1px rgba(0, 0, 0, 0.9);
+}
+
+#accordion-section-customizer-search {
+	color: #fff;
+	border-top-color: #121314;
+	background: transparent;
+}
+
+.search-field-wrapper #customizer-search-input {
+	background: #292c30;
+	border-color: #121314;
+	color: #fff;
+}
+
+.search-field-wrapper #customizer-search-input:focus {
+	border-color: #020304 !important;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3) inset !important;
+}
+
+.kata-admin .kata-help-intro,
+.kata-admin .system-status,
+.kata-admin .kata-col-sm-4 .kata-card,
+.kata-admin .kata-card.change-log,
+.kata-admin .kt-updt-wrap,
+.kata-admin .kt-updt-wrap input[type="checkbox"]:checked {
+	background-color: transparent;
+	box-shadow: none;
+	border-color: #121314;
+}
+.kata-admin .progress-container {
+	background: #000000;
+	border-color: #121314;
+}
+#search-results .accordion-section,
+#search-results .accordion-section:hover {
+	background: transparent;
+	border-color: #485056;
+}
+
+.control-section .accordion-section-title,
+.customize-pane-child .accordion-section-title,
+.customize-pane-child .accordion-section-title:hover,
+.control-section .accordion-section-title:hover {
+	background: transparent;
+	border-color: #485056;
+	color: #fff;
+}
+
+#customize-controls .control-section .accordion-section-title:hover,
+#customize-controls .control-section:hover > .accordion-section-title {
+	background-color: transparent !important;
+	color: #fff !important;
+}
+
+.upload-font-result .font-pack label input[type="text"] {
+	background: rgba(0, 0, 0, 0.2);
+}
+
+#kt-library-modal #elementor-template-library-header-menu {
+	background: linear-gradient(180deg, #111314 0, #16181a 90%, #1e2022 100%);
+	margin-top: 0;
+}
+
+#kt-library-modal.elementor-templates-modal .dialog-header {
+	background: #000;
+	border-bottom-color: #25282b;
+}
+
+#kt-library-modal .elementor-templates-modal__header__menu-area:before {
+	background: linear-gradient(180deg, #0a0a0b 0, #131415 60%, #1f2124 100%);
+}
+
+#kt-library-modal .elementor-component-tab {
+	color: #ffffffa1;
+}
+
+#kt-library-modal .elementor-component-tab:hover {
+	color: #fff;
+	background: transparent;
+	border-color: transparent;
+}
+
+#kt-library-modal .elementor-component-tab.elementor-active {
+	background: #1f2124;
+	border-color: #121314;
+	border-right: none;
+	color: #fff;
+}
+
+#kt-library-modal #elementor-template-library-filter-text,
+#kt-library-modal #elementor-template-library-filter-text:focus {
+	background: transparent;
+	border-bottom-color: #25282b !important;
+	color: #fff;
+}
+
+#kt-library-modal #elementor-template-library-filter-text-wrapper {
+	border-color: #ffffff36;
+}
+
+#kt-library-modal #elementor-template-library-templates-container:after {
+	background-color: #1a1c1e;
+	background: linear-gradient(180deg, #00000000 0, #1a1c1e 80%);
+}
+
+.kirki-toggle-switch-input + .kirki-toggle-switch-label:before {
+	background: #292c30 !important;
+	border-color: #121314 !important;
+}
+
+.kirki-toggle-switch-input:checked + .kirki-toggle-switch-label::before {
+	background: var(--e-a-btn-bg-primary) !important;
+	border-color: #121314 !important;
+}
+
+.kirki-toggle-switch-input + .kirki-toggle-switch-label:after {
+	background: #ffffff54 !important;
+	border-color: #121314 !important;
+}
+
+.kirki-toggle-switch-input:checked + .kirki-toggle-switch-label:after {
+	background: #fff !important;
+}
+
+#customize-theme-controls .customizer-kata-builder-button {
+	background: #202326;
+	border-color: #3e4751;
+}
+
+#customize-controls input,
+#customize-controls select,
+#customize-controls textarea {
+	background-color: #292c30;
+	border-color: #121314;
+	color: #fff;
+}
+
+div.customize-section-description p.cei-description {
+	background: transparent !important;
+}
+
+#customize-controls .customize-control-kirki-slider .kirki-control-reset {
+	color: #fff;
+}
+
+/* Fast mode */
+body.kata_page_kata-plus-fast-mode,
+.kata_page_kata-plus-fast-mode .kt-fst-mod-header {
+	background: #1f2124;
+	font-family: Inter, Roboto, sans-serif;
+}
+
+.kt-fst-mod-header,
+.kt-fst-mod-header .kt-fst-help,
+.kt-fst-mod-header .kt-fst-close {
+	border-color: #020304;
+}
+
+.kata_page_kata-plus-fast-mode #page-title,
+.kata-import-demo-title {
+	color: #fff;
+}
+
+.kata_page_kata-plus-fast-mode .kt-fst-mod-wrapper input,
+.kata_page_kata-plus-fast-mode .kt-fst-mod-wrapper select,
+.kt-fst-get-info .fm-social,
+.wp-customizer .customize-controls-preview-toggle {
+	color: #fff;
+	border-color: #121314;
+	background-color: #292c30 !important;
+}
+
+.kt-fst-mod-footer-area .next-step,
+.kt-fst-mod-footer-area .next-step:hover,
+.kt-fst-mod-footer-area .prev-step,
+.kt-fst-mod-footer-area .prev-step:hover,
+.site-ready-wrapper .col a,
+.add-new-post {
+	background-color: #292c30;
+	border: 1px solid #121314;
+	box-shadow: 0 1px 2px rgb(0 0 0 / 2%);
+}
+
+.kt-fst-mod-footer-area .next-step:hover,
+.kt-fst-mod-footer-area .prev-step:hover {
+	border-color: #020304;
+	box-shadow: 0 1px 3px rgb(0 0 0 / 33%);
+}
+
+.fast-mode-preview .kata-importer h3.kata-importer-name,
+.kata-admin .fast-mode-preview .kata-col-sm-4.kata-importer .kata-demp-wrapper {
+	color: #ffffffaa;
+	background-color: #292c30;
+	font-family: Inter, sans-serif;
+}
+
+.kata_page_kata-plus-fast-mode
+	.kata-lightbox-wrapper.wp-clearfix.active-modal:before,
+.kata_page_kata-plus-fast-mode .kata-lightbox-contents {
+	background-color: #292c30 !important;
+}
+
+.kata_page_kata-plus-fast-mode .kata-col-import-demo h3 {
+	color: #fff;
+}
+
+.kata_page_kata-plus-fast-mode .kata-required-plugin .button.installing:before {
+	color: #000;
+}
+
+.site-ready-wrapper .col h3,
+.list-plugins h4 {
+	color: #fff;
+}
+
+.site-ready-wrapper::after {
+	background-color: #121314;
+}
+
+.site-ready-wrapper .col p,
+.list-plugins span,
+.kata-finder-category-item a,
+.kata-finder-category-item i svg {
+	color: #ffffffaa;
+}
+
+.kata_page_kata-plus-fast-mode .kt-fst-mod-inner-wrapper .customize-site {
+	background: transparent;
+}
+
+.typography-item,
+.kata-required-plugin,
+.kata-finder-category-item {
+	background-color: #121314aa;
+}
+
+.kata-required-plugin::before {
+	background: #292c30;
+	border-color: #020304;
+}
+
+#elementor-editor-wrapper-v2 {
+	margin-left: 50px;
+}
+
+:dir(rtl) {
+	#elementor-editor-wrapper-v2 {
+		margin-left: 0;
+		margin-right: 50px;
+	}
+}
+
+.panelcollaps #elementor-editor-wrapper-v2 {
+	margin-left: 0;
+}
+
+[aria-label^="Small Mobile"] {
+	width: 0.85em;
+	height: 0.85em;
+}
+
+input#e-responsive-bar-switch-smallmobile + i.eicon-device-mobile {
+	font-size: 13px;
+}
+
+#elementor-mode-switcher-preview i {
+	background: #1f2124;
+	border-radius: 0 2px 2px 0;
+}
+
+.nicescroll-cursors {
+	background-color: #121314 !important;
+}
+
+#customize-theme-controls
+	.customize-pane-child.customize-widgets__sidebar-section,
+#customize-theme-controls .customize-pane-child.open {
+	background-color: #1f2124 !important;
+}
+.wrap .customize-widgets-welcome-guide__heading {
+	color: #fff;
+}
+
+.customize-widgets-welcome-guide__separator,
+#customize-theme-controls .customize-pane-child.open {
+	border-color: #121314;
+}
+
+:root {
+	--e-a-btn-bg-primary: #049c53;
+	--e-a-btn-bg-primary-hover: #0abc66;
+	--e-a-btn-bg-primary-active: #089552;
+	--e-a-btn-bg-success: #049c53;
+	--e-a-border-color-accent: #121314;
+	--e-a-border-color: #121314;
+	--e-a-font-family: Inter, Roboto, sans-serif;
+}
+
+/* Icon Manager */
+ul.kata-filter-icons {
+	background-color: #292c30;
+	border-color: #121314;
+}
+
+ul.kata-filter-icons li a {
+	border-right: 1px solid #121314;
+	border-left: 1px solid #121314;
+}
+
+ul.kata-filter-icons li.active a {
+	background: #1f2124;
+	color: #fff;
+	border-right: 1px solid #121314;
+	border-left: 1px solid #121314;
+}
+
+ul.kata-filter-icons li:hover a {
+	color: #fff;
+}
+
+.kata-dialog .kata-dialog-body {
+	background-color: #1f2124;
+}
+
+ul.kata-filter-icons li.active a:after {
+	border-color: #1f2124 transparent transparent;
+}
+
+ul.kata-filter-icons li.active a:before {
+	border-color: #121314 transparent transparent;
+}
+
+.kata-search-icons input {
+	background: #292c30;
+	border-color: #121314;
+}
+
+ul.kata-icons label {
+	background: #292c30;
+}
+
+ul.kata-icons label img {
+	-moz-filter: invert(100%) grayscale(100%) brightness(130%);
+	-webkit-filter: invert(100%) grayscale(100%) brightness(130%);
+	filter: invert(100%) grayscale(100%) brightness(130%);
+}
+
+ul.kata-icons .icons-wrap li:hover {
+	box-shadow: 0 0 0 1px #121314, 0 1px 4px rgba(38, 43, 47, 0.05);
+}
+
+ul.kata-icons .icons-wrap li {
+	background: #1f2124;
+}
+
+ul.kata-icons input:checked + label,
+ul.kata-icons input[checked="checked"] + label {
+	border-radius: 4px;
+	box-shadow: 0 0 0 1px #000000, 0 1px 4px -2px #2c2c3a;
+}
+
+.kata-icons-dialog .kata-new-pack-form-wrap .kata-new-pack-back-step:hover,
+.kata-icons-dialog .kata-new-pack-form-wrap .kata-new-pack-next-step:hover {
+	background: #121314;
+}
+
+.elementor-control-type-select .elementor-control-input-wrapper:after {
+	content: "";
+}
+
+.elementor-control-type-repeater .elementor-repeater-row-tools {
+	border-color: #000;
+	background-color: #292c30 !important;
+}
+
+.elementor-control-type-repeater
+	.elementor-repeater-row-tools
+	.elementor-repeater-row-tool {
+	border-color: #000;
+}
+
+.elementor-control-type-repeater .elementor-repeater-row-controls {
+	background: #292c30;
+	border-color: #000;
+}
+
+.kt-updt-wrap input[type="checkbox"]:checked:before {
+	color: #8e8ded;
+}
+
+#kata-importer-wrapper .kata-notice {
+	background: #292c30 !important;
+	border-color: #121314 !important;
+	border-left-color: #d10000 !important;
+}
+
+#kata-importer-wrapper .kata-row.kt-error {
+	grid-template-columns: repeat(1, 1fr) !important;
+}

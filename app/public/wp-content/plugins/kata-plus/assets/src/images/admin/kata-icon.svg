@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="450.001" height="450.001" viewBox="0 0 450.001 450.001">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.228" y1="0.237" x2="0.689" y2="0.71" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#908efc"/>
+      <stop offset="1" stop-color="#403cf2"/>
+    </linearGradient>
+  </defs>
+  <g id="kata-icon" transform="translate(-359.971 -317.209)">
+    <circle id="Ellipse_4" data-name="Ellipse 4" cx="225" cy="225" r="225" transform="translate(359.971 317.209)" fill="url(#linear-gradient)"/>
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="28.918" cy="28.918" r="28.918" transform="translate(552.347 394.225) rotate(-8)" fill="none" stroke="#fff" stroke-width="22"/>
+    <path id="Path_1" data-name="Path 1" d="M177.847-71.455Q199.6-57.217,207.642-45.747q10.942,15.293,10.942,40.21V31.245H202.5a19.272,19.272,0,0,1-13.975-5.669,19.333,19.333,0,0,1-5.8-13.975V-5.537q0-27.686-17.139-39.551-14.634-10.283-44.824-10.283H52.6a4.927,4.927,0,0,0-3.428,1.318,4.918,4.918,0,0,0-1.582,3.56V1.318H28.081A16.283,16.283,0,0,1,16.348-3.56,15.719,15.719,0,0,1,11.47-15.293v-184.57l9.1-.132a26.262,26.262,0,0,1,19.248,8.042,25.986,25.986,0,0,1,7.778,19.116v82.661a4.642,4.642,0,0,0,1.582,3.56,4.687,4.687,0,0,0,3.428,1.45h77.124A43.667,43.667,0,0,0,159.39-96.5a59.848,59.848,0,0,0,15.688-18.721,19.7,19.7,0,0,1,7.91-8.174,21.212,21.212,0,0,1,10.811-2.9h17.139a22.419,22.419,0,0,1,.527,4.878q0,10.679-8.965,24.653Q189.448-79.233,177.847-71.455Z" transform="translate(512.499 468.683) rotate(90)" fill="#fff"/>
+  </g>
+</svg>

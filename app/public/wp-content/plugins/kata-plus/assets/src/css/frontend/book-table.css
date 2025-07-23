@@ -1,0 +1,145 @@
+.kata-plus-book-table-people input[type="number"],
+.kata-plus-book-table-date input[type="text"],
+.kata-plus-book-table-time .nice-select {
+    border: none;
+    width: 100%;
+    border-bottom: 2px solid #e3e3e3;
+    padding: 25px 25px 25px 33px;
+    margin: 0 0 40px 0;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.kata-plus-book-table-time .current {
+    font-size: 18px
+}
+
+.kata-plus-book-table-time .nice-select {
+    font-size: 14px;
+}
+
+.kata-plus-book-table-time .nice-select:focus {
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+}
+
+.kata-plus-book-table-time .nice-select {
+    border-radius: unset;
+    line-height: inherit;
+    padding-bottom: 46px;
+}
+
+.kata-plus-book-table-people input[type='number'] {
+    -moz-appearance: textfield;
+}
+
+.kata-plus-book-table-people input::-webkit-outer-spin-button,
+.kata-plus-book-table-people input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.kata-plus-book-table-btn {
+    text-align: center;
+}
+
+.kata-plus-book-table .kata-plus-book-table-btn input[type="submit"] {
+    border: none;
+    background: transparent;
+    text-align: center;
+    box-shadow: 0px 2px 13px -2px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    line-height: 1;
+    padding: 23px 42px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.kata-plus-book-table input:focus,
+.kata-plus-book-table-time .nice-select:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.kata-plus-book-table-people,
+.kata-plus-book-table-date,
+.kata-plus-book-table-time {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.kata-plus-book-table .kata-plus-book-table-input-wrapper {
+    position: relative;
+}
+
+.kata-plus-book-table .placehoder-icon .kata-icon {
+    position: absolute;
+    top: 24px;
+    left: 10px;
+    z-index: 2;
+    font-size: 20px;
+}
+
+.kata-plus-book-table .people-title {
+    position: absolute;
+    top: 26px;
+    left: 60px;
+}
+
+.kata-plus-book-table .nice-select.open .list {
+    width: 100%;
+}
+
+.kata-plus-book-table-input-wrapper .updown {
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+
+.kata-plus-book-table-input-wrapper .arrow {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+.kata-plus-book-table-input-wrapper .updown .numbers i.kata-icon,
+.kata-plus-book-table-input-wrapper .arrow .kata-icon {
+    display: inline-block;
+    text-align: center;
+    padding: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    background: #e3e3e3;
+    border-radius: 50%;
+}
+
+@media(min-width:992px) {
+    .kata-plus-book-table.horizontal {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -10px;
+        margin-left: -10px;
+    }
+
+    .kata-plus-book-table.horizontal .kata-plus-book-table-input-wrapper {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+
+.kata-plus-book-table .nice-select:after {
+    display: none;
+}

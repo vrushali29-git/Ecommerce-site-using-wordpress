@@ -1,0 +1,1442 @@
+# Copyright (C) 2025 Climax Themes
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Styler Pro Redux 3.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/styler-redux\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-02-12T11:14:40+01:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: styler\n"
+
+#. Plugin Name of the plugin
+msgid "Styler Pro Redux"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://climaxthemes.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Styler makes styling your pages easier."
+msgstr ""
+
+#. Author of the plugin
+msgid "Climax Themes"
+msgstr ""
+
+#: lib/breakpoints/manager.php:129
+msgid "Mobile"
+msgstr ""
+
+#: lib/breakpoints/manager.php:136
+msgid "M Landscape"
+msgstr ""
+
+#: lib/breakpoints/manager.php:143
+msgid "Tablet"
+msgstr ""
+
+#: lib/breakpoints/manager.php:150
+msgid "T Landscape"
+msgstr ""
+
+#: lib/breakpoints/manager.php:157
+msgid "Laptop"
+msgstr ""
+
+#: lib/breakpoints/manager.php:164
+msgid "Desktop"
+msgstr ""
+
+#: test/elementor/text/template/config.php:26
+msgid "Styler Test Text"
+msgstr ""
+
+#: test/elementor/text/template/config.php:38
+msgid "Text Settings"
+msgstr ""
+
+#: test/elementor/text/template/config.php:44
+msgid "Text Editor"
+msgstr ""
+
+#: test/elementor/text/template/config.php:48
+msgid "Textarea"
+msgstr ""
+
+#: test/elementor/text/template/config.php:52
+msgid "TinyMCE"
+msgstr ""
+
+#: test/elementor/text/template/config.php:63
+#: test/elementor/text/template/config.php:77
+#: src/App/config/config.jsx:71
+msgid "Text"
+msgstr ""
+
+#: test/elementor/text/template/config.php:65
+msgid "Default description textarea"
+msgstr ""
+
+#: test/elementor/text/template/config.php:79
+msgid "Default description TinyMCE"
+msgstr ""
+
+#: test/elementor/text/template/config.php:91
+#: test/elementor/text/template/config.php:98
+#: test/widget/setup.php:60
+msgid "Wrapper"
+msgstr ""
+
+#: test/elementor/text/template/config.php:111
+msgid "Styler"
+msgstr ""
+
+#: test/elementor/text/template/config.php:118
+msgid "Div"
+msgstr ""
+
+#: test/elementor/text/template/config.php:127
+msgid "Paragraph"
+msgstr ""
+
+#: test/elementor/text/template/config.php:136
+msgid "Heading 1"
+msgstr ""
+
+#: test/elementor/text/template/config.php:145
+msgid "Heading 2"
+msgstr ""
+
+#: test/elementor/text/template/config.php:154
+msgid "Heading 3"
+msgstr ""
+
+#: test/elementor/text/template/config.php:163
+msgid "Heading 4"
+msgstr ""
+
+#: test/elementor/text/template/config.php:172
+msgid "Heading 5"
+msgstr ""
+
+#: test/elementor/text/template/config.php:181
+msgid "Heading 6"
+msgstr ""
+
+#: test/elementor/text/template/config.php:190
+msgid "Span"
+msgstr ""
+
+#: test/elementor/text/template/config.php:199
+msgid "Strong"
+msgstr ""
+
+#: test/elementor/text/template/config.php:208
+msgid "Link"
+msgstr ""
+
+#: test/global/setup.php:5
+#: test/kirki/setup.php:30
+msgid "P Tag"
+msgstr ""
+
+#: test/global/setup.php:13
+#: test/kirki/setup.php:43
+msgid "H1 Tag"
+msgstr ""
+
+#: test/global/setup.php:24
+msgid "Styler Global Type Test"
+msgstr ""
+
+#: test/kirki/setup.php:17
+msgid "Styler Advanced Styling"
+msgstr ""
+
+#: test/kirki/setup.php:56
+msgid "H2 Tag"
+msgstr ""
+
+#: test/kirki/setup.php:69
+msgid "Input Tag"
+msgstr ""
+
+#: test/metabox/setup.php:9
+msgid "Post Options"
+msgstr ""
+
+#: test/metabox/setup.php:17
+msgid "Page Title Style(h1)"
+msgstr ""
+
+#: test/metabox/setup.php:23
+msgid "Post Title Style(h2)"
+msgstr ""
+
+#: test/metabox/setup.php:29
+msgid "Post Content Style"
+msgstr ""
+
+#: test/widget/setup.php:9
+msgid "Styler Test Widget"
+msgstr ""
+
+#: test/widget/setup.php:11
+msgid "Sample widget based on WPBeginner Tutorial"
+msgstr ""
+
+#: test/widget/setup.php:39
+msgid "Hello, World!"
+msgstr ""
+
+#: test/widget/setup.php:49
+msgid "New title"
+msgstr ""
+
+#: src/App/config/config.jsx:60
+#: src/App/config/config.jsx:183
+msgid "Normal"
+msgstr ""
+
+#: src/App/config/config.jsx:61
+msgid "Hover"
+msgstr ""
+
+#: src/App/config/config.jsx:63
+msgid "Parent Hover"
+msgstr ""
+
+#: src/App/config/config.jsx:67
+msgid "Before"
+msgstr ""
+
+#: src/App/config/config.jsx:68
+msgid "After"
+msgstr ""
+
+#: src/App/config/config.jsx:75
+#: src/App/config/config.jsx:84
+msgid "Content"
+msgstr ""
+
+#: src/App/config/config.jsx:89
+msgid "Text & Typography"
+msgstr ""
+
+#: src/App/config/config.jsx:95
+#: src/App/config/config.jsx:409
+#: src/App/config/config.jsx:1644
+#: src/App/config/config.jsx:1661
+msgid "Color"
+msgstr ""
+
+#: src/App/config/config.jsx:102
+msgid "Font Size"
+msgstr ""
+
+#: src/App/config/config.jsx:116
+msgid "Line Height"
+msgstr ""
+
+#: src/App/config/config.jsx:129
+msgid "Letter Spacing"
+msgstr ""
+
+#: src/App/config/config.jsx:144
+msgid "Font Family"
+msgstr ""
+
+#: src/App/config/config.jsx:160
+msgid "Font Weight"
+msgstr ""
+
+#: src/App/config/config.jsx:162
+#: src/App/config/config.jsx:295
+#: src/App/config/config.jsx:559
+#: src/App/config/config.jsx:617
+#: src/App/config/config.jsx:628
+#: src/App/config/config.jsx:640
+#: src/App/config/config.jsx:652
+#: src/App/config/config.jsx:665
+#: src/App/config/config.jsx:733
+#: src/App/config/config.jsx:2275
+msgid "unset"
+msgstr ""
+
+#: src/App/config/config.jsx:163
+msgid "100 | Thin"
+msgstr ""
+
+#: src/App/config/config.jsx:164
+msgid "200 | Extra Light"
+msgstr ""
+
+#: src/App/config/config.jsx:165
+msgid "300 | Light"
+msgstr ""
+
+#: src/App/config/config.jsx:166
+msgid "400 | Normal"
+msgstr ""
+
+#: src/App/config/config.jsx:167
+msgid "500 | Medium"
+msgstr ""
+
+#: src/App/config/config.jsx:168
+msgid "600 | Semi Bold"
+msgstr ""
+
+#: src/App/config/config.jsx:169
+msgid "700 | Bold"
+msgstr ""
+
+#: src/App/config/config.jsx:170
+msgid "800 | Extra Bold"
+msgstr ""
+
+#: src/App/config/config.jsx:171
+msgid "900 | High Bold"
+msgstr ""
+
+#: src/App/config/config.jsx:178
+msgid "Font Style"
+msgstr ""
+
+#: src/App/config/config.jsx:189
+msgid "Italic"
+msgstr ""
+
+#: src/App/config/config.jsx:195
+msgid "Oblique"
+msgstr ""
+
+#: src/App/config/config.jsx:204
+msgid "Text Align"
+msgstr ""
+
+#: src/App/config/config.jsx:209
+#: src/App/config/config.jsx:1219
+#: src/App/config/config.jsx:1307
+msgid "Left"
+msgstr ""
+
+#: src/App/config/config.jsx:214
+msgid "Center"
+msgstr ""
+
+#: src/App/config/config.jsx:219
+#: src/App/config/config.jsx:1183
+#: src/App/config/config.jsx:1271
+msgid "Right"
+msgstr ""
+
+#: src/App/config/config.jsx:224
+msgid "Justify"
+msgstr ""
+
+#: src/App/config/config.jsx:232
+msgid "Text Transform"
+msgstr ""
+
+#: src/App/config/config.jsx:237
+#: src/App/config/config.jsx:265
+msgid "None"
+msgstr ""
+
+#: src/App/config/config.jsx:242
+msgid "Uppercase"
+msgstr ""
+
+#: src/App/config/config.jsx:247
+msgid "Lowercase"
+msgstr ""
+
+#: src/App/config/config.jsx:252
+msgid "Capitalize"
+msgstr ""
+
+#: src/App/config/config.jsx:260
+msgid "Text Decoration"
+msgstr ""
+
+#: src/App/config/config.jsx:270
+msgid "Underline"
+msgstr ""
+
+#: src/App/config/config.jsx:275
+msgid "Overline"
+msgstr ""
+
+#: src/App/config/config.jsx:280
+msgid "Line Through"
+msgstr ""
+
+#: src/App/config/config.jsx:288
+msgid "Decoration Style"
+msgstr ""
+
+#: src/App/config/config.jsx:290
+msgid "solid"
+msgstr ""
+
+#: src/App/config/config.jsx:291
+msgid "double"
+msgstr ""
+
+#: src/App/config/config.jsx:292
+msgid "dotted"
+msgstr ""
+
+#: src/App/config/config.jsx:293
+msgid "dashed"
+msgstr ""
+
+#: src/App/config/config.jsx:294
+msgid "wavy"
+msgstr ""
+
+#: src/App/config/config.jsx:306
+msgid "Thickness"
+msgstr ""
+
+#: src/App/config/config.jsx:319
+msgid "Decoration Color"
+msgstr ""
+
+#: src/App/config/config.jsx:328
+msgid "Direction"
+msgstr ""
+
+#: src/App/config/config.jsx:333
+msgid "Left to Right"
+msgstr ""
+
+#: src/App/config/config.jsx:338
+msgid "Right to Left"
+msgstr ""
+
+#: src/App/config/config.jsx:346
+msgid "Text Wrap"
+msgstr ""
+
+#: src/App/config/config.jsx:348
+msgid "wrap"
+msgstr ""
+
+#: src/App/config/config.jsx:349
+msgid "nowrap"
+msgstr ""
+
+#: src/App/config/config.jsx:350
+msgid "balance"
+msgstr ""
+
+#: src/App/config/config.jsx:357
+msgid "Writing Mode"
+msgstr ""
+
+#: src/App/config/config.jsx:359
+msgid "horizontal-tb"
+msgstr ""
+
+#: src/App/config/config.jsx:360
+msgid "vertical-rl"
+msgstr ""
+
+#: src/App/config/config.jsx:361
+msgid "vertical-lr"
+msgstr ""
+
+#: src/App/config/config.jsx:368
+msgid "Text Orientation"
+msgstr ""
+
+#: src/App/config/config.jsx:370
+msgid "mixed"
+msgstr ""
+
+#: src/App/config/config.jsx:371
+msgid "upright"
+msgstr ""
+
+#: src/App/config/config.jsx:372
+msgid "sideways"
+msgstr ""
+
+#: src/App/config/config.jsx:373
+msgid "sideways-right"
+msgstr ""
+
+#: src/App/config/config.jsx:381
+#: src/App/config/config.jsx:385
+msgid "Background"
+msgstr ""
+
+#: src/App/config/config.jsx:394
+#: src/App/config/config.jsx:396
+msgid "Solid"
+msgstr ""
+
+#: src/App/config/config.jsx:399
+#: src/App/config/config.jsx:401
+msgid "Gradient"
+msgstr ""
+
+#: src/App/config/config.jsx:428
+msgid "Image"
+msgstr ""
+
+#: src/App/config/config.jsx:437
+#: src/App/config/config.jsx:2270
+msgid "Repeat"
+msgstr ""
+
+#: src/App/config/config.jsx:439
+msgid "repeat"
+msgstr ""
+
+#: src/App/config/config.jsx:440
+msgid "repeat-x"
+msgstr ""
+
+#: src/App/config/config.jsx:441
+msgid "repeat-y"
+msgstr ""
+
+#: src/App/config/config.jsx:442
+msgid "no-repeat"
+msgstr ""
+
+#: src/App/config/config.jsx:453
+msgid "Attachment"
+msgstr ""
+
+#: src/App/config/config.jsx:455
+#: src/App/config/config.jsx:655
+msgid "scroll"
+msgstr ""
+
+#: src/App/config/config.jsx:456
+msgid "fixed"
+msgstr ""
+
+#: src/App/config/config.jsx:468
+#: src/App/config/config.jsx:1552
+#: src/App/config/config.jsx:1559
+msgid "Position"
+msgstr ""
+
+#: src/App/config/config.jsx:473
+#: src/App/config/config.jsx:753
+msgid "left top"
+msgstr ""
+
+#: src/App/config/config.jsx:474
+#: src/App/config/config.jsx:754
+msgid "left center"
+msgstr ""
+
+#: src/App/config/config.jsx:475
+#: src/App/config/config.jsx:755
+msgid "left bottom"
+msgstr ""
+
+#: src/App/config/config.jsx:476
+#: src/App/config/config.jsx:756
+msgid "right top"
+msgstr ""
+
+#: src/App/config/config.jsx:477
+#: src/App/config/config.jsx:757
+msgid "right center"
+msgstr ""
+
+#: src/App/config/config.jsx:478
+#: src/App/config/config.jsx:758
+msgid "right bottom"
+msgstr ""
+
+#: src/App/config/config.jsx:479
+#: src/App/config/config.jsx:759
+msgid "center top"
+msgstr ""
+
+#: src/App/config/config.jsx:480
+#: src/App/config/config.jsx:760
+msgid "center center"
+msgstr ""
+
+#: src/App/config/config.jsx:481
+#: src/App/config/config.jsx:761
+msgid "center bottom"
+msgstr ""
+
+#: src/App/config/config.jsx:482
+#: src/App/config/config.jsx:508
+msgid "custom"
+msgstr ""
+
+#: src/App/config/config.jsx:485
+msgid "X Position"
+msgstr ""
+
+#: src/App/config/config.jsx:486
+msgid "Y Position"
+msgstr ""
+
+#: src/App/config/config.jsx:498
+#: src/App/config/config.jsx:1053
+msgid "Size"
+msgstr ""
+
+#: src/App/config/config.jsx:503
+#: src/App/config/config.jsx:656
+#: src/App/config/config.jsx:688
+msgid "auto"
+msgstr ""
+
+#: src/App/config/config.jsx:504
+#: src/App/config/config.jsx:736
+msgid "cover"
+msgstr ""
+
+#: src/App/config/config.jsx:505
+#: src/App/config/config.jsx:735
+msgid "contain"
+msgstr ""
+
+#: src/App/config/config.jsx:506
+#: src/App/config/config.jsx:594
+#: src/App/config/config.jsx:676
+#: src/App/config/config.jsx:724
+msgid "inherit"
+msgstr ""
+
+#: src/App/config/config.jsx:507
+#: src/App/config/config.jsx:593
+#: src/App/config/config.jsx:675
+#: src/App/config/config.jsx:723
+msgid "initial"
+msgstr ""
+
+#: src/App/config/config.jsx:511
+#: src/App/config/config.jsx:1057
+#: src/App/config/config.jsx:1065
+msgid "Width"
+msgstr ""
+
+#: src/App/config/config.jsx:512
+#: src/App/config/config.jsx:1102
+#: src/App/config/config.jsx:1110
+msgid "Height"
+msgstr ""
+
+#: src/App/config/config.jsx:528
+msgid "Clip Text"
+msgstr ""
+
+#: src/App/config/config.jsx:547
+#: src/App/config/config.jsx:551
+#: src/App/config/config.jsx:557
+msgid "Display"
+msgstr ""
+
+#: src/App/config/config.jsx:560
+msgid "inline"
+msgstr ""
+
+#: src/App/config/config.jsx:561
+msgid "block"
+msgstr ""
+
+#: src/App/config/config.jsx:562
+#: src/App/config/config.jsx:631
+#: src/App/config/config.jsx:708
+#: src/App/config/config.jsx:737
+msgid "none"
+msgstr ""
+
+#: src/App/config/config.jsx:563
+msgid "contents"
+msgstr ""
+
+#: src/App/config/config.jsx:564
+msgid "flex"
+msgstr ""
+
+#: src/App/config/config.jsx:565
+msgid "grid"
+msgstr ""
+
+#: src/App/config/config.jsx:566
+msgid "inline-block"
+msgstr ""
+
+#: src/App/config/config.jsx:567
+msgid "inline-flex"
+msgstr ""
+
+#: src/App/config/config.jsx:568
+msgid "inline-grid"
+msgstr ""
+
+#: src/App/config/config.jsx:569
+msgid "inline-table"
+msgstr ""
+
+#: src/App/config/config.jsx:570
+msgid "list-item"
+msgstr ""
+
+#: src/App/config/config.jsx:571
+msgid "run-in"
+msgstr ""
+
+#: src/App/config/config.jsx:572
+msgid "table"
+msgstr ""
+
+#: src/App/config/config.jsx:573
+msgid "table-caption"
+msgstr ""
+
+#: src/App/config/config.jsx:574
+msgid "table-column-group"
+msgstr ""
+
+#: src/App/config/config.jsx:578
+msgid "table-header-group"
+msgstr ""
+
+#: src/App/config/config.jsx:582
+msgid "table-footer-group"
+msgstr ""
+
+#: src/App/config/config.jsx:586
+msgid "table-row-group"
+msgstr ""
+
+#: src/App/config/config.jsx:590
+msgid "table-cell"
+msgstr ""
+
+#: src/App/config/config.jsx:591
+msgid "table-column"
+msgstr ""
+
+#: src/App/config/config.jsx:592
+msgid "table-row"
+msgstr ""
+
+#: src/App/config/config.jsx:602
+#: src/App/config/config.jsx:1683
+#: src/App/config/config.jsx:1815
+msgid "Opacity"
+msgstr ""
+
+#: src/App/config/config.jsx:615
+msgid "Box Sizing"
+msgstr ""
+
+#: src/App/config/config.jsx:618
+msgid "content-box"
+msgstr ""
+
+#: src/App/config/config.jsx:619
+msgid "border-box"
+msgstr ""
+
+#: src/App/config/config.jsx:626
+msgid "Float"
+msgstr ""
+
+#: src/App/config/config.jsx:629
+#: src/App/config/config.jsx:641
+#: src/App/config/config.jsx:749
+msgid "left"
+msgstr ""
+
+#: src/App/config/config.jsx:630
+#: src/App/config/config.jsx:642
+#: src/App/config/config.jsx:751
+msgid "right"
+msgstr ""
+
+#: src/App/config/config.jsx:638
+msgid "Clear"
+msgstr ""
+
+#: src/App/config/config.jsx:643
+msgid "both"
+msgstr ""
+
+#: src/App/config/config.jsx:650
+msgid "Overflow"
+msgstr ""
+
+#: src/App/config/config.jsx:653
+msgid "visible"
+msgstr ""
+
+#: src/App/config/config.jsx:654
+msgid "hidden"
+msgstr ""
+
+#: src/App/config/config.jsx:663
+msgid "Vertical Align"
+msgstr ""
+
+#: src/App/config/config.jsx:666
+msgid "baseline"
+msgstr ""
+
+#: src/App/config/config.jsx:667
+msgid "length"
+msgstr ""
+
+#: src/App/config/config.jsx:668
+msgid "sub"
+msgstr ""
+
+#: src/App/config/config.jsx:669
+msgid "super"
+msgstr ""
+
+#: src/App/config/config.jsx:670
+#: src/App/config/config.jsx:748
+msgid "top"
+msgstr ""
+
+#: src/App/config/config.jsx:671
+msgid "text-top"
+msgstr ""
+
+#: src/App/config/config.jsx:672
+msgid "middle"
+msgstr ""
+
+#: src/App/config/config.jsx:673
+#: src/App/config/config.jsx:752
+msgid "bottom"
+msgstr ""
+
+#: src/App/config/config.jsx:674
+msgid "text-bottom"
+msgstr ""
+
+#: src/App/config/config.jsx:683
+msgid "Cursor"
+msgstr ""
+
+#: src/App/config/config.jsx:686
+msgid "alias"
+msgstr ""
+
+#: src/App/config/config.jsx:687
+msgid "all-scroll"
+msgstr ""
+
+#: src/App/config/config.jsx:689
+msgid "cell"
+msgstr ""
+
+#: src/App/config/config.jsx:690
+msgid "context-menu"
+msgstr ""
+
+#: src/App/config/config.jsx:691
+msgid "col-resize"
+msgstr ""
+
+#: src/App/config/config.jsx:692
+msgid "copy"
+msgstr ""
+
+#: src/App/config/config.jsx:693
+msgid "crosshair"
+msgstr ""
+
+#: src/App/config/config.jsx:695
+msgid "e-resize"
+msgstr ""
+
+#: src/App/config/config.jsx:696
+msgid "ew-resize"
+msgstr ""
+
+#: src/App/config/config.jsx:697
+msgid "grab"
+msgstr ""
+
+#: src/App/config/config.jsx:698
+msgid "grabbing"
+msgstr ""
+
+#: src/App/config/config.jsx:699
+msgid "help"
+msgstr ""
+
+#: src/App/config/config.jsx:700
+msgid "move"
+msgstr ""
+
+#: src/App/config/config.jsx:701
+msgid "n-resize"
+msgstr ""
+
+#: src/App/config/config.jsx:702
+msgid "ne-resize"
+msgstr ""
+
+#: src/App/config/config.jsx:703
+msgid "nesw-resize"
+msgstr ""
+
+#: src/App/config/config.jsx:704
+msgid "ns-resize"
+msgstr ""
+
+#: src/App/config/config.jsx:705
+msgid "nw-resize"
+msgstr ""
+
+#: src/App/config/config.jsx:706
+msgid "nwse-resize"
+msgstr ""
+
+#: src/App/config/config.jsx:707
+msgid "no-drop"
+msgstr ""
+
+#: src/App/config/config.jsx:709
+msgid "not-allowed"
+msgstr ""
+
+#: src/App/config/config.jsx:710
+msgid "pointer"
+msgstr ""
+
+#: src/App/config/config.jsx:711
+msgid "progress"
+msgstr ""
+
+#: src/App/config/config.jsx:712
+msgid "row-resize"
+msgstr ""
+
+#: src/App/config/config.jsx:713
+msgid "s-resize"
+msgstr ""
+
+#: src/App/config/config.jsx:714
+msgid "se-resize"
+msgstr ""
+
+#: src/App/config/config.jsx:715
+msgid "sw-resize"
+msgstr ""
+
+#: src/App/config/config.jsx:716
+msgid "text"
+msgstr ""
+
+#: src/App/config/config.jsx:717
+msgid "URL"
+msgstr ""
+
+#: src/App/config/config.jsx:718
+msgid "vertical-text"
+msgstr ""
+
+#: src/App/config/config.jsx:719
+msgid "w-resize"
+msgstr ""
+
+#: src/App/config/config.jsx:720
+msgid "wait"
+msgstr ""
+
+#: src/App/config/config.jsx:721
+msgid "zoom-in"
+msgstr ""
+
+#: src/App/config/config.jsx:722
+msgid "zoom-out"
+msgstr ""
+
+#: src/App/config/config.jsx:731
+msgid "Object Fit"
+msgstr ""
+
+#: src/App/config/config.jsx:734
+msgid "fill"
+msgstr ""
+
+#: src/App/config/config.jsx:738
+msgid "scale-down"
+msgstr ""
+
+#: src/App/config/config.jsx:745
+msgid "Object Position"
+msgstr ""
+
+#: src/App/config/config.jsx:750
+msgid "center"
+msgstr ""
+
+#: src/App/config/config.jsx:771
+msgid "Visibility"
+msgstr ""
+
+#: src/App/config/config.jsx:783
+msgid "Flex Options"
+msgstr ""
+
+#: src/App/config/config.jsx:789
+msgid "Align Content"
+msgstr ""
+
+#: src/App/config/config.jsx:804
+msgid "Align Items"
+msgstr ""
+
+#: src/App/config/config.jsx:818
+msgid "Justify Content"
+msgstr ""
+
+#: src/App/config/config.jsx:833
+msgid "Flex Direction"
+msgstr ""
+
+#: src/App/config/config.jsx:846
+msgid "Flex Wrap"
+msgstr ""
+
+#: src/App/config/config.jsx:858
+msgid "Align Self"
+msgstr ""
+
+#: src/App/config/config.jsx:873
+msgid "Flex Flow"
+msgstr ""
+
+#: src/App/config/config.jsx:897
+msgid "Order"
+msgstr ""
+
+#: src/App/config/config.jsx:909
+msgid "Flex Grow"
+msgstr ""
+
+#: src/App/config/config.jsx:921
+msgid "Flex Shrink"
+msgstr ""
+
+#: src/App/config/config.jsx:933
+msgid "Flex Basis"
+msgstr ""
+
+#: src/App/config/config.jsx:947
+msgid "Grid Options"
+msgstr ""
+
+#: src/App/config/config.jsx:953
+msgid "Grid Area"
+msgstr ""
+
+#: src/App/config/config.jsx:959
+msgid "Grid Auto Columns"
+msgstr ""
+
+#: src/App/config/config.jsx:965
+msgid "Grid Auto Flow"
+msgstr ""
+
+#: src/App/config/config.jsx:983
+msgid "Grid Auto Rows"
+msgstr ""
+
+#: src/App/config/config.jsx:989
+msgid "Grid Column"
+msgstr ""
+
+#: src/App/config/config.jsx:995
+msgid "Grid Column End"
+msgstr ""
+
+#: src/App/config/config.jsx:1001
+msgid "Grid Column Start"
+msgstr ""
+
+#: src/App/config/config.jsx:1007
+msgid "Grid Row"
+msgstr ""
+
+#: src/App/config/config.jsx:1013
+msgid "Grid Row End"
+msgstr ""
+
+#: src/App/config/config.jsx:1019
+msgid "Grid Row Start"
+msgstr ""
+
+#: src/App/config/config.jsx:1025
+msgid "Grid Template"
+msgstr ""
+
+#: src/App/config/config.jsx:1031
+msgid "Grid Template Areas"
+msgstr ""
+
+#: src/App/config/config.jsx:1037
+msgid "Grid Template Columns"
+msgstr ""
+
+#: src/App/config/config.jsx:1043
+msgid "Grid Template Rows"
+msgstr ""
+
+#: src/App/config/config.jsx:1078
+msgid "Min Width"
+msgstr ""
+
+#: src/App/config/config.jsx:1091
+msgid "Max Width"
+msgstr ""
+
+#: src/App/config/config.jsx:1123
+msgid "Min Height"
+msgstr ""
+
+#: src/App/config/config.jsx:1136
+msgid "Max Height"
+msgstr ""
+
+#: src/App/config/config.jsx:1149
+msgid "Spacing"
+msgstr ""
+
+#: src/App/config/config.jsx:1153
+msgid "Padding"
+msgstr ""
+
+#: src/App/config/config.jsx:1165
+#: src/App/config/config.jsx:1253
+msgid "Top"
+msgstr ""
+
+#: src/App/config/config.jsx:1201
+#: src/App/config/config.jsx:1289
+msgid "Bottom"
+msgstr ""
+
+#: src/App/config/config.jsx:1241
+msgid "Margin"
+msgstr ""
+
+#: src/App/config/config.jsx:1331
+#: src/App/config/config.jsx:1335
+msgid "Border"
+msgstr ""
+
+#: src/App/config/config.jsx:1341
+msgid "Border Type"
+msgstr ""
+
+#: src/App/config/config.jsx:1356
+msgid "Border Width"
+msgstr ""
+
+#: src/App/config/config.jsx:1365
+msgid "Border Color"
+msgstr ""
+
+#: src/App/config/config.jsx:1394
+msgid "Border Radius"
+msgstr ""
+
+#: src/App/config/config.jsx:1405
+msgid "Top Left"
+msgstr ""
+
+#: src/App/config/config.jsx:1423
+msgid "Top Right"
+msgstr ""
+
+#: src/App/config/config.jsx:1441
+msgid "Bottom Right"
+msgstr ""
+
+#: src/App/config/config.jsx:1459
+msgid "Bottom Left"
+msgstr ""
+
+#: src/App/config/config.jsx:1556
+msgid "Position Options"
+msgstr ""
+
+#: src/App/config/config.jsx:1611
+msgid "Index"
+msgstr ""
+
+#: src/App/config/config.jsx:1618
+msgid "Z-Index"
+msgstr ""
+
+#: src/App/config/config.jsx:1631
+msgid "Shadow"
+msgstr ""
+
+#: src/App/config/config.jsx:1638
+msgid "Box Shadow"
+msgstr ""
+
+#: src/App/config/config.jsx:1645
+#: src/App/config/config.jsx:1662
+msgid "Vertical"
+msgstr ""
+
+#: src/App/config/config.jsx:1646
+#: src/App/config/config.jsx:1663
+msgid "Horizontal"
+msgstr ""
+
+#: src/App/config/config.jsx:1647
+#: src/App/config/config.jsx:1664
+#: src/App/config/config.jsx:1697
+#: src/App/config/config.jsx:1843
+msgid "Blur"
+msgstr ""
+
+#: src/App/config/config.jsx:1648
+#: src/App/config/config.jsx:1665
+msgid "Spread"
+msgstr ""
+
+#: src/App/config/config.jsx:1649
+msgid "Inset"
+msgstr ""
+
+#: src/App/config/config.jsx:1650
+#: src/App/config/config.jsx:1666
+msgid "Add New Shadow"
+msgstr ""
+
+#: src/App/config/config.jsx:1655
+msgid "Text Shadow"
+msgstr ""
+
+#: src/App/config/config.jsx:1674
+#: src/App/config/config.jsx:1679
+msgid "Filters"
+msgstr ""
+
+#: src/App/config/config.jsx:1711
+#: src/App/config/config.jsx:1829
+msgid "Grayscale"
+msgstr ""
+
+#: src/App/config/config.jsx:1725
+#: src/App/config/config.jsx:1857
+msgid "Brightness"
+msgstr ""
+
+#: src/App/config/config.jsx:1739
+#: src/App/config/config.jsx:1871
+msgid "Contrast"
+msgstr ""
+
+#: src/App/config/config.jsx:1753
+#: src/App/config/config.jsx:1885
+msgid "Hue Rotate"
+msgstr ""
+
+#: src/App/config/config.jsx:1767
+#: src/App/config/config.jsx:1899
+msgid "Invert"
+msgstr ""
+
+#: src/App/config/config.jsx:1781
+#: src/App/config/config.jsx:1913
+msgid "Saturate"
+msgstr ""
+
+#: src/App/config/config.jsx:1795
+#: src/App/config/config.jsx:1927
+msgid "Sepia"
+msgstr ""
+
+#: src/App/config/config.jsx:1811
+msgid "Backdrop Filters"
+msgstr ""
+
+#: src/App/config/config.jsx:1945
+#: src/App/config/config.jsx:1950
+msgid "Transform"
+msgstr ""
+
+#: src/App/config/config.jsx:1954
+msgid "Rotate"
+msgstr ""
+
+#: src/App/config/config.jsx:1968
+msgid "Scale"
+msgstr ""
+
+#: src/App/config/config.jsx:1983
+msgid "Translate X"
+msgstr ""
+
+#: src/App/config/config.jsx:1997
+msgid "Translate Y"
+msgstr ""
+
+#: src/App/config/config.jsx:2011
+msgid "Translate Z"
+msgstr ""
+
+#: src/App/config/config.jsx:2025
+msgid "Skew X"
+msgstr ""
+
+#: src/App/config/config.jsx:2039
+msgid "Skew Y"
+msgstr ""
+
+#: src/App/config/config.jsx:2057
+#: src/App/config/config.jsx:2064
+msgid "SVG"
+msgstr ""
+
+#: src/App/config/config.jsx:2067
+msgid "Fill"
+msgstr ""
+
+#: src/App/config/config.jsx:2074
+msgid "Stroke"
+msgstr ""
+
+#: src/App/config/config.jsx:2081
+msgid "Fill Opacity"
+msgstr ""
+
+#: src/App/config/config.jsx:2095
+msgid "Stroke Opacity"
+msgstr ""
+
+#: src/App/config/config.jsx:2109
+msgid "Stroke Width"
+msgstr ""
+
+#: src/App/config/config.jsx:2126
+#: src/App/config/config.jsx:2178
+msgid "Animation"
+msgstr ""
+
+#: src/App/config/config.jsx:2130
+msgid "Transition"
+msgstr ""
+
+#: src/App/config/config.jsx:2133
+msgid "FX"
+msgstr ""
+
+#: src/App/config/config.jsx:2150
+#: src/App/config/config.jsx:2336
+msgid "Duration"
+msgstr ""
+
+#: src/App/config/config.jsx:2163
+#: src/App/config/config.jsx:2349
+msgid "Delay"
+msgstr ""
+
+#: src/App/config/config.jsx:2181
+msgid "Pre-built Animation"
+msgstr ""
+
+#: src/App/config/config.jsx:2260
+msgid "Trigger"
+msgstr ""
+
+#: src/App/config/config.jsx:2276
+msgid "2 Times"
+msgstr ""
+
+#: src/App/config/config.jsx:2277
+msgid "3 Times"
+msgstr ""
+
+#: src/App/config/config.jsx:2278
+msgid "4 Times"
+msgstr ""
+
+#: src/App/config/config.jsx:2279
+msgid "5 Times"
+msgstr ""
+
+#: src/App/config/config.jsx:2280
+msgid "6 Times"
+msgstr ""
+
+#: src/App/config/config.jsx:2281
+msgid "7 Times"
+msgstr ""
+
+#: src/App/config/config.jsx:2282
+msgid "8 Times"
+msgstr ""
+
+#: src/App/config/config.jsx:2283
+msgid "9 Times"
+msgstr ""
+
+#: src/App/config/config.jsx:2284
+msgid "10 Times"
+msgstr ""
+
+#: src/App/config/config.jsx:2288
+msgid "Curve"
+msgstr ""
+
+#: src/App/contents/form.jsx:60
+msgid "Reset"
+msgstr ""
+
+#: src/App/lib/components/context/index.jsx:261
+msgid "Devices"
+msgstr ""
+
+#: src/App/lib/components/context/index.jsx:308
+msgid "Copy Tab"
+msgstr ""
+
+#: src/App/lib/components/context/index.jsx:313
+msgid "Paste"
+msgstr ""
+
+#: src/App/lib/components/context/index.jsx:318
+msgid "Reset Tab"
+msgstr ""
+
+#: src/App/lib/content/pro-message/index.jsx:7
+msgid "Requires Pro Version"
+msgstr ""
+
+#: src/App/lib/content/pro-message/index.jsx:9
+msgid "Upgrade Now"
+msgstr ""
+
+#: test/gutenberg/block.json
+msgctxt "block title"
+msgid "Example: Basic (ESNext)"
+msgstr ""

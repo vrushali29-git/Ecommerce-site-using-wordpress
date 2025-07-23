@@ -1,0 +1,70 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "shop-press/shop-filters",
+	"version": "1.0.0",
+	"title": "Shop Filters",
+	"category": "sp_woo_shop",
+
+	"description": "",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "shop-press",
+	"editorScript": "file:./index.js",
+	"render": "file:./render.php",
+	"attributes": {
+		"filter_repeaters": {
+			"type": "array",
+			"default": [
+				{
+					"filter_repeater_select": "layered_nav_filters"
+				},
+				{
+					"filter_repeater_select": "product_search"
+				},
+				{
+					"filter_repeater_select": "layered_nav"
+				},
+				{
+					"filter_repeater_select": "rating_filter"
+				},
+				{
+					"filter_repeater_select": "price_filter"
+				},
+				{
+					"filter_repeater_select": "product_categories"
+				},
+				{
+					"filter_repeater_select": "product_tag_cloud"
+				}
+			]
+		},
+		"display_as": {
+			"type": "boolean"
+		},
+		"button_style": {
+			"type": "string",
+			"default": "text_icon"
+		},
+		"drawer_label": {
+			"type": "string",
+			"default": "Filters"
+		},
+		"drawer_icon": {
+			"type": "string"
+		},
+		"drawer_position": {
+			"type": "string",
+			"default": "left"
+		},
+		"drawer_title": {
+			"type": "string",
+			"default": "Filters"
+		},
+		"show_clear_all": {
+			"type": "boolean",
+			"default": false
+		}
+	}
+}

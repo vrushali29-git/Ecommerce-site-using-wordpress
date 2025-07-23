@@ -1,0 +1,64 @@
+@media (prefers-color-scheme: dark) {
+	#shoppress-library-modal .elementor-component-tab.elementor-active,
+	#shoppress-library-modal .elementor-component-tab:hover {
+		color: #9a9af9;
+	}
+
+	#shoppress-library-modal #elementor-template-library-header-menu {
+		background: linear-gradient(
+			180deg,
+			#111314 0,
+			#16181a 90%,
+			#1a1c1e 100%
+		);
+	}
+
+	#shoppress-library-modal.elementor-templates-modal .dialog-header {
+		background: #000;
+		border-bottom-color: #25282b;
+	}
+
+	#shoppress-library-modal
+		.elementor-templates-modal__header__menu-area:before {
+		background: linear-gradient(
+			180deg,
+			#25282b 0,
+			#25282b 60%,
+			#1a1c1e 100%
+		);
+	}
+
+	#shoppress-library-modal .elementor-component-tab {
+		color: #ffffffa1;
+	}
+
+	#shoppress-library-modal .elementor-component-tab:hover {
+		color: #fff;
+		background: transparent;
+		border-color: transparent;
+	}
+
+	#shoppress-library-modal .elementor-component-tab.elementor-active {
+		background: #1a1c1e;
+		border-color: #25282b;
+		border-right: none;
+		color: #fff;
+	}
+
+	#shoppress-library-modal #elementor-template-library-filter-text,
+	#shoppress-library-modal #elementor-template-library-filter-text:focus {
+		background: transparent;
+		border-bottom-color: #25282b !important;
+		color: #fff;
+	}
+
+	#shoppress-library-modal #elementor-template-library-filter-text-wrapper {
+		border-color: #ffffff36;
+	}
+
+	#shoppress-library-modal
+		#elementor-template-library-templates-container:after {
+		background-color: #1a1c1e;
+		background: linear-gradient(180deg, #00000000 0, #1a1c1e 80%);
+	}
+}

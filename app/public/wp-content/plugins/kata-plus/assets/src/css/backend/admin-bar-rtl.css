@@ -1,0 +1,112 @@
+/**
+ * Kata AdminBar styles.
+ *
+ * @author  ClimaxThemes
+ * @package Kata Plus
+ * @since   1.0.0
+ */
+
+.kata-admin-bar {
+	left: unset;
+	right: 0;
+}
+
+.kata-admin-bar-nav>li {
+	border-left: none;
+	border-right: 3px solid transparent;
+}
+
+.kata-admin-bar-nav>li.active {
+	border-left-color: transparent;
+	border-right-color: #403cf2;
+}
+
+.kata-admin-bar-contents {
+	left: unset;
+	right: 100%;
+}
+
+.kata-admin-bar-contents {
+	text-align: right;
+}
+
+.kata-admin-bar-item span {
+	margin-right: 0;
+	margin-left: 7px;
+}
+
+.kata-admin-bar-item i {
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+.kata-col .kata-admin-bar-item.active a i {
+	margin-left: 5px;
+	margin-right: -6px;
+}
+
+#kata-admin-bar-settings .kata-col:nth-of-type(3) {
+	padding-left: 0;
+	padding-right: 26px;
+	border-left: none;
+	border-right: 1px solid #262b30;
+}
+
+#kata-finder {
+	text-align: right;
+}
+
+.kata-dialog .kata-dialog-close-btn {
+	right: unset;
+	left: 11px;
+}
+
+.kata-finder .kata-finder-search i {
+	left: unset;
+	right: 18px;
+}
+
+#kata-finder-search-input {
+	padding: 0 50px 0 15px;
+}
+
+.kata-finder-category-item {
+	float: right;
+}
+
+.kata-finder-category-title {
+	float: right;
+	text-align: right;
+	padding-left: 0;
+	padding-right: 15px;
+}
+
+.kata-admin-bar-nav>li>a>i,
+.kata-admin-bar-nav>li>i {
+	margin-left: 0;
+	margin-right: -2px;
+}
+
+.intercom-namespace .intercom-app .intercom-with-namespace-o6gfna,
+.intercom-namespace .intercom-app .intercom-with-namespace-3mjjy2 {
+	right: unset;
+	left: 20px;
+}
+
+.intercom-namespace .intercom-app .intercom-with-namespace-ysm5et {
+	right: unset;
+	left: 15px;
+}
+
+.intercom-namespace .intercom-app .intercom-with-namespace-zadi4c {
+	right: unset;
+	left: 0;
+}
+
+.intercom-namespace .intercom-app .intercom-with-namespace-zadi4c {
+	transform: scaleX(-1);
+}
+
+.kata-admin .kata-help-intro {
+	background-position: 4% 84%;
+}

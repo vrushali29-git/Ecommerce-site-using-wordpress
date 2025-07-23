@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "shop-press/cart-table",
+  "version": "1.0.0",
+  "title": "Cart Table",
+  "category": "sp_woo_cart",
+  "description": "",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "shop-press",
+  "editorScript": "file:./index.js",
+  "render": "file:./render.php",
+  "attributes": {
+    "hide_header_table": {
+      "type": "boolean",
+      "default": false
+    },
+    "hide_coupon_form": {
+      "type": "boolean",
+      "default": false
+    },
+    "wrapperID": {
+      "type": "string",
+      "default": ""
+    },
+    "styler": {
+      "type": "string",
+      "default": "{}"
+    }
+  }
+}

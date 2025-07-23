@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="mobp-compare">
+      <rect id="rectangle" width="24" height="24" transform="translate(186 70)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="sp-mobp-compare-i" transform="translate(-186 -70)" clip-path="url(#mobp-compare)">
+    <path id="sp-mobp-compare-i-2" data-name="sp-mobp-compare-i" d="M-1657.509-5653.5v-1.65h-5.538a2.277,2.277,0,0,1-2.276-2.273v-14.145a2.283,2.283,0,0,1,2.275-2.259h5.539v-1.67h1.011v22Zm-6.8-18.07v14.145a1.266,1.266,0,0,0,1.265,1.263h5.538v-16.656h-5.538a1.27,1.27,0,0,0-1.254,1.253Zm15.356,16.418h-4.454v-1.011h4.476a1.264,1.264,0,0,0,1.262-1.262v-14.146a1.264,1.264,0,0,0-1.262-1.265h-4.476v-.993h4.476a2.278,2.278,0,0,1,2.275,2.273v14.13a2.29,2.29,0,0,1-.671,1.61,2.258,2.258,0,0,1-1.6.664Z" transform="translate(1854.322 5746.498)"/>
+  </g>
+</svg>

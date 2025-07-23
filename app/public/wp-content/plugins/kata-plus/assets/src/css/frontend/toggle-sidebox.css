@@ -1,0 +1,149 @@
+.kata-toggle-sidebox .toggle-sidebox-trigger,
+.kata-toggle-sidebox .toggle-sidebox-content {
+    position: fixed;
+    top: 50%;
+}
+
+.kata-toggle-sidebox .toggle-sidebox-trigger {
+    background: #e8e8e8;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.kata-toggle-sidebox .toggle-sidebox-trigger i {
+    vertical-align: middle;
+}
+
+.kata-toggle-sidebox .toggle-sidebox-trigger span,
+.kata-toggle-sidebox .toggle-sidebox-trigger i {
+    cursor: pointer;
+}
+
+.kata-toggle-sidebox .toggle-sidebox-trigger,
+.kata-toggle-sidebox .toggle-sidebox-content {
+    -moz-transition: all 0.51s ease-out;
+    -webkit-transition: all 0.51s ease-out;
+    transition: all 0.51s ease-out;
+}
+
+/* Left to right */
+.kata-toggle-sidebox.left-to-right .toggle-sidebox-trigger,
+.kata-toggle-sidebox.left-to-right .toggle-sidebox-content {
+    left: 0;
+}
+
+.kata-toggle-sidebox.left-to-right .toggle-sidebox-content {
+    left: 0;
+    transform: translateX(-350px);
+    -ms-transform: translateX(-350px);
+    -webkit-transform: translateX(-350px);
+}
+
+#kata-content .kata-toggle-sidebox.left-to-right .toggle-sidebox-content.open-toggle {
+    transform: translateX(0);
+    -ms-transform: translateX(0);
+    -webkit-transform: translateX(0);
+}
+
+.kata-toggle-sidebox.left-to-right .toggle-sidebox-trigger.open-toggle {
+    transform: translateX(350px);
+    -ms-transform: translateX(350px);
+    -webkit-transform: translateX(350px);
+}
+
+/*  Right to left */
+.kata-toggle-sidebox.right-to-left .toggle-sidebox-trigger,
+.kata-toggle-sidebox.right-to-left .toggle-sidebox-content {
+    right: 0;
+}
+
+.kata-toggle-sidebox.right-to-left .toggle-sidebox-content {
+    right: 0;
+    transform: translateX(350px);
+    -ms-transform: translateX(350px);
+    -webkit-transform: translateX(350px);
+}
+
+.kata-toggle-sidebox.right-to-left .toggle-sidebox-content.open-toggle {
+    transform: translateX(0);
+    -ms-transform: translateX(0);
+    -webkit-transform: translateX(0);
+}
+
+.kata-toggle-sidebox.right-to-left .toggle-sidebox-trigger.open-toggle {
+    transform: translateX(-350px);
+    -ms-transform: translateX(-350px);
+    -webkit-transform: translateX(-350px);
+}
+
+/*  Top to Bottom */
+.kata-toggle-sidebox.top-to-bottom .toggle-sidebox-trigger,
+.kata-toggle-sidebox.top-to-bottom .toggle-sidebox-content {
+    top: 0;
+}
+
+.kata-toggle-sidebox.top-to-bottom .toggle-sidebox-content {
+    top: 0;
+    transform: translateY(-480px);
+    -ms-transform: translateY(-480px);
+    -webkit-transform: translateY(-480px);
+}
+
+.kata-toggle-sidebox.top-to-bottom .toggle-sidebox-content.open-toggle {
+    transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+}
+
+.kata-toggle-sidebox.top-to-bottom .toggle-sidebox-trigger.open-toggle {
+    transform: translateY(480px);
+    -ms-transform: translateY(480px);
+    -webkit-transform: translateY(480px);
+}
+
+/*  Bottom to Top */
+.kata-toggle-sidebox.bottom-to-top .toggle-sidebox-trigger,
+.kata-toggle-sidebox.bottom-to-top .toggle-sidebox-content {
+    bottom: 0;
+    top: unset;
+}
+
+.kata-toggle-sidebox.bottom-to-top .toggle-sidebox-content {
+    bottom: 0;
+    top: unset;
+    transform: translateY(480px);
+    -ms-transform: translateY(480px);
+    -webkit-transform: translateY(480px);
+}
+
+.kata-toggle-sidebox.bottom-to-top .toggle-sidebox-content.open-toggle {
+    transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+}
+
+.kata-toggle-sidebox.bottom-to-top .toggle-sidebox-trigger.open-toggle {
+    transform: translateY(-480px);
+    -ms-transform: translateY(-480px);
+    -webkit-transform: translateY(-480px);
+}
+
+.toggle-sidebox-content p {
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: inherit;
+    color: inherit;
+    margin: inherit;
+}
+
+.toggle-sidebox-trigger .toggle-sidebox-close-btn {
+    display: none;
+}
+
+.toggle-sidebox-trigger.open-toggle .toggle-sidebox-close-btn {
+    display: inline;
+}
+
+.toggle-sidebox-trigger.open-toggle .toggle-sidebox-open-btn {
+    display: none;
+}

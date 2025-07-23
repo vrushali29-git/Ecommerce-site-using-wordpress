@@ -1,0 +1,1727 @@
+/* importer */
+
+@media (min-width: 1367px) {
+	.kata-admin .kata-col-sm-4.kata-importer {
+		grid-column: span 3;
+	}
+}
+
+@media (max-width: 1024px) {
+	.kata-admin .kata-col-sm-4.kata-importer {
+		grid-column: span 6;
+	}
+}
+
+@media (max-width: 768px) {
+	.kata-admin .kata-col-sm-4.kata-importer {
+		grid-column: span 12;
+	}
+}
+
+.kata-admin .kata-col-sm-4.kata-importer .kata-demp-wrapper {
+	border: 1px solid #e6e7e8;
+	border-radius: 7px;
+	margin: 20px 0 0;
+	text-align: center;
+	padding-bottom: 15px;
+	box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.03);
+	transition: all 0.24s;
+	background: #f8f9fa;
+	overflow: hidden;
+	position: relative;
+}
+
+.kata-admin .kata-col-sm-4.kata-importer .kata-demp-wrapper:hover {
+	box-shadow: 0 3px 14px -4px rgba(0, 0, 0, 0.1);
+}
+
+.kata-admin .kata-importer img {
+	border-radius: 4px 4px 0 0;
+	transition: all 0.32s;
+	width: 100%;
+}
+
+.kata-lightbox-content .kata-col-import-demo-image img {
+	width: 200px;
+	max-height: 315px;
+	border-radius: 8px;
+}
+
+.kata-admin .kata-importer:hover img {
+	opacity: 0.16;
+}
+
+.kata-importer h3.kata-importer-name {
+	font-size: 17px;
+	font-weight: 700;
+	text-transform: capitalize;
+	letter-spacing: -0.3px;
+	margin: 0 auto;
+	line-height: 20px;
+	padding-top: 32px;
+	background: #f8f9fa;
+	position: relative;
+	text-align: left;
+	padding-left: 20px;
+	border-top: 1px solid #e6e7e8;
+}
+
+@media (min-width: 1025px) and (max-width: 1366px) {
+	.kata-importer h3.kata-importer-name {
+		font-size: 14px;
+	}
+}
+
+.kata-importer h3.kata-importer-name:before {
+	content: "";
+	width: 1px;
+	height: 67px;
+	display: block;
+	background: #e6e7e8;
+	position: absolute;
+	right: 112px;
+	top: 0;
+}
+
+.kata-importer h3.kata-importer-name .demo-type {
+	width: 38px;
+	height: 15px;
+	display: block;
+	background: #ff9375;
+	position: absolute;
+	top: 10px;
+	font-size: 9px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: #fff;
+	line-height: 1.5;
+	border-radius: 20px;
+	text-align: center;
+	padding-left: 2px;
+	padding-top: 1px;
+	text-transform: uppercase;
+}
+
+.kata-importer h3.kata-importer-name .demo-type.free {
+	background: #54c558;
+}
+
+.kata-importer h3.kata-importer-name .demo-type.fast {
+	background: #ffbe0e;
+}
+
+.kata-admin button {
+	background: #403cf2;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	padding: 8px 16px;
+	font-size: 12px;
+	font-weight: 600;
+	color: #fff;
+	letter-spacing: 0.8px;
+	box-shadow: 0 2px 8px -3px #403cf2;
+	transition: all 0.22s;
+}
+
+.kata-admin button:hover {
+	box-shadow: 0 3px 7px -4px #1a1a1a;
+	background: #1a1a1a;
+}
+
+.kata-admin .kata-importer button,
+.kata-admin .kata-importer a.kata-btn.kata-btn-importer {
+	padding: 4px 8px;
+	margin: 5px auto;
+	font-size: 10px;
+	font-weight: 700;
+	background: #eaeaff;
+	color: #403cf2;
+	border: 1px solid #d0ceff;
+	border-radius: 4px;
+	letter-spacing: 0.3px;
+	box-shadow: 0 2px 5px -3px #d0ceff;
+}
+
+.kata-admin .kata-importer a.kata-btn.kata-btn-importer {
+	padding: 6px 8px;
+}
+
+.kata-admin .kata-importer button.kata-btn-importer,
+.kata-admin .kata-importer a.kata-btn.kata-btn-importer {
+	background: #7f7bff;
+	color: #fff;
+	border: 1px solid #7f7bff;
+	box-shadow: 0 1px 4px 0 #9a97f72b;
+	float: right;
+	margin: -30px 20px 0 0;
+	position: relative;
+	font-weight: 600;
+	font-size: 11px;
+}
+
+.kata-admin .kata-importer button.kata-btn-importer:hover,
+.kata-admin .kata-importer a.kata-btn.kata-btn-importer:hover {
+	color: #403cf2;
+}
+
+button.kata-btn.kata-btn-xd {
+	display: none;
+}
+
+.kata-admin .kata-importer button.kata-btn-xd {
+	background: #feeff9;
+	color: #e971bf;
+	border: 1px solid #fdd3ef;
+	box-shadow: 0 2px 4px -2px #ffd9f2;
+}
+
+.kata-admin .kata-importer button:hover,
+.kata-admin .kata-importer a.kata-btn.kata-btn-importer:hover {
+	background: #fff;
+	box-shadow: 0 2px 12px -1px rgba(0, 0, 0, 0.1);
+}
+
+.kata-admin .kata-importer button:before {
+	content: "\e6b3";
+	font-family: "themify";
+	font-size: 13px;
+	font-weight: normal;
+	margin-right: 5px;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.kata-admin .kata-importer button.requested:before {
+	content: "\f113";
+	font-family: "dashicons";
+	-webkit-animation: spin 4s linear infinite;
+	-moz-animation: spin 4s linear infinite;
+	animation: spin 4s linear infinite;
+}
+
+@-moz-keyframes spin {
+	100% {
+		-moz-transform: rotate(360deg);
+	}
+}
+
+@-webkit-keyframes spin {
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+@keyframes spin {
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+.kata-admin .kata-importer button.kata-btn-xd:before {
+	content: "\e639";
+	font-size: 11px;
+	vertical-align: baseline;
+}
+
+.kata-importer a.kata-importer-preview {
+	position: absolute;
+	left: 50%;
+	top: calc(50% - 50px);
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	background: #403cf2;
+	color: #fff !important;
+	font-size: 12px;
+	padding: 4px 11px;
+	border-radius: 18px;
+	opacity: 0;
+	box-shadow: 0 2px 9px 0 rgb(0 0 0 / 10%);
+	transition: all 0.13s;
+	text-decoration: none;
+}
+
+.kata-importer a.kata-importer-preview:hover {
+	text-decoration: none;
+	background: #1a1a1a;
+	color: #fff;
+}
+
+.kata-importer:hover a.kata-importer-preview {
+	opacity: 1;
+}
+
+/* Grid
+-------------------------------------------------- */
+.kata-importer-wrapper,
+.kata-importer-wrapper *,
+.kata-importer-wrapper *::before,
+.kata-importer-wrapper *::after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.kata-container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+@media (min-width: 576px) {
+	.kata-container {
+		max-width: 540px;
+	}
+}
+
+@media (min-width: 768px) {
+	.kata-container {
+		max-width: 720px;
+	}
+}
+
+@media (min-width: 992px) {
+	.kata-container {
+		max-width: 960px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.kata-container {
+		max-width: 1140px;
+	}
+}
+
+.kata-col-sm-4 {
+	position: relative;
+	width: 100%;
+}
+
+/* General
+-------------------------------------------------- */
+.kata-lightbox-wrapper {
+	display: none;
+	position: fixed;
+	top: calc(50% - 243px);
+	left: calc(50% - 370px);
+	background-color: rgba(237, 244, 249, 0.99);
+	z-index: 999999;
+	width: 740px;
+	height: 486px;
+	border-radius: 7px;
+}
+
+.kata-lightbox-wrapper.wp-clearfix.active-modal:before {
+	content: "";
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background-color: rgba(237, 244, 249, 0.99);
+}
+
+.kata-importer.imported {
+	background-color: green;
+}
+
+.kata-lightbox-content.kata-importer-settings {
+	overflow-y: hidden;
+}
+
+/* Importer Settings (Lightbox)
+-------------------------------------------------- */
+.kata-lightbox-contents {
+	position: absolute;
+	overflow: hidden;
+	top: 50%;
+	left: 50%;
+	width: 740px;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	background-color: #fff;
+	border-radius: 11px;
+	box-shadow: 0 5px 58px 0px #403cf20f;
+}
+
+.kata-lightbox-wrapper i {
+	position: absolute;
+	top: -42px;
+	right: 1px;
+	padding: 10px;
+	color: #403cf2;
+	font-size: 10px;
+	background: #fff;
+	border-radius: 22px;
+	cursor: pointer;
+	-webkit-transition: all 0.22s ease;
+	transition: all 0.22s ease;
+	z-index: 9999999;
+}
+
+.kata-lightbox-wrapper i:hover {
+	background: #e9668a;
+	color: #fff;
+}
+
+.kata-admin.about-wrap .kata-lightbox h2,
+.kata-suc-imp-title {
+	height: 70px;
+	color: #403cf2;
+	background-color: #fcfcff;
+	font-size: 23px;
+	line-height: 72px;
+	font-weight: 700;
+	text-transform: capitalize;
+	text-align: center;
+	letter-spacing: 0.5px;
+	margin: 0;
+	border-bottom: 1px solid #eaecf4;
+}
+
+ul.kata-import-wizard-header {
+	padding: 0;
+	margin: 0;
+	background-color: #403cf2;
+	background: linear-gradient(
+		-90deg,
+		#403cf2 0,
+		#6d89f5 20%,
+		#6bb6f0 40%,
+		#4fdbb1 100%
+	);
+	box-shadow: 1px 2px 10px -4px rgba(0, 0, 0, 0.18);
+	height: 54px;
+	border-radius: 5px 5px 0 0;
+}
+
+ul.kata-import-wizard-header li {
+	list-style: none;
+	display: block;
+	width: 33%;
+	float: right;
+	height: 54px;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.44);
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 24px;
+	position: relative;
+	margin: 0;
+	padding: 15px 0;
+	letter-spacing: 0.2px;
+	cursor: pointer;
+}
+
+li.kt-importer-step.inactive {
+	pointer-events: none;
+}
+
+ul.kata-import-wizard-header li a {
+	color: inherit !important;
+	text-decoration: none;
+}
+
+ul.kata-import-wizard-header li a:hover {
+	color: #fff !important;
+	text-decoration: underline;
+}
+
+ul.kata-import-wizard-header li:after {
+	width: 38px;
+	height: 38px;
+	position: absolute;
+	top: 8px;
+	right: 0px;
+	content: "";
+	display: block;
+	transform: rotate(-45deg);
+	background: linear-gradient(
+		-45deg,
+		rgba(255, 255, 255, 0.13) 0,
+		rgba(255, 255, 255, 0) 50%
+	);
+	box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.04);
+	opacity: 1;
+}
+
+ul.kata-import-wizard-header li.kt-active-step {
+	color: #fff;
+	font-weight: bold;
+}
+
+ul.kata-import-wizard-header li.kt-active-step a:hover {
+	text-decoration: none;
+	cursor: default;
+}
+
+ul.kata-import-wizard-header li span {
+	font-size: 17px;
+}
+
+ul.kata-import-wizard-header li.kata-import-wizard-header-frs {
+	font-size: 15px;
+	font-weight: 700;
+	color: #fff;
+}
+
+ul.kata-import-wizard-header li.kt-last-step:after {
+	display: none;
+}
+
+.kata-lightbox-content {
+	height: 362px;
+	text-align: left;
+	width: 2221px;
+	transition: transform 0.5s ease;
+	transform: translateX(0);
+}
+
+.kata-lightbox-content[tabindex="1"] {
+	transform: translateX(-740px);
+}
+
+.kata-lightbox-content .steps {
+	float: left;
+	width: 740px;
+}
+
+.kata-lightbox .kata-row {
+	padding-bottom: 20px;
+	margin: 0;
+	display: block;
+}
+
+.kata-lightbox-content .kata-col-import-demo,
+.kata-lightbox-content .kata-col-import-demo-image {
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	text-align: left;
+}
+
+.kata-lightbox-content .kata-col-import-demo-image {
+	padding: 30px 0 0 30px;
+	max-height: 150px;
+	margin-top: 17px;
+}
+
+.kata-lightbox-content .kata-col-import-demo {
+	padding: 15px 25px;
+	width: calc(75% - 50px);
+}
+
+.kata-col-import-demo-image img {
+	border-radius: 5px;
+	display: inline-block;
+	box-shadow: none;
+	opacity: 1 !important;
+	border: 1px solid #e3e4e5;
+}
+
+.kata-lightbox .kata-row h3 {
+	margin: 5px 0 30px;
+	font-size: 18px;
+	line-height: 1;
+	text-align: center;
+}
+
+.kata-lightbox .kata-row h3 span {
+	font-size: 13px;
+	font-weight: 400;
+	color: #a5a9ae;
+	margin-left: 8px;
+}
+
+.kata-importer-tasks ul {
+	margin: 0;
+	padding: 25px 0 0;
+	list-style: none;
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.kata-importer-tasks ul li {
+	display: inline-block;
+	position: relative;
+	padding: 4px;
+	font-size: 13px;
+	font-weight: 400;
+	color: #bdc2c8;
+	position: relative;
+}
+
+.kata-importer-tasks ul li .message:not(.info) {
+	position: absolute;
+	background-color: #da4f4f;
+	color: #fff;
+	border-radius: 3px;
+	font-size: 13px;
+	padding: 1px 5px;
+	opacity: 0;
+	transition: 0.5s;
+	z-index: 2;
+}
+
+.kata-importer-tasks ul li .message.info {
+	background-color: #7c79f1;
+	font-size: 10px;
+	padding: 0 4px;
+	border-radius: 3px;
+	opacity: 1;
+	position: absolute;
+	right: 0;
+	color: #fff;
+}
+
+.kata-importer-tasks ul li:hover .message {
+	/* font-size: 13px; */
+	opacity: 1;
+}
+
+.kata-importer-tasks ul li.kata-importer-task-menus {
+	text-transform: capitalize;
+}
+
+.kata-importer-tasks ul li.kata-import-done,
+.kata-importer-tasks
+	ul
+	li.kata-importer-task-menus.kata-import-active.kata-import-done {
+	font-weight: 600;
+	color: #1dd15d;
+}
+
+.kata-importer-tasks ul li.kata-import-done:before {
+	animation: none;
+}
+
+.kata-importer-task-menus.kata-import-active.kata-import-done:before {
+	animation: none;
+}
+
+.kata-importer-tasks ul li.kata-import-done .message.info.please-wait {
+	display: none;
+}
+
+.kata-importer-tasks ul li.kata-import-error {
+	font-weight: 600;
+	color: #d11d1d;
+}
+
+.kata-importer-tasks ul li.kata-import-active {
+	color: #737a82;
+	font-weight: 600;
+}
+
+.kata-importer-tasks ul li:before {
+	content: " ";
+	width: 14px;
+	height: 14px;
+	display: block;
+	margin: 1px 8px 0 0;
+	float: left;
+	border-radius: 50%;
+	border: 2px solid #eaecf4;
+}
+
+.kata-importer-tasks ul li.kata-import-done:before,
+.kata-importer-tasks
+	ul
+	li.kata-importer-task-menus.kata-import-active.kata-import-done:before {
+	color: #1dd15d !important;
+	font-family: "themify";
+	font-size: 13px;
+	line-height: 6px;
+	content: "\e64c";
+	border-color: #eafff1;
+	background: #eafff1;
+	text-shadow: 0px 1px 12px;
+}
+
+.kata-importer-tasks ul li.kata-import-active:before {
+	border-color: #50da82 #eaecf4 #eaecf4 #eaecf4;
+	animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+/* Choose Contents
+-------------------------------------------------- */
+/* Checkmark style starts */
+@-moz-keyframes dothabottomcheck {
+	0% {
+		height: 0;
+	}
+
+	100% {
+		height: 5px;
+	}
+}
+
+@-webkit-keyframes dothabottomcheck {
+	0% {
+		height: 0;
+	}
+
+	100% {
+		height: 5px;
+	}
+}
+
+@keyframes dothabottomcheck {
+	0% {
+		height: 0;
+	}
+
+	100% {
+		height: 5px;
+	}
+}
+
+@keyframes dothatopcheck {
+	0% {
+		height: 0;
+	}
+
+	50% {
+		height: 0;
+	}
+
+	100% {
+		height: 13px;
+	}
+}
+
+@-webkit-keyframes dothatopcheck {
+	0% {
+		height: 0;
+	}
+
+	50% {
+		height: 0;
+	}
+
+	100% {
+		height: 13px;
+	}
+}
+
+@-moz-keyframes dothatopcheck {
+	0% {
+		height: 0;
+	}
+
+	50% {
+		height: 0;
+	}
+
+	100% {
+		height: 13px;
+	}
+}
+
+.kata-checkbox-wrap:not(.importer-wraning) {
+	width: 32.333%;
+	display: inline-block;
+	margin: 5px 0 15px;
+	position: relative;
+	padding: 0;
+}
+
+.kata-checkbox-wrap * {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.kata-import-content-wrap.wp-clearfix {
+	padding-top: 30px;
+	min-height: 266px;
+}
+
+.kata-import-content-wrap.wp-clearfix
+	.kata-checkbox-wrap
+	input[type="checkbox"] {
+	width: 20px;
+	height: 20px;
+	border-radius: 3px;
+	min-height: 20px;
+	margin-right: 1px;
+}
+
+.kata-checkbox-wrap input[type="checkbox"]:checked {
+	border-color: #d0ceff;
+	box-shadow: 0 2px 10px -1px #d0ceff;
+}
+
+.kata-checkbox-wrap input[type="checkbox"]:checked:before {
+	color: #403cf2 !important;
+	margin: 8px 0 0 0;
+	font-family: "themify";
+	font-size: 16px;
+	content: "\e64c";
+	text-shadow: 0px 1px 4px #403cf230;
+}
+
+.kata-checkbox-wrap input[type="checkbox"]:focus {
+	border-color: #9e9cff;
+	box-shadow: 0 0 2px #403cf266;
+}
+
+.kata-checkbox-wrap span {
+	font-size: 12px;
+	line-height: 14px;
+	margin-left: 3px;
+	font-weight: 600;
+	letter-spacing: 0.4px;
+	text-transform: capitalize;
+}
+
+/* Demo Successfully Imported
+-------------------------------------------------- */
+.kata-suc-imp-content-wrap,
+.kata-suc-imp-title {
+	display: none;
+}
+
+.kata-import-demo-done-100,
+.kata-import-demo-failed,
+.kata-import-demo-buy-pro {
+	font-size: 16px;
+	font-weight: 600;
+	padding: 50px 0 30px;
+	color: #2fc134;
+	text-align: center;
+}
+
+.kata-imp-fail-tx .ktp-go-pro {
+	margin-top: 0;
+	display: inline-block;
+}
+
+.kata-imp-fail-tx .ktp-go-pro .kata-btn {
+	background: #7f7bff;
+	color: #fff !important;
+	border: 1px solid #7f7bff;
+	box-shadow: 0 2px 5px -3px #9a97f7;
+	position: relative;
+	font-weight: 600;
+	font-size: 11px;
+	padding: 6px 8px;
+	border-radius: 3px;
+	overflow: hidden;
+}
+
+.kata-imp-fail-tx .ktp-go-pro .kata-btn:after {
+	display: none;
+}
+
+.kata-imp-fail-tx .ktp-go-pro .kata-btn:hover {
+	background: #000;
+	border-color: #3b434a;
+	box-shadow: none;
+}
+
+.kata-import-demo-failed {
+	color: #e0a611;
+}
+
+.kata-import-demo-buy-pro {
+	color: #6276f4;
+	padding-top: 25px;
+}
+
+.kata-import-demo-buy-pro p {
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.kata-import-demo-done-100:before,
+.kata-import-demo-failed:before,
+.kata-import-demo-buy-pro:before {
+	content: "\e64c";
+	font-family: "themify";
+	font-size: 30px;
+	margin-left: 5px;
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin: 0 auto 25px;
+	background-color: #2fc134;
+	padding: 0;
+	color: #fff;
+	text-align: center;
+	border-radius: 50px;
+	line-height: 50px;
+	box-shadow: 0 5px 25px -3px #2fc134;
+}
+
+.kata-import-demo-failed:before {
+	content: "\e6c5";
+	font-weight: normal;
+	line-height: 44px;
+	background-color: #e0a611;
+	box-shadow: 0 5px 25px -3px #e0a611;
+}
+
+.kata-import-demo-buy-pro:before {
+	content: "\e62b";
+	font-weight: normal;
+	background-color: #6276f4;
+	box-shadow: 0 5px 25px -3px #6276f4;
+}
+
+.kata-suc-imp-links,
+.kata-imp-fail-tx {
+	text-align: center;
+}
+
+.kata-suc-imp-links a {
+	padding: 8px 16px;
+	border-radius: 30px;
+	background: #f8f9fe;
+	box-shadow: 0 0 0 1px #eaecf4, 0 1px 6px rgba(0, 0, 0, 0.035);
+	text-decoration: none;
+	color: #403cf2;
+}
+
+.kata-suc-imp-links a:hover {
+	background: #fff;
+	box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+}
+
+.kata-suc-imp-links a:after {
+	content: "\e628";
+	font-family: "themify";
+	font-size: 10px;
+	margin-left: 5px;
+	display: inline;
+}
+
+.kata-suc-imp-links a.kata-suc-imp-links-d:before {
+	display: none;
+}
+
+/* Progress Bar
+-------------------------------------------------- */
+.kata-importer-progress-count {
+	background-color: #403cf2;
+	box-shadow: 0 5px 10px -5px #403cf2;
+	border-radius: 3px;
+	color: #fff !important;
+	left: 100%;
+	padding: 4px 5px;
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 0.6px;
+	position: absolute;
+	text-align: center;
+	top: -38px;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+	width: 40px;
+}
+
+.kata-importer-progress-count:after {
+	background-color: inherit;
+	bottom: -5px;
+	content: "";
+	height: 10px;
+	left: 50%;
+	margin-left: -5px;
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+	width: 10px;
+}
+
+.kata-importer-progress-back {
+	background-color: #fff;
+	border-radius: 21px;
+	height: 9px;
+	padding: 2px 3px;
+	border: 1px solid #e4e5e6;
+	box-shadow: 0 1px 22px -1px rgba(0, 0, 0, 0.25);
+	text-align: left;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.kata-importer-progress-bar {
+	transition: width 1.5s ease;
+	-webkit-transition: width 0.7s ease;
+	border-radius: 24px;
+	height: 100%;
+	position: relative;
+	width: 0%;
+	padding: 0 !important;
+	background: #403cf2;
+	border: 0;
+	box-shadow: 0 2px 11px -2px #403cf2;
+	text-shadow: none;
+	z-index: 2;
+	top: 0;
+}
+
+.kata-importer-progress-bar:active {
+	top: 0;
+}
+
+.kata-admin .kata-lightbox .kata-import-demo-btn-wrap {
+	padding-top: 10px;
+}
+
+.kata-admin .kata-lightbox a.kata-import-demo-btn,
+.kata-admin .kata-lightbox a.kata-import-demo-reset {
+	opacity: 1;
+	cursor: pointer;
+	border: none;
+	cursor: pointer;
+	padding: 10px 20px;
+	display: inline-block;
+	text-align: center;
+	font-size: 17px;
+	font-weight: 600;
+	border-radius: 3px;
+	color: #fff;
+	letter-spacing: 0.5px;
+	transition: all 0.22s;
+}
+
+.kata-admin .kata-lightbox a.kata-import-demo-btn {
+	width: 100%;
+	background: #0cd77d;
+	box-shadow: 0 2px 4px -2px #0cd77d;
+	text-decoration: none;
+}
+
+.kata-admin .kata-lightbox a.kata-import-demo-reset {
+	margin-left: 5px;
+	width: calc(50% - 7px);
+	background: #d70c0c;
+	box-shadow: 0 2px 4px -2px #d70c0c;
+}
+
+.kata-import-demo-reset .dashicons-update-alt {
+	opacity: 0;
+}
+
+.kata-import-demo-reset .updating-message {
+	animation: rotation 2s infinite linear;
+}
+
+.kata-admin .kata-lightbox a.kata-import-demo-btn.disabled {
+	background: #c0c0c0 !important;
+	box-shadow: none !important;
+	pointer-events: none;
+}
+
+.kata-admin .kata-lightbox a.kata-import-demo-btn:hover,
+.kata-admin .kata-lightbox a.kata-import-demo-reset:hover {
+	box-shadow: 0 3px 7px -4px #1a1a1a;
+	background: #1a1a1a;
+	text-decoration: none;
+}
+
+.kata-lightbox-content > .kata-row:last-child {
+	text-align: center;
+	border-bottom: none;
+}
+
+.kata-required-plugins {
+	margin: 0;
+	width: 100%;
+	clear: both;
+	overflow: hidden;
+}
+
+.kata-required-plugins .kata-required-plugin {
+	border: 1px solid #e6e7e8;
+	background: #fff;
+	border-radius: 7px;
+	width: 100%;
+	margin: 10px 0;
+	max-width: none;
+	text-align: left;
+	clear: both;
+	overflow: hidden;
+	padding: 8px;
+	box-shadow: 0 1px 2px 0 rgb(0 0 0 / 2%);
+	transition: all 0.24s;
+}
+
+.kata-required-plugins .kata-required-plugin:hover {
+	box-shadow: 0 1px 3px 0 rgb(0 0 0 / 3%);
+}
+
+.kata-required-plugins .kata-required-plugin.active {
+	border-color: #9fd49a;
+	box-shadow: 0 2px 7px -5px #9fd49a;
+}
+
+.kata-required-plugins .kata-required-plugin h4 {
+	font-size: 13px;
+	font-weight: 500;
+	margin: 0 3px;
+	float: left;
+	padding-top: 2px;
+}
+
+.kata-required-plugins .kata-required-plugin.active h4 {
+	color: #29c11b;
+}
+
+.kata-required-plugins .kata-required-plugin a.button {
+	float: right;
+	font-size: 11px;
+	padding: 2px 6px;
+	min-height: unset;
+	line-height: unset;
+	background: #ecebff;
+	border: none;
+	border-radius: 5px;
+	color: #403cf2;
+	box-shadow: none;
+}
+
+.kata-admin .kata-lightbox a.kata-btn-install-plugins,
+.kata-required-plugins .kata-required-plugin a.button:after {
+	display: none;
+}
+
+.kata-admin .kata-lightbox .kata-importer-start {
+	padding: 50px;
+}
+
+.kata-admin .kata-lightbox .kata-importer-start-message,
+.kata-admin .kata-lightbox .kata-importer-downloading-data {
+	font-size: 13px;
+	padding: 25px;
+	display: block;
+}
+
+.kata-lightbox-content.kata-importer-settings
+	.kata-col-import-demo
+	.kata-btn:after {
+	content: "";
+}
+
+.kata-admin .kata-lightbox a.kata-btn-install-plugins {
+	margin: 15px 0 5px;
+	font-size: 12px;
+	font-weight: 600;
+	display: inline-block;
+	padding: 7px 10px;
+	border: 1px solid #d0ceff;
+	border-radius: 4px;
+	box-shadow: 0 1px 2px 0px #d0ceff1a;
+	transition: all 0.24s;
+	text-decoration: none;
+	color: #403cf2;
+}
+
+.kata-admin .kata-lightbox a.kata-btn-install-plugins:hover {
+	border-color: #9f9df1;
+	text-decoration: none;
+	box-shadow: 0 2px 3px 0px #d0ceff1a;
+}
+
+.kata-admin .kata-lightbox a.kata-btn-install-plugins:before {
+	content: "\e683";
+	font-family: "themify";
+	font-size: 15px;
+	font-weight: normal;
+	margin-right: 5px;
+	display: inline;
+	vertical-align: middle;
+}
+
+.kata-admin .kata-lightbox a.kata-btn-install-plugins.active {
+	color: #2c920d;
+	box-shadow: none;
+	cursor: default;
+}
+
+.kata-required-plugin .update-message p:before,
+.kata-required-plugin .updating-message p:before,
+.kata-required-plugin .import-php .updating-message:before,
+.kata-required-plugin .button.updating-message:before,
+.kata-required-plugin .button.installing:before {
+	color: #403cf2;
+	font-size: 13px;
+}
+
+.meter {
+	height: 26px;
+	overflow: hidden;
+	position: relative;
+	margin: 0;
+	background: #e1e8ed;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	padding: 5px;
+	-webkit-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+	-moz-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+	box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+}
+
+.meter > span {
+	display: block;
+	height: 100%;
+	-webkit-border-top-right-radius: 20px;
+	-webkit-border-bottom-right-radius: 20px;
+	-moz-border-radius-topright: 20px;
+	-moz-border-radius-bottomright: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	-webkit-border-top-left-radius: 20px;
+	-webkit-border-bottom-left-radius: 20px;
+	-moz-border-radius-topleft: 20px;
+	-moz-border-radius-bottomleft: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	background-color: rgb(43, 194, 83);
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, rgb(43, 194, 83)),
+		color-stop(1, rgb(84, 240, 84))
+	);
+	background-image: -moz-linear-gradient(
+		center bottom,
+		rgb(43, 194, 83) 37%,
+		rgb(84, 240, 84) 69%
+	);
+	transition: width 0.5s ease;
+	-webkit-box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3),
+		inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3),
+		inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+	box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3),
+		inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+	position: relative;
+	overflow: hidden;
+}
+
+.meter > span:after,
+.animate > span > span {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-image: -webkit-gradient(
+		linear,
+		0 0,
+		100% 100%,
+		color-stop(0.25, rgba(255, 255, 255, 0.2)),
+		color-stop(0.25, transparent),
+		color-stop(0.5, transparent),
+		color-stop(0.5, rgba(255, 255, 255, 0.2)),
+		color-stop(0.75, rgba(255, 255, 255, 0.2)),
+		color-stop(0.75, transparent),
+		to(transparent)
+	);
+	background-image: -moz-linear-gradient(
+		-45deg,
+		rgba(255, 255, 255, 0.2) 25%,
+		transparent 25%,
+		transparent 50%,
+		rgba(255, 255, 255, 0.2) 50%,
+		rgba(255, 255, 255, 0.2) 75%,
+		transparent 75%,
+		transparent
+	);
+	z-index: 1;
+	-webkit-background-size: 50px 50px;
+	-moz-background-size: 50px 50px;
+	-webkit-animation: move 2s linear infinite;
+	-webkit-border-top-right-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	-moz-border-radius-topright: 8px;
+	-moz-border-radius-bottomright: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	-webkit-border-top-left-radius: 20px;
+	-webkit-border-bottom-left-radius: 20px;
+	-moz-border-radius-topleft: 20px;
+	-moz-border-radius-bottomleft: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	overflow: hidden;
+}
+
+.animate > span:after {
+	display: none;
+}
+
+@-webkit-keyframes move {
+	0% {
+		background-position: 0 0;
+	}
+
+	100% {
+		background-position: 50px 50px;
+	}
+}
+
+.kata-lightbox-contents .nicescroll-rails {
+	left: auto !important;
+	right: 0 !important;
+}
+
+.kt-importer-step a:after {
+	display: none !important;
+}
+
+.initial-notice {
+	position: absolute;
+	width: 100%;
+	height: 400px;
+	background: #fff;
+	z-index: 9;
+	max-width: 740px;
+	left: 50%;
+	padding: 0 30px;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+}
+
+.kata-admin.about-wrap .initial-notice h3 {
+	color: #f00;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.initial-notice .importer-wraning {
+	position: relative;
+	top: 5px;
+	margin-bottom: 20px;
+}
+
+.initial-notice .importer-wraning span {
+	font-size: 13px;
+	vertical-align: text-top;
+}
+
+.initial-notice .resume-import-progress {
+	border: 1px solid #c9c8fd;
+	padding: 8px 18px;
+	display: inline-block;
+	border-radius: 50px;
+	font-size: 13px;
+	text-transform: capitalize;
+	text-decoration: none;
+	color: #403cf2;
+}
+
+.initial-notice .resume-import-progress:hover {
+	border-color: #403cf2;
+}
+
+.kata-plus-importer-error-message {
+	position: relative;
+	display: block;
+	width: 100%;
+	color: #f44336;
+	font-weight: bold;
+	font-size: 55px;
+	text-align: center;
+	padding: 200px;
+}
+
+.initial-notice .kata-checkbox-wrap input[type="checkbox"] {
+	width: 22px;
+	min-height: 22px;
+	border-radius: 4px;
+	box-shadow: inset 1px 1px 2px #00000008;
+}
+
+.initial-notice .kata-checkbox-wrap input[type="checkbox"]:before {
+	font-size: 16px;
+}
+
+.kata-col-sm-4.kata-importer[import-status="This demo was already imported"] {
+	position: relative;
+}
+
+.kata-col-sm-4.kata-importer[import-status="This demo was already imported"]
+	.kata-demp-wrapper:before {
+	content: "The Demo is Already Imported";
+	position: absolute;
+	background: #69ca73;
+	color: #fff;
+	font-weight: 500;
+	width: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	padding: 10px;
+	z-index: 1;
+	transition: all 0.3s ease;
+}
+
+.kata-col-sm-4.kata-importer[import-status="This demo was already imported"]
+	.kata-demp-wrapper:hover:before {
+	opacity: 1;
+}
+
+.section.icon-pack-section li svg {
+	width: 50% !important;
+	height: auto;
+	margin: 15px;
+}
+
+/* fast mode
+--------------------- */
+.kt-fast-mode-load-more-demo {
+	display: block;
+	text-align: center;
+	background: #ccf8ff;
+	color: #00d6f9;
+	padding: 8px 10px;
+	max-width: 825px;
+	border-radius: 2px;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+/* Importer Search Tools
+----------------------------*/
+.kata-demo-importer-search-tools {
+	display: inline-block;
+	width: 100%;
+	height: 100px;
+	border: 1px solid #e3e4e5;
+	border-radius: 9px;
+	padding: 0;
+	margin-bottom: 20px;
+	background: #fff;
+	position: relative;
+}
+
+.kata-demo-importer-search-tools .kata-logo {
+}
+
+.kata-demo-importer-search-tools .demo-categories,
+.kata-demo-importer-search-tools .kata-demo-importer-search-box,
+.kata-demo-importer-search-tools .kata-demo-importer-wish-list {
+	display: inline-block;
+	padding: 0;
+	height: 51px;
+	float: left;
+}
+
+.kata-demo-importer-search-tools .kata-logo {
+	width: 100px;
+	padding: 20px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	border-right: 1px solid #e3e5e7;
+}
+
+@media (max-width: 880px) {
+	.kata-demo-importer-search-tools .kata-logo {
+		display: none;
+	}
+}
+
+.kata-demo-importer-cats-and-search {
+	padding-left: 100px;
+	padding-right: 110px;
+	float: left;
+	width: 100%;
+}
+
+@media (max-width: 880px) {
+	.kata-demo-importer-cats-and-search {
+		padding-left: 0px;
+		padding-right: 50px;
+	}
+}
+
+.kata-demo-importer-search-tools .demo-categories {
+	width: 150px;
+	border-bottom: 1px solid #e3e5e7;
+}
+
+.kata-demo-importer-search-tools
+	.demo-categories
+	select[name="demo-categories"],
+.kata-demo-importer-search-tools
+	.kata-demo-importer-search-box
+	input[type="text"] {
+	width: 100%;
+	min-height: 50px;
+	border-radius: 0;
+	border: none;
+	box-shadow: none;
+	padding-left: 30px;
+	font-size: 13px;
+}
+
+@media (max-width: 640px) {
+	.kata-demo-importer-search-tools
+		.kata-demo-importer-search-box
+		input[type="text"] {
+		font-size: 10px;
+		padding-left: 10px;
+	}
+}
+
+.kata-demo-importer-search-tools .kata-demo-importer-search-box {
+	width: calc(100% - 150px);
+	border-bottom: 1px solid #e3e5e7;
+	position: relative;
+}
+
+.kata-demo-importer-search-tools .kata-demo-importer-search-box i {
+	position: absolute;
+	right: 10px;
+	top: 16px;
+	font-size: 16px;
+	color: #c4c9d0;
+	fill: #c4c9d0;
+}
+
+.kata-demo-importer-search-tools .kata-demos-demo-type-wrapper {
+	width: 100%;
+	height: 47px;
+	float: left;
+	background: #f9fafb;
+}
+
+.kata-demo-importer-search-tools .kata-demos-demo-type-wrapper ul {
+	padding: 13px 20px 0;
+	margin: 0;
+	display: block;
+}
+
+.kata-demo-importer-search-tools .kata-demos-demo-type-wrapper ul li {
+	display: inline-block;
+	padding: 5px 15px 15px;
+	margin: 0 2px;
+	cursor: pointer;
+	font-size: 13px;
+	line-height: 1;
+	color: #5f6770;
+	transition: all 0.22s ease;
+	font-weight: 300;
+	position: relative;
+}
+
+@media (max-width: 640px) {
+	.kata-demo-importer-search-tools .kata-demos-demo-type-wrapper ul li {
+		padding: 5px 5px 15px;
+		margin: 0 1px;
+	}
+}
+
+.kata-demo-importer-search-tools .kata-demos-demo-type-wrapper ul li:hover {
+	color: #403cf2;
+}
+
+.kata-demo-importer-search-tools .kata-demos-demo-type-wrapper ul li:after {
+	content: "";
+	display: block;
+	position: absolute;
+	bottom: -2px;
+	width: 0;
+	height: 2px;
+	left: 0;
+	opacity: 0;
+	background-color: #7c7afb;
+	transition: all 0.15s ease;
+}
+
+.kata-demo-importer-search-tools
+	.kata-demos-demo-type-wrapper
+	ul
+	li.active:after {
+	width: calc(100% - 6px);
+	opacity: 1;
+}
+
+.kata-demo-importer-search-tools .kata-demos-demo-type-wrapper ul li.active {
+	color: #403cf2;
+	font-weight: 500;
+}
+
+.kata-demo-importer-search-tools .kata-demos-demo-type-wrapper ul li span {
+	border-radius: 20px;
+	font-size: 10px;
+	background: #fff;
+	padding: 1px 4px 2px;
+	margin-left: 5px;
+	line-height: 1;
+	color: #b5bec7;
+	font-weight: 400;
+	border: 1px solid #e3e5e7;
+}
+
+@media (max-width: 520px) {
+	.kata-demo-importer-search-tools .kata-demos-demo-type-wrapper ul li span {
+		display: none;
+	}
+}
+
+.kata-demo-importer-search-tools
+	.kata-demos-demo-type-wrapper
+	ul
+	li.active
+	span {
+	color: #fff;
+	background: #7471fd;
+	border-color: transparent;
+}
+
+.kata-demo-importer-wish-list .kata-icon {
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	fill: #ced1d2;
+}
+
+.kata-demo-importer-wish-list .kata-icon[data-show="true"],
+.kata-demo-importer-wish-list[data-show="true"] i.kata-icon {
+	fill: #e80808;
+}
+
+.kata-demo-importer-search-tools .kata-demo-importer-wish-list {
+	width: 110px;
+	height: 98px;
+	padding: 25px 0 0 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: center;
+	border-left: 1px solid #e5e6e7;
+	transition: all 0.2s ease;
+}
+
+@media (max-width: 880px) {
+	.kata-demo-importer-search-tools .kata-demo-importer-wish-list {
+		width: 50px;
+	}
+}
+
+.kata-demo-importer-search-tools .kata-demo-importer-wish-list:before,
+.kata-demo-importer-search-tools .kata-demo-importer-wish-list span {
+	content: "Favorites";
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 1;
+	color: #656c73;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 25px;
+}
+
+@media (max-width: 880px) {
+	.kata-demo-importer-search-tools .kata-demo-importer-wish-list:before,
+	.kata-demo-importer-search-tools .kata-demo-importer-wish-list span {
+		font-size: 9px;
+	}
+}
+
+.kata-demo-importer-search-tools .demo-categories .nice-select {
+	float: none;
+	background: transparent;
+	border: none;
+	height: 26px;
+	line-height: 26px;
+	margin-top: 13px;
+	border-radius: 0;
+	background-color: #fff;
+	border-right: 1px solid #e3e5e7;
+}
+
+.kata-demo-importer-search-tools .demo-categories .list {
+	width: 100%;
+	box-shadow: 0 0 0 1px #e3e5e7, 0 2px 6px rgba(0, 0, 0, 0.1);
+	border-radius: 0 0 3px 3px;
+}
+
+.kata-demo-importer-search-tools .demo-categories .list li {
+	padding: 0px 20px;
+	font-size: 13px;
+	line-height: 34px;
+	min-height: 34px;
+	margin: 0;
+}
+
+.kata-demo-addto-wishlist,
+.kata-demo-addto-wishlist .kata-icon {
+	width: 20px;
+	height: 18px;
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	opacity: 0;
+	cursor: pointer;
+	z-index: 9;
+	fill: #ffffff00;
+	stroke: #000;
+	stroke-width: 2px;
+	transition: opacity 0.3s ease;
+}
+
+.kata-importer:hover .kata-demo-addto-wishlist,
+.kata-importer:hover .kata-demo-addto-wishlist .kata-icon {
+	opacity: 1;
+}
+
+.kata-importer[data-wishlist="true"] .kata-demo-addto-wishlist .kata-icon {
+	fill: #e80808;
+	stroke: none;
+}
+
+.kata-demo-importer-search-tools
+	.kata-demo-importer-wish-list[data-show="true"]:before {
+	color: #e80808;
+}
+
+.kata-demo-importer-search-tools .kata-icon svg,
+.kata-demo-addto-wishlist .kata-icon svg {
+	transition: all 0.15s ease;
+}
+
+.kata-demo-importer-search-tools .kata-icon:hover svg,
+.kata-demo-addto-wishlist .kata-icon:hover svg {
+	transform: scale(1.2, 1.2) !important;
+}
+
+/* Importer Modern
+----------------------------*/
+.kata-admin.kata-importer-page.about-wrap {
+	max-width: 100%;
+	border: none;
+	background: transparent;
+	box-shadow: none;
+}
+
+.kata-admin.kata-importer-page .kata-container {
+	max-width: 1488px;
+}
+
+.kata-admin.kata-importer-page .kata-container {
+	max-width: 1488px;
+}

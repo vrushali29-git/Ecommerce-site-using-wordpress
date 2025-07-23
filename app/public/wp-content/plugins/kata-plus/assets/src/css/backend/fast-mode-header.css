@@ -1,0 +1,327 @@
+/**
+ * Kata Fast Header Styel.
+ *
+ * @author  ClimaxThemes
+ * @package Kata Plus
+ * @since   1.0.0
+ */
+
+
+/* Hide WordPress Admin
+-------------------------------*/
+.kata_page_kata-plus-fast-mode .notice,
+.kata_page_kata-plus-fast-mode .updated,
+.kata_page_kata-plus-fast-mode .error,
+.kata_page_kata-plus-fast-mode .update-nag {
+    display: none;
+}
+
+html.wp-toolbar {
+    padding-top: 0;
+}
+
+.kata_page_kata-plus-fast-mode #wpcontent,
+.kata_page_kata-plus-fast-mode #wpfooter {
+    margin: 0;
+}
+
+.kata_page_kata-plus-fast-mode #wpadminbar,
+.kata_page_kata-plus-fast-mode #adminmenuwrap,
+.kata_page_kata-plus-fast-mode #adminmenuback,
+.kata_page_kata-plus-fast-mode #wpfooter {
+    display: none;
+}
+
+.kata_page_kata-plus-fast-mode #wpcontent {
+    padding-left: 0;
+    padding: 0;
+}
+
+/* Header
+-------------------------------*/
+.kt-fst-mod-header {
+    background: #fff;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid #e0e5eb;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+
+.kt-fst-mod-header .kt-fst-help,
+.kt-fst-mod-header .kt-fst-close {
+    width: 68px;
+    height: 68px;
+    text-align: center;
+}
+
+.kt-fst-mod-header .kt-fst-help img,
+.kt-fst-mod-header .kt-fst-close img {
+    padding-top: 25px;
+    height: 22px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.kt-fst-mod-header .kt-fst-close img {
+    height: 16px
+}
+
+.kt-fst-mod-header .kt-fst-help img:hover,
+.kt-fst-mod-header .kt-fst-close img:hover{
+    filter: contrast(60%) brightness(40%);
+}
+
+.kt-fst-mod-header .kt-fst-help {
+    float: left;
+    border-right: 1px solid #e0e5eb;
+}
+
+.kt-fst-mod-header .kt-fst-close {
+    float: right;
+    border-left: 1px solid #e0e5eb;
+}
+
+.kata_page_kata-plus-fast-mode {
+    background: #F7F8F9;
+}
+
+.kata_page_kata-plus-fast-mode .kata-admin {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+}
+
+
+/* Page Title
+-------------------------------*/
+.kata_page_kata-plus-fast-mode .kt-fst-mod-wrapper {
+    max-width: 854px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 9;
+}
+
+.kata_page_kata-plus-fast-mode #page-title,
+.kata-import-demo-title  {
+    font-size: 32px;
+    font-weight: 300;
+    color: #4b4f55;
+    margin-top: 150px;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 70px;
+}
+
+.kata_page_kata-plus-fast-mode .kt-fst-mod-inner-wrapper {
+    display: inline-block;
+    width: 100%;
+}
+
+/* Footer
+-------------------------*/
+.kt-fst-mod-footer-area {
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    bottom: 92px;
+}
+
+.kt-fst-mod-footer-area .prev-step,
+.kt-fst-mod-footer-area .next-step {
+    background: #f7f8fa;
+    text-decoration: none;
+    padding: 10px 25px 10px 30px;
+    font-size: 20px;
+    border-radius: 60px;
+    color: #adb8b8;
+}
+
+.kt-fst-mod-footer-area .prev-step {
+    float: left;
+    margin-left: 80px;
+}
+
+.kt-fst-mod-footer-area .next-step {
+    float: right;
+    margin-right: 80px;
+    background-color: #ccf8ff;
+    color: #00D6F9;
+}
+
+.kt-fst-mod-footer-area .next-step .kata-icon,
+.kt-fst-mod-footer-area .prev-step .kata-icon {
+    vertical-align: middle;
+}
+
+.kt-fst-mod-footer-area .next-step .kata-icon {
+    fill: #00D6F9;
+    margin-left: 5px;
+}
+
+.kt-fst-mod-footer-area .prev-step .kata-icon {
+    fill: #adb8b8;
+}
+
+.kt-fst-mod-footer-area .prev-step:hover,
+.kt-fst-mod-footer-area .next-step:hover {
+    background-color: #e7e8e9;
+    color: #8b949f;
+}
+
+.kt-fst-mod-footer-area .prev-step:hover .kata-icon,
+.kt-fst-mod-footer-area .next-step:hover .kata-icon {
+    fill: #8b949f;
+}
+
+/* Help modal
+--------------------------*/
+.kt-fst-hlp-wrapper {
+    background: #fff;
+    box-shadow: 0 6px 33px rgb(0, 0, 0, 0.05);
+    min-width: 40%;
+    position: fixed;
+    height: 530px;
+    left: 50%;
+    top: 50%;
+    border-radius: 15px;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+    padding: 13px 50px;
+    max-width: 70%;
+    overflow-y: scroll;
+}
+
+.kt-fst-hlp-wrapper .ti-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 20px;
+    display: block;
+    padding: 5px;
+    color: #ccd2d9;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.2s ease;
+}
+
+.kt-fst-hlp-wrapper .ti-close:hover {
+    color: #fb8686;
+}
+
+.kt-fst-hlp-wrapper .kt-fst-hlp-title {
+    font-size: 32px;
+    font-weight: 100;
+    text-transform: capitalize;
+    text-align: center;
+    color: #808995;
+    margin-bottom: 77px;
+}
+
+.kt-fst-hlp-inner-alert {
+    padding: 15px 25px;
+    background: #faf6d7;
+    border-radius: 5px;
+    color: #695105;
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: .3px;
+}
+
+.kt-fst-hlp-wrapper .content-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0;
+    color: #56595c;
+}
+
+.kt-fst-hlp-wrapper .content-text {
+    color: #686d74;
+    font-size: 14px;
+}
+
+.kt-fst-hlp-overlay {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    background: #F7F8F9;
+}
+
+/* Footer
+-------------------------*/
+.kt-fst-mod-footer-area {
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    bottom: 92px;
+}
+.kt-fst-mod-footer-area .prev-step,
+.kt-fst-mod-footer-area .next-step {
+    background: #f7f8fa;
+    text-decoration: none;
+    padding: 15px 37px 15px 61px;
+    font-size: 20px;
+    border-radius: 60px;
+    color: #adb8b8;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    transition: all 0.22s ease;
+}
+
+.kt-fst-mod-footer-area .prev-step {
+    float: left;
+    margin-left: 80px;
+    padding: 15px 45px 15px 40px;
+}
+
+.kt-fst-mod-footer-area .next-step,
+.kt-fst-mod-footer-area .next-step:hover {
+    float: right;
+    margin-right: 80px;
+    background-color: #ccf8ff;
+    color: #00D6F9;
+    position: relative;
+    right: -20px;
+}
+
+a.next-step.run-importer {
+    background-image: url(../../images/admin/dashboard/loading.gif);
+    background-position: -37px;
+    background-size: 130px;
+    background-repeat: no-repeat;
+}
+
+.kt-fst-mod-footer-area .next-step:hover {
+    background-color: #defbff;
+}
+
+.kt-fst-mod-footer-area .next-step .kata-icon,
+.kt-fst-mod-footer-area .prev-step .kata-icon {
+    vertical-align: middle;
+}
+
+.kt-fst-mod-footer-area .next-step .kata-icon {
+    fill: #00D6F9;
+    margin-left: 10px;
+}
+
+.kt-fst-mod-footer-area .next-step:hover .kata-icon {
+   fill: #00D6F9; 
+}
+
+.kt-fst-mod-footer-area .prev-step .kata-icon {
+    fill: #adb8b8;
+    margin-right: 5px;
+}
+
+.kt-fst-mod-footer-area .prev-step:hover {
+    background-color: #e7e8e9;
+    color: #8b949f;
+}
+
+.kt-fst-mod-footer-area .prev-step:hover .kata-icon {
+    fill: #8b949f;
+}

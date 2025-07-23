@@ -1,0 +1,98 @@
+.kata-plus-pricing-plan {
+    box-shadow: 0px 0 15px 0px rgba(0, 0, 0, 0.11);
+    overflow: hidden;
+    position: relative;
+    display: block;
+}
+
+.kata-plus-pricing-plan .kata-plus-pricing-plan-title {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 20px;
+    border-style: none;
+    margin-bottom: 0;
+}
+
+.kata-plus-pricing-plan .kata-plus-pricing-plan-subtitle {
+    position: relative;
+    font-size: 16px;
+    display: inline-block;
+    margin-left: -10px;
+}
+
+.kata-plus-pricing-plan .kata-plus-pricing-plan-price {
+    font-size: 48px;
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+.kata-plus-pricing-plan .kata-plus-pricing-plan-price .currency {
+    margin-left: -11px;
+    font-size: 22px;
+}
+
+.kata-plus-pricing-plan .elementor-repeater-item {
+    font-size: 15px;
+    line-height: 2em;    
+}
+
+.kata-plus-pricing-plan .kata-plus-pricing-plan-text {
+    font-size: 16px;
+    color: #444444;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    display: block;
+}
+
+.kata-plus-pricing-plan-button-wrapper {
+    text-align: center
+}
+
+.kata-plus-pricing-plan .kata-plus-pricing-plan-button {
+    background-color: #7b56ff;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 14px 20px 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    font-size: 13px;
+    text-align: center;
+    display: inline-block;
+    margin: 40px 0;
+}
+
+.kata-plus-pricing-plan-description {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.kata-plus-pricing-plan-cntt {
+    padding: 30px;
+}
+
+.pricing-plan-items {
+    padding: 0 20px;
+}
+
+.kata-plus-pricing-plan-icon-wrap {
+    text-align: center;
+}
+
+.kata-plus-pricing-plan-icon-wrap .kata-icon {
+    font-size: 60px;
+}
+
+.kata-plus-pricing-plan-cntt .kata-icon {
+    display: inline;
+}
+
+.kata-plus-pricing-plan-text .kata-icon {
+    display: inline-block;
+}

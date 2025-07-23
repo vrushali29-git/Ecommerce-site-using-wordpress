@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "shop-press/product-stock-progress-bar",
+	"version": "1.0.0",
+	"title": "Product Stock Progress Bar",
+	"category": "sp-product-single",
+
+	"description": "",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "shop-press",
+	"editorScript": "file:./index.js",
+	"render": "file:./render.php",
+	"attributes": {
+		"show_ordered": {
+			"type": "boolean",
+			"default": true
+		},
+		"ordered_label": {
+			"type": "string",
+			"default": "Ordered:"
+		},
+		"show_available": {
+			"type": "boolean",
+			"default": true
+		},
+		"available_label": {
+			"type": "string",
+			"default": "Items Available:"
+		},
+		"wrapperID": {
+			"type": "string",
+			"default": ""
+		},
+		"styler": {
+			"type": "string",
+			"default": "{}"
+		}
+	}
+}

@@ -1,0 +1,98 @@
+.kata-gdpr-box {
+	position: fixed;
+	bottom: 25px;
+	width: 100%;
+	max-width: 800px;
+	left: 50%;
+	background-color: rgba(255, 255, 255, 0.96);
+	color: #444;
+	padding: 20px 25px 20px 36px;
+	box-shadow: 0 2px 9px -1px rgba(0, 0, 0, 0.1);
+	font-size: 13px;
+	z-index: 99998;
+	border: 1px solid #edeff3;
+	border-radius: 4px;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+}
+
+.kata-gdpr-box.hide {
+	display: none;
+}
+
+.kata-gdpr-box .gdpr-content-box-wrap {
+	position: relative;
+}
+
+.kata-gdpr-box .gdpr-buttons {
+	position: absolute;
+	right: 0;
+	top: calc(50% - 16px);
+}
+
+.kata-gdpr-box .gdpr-button-agree,
+.kata-gdpr-box .gdpr-button-privacy {
+	display: inline-block;
+}
+
+.kata-gdpr-box button {
+	border: none;
+	padding: 8px 12px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 13px;
+	line-height: 1;
+	border-radius: 2px;
+	background-color: var(--ct-base-color);
+	box-shadow: 0 2px 5px -3px var(--ct-base-color);
+	transition: all 0.2s ease;
+}
+
+.kata-gdpr-box button:hover {
+	background-color: #222;
+	box-shadow: 0 2px 5px -3px #222;
+}
+
+.kata-gdpr-box .gdpr-button-privacy a {
+	margin-right: 5px;
+	color: var(--ct-base-color);
+	box-shadow: none;
+}
+
+.kata-gdpr-box .gdpr-button-privacy a:hover {
+	text-decoration: underline;
+}
+
+.gdpr-content-wrap {
+	padding-right: 220px;
+}
+
+.gdpr-content-wrap p {
+	font-size: 13px;
+	line-height: 1.6;
+	font-weight: 400;
+	color: #444;
+	margin: 0;
+}
+
+@media (max-width: 768px) {
+	.kata-gdpr-box {
+		transform: none;
+		-webkit-transform: none;
+		left: 20px;
+		right: 20px;
+		width: auto;
+		padding: 20px;
+	}
+
+	.gdpr-content-wrap {
+		padding-right: 0;
+	}
+
+	.kata-gdpr-box .gdpr-buttons {
+		position: relative;
+		right: unset;
+		top: unset;
+		margin-top: 20px;
+	}
+}

@@ -1,0 +1,247 @@
+.kata-plus-pricing-table .pricing-table-toolbar,
+.kata-plus-pricing-table .pricing-table {
+	display: inline-block;
+}
+
+.kata-plus-pricing-table .pricing-tools-table {
+	border-color: transparent;
+}
+
+.kata-plus-pricing-table .pricing-table-table {
+	border-radius: 10px;
+	overflow: hidden;
+	border: 1px solid #f6f6f6;
+	box-shadow: 0 31px 35px rgba(0, 0, 0, 0.07);
+	background: #fff;
+}
+
+.kata-plus-pricing-table table tr th,
+.kata-plus-pricing-table table tr td {
+	border-right: none;
+	border-color: #f6f6f6;
+}
+
+.kata-plus-pricing-table table tr:last-child th,
+.kata-plus-pricing-table table tr:last-child td {
+	border-bottom: none;
+}
+
+.kata-plus-pricing-table .pricing-tools-content a,
+.kata-plus-pricing-table .pricing-table-content a {
+	font-size: inherit;
+	color: inherit;
+	display: inherit;
+}
+
+.kata-plus-pricing-table .pricing-tools-table .price-mode-second,
+.kata-plus-pricing-table .pricing-tools-table .price-mode-first {
+	font-size: 17px;
+	font-weight: 600;
+}
+
+.pricing-table-table .pricing-table-header .pricing-table-title {
+	font-size: 17px;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-bottom: 7px;
+	letter-spacing: 1.8px;
+}
+
+.pricing-table-table .pricing-table-header .pricing-table-price {
+	font-size: 23px;
+	font-weight: 900;
+}
+
+.kata-plus-pricing-table .pricing-table-toolbar-header .mode-switcher {
+	position: relative;
+	background: #e4e4e4;
+	width: 67px;
+	height: 26px;
+	display: inline-block;
+	border-radius: 60px;
+	cursor: pointer;
+	vertical-align: middle;
+	margin: 0px 12px;
+	transition: all 0.3s ease;
+	position: relative;
+}
+
+.kata-plus-pricing-table .pricing-table-toolbar-header input[type="checkbox"] {
+	display: none;
+}
+
+.kata-plus-pricing-table .pricing-table-toolbar-header .mode-switcher:before {
+	content: "";
+	position: absolute;
+	background: var(--ct-base-color);
+	border-radius: 50%;
+	width: 26px;
+	height: 26px;
+	box-shadow: 0 0 20px rgba(64, 60, 242, 0.5);
+	left: calc(100% - 26px);
+	top: 0;
+	transition: all 0.3s ease;
+}
+
+.kata-plus-pricing-table .pricing-table-toolbar-header .mode-switcher.active {
+	background: rgba(64, 60, 242, 0.18);
+}
+
+.kata-plus-pricing-table
+	.pricing-table-toolbar-header
+	.mode-switcher.active:before {
+	left: 0;
+	transition: all 0.3s ease;
+}
+
+.kata-plus-pricing-table .pricing-table-toolbar-header {
+	padding-top: 56px;
+	padding-bottom: 48px;
+}
+
+.kata-plus-pricing-table table tr th.pricing-table-header {
+	padding-top: 40px;
+	padding-bottom: 34px;
+	text-align: center;
+	border-bottom: 1px solid #f6f6f6;
+}
+
+.kata-plus-pricing-table .pricing-table-header .pricing-table-icon .kata-icon {
+	margin-bottom: 10px;
+	display: inline-block;
+	font-size: 50px;
+}
+
+.kata-plus-pricing-table .pricing-table-header .pricing-table-title {
+	font-size: 17px;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-bottom: 9px;
+}
+
+.kata-plus-pricing-table .pricing-table-header .pricing-table-price {
+	font-size: 29px;
+	font-weight: normal;
+}
+
+.kata-plus-pricing-table .pricing-table-header .pricing-table-price .period {
+	font-size: 13px;
+}
+
+.kata-plus-pricing-table .pricing-table-item,
+.kata-plus-pricing-table .pricing-tool-item {
+	font-size: 17px;
+}
+
+.kata-plus-pricing-table .pricing-table-item {
+	padding: 15px 40px;
+	text-align: center;
+	font-weight: 100;
+	margin: 10px 0px 20px 0px;
+}
+
+.kata-plus-pricing-table .pricing-tool-item {
+	padding: 10px 0;
+	text-transform: capitalize;
+	margin: 15px 0px 15px 0px;
+}
+
+.kata-plus-pricing-table .pricing-tool-item .tool-icon {
+	position: relative;
+	width: 26px;
+	height: 26px;
+}
+
+.kata-plus-pricing-table .pricing-tool-item .tool-icon,
+.kata-plus-pricing-table .pricing-tool-item .tool-text {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 1.6;
+	font-size: 17px;
+	font-weight: 500;
+	margin-left: 2px;
+}
+
+.kata-plus-pricing-table .pricing-tool-item .tool-text {
+	font-weight: 300;
+}
+
+.kata-plus-pricing-table .pricing-tool-item .tool-icon .kata-icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 22px;
+	height: 22px;
+}
+
+.kata-plus-pricing-table .pricing-table-footer {
+	text-align: center;
+	padding: 32px 15px;
+}
+
+.kata-plus-pricing-table .pricing-table-footer .kata-button {
+	padding: 12px 40px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: normal;
+	border-radius: 50px;
+	background-color: #1c5be6;
+	box-shadow: 0px 3px 20px #1c5be678;
+}
+
+.pricing-table-footer .kata-button .kata-icon svg {
+	vertical-align: middle;
+}
+
+.kata-plus-pricing-table .pricing-table-footer .kata-button:hover {
+	box-shadow: 0px 3px 20px #00000078;
+}
+
+.pricing-table-table.featured-table .pricing-table-header {
+	padding-top: 43px;
+	padding-bottom: 45px;
+}
+
+.pricing-table-table.featured-table .pricing-table-item {
+	padding: 10px 0px 10px 0px;
+	margin: 18px 0px 14.5px 0px;
+	line-height: 1;
+}
+
+.pricing-table-table.featured-table .pricing-table-footer {
+	padding: 32px 15px 55px;
+}
+
+.pricing-table-table.featured-table .pricing-table-header.dbg-color {
+	background: linear-gradient(
+		90deg,
+		rgba(28, 91, 230, 1) 0%,
+		rgba(78, 134, 255, 1) 100%,
+		rgba(28, 91, 230, 1) 100%
+	);
+	color: #fff;
+}
+
+.pricing-table-table.featured-table .pricing-table-header .kata-icon {
+	fill: #fff;
+}
+
+@media (min-width: 1200px) {
+	.pricing-table-table.featured-table {
+		z-index: 1;
+		position: relative;
+		margin-top: -1px;
+	}
+
+	.kata-plus-pricing-table .col-xl-3,
+	.kata-plus-pricing-table .col-md-3 {
+		padding: 0;
+	}
+}
+
+@media (max-width: 1200px) {
+	.pricing-tools-table tbody {
+		display: none;
+	}
+}

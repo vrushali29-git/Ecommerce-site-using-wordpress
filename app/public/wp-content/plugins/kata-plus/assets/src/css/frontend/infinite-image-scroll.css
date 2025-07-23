@@ -1,0 +1,85 @@
+.kata-plus-infinite-image-scroll {
+    position: relative;
+    overflow: hidden;
+}
+
+.kata-plus-infinite-image-scroll.ltr-d,
+.kata-plus-infinite-image-scroll.rtl-d {
+    width: 90000px;
+}
+
+.kata-plus-infinite-image-scroll.ttb-d,
+.kata-plus-infinite-image-scroll.btt-d {
+    height: 90000px;
+}
+
+.kata-plus-infinite-image-scroll.ltr-d .kata-plus-infinite-image-scroll-img,
+.kata-plus-infinite-image-scroll.rtl-d .kata-plus-infinite-image-scroll-img {
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.kata-plus-infinite-image-scroll.ltr-d .kata-plus-infinite-image-scroll-img .kp-isiw,
+.kata-plus-infinite-image-scroll.rtl-d .kata-plus-infinite-image-scroll-img .kp-isiw {
+    display: inline-block;
+}
+
+.kata-plus-infinite-image-scroll-img {
+    overflow: hidden;
+}
+
+.kata-plus-infinite-image-scroll.ltr-d .kata-plus-infinite-image-scroll-img {
+    animation: bannermovertl var(--kpiiss) linear infinite;
+}
+
+.kata-plus-infinite-image-scroll.rtl-d .kata-plus-infinite-image-scroll-img {
+    animation: bannermoveltr var(--kpiiss) linear infinite;
+}
+
+.kata-plus-infinite-image-scroll.ttb-d .kata-plus-infinite-image-scroll-img {
+    animation: bannermovebtt var(--kpiiss) linear infinite;
+}
+
+.kata-plus-infinite-image-scroll.btt-d .kata-plus-infinite-image-scroll-img {
+    animation: bannermovettb var(--kpiiss) linear infinite;
+}
+
+@keyframes bannermoveltr {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(-100%, 0);
+    }
+}
+
+@keyframes bannermovertl {
+    0% {
+        transform: translate(-100%, 0);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes bannermovettb {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(0, -100%);
+    }
+}
+
+@keyframes bannermovebtt {
+    0% {
+        transform: translate(0, -100%);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}

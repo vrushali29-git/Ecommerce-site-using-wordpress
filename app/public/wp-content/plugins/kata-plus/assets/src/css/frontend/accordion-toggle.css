@@ -1,0 +1,88 @@
+.kata-accordion {
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.02);
+	position: relative;
+	cursor: pointer;
+	transition: 0.4s;
+	border: 1px solid #e7e8e9;
+	border-radius: 3px;
+	margin: 10px 0;
+}
+
+.kata-accordion-btn {
+	position: relative;
+	padding: 20px;
+	width: 100%;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.kata-accordion-content {
+	padding: 20px;
+	font-size: 14px;
+	color: #676869;
+	overflow: hidden;
+}
+
+.kata-accordion .kata-accordion-btn i {
+	position: absolute;
+	right: 14px;
+	top: calc(50% - 7px);
+	clear: both;
+	width: 14px;
+	height: 14px;
+	fill: #303132;
+	transition: 0.16s;
+	cursor: pointer;
+}
+
+.kata-accordion .kata-accordion-btn:hover i {
+	fill: #000;
+}
+
+.kata-accordion .kata-accordion-btn p {
+	max-width: 90%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.kata-accordion-btn p,
+.kata-accordion-content p {
+	margin: 0;
+}
+
+.kata-accordion-c-icon {
+	display: none;
+}
+
+.kata-accordion-btn.active .kata-accordion-o-icon {
+	display: none;
+}
+
+.kata-accordion-btn.active .kata-accordion-c-icon {
+	display: block;
+}
+
+.kata-accordion:not(.active) .close-icon {
+	display: none;
+}
+
+.kata-accordion.active .open-icon {
+	display: none;
+}
+
+@media (max-width: 480px) {
+	#kata-site .kata-accordion-btn p {
+		max-width: 80%;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+}
+
+:dir(rtl) {
+	.kata-accordion .kata-accordion-btn i {
+		left: 14px;
+		right: auto;
+	}
+}

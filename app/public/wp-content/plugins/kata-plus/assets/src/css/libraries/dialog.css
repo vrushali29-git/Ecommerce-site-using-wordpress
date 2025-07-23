@@ -1,0 +1,54 @@
+/* Dialog
+-------------------------------------------------- */
+.kata-dialog {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -450px;
+    margin-top: -276px;
+    z-index: 999999 !important;
+    background: #f5f7f9;
+    width: 660px;
+    border: 1px solid #ced4dc;
+    border-bottom-width: 13px;
+    border-radius: 4px;
+    box-shadow: 0 3px 30px -2px rgba(0, 0, 0, 0.2);
+}
+
+.kata-dialog .kata-dialog-header {
+    position: relative;
+    color: #7e8e9c;
+    font-size: 13px;
+    box-shadow: 0 3px 20px -4px rgba(0, 0, 0, 0.2);
+    outline: none;
+    padding: 14px 20px;
+    height: 44px;
+    cursor: move;
+    background: #fff;
+    border-radius: 4px 4px 0 0;
+}
+
+.kata-dialog .kata-dialog-close-btn {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: calc(50% - 8px);
+    right: 11px;
+}
+
+.kata-dialog .kata-dialog-close-btn:hover {
+    color: red;
+}
+
+.kata-dialog .kata-dialog-close-btn:before {
+    content: "\e909";
+    font-family: eicons;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.kata-dialog .kata-dialog-body {
+    padding: 15px 10px 15px 20px;
+    height: 494px;
+}

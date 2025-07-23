@@ -1,0 +1,24 @@
+.kata-image-hover-zoom {
+	display: inline-block;
+	width: 100%;
+	overflow: hidden
+}
+.kata-image-hover-zoom a {
+	position: relative;
+	overflow: hidden;
+	display: block;
+	border: 0;
+	border-radius: inherit
+}
+.kata-img-for-zoom {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 2;
+	max-width: 4000% !important;
+	transition: initial !important
+}
+.kata-dimg {
+	width: 100%
+}

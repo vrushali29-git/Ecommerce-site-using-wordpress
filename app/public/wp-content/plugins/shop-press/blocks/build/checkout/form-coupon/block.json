@@ -1,0 +1,25 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "shop-press/checkout-form-coupon",
+  "version": "1.0.0",
+  "title": "Checkout Coupon Form",
+  "category": "sp_woo_checkout",
+  "description": "",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "shop-press",
+  "editorScript": "file:./index.js",
+  "render": "file:./render.php",
+  "attributes": {
+    "wrapperID": {
+      "type": "string",
+      "default": ""
+    },
+    "styler": {
+      "type": "string",
+      "default": "{}"
+    }
+  }
+}

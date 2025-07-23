@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="block-icon" width="35.911" height="38.307" viewBox="0 0 35.911 38.307">
+  <g id="Related_Products" data-name="Related Products" transform="translate(0.001 3.993)">
+    <g id="Group_72091" data-name="Group 72091">
+      <g id="Group_71994" data-name="Group 71994">
+        <g id="Group_71987" data-name="Group 71987">
+          <path id="Path_10066" data-name="Path 10066" d="M1334.2,1313.87h-11.472a2.675,2.675,0,0,1-2.527-2.769V1293.09a6.773,6.773,0,0,1,1.756-5.054,5.633,5.633,0,0,1,4.141-1.847h20.063a5.635,5.635,0,0,1,4.144,1.848,6.768,6.768,0,0,1,1.754,5.054v3.485a.9.9,0,0,1-1.808,0V1293a4.964,4.964,0,0,0-1.271-3.732,3.849,3.849,0,0,0-2.824-1.274h-20.063a3.847,3.847,0,0,0-2.822,1.273A4.964,4.964,0,0,0,1322,1293v18.166a.866.866,0,0,0,.8.9h11.391a.9.9,0,1,1,0,1.808Z" transform="translate(-1320.185 -1282.544)" fill="#b3b7c0"/>
+          <path id="Path_10068" data-name="Path 10068" d="M1342.35,1291h-11.091a2.755,2.755,0,0,1-2.751-2.751V1286.4a.9.9,0,1,1,1.808,0v1.849a.947.947,0,0,0,.947.947h11.091a.947.947,0,0,0,.947-.947V1286.4a.9.9,0,1,1,1.808,0v1.849a2.755,2.755,0,0,1-2.751,2.755Z" transform="translate(-1320.85 -1274.809)" fill="#b3b7c0"/>
+          <g id="Group_8" data-name="Group 8" transform="translate(-2.56 -3.993)">
+            <path id="Line_61" data-name="Line 61" d="M21.388,1.093H.046A1.047,1.047,0,1,1,.046-1H21.388a1.047,1.047,0,0,1,0,2.093Z" transform="translate(7.77 4.639)" fill="#b3b7c0"/>
+            <path id="Line_62" data-name="Line 62" d="M11.642,1.093H.046A1.047,1.047,0,1,1,.046-1h11.6a1.047,1.047,0,1,1,0,2.093Z" transform="translate(12.642 1)" fill="#b3b7c0"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_74414" data-name="Group 74414" transform="matrix(0.755, -0.656, 0.656, 0.755, -952.175, -520.26)">
+      <path id="Path_8030" data-name="Path 8030" d="M378.825,1056.23h-4a2.967,2.967,0,0,1-2.967-2.967h0a2.968,2.968,0,0,1,2.967-2.967h4a2.967,2.967,0,0,1,2.967,2.967h0" fill="none" stroke="#837af5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_8031" data-name="Path 8031" d="M388.12,1050.3h4a2.967,2.967,0,0,1,2.967,2.967h0a2.967,2.967,0,0,1-2.967,2.967h-4a2.967,2.967,0,0,1-2.967-2.967h0" transform="translate(-5.502)" fill="none" stroke="#837af5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

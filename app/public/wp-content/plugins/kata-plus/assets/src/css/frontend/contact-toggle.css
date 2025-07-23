@@ -1,0 +1,40 @@
+.kata-contact-toggle {
+    position: relative;
+}
+
+.kata-contact-show-wrap i {
+    font-size: 24px;
+    fill: #606162;
+    transition: all 0.2s ease;
+}
+
+.kata-contact-show-wrap i:hover {
+    fill: #010203;
+}
+
+.contact-content {
+    width: 400px;
+    overflow: hidden;
+    background: #ffffff;
+    border: 1px solid #eaebec;
+    border-radius: 2px;
+    box-shadow: 0 10px 65px -5px rgba(77, 77, 77, 0.2);
+    padding: 0 20px 30px;
+    border: none;
+    position: absolute;
+    z-index: 9;
+}
+
+.kata-contact-drop-title h3 {
+    padding: 20px 0;
+}
+
+.kata-contact-drop-title {
+    margin-bottom: 10px;
+}
+
+.contact-content .contact-content-body {
+    overflow: visible;
+    height: auto;
+    padding: 0;
+}

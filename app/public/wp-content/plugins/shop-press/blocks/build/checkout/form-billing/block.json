@@ -1,0 +1,28 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "shop-press/checkout-form-billing",
+  "version": "1.0.0",
+  "title": "Form Billing",
+  "category": "sp_woo_checkout",
+  "description": "",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "shop-press",
+  "editorScript": "file:./index.js",
+  "render": "file:./render.php",
+  "attributes": {
+    "hide_title": {
+      "type": "boolean"
+    },
+    "wrapperID": {
+      "type": "string",
+      "default": ""
+    },
+    "styler": {
+      "type": "string",
+      "default": "{}"
+    }
+  }
+}

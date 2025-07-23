@@ -1,0 +1,9 @@
+.kata-plus-title-and-subtitle {
+    position: relative;
+}
+.kata-plus-title-and-subtitle .kata-plus-title {
+    margin-bottom: 10px;
+}
+.kata-plus-title-and-subtitle .kata-plus-shape {
+    position: absolute;
+}

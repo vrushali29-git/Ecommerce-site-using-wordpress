@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="block-icon" width="40" height="34.943" viewBox="0 0 40 34.943">
+  <g id="Checkout_Order_Review" data-name="Checkout Order Review" transform="translate(0.199 -2.885)">
+    <g id="Group_72101" data-name="Group 72101">
+      <path id="Path_11584" data-name="Path 11584" d="M4,0H34a3.794,3.794,0,0,1,4,3.548V29.381a3.794,3.794,0,0,1-4,3.548H4a3.794,3.794,0,0,1-4-3.548V3.548A3.794,3.794,0,0,1,4,0Z" transform="translate(0.801 3.892)" fill="none" stroke="#b3b7c0" stroke-width="2"/>
+    </g>
+    <g id="Group_71963" data-name="Group 71963" transform="translate(10.003 8.091)">
+      <g id="Group_71958" data-name="Group 71958" transform="translate(-0.005)">
+        <path id="Path_9981" data-name="Path 9981" d="M1686.7,198.295h-4.542a.673.673,0,0,1-.476-1.149l5.449-5.449a.673.673,0,0,1,1.149.475v4.538a1.582,1.582,0,0,1-1.58,1.585Zm-2.915-1.343h2.915a.235.235,0,0,0,.235-.235V193.8Z" transform="translate(-1681.488 -191.5)" fill="#837af5"/>
+        <path id="Path_9982" data-name="Path 9982" d="M1689.8,213.651H1685a3.609,3.609,0,0,1-3.5-3.7V195.373a.673.673,0,0,1,1.343,0v14.579a2.263,2.263,0,0,0,2.157,2.354h4.8a.673.673,0,1,1,0,1.343Z" transform="translate(-1681.487 -189.123)" fill="#837af5"/>
+        <path id="Path_9983" data-name="Path 9983" d="M1700.07,199.9a.673.673,0,0,1-.673-.673V195.2a2.354,2.354,0,0,0-2.351-2.351h-9.317a.673.673,0,1,1,0-1.343h9.317a3.7,3.7,0,0,1,3.7,3.7v4.031a.673.673,0,0,1-.673.67Z" transform="translate(-1681.471 -191.5)" fill="#837af5"/>
+      </g>
+      <g id="Group_74454" data-name="Group 74454" transform="translate(11.904 11.801)">
+        <path id="path5118" d="M1233.33-522h6.446" transform="translate(-1233.33 521.999)" fill="none" stroke="#837af5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.8"/>
+        <path id="path5118-2" data-name="path5118" d="M1233.33-522h11" transform="translate(-1233.33 527.333)" fill="none" stroke="#837af5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.8"/>
+        <path id="path5118-3" data-name="path5118" d="M1233.33-522h11" transform="translate(-1233.33 532.667)" fill="none" stroke="#837af5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.8"/>
+      </g>
+    </g>
+  </g>
+</svg>

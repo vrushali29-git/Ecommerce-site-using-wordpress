@@ -1,0 +1,28 @@
+.kata-plus-list {
+	margin: 0;
+	padding: 0;
+	list-style: none !important;
+}
+
+.kata-plus-list li {
+	margin: 0 0 8px;
+	font-size: 15px;
+	display: list-item;
+	width: 100%;
+	transition: all .2s ease-in-out;
+}
+
+.kata-plus-list li span {
+	display: inline-block;
+}
+
+.kata-plus-list li small {
+	opacity: 1;
+	display: block;
+	margin-top: 10px;
+}
+
+.kata-plus-lists i.kata-icon {
+    display: inline-block;
+    margin-right: 15px;
+}

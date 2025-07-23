@@ -1,0 +1,958 @@
+/**
+ * Kata Admin styles.
+ *
+ * @author  ClimaxThemes
+ * @package Kata Plus
+ * @since   1.0.0
+ */
+#wpcontent,
+#wpfooter {
+	padding-right: 20px;
+}
+.e-notice,
+body.rtl
+	.press-this
+	a.wp-switch-editor
+	.kata_page_kata-plus-fast-mode
+	#page-title,
+#kata-finder-search-input,
+.kata-dialog .kata-dialog-header,
+.kata-finder-category-title,
+.kata-finder-category-item a,
+.elementor-panel .elementor-element,
+.elementor-control .select2-container,
+.elementor-input-style,
+.elementor-panel,
+.elementor-panel input,
+.elementor-panel select,
+.elementor-panel textarea,
+.elementor-panel-controls-stack input,
+.elementor-panel-controls-stack select,
+.elementor-panel-controls-stack textarea,
+.elementor-templates-modal .dialog-widget-content,
+.elementor-templates-modal .elementor-templates-modal__header__item > i:after,
+.flatpickr-calendar,
+.select2-container--default .select2-selection--single,
+.kata_page_kata-plus-fast-mode .kt-fst-mod-inner-wrapper .customize-site,
+.posts-list p,
+.pages-list p,
+.headers-list p,
+.footers-list p,
+.typography-list p,
+.list-plugins p,
+.typography-list a,
+.list-plugins a,
+.site-ready-wrapper .col a,
+.site-ready-wrapper .col p,
+.kt-fst-get-info.site-logo-icon .change-image,
+.kt-fst-get-info.site-logo-icon i,
+.kt-fst-get-info.site-logo-icon p,
+.kt-fst-mod-footer-area,
+.theme-kata[class*="kata_"] h1,
+.theme-kata[class*="kata_"] h2,
+.theme-kata[class*="kata_"] h3,
+.theme-kata[class*="kata_"] h4,
+.theme-kata[class*="kata_"] h5,
+.theme-kata[class*="kata_"] h6,
+.kata-admin-bar,
+.kata-admin,
+.kata-admin h1,
+.kata-admin h2,
+.kata-admin h3,
+.kata-admin h4,
+.kata-admin h5,
+.kata-admin h6,
+.kata-admin p,
+.kata-admin input,
+.kata-admin stront,
+.kata-admin button,
+.kata-admin li,
+.kata-admin a,
+.kt-dashboard-navigation li.kt-dashboard-navitem a {
+	font-family: inherit !important;
+}
+
+.kata-admin #kata-license input[type="submit"] {
+	right: unset;
+	left: 5px;
+}
+
+.kata-admin .help-links {
+	float: right;
+	margin-right: 0;
+	margin-left: 12px;
+}
+
+.kata-dashboard-box {
+	text-align: right;
+}
+
+.kata-help-intro .help-links i {
+	float: right;
+	margin: 4px 0 0 8px;
+}
+
+.kt-dashboard-box-title i {
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+.kata-admin .kata-col-sm-4 a:after {
+	content: "\e629";
+	display: inline-block;
+	margin-left: 0;
+	margin-right: 5px;
+}
+
+.table.table-striped .current-status-icon {
+	margin-right: 0;
+	margin-left: 7px;
+	float: right;
+}
+
+span.current-value,
+span.need-value {
+	float: right;
+}
+
+.kata-admin.about-wrap a.solution {
+	float: left;
+}
+
+#customize-controls .customize-info .panel-title:before,
+.accordion-section > h3:before,
+.customize-section-title > h3:before {
+	padding-right: 0;
+	padding-left: 8px;
+	margin-right: 0;
+	margin-left: -2px;
+}
+
+#customize-controls .customize-control .styler-dialog-btn {
+	float: left;
+	margin: -30px 5px 12px 1px;
+}
+
+/* .customize-control-kirki-switch label {
+	  float: right !important;
+  } */
+
+body .customize-control-kirki-switch .switch-on,
+#customize-theme-controls
+	.customize-control-kirki-radio-buttonset
+	.buttonset
+	.switch-label:first-of-type {
+	border-radius: 0 3px 3px 0;
+	border-right: 1px solid #d5dadf;
+	border-left: none;
+}
+
+body .customize-control-kirki-switch .switch-off,
+#customize-theme-controls
+	.customize-control-kirki-radio-buttonset
+	.buttonset
+	.switch-label:last-of-type {
+	border-radius: 3px 0 0 3px;
+	border-left: 1px solid #d5dadf;
+	border-right: none;
+}
+
+.customize-section-description-container
+	+ #customize-control-custom_css:last-child {
+	margin-right: 0;
+	margin-left: -12px;
+}
+
+#customize-controls input[type="checkbox"],
+#customize-controls input[type="radio"] {
+	margin: 4px 0 7px 5px;
+}
+
+.rtl .hsds-beacon .kdLYzr {
+	right: auto;
+	left: 30px;
+}
+
+.rtl .hsds-beacon .jaxpMS,
+.rtl .hsds-beacon .jhlvex {
+	left: calc(20px);
+	right: auto;
+}
+
+@media (min-width: 1025px) {
+	.customize-control {
+		padding-left: 0;
+		padding-right: 8px;
+	}
+}
+
+.customize-control-kirki-react-colorful .kirki-control-left-col {
+	padding-right: 0 !important;
+	padding-left: 30px;
+}
+
+.customize-control-kirki-switch .kirki-switch .kirki-toggle-switch-label {
+	padding-left: 0 !important;
+	min-width: 52px;
+}
+
+.customize-panel-back:focus,
+.customize-panel-back:hover,
+.customize-section-back:focus,
+.customize-section-back:hover {
+	border-right-color: #403cf2 !important;
+	border-left-color: #e3e4e5 !important;
+}
+
+#customize-theme-controls
+	.customize-control-kirki-radio-buttonset
+	.buttonset
+	.switch-label:first-of-type {
+	border-radius: 0 5px 5px 0 !important;
+}
+
+#customize-theme-controls
+	.customize-control-kirki-radio-buttonset
+	.buttonset
+	.switch-label:last-of-type {
+	border-left-width: 1px;
+	border-radius: 5px 0 0 5px;
+}
+
+.kata-admin .kata-help-intro p:before {
+	content: "پشتیبانی";
+}
+
+#adminmenu
+	.toplevel_page_kata-plus-theme-activation
+	> .wp-submenu
+	> li:nth-child(4)
+	a[href="kata-plus-plugins"]:after,
+#adminmenu
+	.toplevel_page_kata-plus-theme-activation
+	> .wp-submenu
+	> li:nth-child(5)
+	a[href="kata-fonts-manager"]:after,
+#adminmenu
+	.toplevel_page_kata-plus-theme-activation
+	> .wp-submenu
+	> li:nth-child(8)
+	a[href="sticky-header"]:after,
+#adminmenu
+	.toplevel_page_kata-plus-theme-activation
+	> .wp-submenu
+	> li:nth-child(11)
+	a[href="single-post-builder"]:after,
+#adminmenu
+	.toplevel_page_kata-plus-theme-activation
+	> .wp-submenu
+	> li:nth-child(12)
+	a[href="single-portfolio-builder"]:after,
+#adminmenu
+	.toplevel_page_kata-plus-theme-activation
+	> .wp-submenu
+	> li:nth-child(13)
+	a[href="archive-builder"]:after,
+#adminmenu
+	.toplevel_page_kata-plus-theme-activation
+	> .wp-submenu
+	> li:nth-child(14)
+	a[href="404-builder"]:after,
+#adminmenu
+	.toplevel_page_kata-plus-theme-activation
+	> .wp-submenu
+	> li:nth-child(15)
+	a[href="author-builder"]:after,
+#adminmenu
+	.toplevel_page_kata-plus-theme-activation
+	> .wp-submenu
+	> li:nth-child(16)
+	a[href="search-builder"]:after,
+#adminmenu
+	.toplevel_page_kata-plus-theme-activation
+	> .wp-submenu
+	> li:nth-child(17)
+	a[href="kata-plus-mega-menu"]:after,
+#adminmenu
+	.toplevel_page_kata-plus-theme-activation
+	> .wp-submenu
+	> li:nth-child(19)
+	a[href="kata-fast-mode"]:after,
+#adminmenu
+	.toplevel_page_kata-plus-theme-activation
+	> .wp-submenu
+	> li
+	a[href="pro-post-types"]:after,
+#adminmenu
+	.toplevel_page_kata-plus-theme-activation
+	> .wp-submenu
+	> li
+	a[href="kata-plus-mega-menu"]:after,
+#adminmenu
+	.toplevel_page_kata-plus-theme-activation
+	> .wp-submenu
+	> li
+	a[href="kata-fast-mode"]:after,
+.kata-col:nth-child(3) ul .kata-admin-bar-item:nth-child(4) a[href="#"]:after {
+	right: auto;
+	left: 12px;
+}
+
+/* Wp Admin RTL CSS */
+/*! This file is auto-generated */
+#adminmenu,
+#adminmenu .wp-submenu,
+#adminmenuback,
+#adminmenuwrap {
+	width: 160px;
+	background-color: #1d2327;
+}
+
+#adminmenuback {
+	position: fixed;
+	top: 0;
+	bottom: -120px;
+	z-index: 1;
+}
+
+#adminmenu {
+	clear: right;
+	margin: 12px 0;
+	padding: 0;
+	list-style: none;
+}
+
+.folded #adminmenu,
+.folded #adminmenu li.menu-top,
+.folded #adminmenuback,
+.folded #adminmenuwrap {
+	width: 36px;
+}
+
+#adminmenuwrap {
+	position: relative;
+	float: right;
+	z-index: 9990;
+}
+
+#adminmenu * {
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+#adminmenu li {
+	margin: 0;
+	padding: 0;
+}
+
+#adminmenu a {
+	display: block;
+	line-height: 1.3;
+	padding: 2px 5px;
+	color: #f0f0f1;
+}
+
+#adminmenu .wp-submenu a {
+	color: #c3c4c7;
+	color: rgba(240, 246, 252, 0.7);
+	font-size: 13px;
+	line-height: 1.4;
+	margin: 0;
+	padding: 5px 0;
+}
+
+#adminmenu .wp-submenu a:focus,
+#adminmenu .wp-submenu a:hover {
+	background: 0 0;
+}
+
+#adminmenu .wp-submenu a:focus,
+#adminmenu .wp-submenu a:hover,
+#adminmenu a:hover,
+#adminmenu li.menu-top > a:focus {
+	color: #72aee6;
+}
+
+#adminmenu a:focus,
+#adminmenu a:hover,
+.folded #adminmenu .wp-submenu-head:hover {
+	box-shadow: inset -4px 0 0 0 currentColor;
+	transition: box-shadow 0.1s linear;
+}
+
+#adminmenu li.menu-top {
+	border: none;
+	min-height: 34px;
+	position: relative;
+}
+
+#adminmenu .wp-submenu {
+	list-style: none;
+	position: absolute;
+	top: -1000em;
+	right: 160px;
+	overflow: visible;
+	word-wrap: break-word;
+	padding: 7px 0 8px;
+	z-index: 9999;
+	background-color: #2c3338;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+#adminmenu a.menu-top:focus + .wp-submenu,
+.js #adminmenu .opensub .wp-submenu,
+.js #adminmenu .sub-open,
+.no-js li.wp-has-submenu:hover .wp-submenu {
+	top: -1px;
+}
+
+#adminmenu a.wp-has-current-submenu:focus + .wp-submenu {
+	top: 0;
+}
+
+#adminmenu .wp-has-current-submenu .wp-submenu,
+#adminmenu .wp-has-current-submenu .wp-submenu.sub-open,
+#adminmenu .wp-has-current-submenu.opensub .wp-submenu,
+.no-js li.wp-has-current-submenu:hover .wp-submenu {
+	position: relative;
+	z-index: 3;
+	top: auto;
+	right: auto;
+	left: auto;
+	bottom: auto;
+	border: 0 none;
+	margin-top: 0;
+	box-shadow: none;
+}
+
+.folded #adminmenu .wp-has-current-submenu .wp-submenu {
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+#adminmenu li.menu-top:hover,
+#adminmenu li.opensub > a.menu-top,
+#adminmenu li > a.menu-top:focus {
+	position: relative;
+	background-color: #1d2327;
+	color: #72aee6;
+}
+
+.folded #adminmenu li.menu-top:hover,
+.folded #adminmenu li.opensub > a.menu-top,
+.folded #adminmenu li > a.menu-top:focus {
+	z-index: 10000;
+}
+
+#adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head,
+#adminmenu .wp-menu-arrow,
+#adminmenu .wp-menu-arrow div,
+#adminmenu li.current a.menu-top,
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu {
+	background: #2271b1;
+	color: #fff;
+}
+
+.folded #adminmenu .opensub .wp-submenu,
+.folded #adminmenu .wp-has-current-submenu .wp-submenu.sub-open,
+.folded #adminmenu .wp-has-current-submenu a.menu-top:focus + .wp-submenu,
+.folded #adminmenu .wp-has-current-submenu.opensub .wp-submenu,
+.folded #adminmenu .wp-submenu.sub-open,
+.folded #adminmenu a.menu-top:focus + .wp-submenu,
+.no-js.folded #adminmenu .wp-has-submenu:hover .wp-submenu {
+	top: 0;
+	right: 36px;
+}
+
+.folded #adminmenu .wp-has-current-submenu .wp-submenu,
+.folded #adminmenu a.wp-has-current-submenu:focus + .wp-submenu {
+	position: absolute;
+	top: -1000em;
+}
+
+#adminmenu .wp-not-current-submenu .wp-submenu,
+.folded #adminmenu .wp-has-current-submenu .wp-submenu {
+	min-width: 160px;
+	width: auto;
+	border-right: 5px solid transparent;
+}
+
+#adminmenu .opensub .wp-submenu li.current a,
+#adminmenu .wp-submenu li.current,
+#adminmenu .wp-submenu li.current a,
+#adminmenu .wp-submenu li.current a:focus,
+#adminmenu .wp-submenu li.current a:hover,
+#adminmenu a.wp-has-current-submenu:focus + .wp-submenu li.current a {
+	color: #fff;
+}
+
+#adminmenu .wp-not-current-submenu li > a,
+.folded #adminmenu .wp-has-current-submenu li > a {
+	padding-left: 16px;
+	padding-right: 14px;
+	transition: all 0.1s ease-in-out, outline 0s;
+}
+
+#adminmenu .wp-has-current-submenu ul > li > a,
+.folded #adminmenu li.menu-top .wp-submenu > li > a {
+	padding: 5px 12px;
+}
+
+#adminmenu .wp-submenu-head,
+#adminmenu a.menu-top {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.3;
+	padding: 0;
+}
+
+#adminmenu .wp-submenu-head {
+	display: none;
+}
+
+.folded #adminmenu .wp-menu-name {
+	position: absolute;
+	right: -999px;
+}
+
+.folded #adminmenu .wp-submenu-head {
+	display: block;
+}
+
+#adminmenu .wp-submenu li {
+	padding: 0;
+	margin: 0;
+}
+
+#adminmenu .wp-menu-image img {
+	padding: 9px 0 0;
+	opacity: 0.6;
+}
+
+#adminmenu div.wp-menu-name {
+	padding: 8px 36px 8px 8px;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	-ms-word-break: break-all;
+	word-break: break-word;
+	-webkit-hyphens: auto;
+	hyphens: auto;
+}
+
+#adminmenu div.wp-menu-image {
+	float: right !important;
+	width: 36px;
+	height: 34px;
+	margin: 0;
+	text-align: center;
+}
+
+#adminmenu div.wp-menu-image.svg {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 20px auto;
+}
+
+div.wp-menu-image:before {
+	color: #a7aaad;
+	color: rgba(240, 246, 252, 0.6);
+	padding: 7px 0;
+	transition: all 0.1s ease-in-out;
+}
+
+#adminmenu div.wp-menu-image:before {
+	color: #a7aaad;
+	color: rgba(240, 246, 252, 0.6);
+}
+
+#adminmenu .current div.wp-menu-image:before,
+#adminmenu .wp-has-current-submenu div.wp-menu-image:before,
+#adminmenu a.current:hover div.wp-menu-image:before,
+#adminmenu a.wp-has-current-submenu:hover div.wp-menu-image:before,
+#adminmenu li.wp-has-current-submenu a:focus div.wp-menu-image:before,
+#adminmenu li.wp-has-current-submenu.opensub div.wp-menu-image:before,
+#adminmenu li.wp-has-current-submenu:hover div.wp-menu-image:before {
+	color: #fff;
+}
+
+#adminmenu li a:focus div.wp-menu-image:before,
+#adminmenu li.opensub div.wp-menu-image:before,
+#adminmenu li:hover div.wp-menu-image:before {
+	color: #72aee6;
+}
+
+.folded #adminmenu div.wp-menu-image {
+	width: 35px;
+	height: 30px;
+	position: absolute;
+	z-index: 25;
+}
+
+.folded #adminmenu a.menu-top {
+	height: 34px;
+}
+
+.sticky-menu #adminmenuwrap {
+	position: fixed;
+}
+
+.wp-menu-arrow {
+	display: none !important;
+}
+
+ul#adminmenu a.wp-has-current-submenu {
+	position: relative;
+}
+
+ul#adminmenu a.wp-has-current-submenu:after,
+ul#adminmenu > li.current > a.current:after {
+	left: 0;
+	border: solid 8px transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-left-color: #f0f0f1;
+	top: 50%;
+	margin-top: -8px;
+}
+
+.folded
+	ul#adminmenu
+	li.wp-has-current-submenu:focus-within
+	a.wp-has-current-submenu:after,
+.folded ul#adminmenu li:hover a.wp-has-current-submenu:after {
+	display: none;
+}
+
+.folded ul#adminmenu a.wp-has-current-submenu:after,
+.folded ul#adminmenu > li a.current:after {
+	border-width: 4px;
+	margin-top: -4px;
+}
+
+#adminmenu li.wp-has-submenu.wp-not-current-submenu:focus-within:after,
+#adminmenu li.wp-has-submenu.wp-not-current-submenu:hover:after {
+	left: 0;
+	border: 8px solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	top: 10px;
+	z-index: 10000;
+}
+
+.folded
+	ul#adminmenu
+	li.wp-has-submenu.wp-not-current-submenu:focus-within:after,
+.folded ul#adminmenu li.wp-has-submenu.wp-not-current-submenu:hover:after {
+	border-width: 4px;
+	margin-top: -4px;
+	top: 18px;
+}
+
+#adminmenu li.wp-has-submenu.wp-not-current-submenu.opensub:hover:after,
+#adminmenu li.wp-has-submenu.wp-not-current-submenu:focus-within:after {
+	border-left-color: #2c3338;
+}
+
+#adminmenu li.menu-top:hover .wp-menu-image img,
+#adminmenu li.wp-has-current-submenu .wp-menu-image img {
+	opacity: 1;
+}
+
+#adminmenu li.wp-menu-separator {
+	height: 5px;
+	padding: 0;
+	margin: 0 0 6px;
+	cursor: inherit;
+}
+
+#adminmenu div.separator {
+	height: 2px;
+	padding: 0;
+}
+
+#adminmenu .wp-submenu .wp-submenu-head {
+	color: #fff;
+	font-weight: 400;
+	font-size: 14px;
+	padding: 5px 11px 5px 4px;
+	margin: -7px -5px 4px 0;
+	border-width: 3px 5px 3px 0;
+	border-style: solid;
+	border-color: transparent;
+}
+
+#adminmenu li.current,
+.folded #adminmenu li.wp-menu-open {
+	border: 0 none;
+}
+
+#adminmenu .awaiting-mod,
+#adminmenu .menu-counter,
+#adminmenu .update-plugins {
+	display: inline-block;
+	vertical-align: top;
+	box-sizing: border-box;
+	margin: 1px 2px -1px 0;
+	padding: 0 5px;
+	min-width: 18px;
+	height: 18px;
+	border-radius: 9px;
+	background-color: #d63638;
+	color: #fff;
+	font-size: 11px;
+	line-height: 1.6;
+	text-align: center;
+	z-index: 26;
+}
+
+#adminmenu li a.wp-has-current-submenu .update-plugins,
+#adminmenu li.current a .awaiting-mod {
+	background-color: #d63638;
+	color: #fff;
+}
+
+#adminmenu li span.count-0 {
+	display: none;
+}
+
+.kata-admin .plugins-content .widefat td,
+.kata-admin .plugins-content .widefat th,
+.kata-admin .plugins-content .widefat td ol,
+.kata-admin .plugins-content .widefat td ul {
+	direction: rtl;
+	text-align: right;
+}
+
+.wp-list-table .column-plugin img,
+.plugins .plugin-title img {
+	float: right;
+	margin-right: 0;
+	margin-left: 8px;
+}
+
+a.button.kata-btn.kata-btn-plugin-action {
+	float: right;
+}
+
+/* Importer */
+.kata-demo-importer-search-tools .kata-demo-importer-wish-list:before,
+.kata-demo-importer-search-tools .kata-demo-importer-wish-list span {
+	content: "Ø¹Ù„Ø§Ù‚Ù‡â€ŒÙ…Ù†Ø¯ÛŒâ€ŒÙ‡Ø§";
+}
+
+.kata-demo-importer-search-tools .demo-categories .list li {
+	text-align: right;
+}
+.initial-notice {
+	text-align: right;
+}
+.initial-notice .kata-checkbox-wrap input[type="checkbox"] {
+	float: right;
+}
+.kata-plus-notice-list {
+	margin-bottom: 0;
+}
+.kata-plus-notice-list-item,
+ul.kata-import-wizard-header li {
+	direction: rtl;
+}
+.kata-plus-notice-list-item,
+.initial-notice p {
+	margin-top: 0;
+	display: inline-block;
+	width: 100%;
+}
+.kata-admin .kata-col-sm-4 a {
+	display: inline-block;
+}
+.resume-import-progress a:after,
+.kata-admin .kata-col-sm-4 a:after {
+	float: left;
+}
+.kata-lightbox-content .kata-col-import-demo h3 {
+	text-align: right;
+}
+.kata-col-import-demo .meter {
+	direction: rtl;
+}
+.kata-import-content-wrap.wp-clearfix,
+.kata-importer-tasks ul {
+	direction: rtl;
+	text-align: right;
+}
+.kata-importer-tasks ul li:before {
+	float: right;
+	margin-left: 8px;
+	margin-right: 0;
+}
+.kata-col-import-demo .kata-install-plugins {
+	float: right;
+}
+
+.kata-admin .kata-lightbox a.kata-btn-install-plugins:before,
+.kata-required-plugin .button.installing:before {
+	float: right;
+	margin-right: 0;
+	margin-left: 5px;
+}
+.kata-col-import-demo .kata-required-plugins .kata-required-plugin h4 {
+	float: right;
+}
+
+.kata-col-import-demo a.button.kata-btn.kata-btn-plugin-action {
+	float: left;
+}
+
+.kata-lightbox-content .kata-col-import-demo,
+.kata-lightbox-content .kata-col-import-demo-image {
+	float: right;
+}
+
+.kata-lightbox-content .kata-col-import-demo-image {
+	padding: 30px 30px 0 0;
+}
+
+ul.kata-import-wizard-header li {
+	float: left;
+}
+
+ul.kata-import-wizard-header li:after {
+	right: auto;
+	left: 0;
+	transform: rotate(135deg);
+}
+
+.kata-lightbox-wrapper.wp-clearfix.done .kata-importer-settings {
+	transform: translateX(-1481px) !important;
+}
+
+/* contorol panel */
+.kata-admin-bar-nav-item
+	.kata-col
+	.kata-admin-bar-item
+	a[href*="sticky-header"]:after,
+.kata-admin-bar-nav-item
+	.kata-col
+	.kata-admin-bar-item
+	a[href*="404-builder"]:after,
+.kata-admin-bar-nav-item
+	.kata-col
+	.kata-admin-bar-item
+	a[href*="kata-plus-mega-menu"]:after,
+.kata-admin-bar-nav-item
+	.kata-col
+	.kata-admin-bar-item
+	a[href*="single-portfolio-builder"]:after,
+.kata-admin-bar-nav-item
+	.kata-col
+	.kata-admin-bar-item
+	a[href*="single-post-builder"]:after,
+.kata-admin-bar-nav-item
+	.kata-col
+	.kata-admin-bar-item
+	a[href*="archive-builder"]:after,
+.kata-admin-bar-nav-item
+	.kata-col
+	.kata-admin-bar-item
+	a[href*="author-builder"]:after,
+.kata-admin-bar-nav-item
+	.kata-col
+	.kata-admin-bar-item
+	a[href*="search-builder"]:after,
+.kata-admin-bar-nav-item
+	.kata-col
+	.kata-admin-bar-item
+	a[href*="kata-plus-plugins-manager"]:after,
+.kata-admin-bar-nav-item
+	.kata-col
+	.kata-admin-bar-item
+	a[href*="kata-fonts-manager"]:after,
+.kata-admin-bar-nav-item
+	.kata-col
+	.kata-admin-bar-item
+	a[href*="kata-fast-mode"]:after,
+.kata-admin-bar-item a[href*="pro-post-types"]:after {
+	content: "پرو";
+	right: auto;
+	left: -24px;
+}
+li.kata-admin-bar-nav-item.collapsmenu i {
+	transform: rotate(180deg);
+}
+.kata-admin-bar.collaps li.kata-admin-bar-nav-item.collapsmenu {
+	left: auto;
+	right: 100px !important;
+}
+li.kata-admin-bar-nav-item.collapsmenu.active i {
+	transform: rotate(360deg) !important;
+}
+.kata-admin-bar.collaps {
+	left: auto;
+	right: -100px;
+}
+/* font manager */
+.kata-plus-action-box.typekit div.ti-help-alt {
+	right: auto;
+	left: 10px;
+}
+#kata_plus_pro_fonts_manager_google_categories
+	ul
+	li.kata-plus-google-categories-go {
+	left: auto;
+	right: 10px;
+}
+
+/* Customizer */
+.wp-customizer #customize-controls .search-field-wrapper .clear-search,
+.wp-customizer #customize-controls .search-field-wrapper .clear-search:hover {
+	right: auto;
+}
+.wp-customizer #customize-controls .search-field-wrapper .clear-search,
+.wp-customizer #customize-controls .search-field-wrapper .clear-search:hover {
+	right: auto !important;
+	left: 18px;
+}
+#customize-controls,
+#customize-controls input,
+#customize-controls select,
+#customize-controls textarea,
+#customize-theme-controls .accordion-section-title,
+#customize-theme-controls .control-panel-themes > .accordion-section-title,
+#customize-theme-controls
+	.control-panel-themes
+	> .accordion-section-title:hover,
+.devices-wrapper .devices button[type="button"] span,
+.redux_field_th,
+.select2-results li,
+.wp-customizer #customize-controls #available-widgets-list,
+.wp-customizer #customize-controls .button-primary-disabled,
+.wp-customizer #customize-controls .button-primary.disabled,
+.wp-customizer #customize-controls .button-primary:disabled,
+.wp-customizer #customize-controls .button-primary[disabled],
+.wp-customizer #customize-controls form#customize-controls,
+.wp-customizer #customize-controls ul#sub-accordion-section-publish_settings,
+body.adding-menu-items #available-menu-items,
+#customize-controls .customize-info .panel-title,
+#customize-controls .customize-pane-child .customize-section-title h3 {
+	font-family: inherit !important;
+}
+
+/* Fast mode */
+.kt-fst-mod-footer-area .next-step,
+.kt-fst-mod-footer-area .next-step:hover {
+	float: left !important;
+}
+.kata-importer-tasks ul li:before {
+	float: right;
+}
+
+/* elementor */
+.elementor-loader-wrapper .elementor-loading-title {
+	letter-spacing: 0;
+	font-size: 17px;
+}

@@ -1,0 +1,70 @@
+.kata-plus-categories-list {
+    background: #fff;
+}
+
+.kata-plus-categories-list li,
+.kata-plus-categories-inline li {
+    list-style: none;
+    color: #808182;
+    margin-top: 10px;
+    position: relative;
+    background: inherit;
+}
+
+.kata-plus-categories-inline li {
+    display: inline-block;
+    border: 1px solid #9a9a9a;
+    padding: 0px 10px;
+    line-height: 2;
+}
+
+.kata-plus-categories-inline li:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.kata-plus-categories-list li.cat-item:after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 98%;
+    background: #e4e4e4;
+    left: 0;
+    top: 13px;
+}
+
+.kata-plus-categories-list li.cat-item ul,
+.kata-plus-categories-list li.cat-item li {
+    background: inherit;
+}
+
+.kata-plus-categories-list li.categories>ul {
+    margin-left: 0;
+    background: inherit;
+}
+
+.kata-plus-categories-list li a,
+.kata-plus-categories-inline li a {
+    color: inherit;
+    z-index: 2;
+    position: relative;
+    background: inherit;
+    padding-right: 10px;
+}
+
+.kata-plus-categories-inline li a {
+    padding-right: 0;
+}
+
+.kata-plus-categories-list .kata-post-count {
+    float: right;
+    background: #e4e4e4;
+    color: #a2a2a2;
+    padding: 2px 6px;
+    font-size: 13px;
+    border-radius: 3px;
+}
+
+.kata-plus-categories-list .children {
+    margin-left: 30px;
+}

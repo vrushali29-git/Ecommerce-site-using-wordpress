@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="block-icon" width="40" height="38" viewBox="0 0 40 38">
+  <g id="Group_65457" data-name="Group 65457" transform="translate(-1776.775 -254.107)">
+    <g id="Group_64925" data-name="Group 64925" transform="translate(-265.862 -1234.461)">
+      <path id="Path_4911" data-name="Path 4911" d="M4,0H34a4,4,0,0,1,4,4V32a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" transform="translate(2043.637 1489.568)" fill="none" stroke="#b3b7c0" stroke-width="2"/>
+      <g id="Group_74450" data-name="Group 74450" transform="translate(1.3 1)">
+        <line id="Line_774" data-name="Line 774" x2="16.669" transform="translate(2057.337 1499.315)" fill="none" stroke="#837af5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <line id="Line_774-2" data-name="Line 774" x2="15.704" transform="translate(2058.337 1513.697)" fill="none" stroke="#837af5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <line id="Line_774-3" data-name="Line 774" x2="17.465" transform="translate(2048.872 1506.506)" fill="none" stroke="#837af5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <g id="Group_72134" data-name="Group 72134" transform="translate(2051.917 1497.068)">
+          <circle id="Ellipse_457" data-name="Ellipse 457" cx="2.247" cy="2.247" r="2.247" transform="translate(0 0)" fill="rgba(0,0,0,0)" stroke="#837af5" stroke-width="2"/>
+        </g>
+        <g id="Group_72135" data-name="Group 72135" transform="translate(2053.715 1511.45)">
+          <circle id="Ellipse_457-2" data-name="Ellipse 457" cx="2.247" cy="2.247" r="2.247" transform="translate(0 0)" fill="rgba(0,0,0,0)" stroke="#837af5" stroke-width="2"/>
+        </g>
+        <g id="Group_72136" data-name="Group 72136" transform="translate(2067.097 1504.259)">
+          <circle id="Ellipse_457-3" data-name="Ellipse 457" cx="2.247" cy="2.247" r="2.247" transform="translate(0 0)" fill="rgba(0,0,0,0)" stroke="#837af5" stroke-width="2"/>
+        </g>
+        <line id="Line_774-4" data-name="Line 774" x2="1.704" transform="translate(2072.337 1506.506)" fill="none" stroke="#837af5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <line id="Line_774-5" data-name="Line 774" x2="4.42" transform="translate(2048.917 1513.697)" fill="none" stroke="#837af5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <line id="Line_774-6" data-name="Line 774" x2="2.465" transform="translate(2048.872 1499.315)" fill="none" stroke="#837af5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

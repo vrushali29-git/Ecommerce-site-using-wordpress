@@ -1,0 +1,13 @@
+#shoppress-wrap {
+	width: 100%;
+	margin: 0 auto !important;
+}
+
+.sp-products-loop-wrapper .kata-full-site-edit {
+	display: none !important;
+}
+
+.sp-products-loop-wrapper .elementor:not(.elementor-edit-mode):hover {
+	box-shadow: none !important;
+	box-shadow: none !important;
+}

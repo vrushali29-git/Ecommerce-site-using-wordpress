@@ -1,0 +1,23 @@
+/**
+ * Kata Fast Header Styel.
+ *
+ * @author  ClimaxThemes
+ * @package Kata Plus
+ * @since   1.0.0
+ */
+
+ .kata_page_kata-plus-fast-mode #wpcontent {
+    padding-right: 0;
+}
+
+.kt-fst-mod-header .kt-fst-help {
+    float: right;
+    border-right: none;
+    border-left: 1px solid #e0e5eb;
+}
+
+.kt-fst-mod-header .kt-fst-close {
+    float: left;
+    border-left: 0;
+    border-right: 1px solid #e0e5eb;
+}

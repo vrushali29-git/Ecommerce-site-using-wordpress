@@ -1,0 +1,260 @@
+ul.kata-owl {
+	margin-left: 0;
+}
+
+.kata-owl .owl-item {
+	z-index: 1;
+}
+
+.kata-owl .owl-item.center {
+	z-index: 8;
+}
+
+.dots-num .owl-dots,
+.dots-and-num .owl-dots {
+	counter-reset: section;
+}
+
+.dots-num .owl-dot::before {
+	counter-increment: section;
+	content: counter(section);
+	color: inherit;
+}
+
+.kata-owl .owl-dots {
+	text-align: center;
+	padding-top: 1px;
+	display: block;
+}
+
+.kata-owl.dots-num .owl-dot {
+	color: rgba(0, 0, 0, 0.2);
+}
+
+.kata-owl.dots-num .owl-dot.active {
+	color: var(--ct-base-color);
+}
+
+.kata-owl.dots-num .owl-dot {
+	margin-right: 7px;
+}
+
+.kata-owl .owl-dots .owl-dot {
+	background: rgba(0, 0, 0, 0.2);
+	width: 10px;
+	height: 10px;
+	margin-right: 8px;
+	border-radius: 50%;
+}
+
+.kata-owl .owl-dots .owl-dot.active {
+	background: var(--ct-base-color);
+}
+
+.content-slider-num {
+	font-size: 15px;
+	color: #606162;
+	letter-spacing: 1px;
+}
+
+.kata-owl .owl-nav .owl-prev i,
+.kata-owl .owl-nav .owl-next i {
+	font-size: 40px;
+	cursor: pointer;
+}
+
+.kata-owl .owl-nav .owl-prev,
+.kata-owl .owl-nav .owl-next {
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	-webkit-transform: translate(0, -50%);
+}
+
+.kata-owl .owl-nav .owl-next {
+	right: -40px;
+}
+
+.kata-owl .owl-nav .owl-prev {
+	left: -40px;
+}
+
+.kata-owl.dots-num .owl-dots .owl-dot {
+	width: auto;
+	height: auto;
+	background: transparent;
+}
+
+.kata-owl-progress-bar {
+	background: #e3e3e3;
+	height: 2px;
+	width: 100px;
+	position: relative;
+	margin: 20px 15px 0;
+}
+
+.kata-owl-progress-bar .minitems,
+.kata-owl-progress-bar .maxitems {
+	position: absolute;
+	top: -8px;
+}
+
+.kata-owl-progress-bar .minitems {
+	left: -15px;
+}
+
+.kata-owl-progress-bar .maxitems {
+	right: -16px;
+}
+
+.kata-progress-bar-inner {
+	height: 2px;
+	transition: all 0.8s ease;
+	-webkit-transition: all 0.8s ease;
+}
+
+/* Thumbnails
+--------------------------------------------- */
+.owl-thumbs .owl-thumb-item {
+	padding: 0;
+	border: none;
+	margin: 0 5px;
+}
+
+.owl-thumbs {
+	margin: 10px 0;
+}
+
+.owl-thumbs .owl-thumb-item:first-child {
+	margin-left: 0;
+}
+
+.owl-thumbs .owl-thumb-item:last-child {
+	margin-right: 0;
+}
+
+/* fix owl item when use section template
+--------------------------------------------- */
+.kata-owl .container,
+.kata-owl .elementor-section > .elementor-container {
+	max-width: 100%;
+}
+
+@media (max-width: 992px) {
+	.kata-owl .owl-nav .owl-next {
+		right: 0;
+	}
+
+	.kata-owl .owl-nav .owl-prev {
+		left: 0;
+	}
+}
+
+@-webkit-keyframes fadeOutUp {
+	from {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+		-webkit-transform: translate3d(0, -100%, 0);
+		transform: translate3d(0, -100%, 0);
+	}
+}
+
+@keyframes fadeOutUp {
+	from {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+		-webkit-transform: translate3d(0, -100%, 0);
+		transform: translate3d(0, -100%, 0);
+	}
+}
+
+.fadeOutUp {
+	-webkit-animation-name: fadeOutUp;
+	animation-name: fadeOutUp;
+}
+
+.animated {
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+
+.animated.infinite {
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}
+
+.animated.delay-1s {
+	-webkit-animation-delay: 1s;
+	animation-delay: 1s;
+}
+
+.animated.delay-2s {
+	-webkit-animation-delay: 2s;
+	animation-delay: 2s;
+}
+
+.animated.delay-3s {
+	-webkit-animation-delay: 3s;
+	animation-delay: 3s;
+}
+
+.animated.delay-4s {
+	-webkit-animation-delay: 4s;
+	animation-delay: 4s;
+}
+
+.animated.delay-5s {
+	-webkit-animation-delay: 5s;
+	animation-delay: 5s;
+}
+
+.animated.fast {
+	-webkit-animation-duration: 800ms;
+	animation-duration: 800ms;
+}
+
+.animated.faster {
+	-webkit-animation-duration: 500ms;
+	animation-duration: 500ms;
+}
+
+.animated.slow {
+	-webkit-animation-duration: 2s;
+	animation-duration: 2s;
+}
+
+.animated.slower {
+	-webkit-animation-duration: 3s;
+	animation-duration: 3s;
+}
+
+@media (prefers-reduced-motion) {
+	.animated {
+		-webkit-animation: unset !important;
+		animation: unset !important;
+		-webkit-transition: none !important;
+		transition: none !important;
+	}
+}
+
+/* Vertical bullet */
+.kata-plus-content-slider.vertical-bullet .owl-dots:not(.disabled) {
+	display: inline-grid;
+}
+
+.kata-plus-content-slider.vertical-bullet .owl-dot {
+	margin-bottom: 10px;
+}
+
+/* fix rtl issue */
+.rtl .kata-owl {
+	direction: ltr;
+}

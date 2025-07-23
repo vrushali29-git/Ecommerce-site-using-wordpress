@@ -1,0 +1,67 @@
+.kata-plus-recipes .kata-recipes-item {
+    display: inline-block;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.kata-recipes-title-box {
+    margin-bottom: 40px;
+}
+
+.kata-recipes-title,
+.recipes-terms-name {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.kata-plus-recipes .recipes-terms-name {
+    color: #ff2c2c;
+}
+
+.kata-plus-recipes .recipes-title-icon {
+    font-size: 12px;
+    color: #a4afb7;
+    margin: 0 5px;
+}
+
+.kata-plus-recipes .recipes-title {
+    font-size: 25px;
+    line-height: 1.4;
+    display: block;
+    color: #000000;
+    padding-bottom: 15px;
+}
+
+.kata-plus-recipes .recipes-cat ul {
+    margin-left: 0;
+}
+
+.kata-plus-recipes .recipes-cat .terms-item {
+    display: inline-block;
+}
+
+.kata-plus-recipes .recipes-det {
+    padding: 30px 35px 0;
+}
+
+.kata-plus-recipes .recipes-cat .terms-item {
+    color: #ff2c2c;
+    background: #ffe6e6;
+    padding: 8px 18px;
+    border-radius: 50px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.kata-plus-recipes .recipes-cat .terms-item a {
+    color: inherit;
+}
+
+.kata-plus-recipes .kata-recipes-item-1 img,
+.kata-plus-recipes .kata-recipes-item-2 img {
+    width: 100%;
+}

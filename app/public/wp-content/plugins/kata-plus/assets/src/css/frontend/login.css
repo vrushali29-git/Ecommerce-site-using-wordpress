@@ -1,0 +1,241 @@
+.kt-login-open-as.modal .kata-login-wrap {
+	background: #ebeef3;
+	border-radius: 6px;
+	max-width: 360px;
+	margin: 0 auto;
+	box-shadow: 0 0 40px rgba(0, 0, 0, 0.36);
+}
+
+.kt-login-open-as.modal .kata-login-wrap form {
+	margin: 0;
+}
+
+.kata-login label {
+	display: inline-block;
+	font-size: 14px;
+	margin-bottom: 10px;
+	font-weight: 400;
+	letter-spacing: 0.5px;
+}
+
+.kata-login input[type="text"],
+.kata-login input[type="password"] {
+	border: 1px solid #f1f1f1;
+	color: #a0a0a0;
+	padding: 14px 10px;
+	font-size: 13px;
+	font-weight: 400;
+	max-width: 400px;
+	width: 100%;
+	border-radius: 2px;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.02);
+}
+
+.kt-login-open-as.modal .kata-login input[type="text"],
+.kt-login-open-as.modal .kata-login input[type="password"] {
+	width: 100%;
+}
+
+.kata-login input[type="text"]:focus,
+.kata-login input[type="password"]:focus {
+	outline: 0;
+}
+
+.kata-login input[type="submit"],
+.kata-login .register_button {
+	color: #fff;
+	background-color: #000;
+	border: none;
+	padding: 14px;
+	border-radius: 3px;
+	margin-top: 4px;
+	min-width: 140px;
+	text-align: center;
+	cursor: pointer;
+	transition: background 0.3s ease;
+	-webkit-transition: background 0.3s ease;
+	margin-top: 0;
+	height: auto;
+}
+
+.kata-login .wrap-input {
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.kata-login a.lost {
+	float: right;
+	margin-top: 20px;
+	font-size: 13px;
+	color: #6f7379;
+	text-decoration: none;
+}
+
+.kata-login a.lost:hover {
+	text-decoration: underline;
+}
+
+.kata-plus-live-login .status {
+	padding: 14px 15px 15px;
+	margin-bottom: 20px;
+	border-radius: 3px;
+	opacity: 0;
+	transition: opacity 0.3s ease;
+	-webkit-transition: opacity 0.3s ease;
+}
+
+.kata-plus-live-login .status.loading {
+	background: #f1f1f1;
+	color: #828282;
+	opacity: 1;
+}
+
+.kata-plus-live-login .status.success {
+	background: rgba(0, 220, 23, 0.1803921568627451);
+	color: #008626;
+	opacity: 1;
+}
+
+.kata-plus-live-login .status.wrong {
+	background: rgba(220, 0, 0, 0.1803921568627451);
+	color: #860000;
+	opacity: 1;
+}
+
+.kata-login-wrap {
+	border: 1px solid #e0e5eb;
+	box-shadow: 0 2px 5px #00000005;
+	border-radius: 6px;
+}
+
+.kata-login-wrap .login-cnt {
+	padding: 30px;
+	padding-right: 10px;
+}
+
+.kata-login-wrap .avatar {
+	float: left;
+	margin-right: 8px;
+}
+
+:dir(rtl) {
+	.kata-login-wrap .avatar {
+		float: right;
+		margin-left: 8px;
+		margin-right: 0;
+	}
+}
+
+.kata-login-wrap .avatar img {
+	border-radius: 50%;
+	width: 64px;
+}
+
+.kata-login-wrap .login-btns {
+	overflow: hidden;
+	margin-bottom: 20;
+}
+
+.kata-login-wrap .user-name {
+	text-transform: capitalize;
+	font-size: 16px;
+	color: #1d2834;
+	font-weight: 500;
+	margin-bottom: 0;
+	line-height: 1.9;
+}
+
+.kata-login-wrap .user-email {
+	text-transform: lowercase;
+	font-size: 13px;
+	color: #959ca7;
+	letter-spacing: 0.26px;
+	margin-bottom: 9px;
+	line-height: 1.4;
+}
+
+.kata-login-wrap .profile {
+	color: #0f8cec;
+	font-size: 13px;
+	letter-spacing: 0.26px;
+	text-transform: capitalize;
+}
+
+.kata-login-wrap .logout {
+	background: #f7f8f9;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	text-align: center;
+}
+
+.kata-login-wrap .logout a {
+	color: #5f6975;
+	font-size: 13px;
+	letter-spacing: 0.65px;
+	width: 100%;
+	padding: 15px;
+	display: inline-block;
+}
+
+.kata-login-wrap .logout a i.kata-icon {
+	vertical-align: middle;
+	margin-right: 5px;
+	fill: #5f6975;
+}
+
+.kt-login-open-as.modal .kt-login-overlay,
+.kt-login-open-as.modal .kt-login-wrapper {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 99999;
+}
+
+.kt-login-open-as .kt-login-wrapper .kata-login-wrap {
+	display: none;
+}
+
+.kt-login-open-as .kt-toggle-wrapper {
+	cursor: pointer;
+}
+
+.kt-login-open-as.modal .kt-close-overlay {
+	position: fixed;
+	top: 49px;
+	right: 40px;
+	z-index: 999999;
+}
+
+.kt-login-open-as.modal .kt-close-overlay .kt-close-login-modal i {
+	fill: #fff;
+	width: 30px;
+	height: 30px;
+	transition: all 0.22s ease;
+}
+
+.kt-login-open-as.modal .kt-close-overlay .kt-close-login-modal:hover i {
+	fill: #f98d8d;
+}
+
+.kt-login-open-as.modal .kt-login-overlay {
+	background: rgba(0, 0, 0, 0.7);
+	height: 100%;
+}
+
+.kt-login-open-as.modal .kt-login-wrapper {
+	z-index: 999999;
+	width: 100%;
+	max-width: 90%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+}
+
+.kata-login-wrap.kata-plus-content-toggle-content-wrap {
+	display: none;
+	position: absolute;
+	min-width: 310px;
+	z-index: 9999;
+}

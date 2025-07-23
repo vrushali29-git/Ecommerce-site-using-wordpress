@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.629" y1="0.662" x2="0.149" y2="0.371" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f27a3c"/>
+      <stop offset="1" stop-color="#ffbe6a"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1859" data-name="Rectangle 1859" width="16" height="16" transform="translate(855 762.622)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="kata-templates-icon" transform="translate(-860 -766)">
+    <circle id="Ellipse_602" data-name="Ellipse 602" cx="18" cy="18" r="18" transform="translate(860 766)" fill="url(#linear-gradient)"/>
+    <g id="Mask_Group_3" data-name="Mask Group 3" transform="translate(15 13.378)" clip-path="url(#clip-path)">
+      <g id="open-file-button" transform="translate(855 764.522)">
+        <path id="Path_5045" data-name="Path 5045" d="M16.071,8.05a.9.9,0,0,0-.705-.338h-.9a.9.9,0,0,0-.9-.9h-.9V5.9a.9.9,0,0,0-.9-.9H.9a.9.9,0,0,0-.9.9V16.75a.9.9,0,0,0,.9.9H13.558a.9.9,0,0,0,.882-.708l1.808-8.135A.9.9,0,0,0,16.071,8.05ZM.9,5.9H11.75v.9h-.9a.9.9,0,0,0-.9.9H4.519a.9.9,0,0,0-.882.708S1.808,16.685,1.808,16.75H.9V5.9Z" transform="translate(0 -5)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

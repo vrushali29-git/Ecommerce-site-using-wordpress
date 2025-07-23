@@ -1,0 +1,11 @@
+.kata-input-media-upload-wrapper {
+    margin: 1em 0;
+}
+
+.kata-preview-media-upload {
+    margin: 0.6em 0;
+}
+
+.kata-preview-media-upload img {
+    max-width: 100%;
+}

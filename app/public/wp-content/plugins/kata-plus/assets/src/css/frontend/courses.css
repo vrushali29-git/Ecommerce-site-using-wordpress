@@ -1,0 +1,109 @@
+/* Courses
+-------------------------------------------------- */
+
+@media (min-width: 769px) {
+    .kata-plus-course-wrap .course-columns-1 {
+        width: 100%;
+    }
+
+    .kata-plus-course-wrap .course-columns-2 {
+        max-width: calc(50% - 15px);
+    }
+
+    .kata-plus-course-wrap .course-columns-3 {
+        max-width: calc(33% - 15px);
+
+    }
+
+    .kata-plus-course-wrap .course-columns-4 {
+        max-width: calc(25% - 15px);
+
+    }
+
+    .kata-plus-course-wrap .course-columns-5 {
+        max-width: calc(20% - 15px);
+
+    }
+
+    .kata-plus-course-wrap .course-columns-6 {
+        max-width: calc(16% - 15px);
+
+    }
+}
+
+@media (max-width: 768px) {
+    .kata-plus-course-wrap .course-columns-t-1 {
+        width: 100%;
+    }
+
+    .kata-plus-course-wrap .course-columns-t-2 {
+        max-width: calc(50% - 15px);
+    }
+
+    .kata-plus-course-wrap .course-columns-t-3 {
+        max-width: calc(33% - 15px);
+    }
+
+    .kata-plus-course-wrap .course-columns-t-4 {
+        max-width: calc(25% - 15px);
+    }
+
+    .kata-plus-course-wrap .course-columns-t-5 {
+        max-width: calc(20% - 15px);
+    }
+
+    .kata-plus-course-wrap .course-columns-t-6 {
+        max-width: calc(16% - 15px);
+    }
+}
+
+@media (max-width: 480px) {
+    .kata-plus-course-wrap .course-columns-m-1 {
+        width: 100%;
+        max-width: none;
+    }
+
+    .kata-plus-course-wrap .course-columns-m-2 {
+        max-width: calc(50% - 15px);
+    }
+
+    .kata-plus-course-wrap .course-columns-m-3 {
+        max-width: calc(33% - 15px);
+    }
+
+    .kata-plus-course-wrap .course-columns-m-4 {
+        max-width: calc(25% - 15px);
+    }
+
+    .kata-plus-course-wrap .course-columns-m-5 {
+        max-width: calc(20% - 15px);
+    }
+
+    .kata-plus-course-wrap .course-columns-m-6 {
+        max-width: calc(16% - 15px);
+    }
+}
+
+.kata-course-pagination .page-numbers {
+    display: inline-block;
+}
+
+.kata-course-pagination span,
+.kata-course-pagination a {
+    color: #000;
+    padding: 3px 10px;
+    border-radius: 3px;
+    font-size: 17px;
+}
+
+.kata-course-pagination span:hover,
+.kata-course-pagination a:hover {
+    background: #000;
+    color: #fff;
+}
+
+.kata-course-pagination span.current {
+    background: #000;
+    color: #fff;
+    display: inline-block;
+}

@@ -1,0 +1,251 @@
+/* Comments
+-------------------------------------------------- */
+.kata-comments-area {
+	margin-top: 150px;
+}
+
+.kata-comments-area .comment-respond {
+	max-width: 510px;
+	margin: 0 auto;
+}
+
+.kata-comments-area textarea {
+	padding: 17px 15px;
+	margin-bottom: 28px;
+}
+
+.kata-comments-area .comment-reply-title {
+	color: #070809;
+	font-size: 42px;
+	font-weight: 400;
+}
+
+.kata-comments-area textarea,
+.kata-comments-area input[type="text"],
+.kata-comments-area input[type="email"] {
+	border: 1px solid #e5e6e8;
+	border-radius: 5px;
+}
+
+.kata-comments-area p {
+	position: relative;
+}
+
+.kata-comments-area label {
+	color: #929394;
+	font-size: 14px;
+	font-weight: 400;
+	display: inline-block;
+}
+
+.kata-comments-area a:hover {
+	text-decoration: underline;
+}
+
+.kata-comments-area input[type="text"],
+.kata-comments-area input[type="email"] {
+	padding: 17px 15px;
+}
+
+.kata-comments-area .comment-form-comment label,
+.kata-comments-area .comment-form-url label {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+}
+
+.kata-comments-area .comment-form-author,
+.kata-comments-area .comment-form-email {
+	width: 46%;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.kata-comments-area .comment-form-email {
+	float: right;
+}
+
+.kata-comments-area input[type="submit"] {
+	font-size: 16px;
+	background: #000000;
+	border: none;
+	color: #fff;
+	border-radius: 5px;
+	padding: 20px 23px;
+	letter-spacing: 1.5px;
+	box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+#cancel-comment-reply-link {
+	padding: 5px 8px 6px;
+	font-size: 12px !important;
+	text-transform: uppercase;
+	letter-spacing: 0;
+	background: #000000;
+	box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+	color: #fff;
+	transition: all 0.3s ease;
+}
+
+.kata-comments-area input[type="submit"]:hover,
+#cancel-comment-reply-link:hover {
+	background: #fff;
+	color: #000;
+}
+
+.kata-comments-area .form-submit {
+	margin-bottom: 50px;
+}
+
+.kata-comments-area .comment-form-cookies-consent label {
+	display: inline-block;
+}
+
+.kata-comments-area .kata-comments-title {
+	color: #070809;
+	font-size: 17px;
+	font-weight: 400;
+	margin-bottom: 40px;
+}
+
+.kata-comments-area .kata-comment-list li {
+	list-style: none;
+}
+
+.kata-comments-area .comment-author.vcard .fn,
+.kata-comments-area .says {
+	vertical-align: top;
+}
+
+.kata-comments-area .comment-author .fn a {
+	color: #070809;
+	font-size: 17px;
+	margin-right: 15px;
+	text-transform: capitalize;
+}
+
+.kata-comments-area .says {
+	color: #929394;
+	font-size: 14px;
+}
+
+.kata-comments-area .says {
+	color: #929394;
+	font-size: 14px;
+	display: inline-block;
+	margin-top: 2px;
+}
+
+.kata-comments-area .comment-meta {
+	position: relative;
+}
+
+.kata-comments-area .comment-metadata,
+.kata-comments-area .comment-author.vcard {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.kata-comments-area .comment-metadata a {
+	color: #929394;
+	font-size: 12px;
+}
+
+.kata-comments-area .children {
+	margin-left: 80px;
+}
+
+.kata-comments-area .comment-author.vcard img {
+	margin-right: 18px;
+	border-radius: 5px;
+}
+
+.kata-comments-area .comment-content {
+	margin-left: 105px;
+	margin-top: -40px;
+}
+
+.kata-comments-area .comment-awaiting-moderation {
+	display: block;
+	margin-left: 105px;
+	color: #fff;
+	position: absolute;
+	top: 24px;
+	left: -1px;
+	font-size: 13px;
+	background: black;
+	line-height: 1.6;
+	padding: 0 7px;
+	border-radius: 3px;
+}
+
+.kata-comments-area .reply {
+	margin-left: 125px;
+	position: relative;
+}
+
+.kata-comments-area img.avatar.avatar-32.photo {
+	margin-right: 20px;
+}
+
+.kata-comments-area .reply a {
+	color: #070809;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.kata-comments-area article.comment-body {
+	margin-top: 60px;
+}
+
+.kata-comments-area .reply:before {
+	position: absolute;
+	content: url(../../images/frontend/reply.svg);
+	left: -20px;
+	top: 3px;
+}
+
+.kata-comments-area span.label-wrap {
+	position: absolute;
+	left: 15px;
+	top: 10px;
+}
+
+@media (max-width: 768px) {
+	.kata-comments-area .comment-content {
+		margin: 0;
+	}
+
+	.kata-comments-area .comment-author.vcard img {
+		margin-bottom: 20px;
+	}
+
+	.kata-comments-area .comment-author.vcard .fn,
+	.kata-comments-area .says {
+		display: block;
+	}
+
+	.kata-comments-area .children {
+		margin-left: 20px;
+		margin-top: 0;
+	}
+
+	.kata-comments-area .reply {
+		margin-left: 18px;
+	}
+
+	.kata-comments-area .comment-reply-title small {
+		display: block;
+	}
+
+	.kata-comments-area {
+		width: 95%;
+	}
+
+	.kata-comments-area .kata-comments-title {
+		font-size: 24px;
+	}
+}

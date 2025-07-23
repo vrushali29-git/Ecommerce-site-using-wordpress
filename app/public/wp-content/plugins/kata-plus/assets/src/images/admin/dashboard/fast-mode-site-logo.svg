@@ -1,0 +1,11 @@
+<svg id="Component_2_1" data-name="Component 2 – 1" xmlns="http://www.w3.org/2000/svg" width="150" height="191" viewBox="0 0 150 191">
+  <rect id="Rectangle_199" data-name="Rectangle 199" width="150" height="150" rx="2" fill="#e4e9ee"/>
+  <g id="Path_18" data-name="Path 18" transform="translate(55 55)" fill="#e4e9ee">
+    <path d="M 20 50 C 3.457938432693481 50 -10 36.54206085205078 -10 20 C -10 3.457938432693481 3.457938432693481 -10 20 -10 C 36.54206085205078 -10 50 3.457938432693481 50 20 C 50 36.54206085205078 36.54206085205078 50 20 50 Z" stroke="none"/>
+    <path d="M 20 0 C 8.954299926757813 0 0 8.954299926757813 0 20 C 0 31.04570007324219 8.954299926757813 40 20 40 C 31.04570007324219 40 40 31.04570007324219 40 20 C 40 8.954299926757813 31.04570007324219 0 20 0 M 20 -20 C 42.05607604980469 -20 60 -2.056076049804688 60 20 C 60 42.05607604980469 42.05607604980469 60 20 60 C -2.056076049804688 60 -20 42.05607604980469 -20 20 C -20 -2.056076049804688 -2.056076049804688 -20 20 -20 Z" stroke="none" fill="#c8d1dc"/>
+  </g>
+  <g id="Change_Button" data-name="Change Button" transform="translate(-549 -171)">
+    <rect id="Rectangle_200" data-name="Rectangle 200" width="150" height="36" rx="2" transform="translate(549 326)" fill="#ccf8ff"/>
+    <text id="Change" transform="translate(602 350)" fill="#00d6f9" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Change</tspan></text>
+  </g>
+</svg>

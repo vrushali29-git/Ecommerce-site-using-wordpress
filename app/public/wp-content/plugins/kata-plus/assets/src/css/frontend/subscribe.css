@@ -1,0 +1,43 @@
+.kata-subscribe {
+	position: relative;
+}
+
+.kata-subscribe input[type="email"] {
+	border: none;
+	display: block;
+	border-radius: 3px;
+	width: 100%;
+	padding: 20px 40px;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.04);
+	border: 1px solid #eee;
+}
+
+.kata-subscribe input[type="email"]:focus {
+	outline: none;
+}
+
+.kata-subscribe .kt-submit-sub {
+	border: none;
+	border-radius: 3px;
+	padding: 0 20px;
+	color: #fff;
+	height: 45px;
+	position: absolute;
+	top: calc(50% - 22px);
+	right: 7px;
+	cursor: pointer;
+}
+
+.kata-subscribe i.kata-icon {
+	display: inline-block;
+	text-align: center;
+	vertical-align: text-top;
+	fill: #fff;
+}
+
+:dir(rtl) {
+	.kata-subscribe .kt-submit-sub {
+		left: 14px;
+		right: auto;
+	}
+}

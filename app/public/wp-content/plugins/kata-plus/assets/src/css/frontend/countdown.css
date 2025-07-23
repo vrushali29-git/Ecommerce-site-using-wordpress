@@ -1,0 +1,10 @@
+.kata-countdown .countdown-h {
+	font-size: 30px;
+	margin: 10px;
+}
+:dir(rtl) {
+	.kata-countdown {
+		direction: ltr;
+		text-align: right;
+	}
+}

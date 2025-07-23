@@ -1,0 +1,81 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "shop-press/product-collection",
+  "version": "1.0.0",
+  "title": "Product Collection",
+  "category": "sp_general",
+  "description": "",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "shop-press",
+  "editorScript": "file:./index.js",
+  "render": "file:./render.php",
+  "attributes": {
+    "collection": {
+      "type": "string",
+      "default": "sp-recent-products"
+    },
+    "template_id": {
+      "type": "string"
+    },
+    "limit": {
+      "type": "number",
+      "default": 8
+    },
+    "columns": {
+      "type": "number",
+      "default": 4
+    },
+    "orderby": {
+      "type": "string"
+    },
+    "order": {
+      "type": "string"
+    },
+    "ids": {
+      "type": "string"
+    },
+    "skus": {
+      "type": "string"
+    },
+    "cat_operator": {
+      "type": "string",
+      "default": "IN"
+    },
+    "category": {
+      "type": "array"
+    },
+    "tag_operator": {
+      "type": "string",
+      "default": "IN"
+    },
+    "tag": {
+      "type": "array"
+    },
+    "carousel": {
+      "type": "boolean"
+    },
+    "carousel_columns": {
+      "type": "number",
+      "default": 4
+    },
+    "slide_speed": {
+      "type": "number",
+      "default": 500
+    },
+    "show_controls": {
+      "type": "boolean",
+      "default": true
+    },
+    "autoplay": {
+      "type": "boolean",
+      "default": false
+    },
+    "carousel_loop": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "shop-press/loop-add-to-cart",
+  "version": "1.0.0",
+  "title": "Loop Add to cart",
+  "category": "sp_woo_loop",
+  "description": "",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "shop-press",
+  "editorScript": "file:./index.js",
+  "render": "file:./render.php",
+  "attributes": {
+    "overlay": {
+      "type": "boolean",
+      "default": false
+    },
+    "icon": {
+      "type": "object"
+    },
+    "icon_position": {
+      "type": "string",
+      "default": ""
+    },
+    "wrapperID": {
+      "type": "string",
+      "default": ""
+    },
+    "styler": {
+      "type": "string",
+      "default": "{}"
+    }
+  }
+}

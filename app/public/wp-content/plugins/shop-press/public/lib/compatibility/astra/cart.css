@@ -1,0 +1,7 @@
+@media only screen and (min-width: 922px) {
+    .woocommerce-cart #ast-cart-wrapper .ast-cart-non-sticky,
+    .woocommerce-cart #ast-cart-wrapper .cart-collaterals{
+        width: 100%;
+    }
+
+}

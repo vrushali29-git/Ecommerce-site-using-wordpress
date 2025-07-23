@@ -1,0 +1,141 @@
+.kata-plus-video-player {
+	position: relative;
+}
+
+.kata-plus-video-player.kata-vp-lst .kata-vp-conent,
+.kata-plus-video-player.kata-vp-lst .kata-vp-conent .iconwrap,
+.kata-plus-video-player.kata-vp-lst
+	.kata-vp-conent
+	.kata-video-btn-content-wrap {
+	display: inline-block;
+}
+
+.kata-plus-video-player .kata-vp-conent .iconwrap {
+	padding: 20px;
+	line-height: 1;
+	display: inline-block;
+}
+
+.kata-plus-video-player .kata-vp-conent .iconwrap i {
+	width: 18px;
+	height: 18px;
+	fill: #333;
+	display: inline-block;
+	vertical-align: middle;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+}
+
+.kata-plus-video-player .kata-vp-conent:hover .iconwrap i {
+	transform: scale(1.2, 1.2);
+}
+
+.kata-plus-video-player .kata-vp-conent {
+	overflow: hidden;
+	position: absolute;
+	border-radius: 50%;
+}
+
+.kata-plus-video-player .kata-vp-conent .kata-video-btn-content-wrap {
+	color: #fff;
+	padding: 0 16px;
+	font-size: 25px;
+	font-weight: 500;
+	display: inline-block;
+	vertical-align: middle;
+	text-transform: uppercase;
+}
+
+.kata-plus-video-player .kata-video-btn-content-wrap span {
+	display: inline-block;
+	font-size: 16px;
+	font-weight: normal;
+	text-transform: capitalize;
+}
+
+.kata-plus-video-player.kata-vp-grd .kata-vp-conent,
+.kata-plus-video-player.kata-vp-grd .kata-vp-conent .iconwrap,
+.kata-plus-video-player.kata-vp-grd
+	.kata-vp-conent
+	.kata-video-btn-content-wrap {
+	display: block;
+	text-align: center;
+}
+
+.kata-plus-video-player iframe {
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	position: absolute;
+}
+
+.kata-plus-video-player > a {
+	display: inline-block;
+}
+
+.close_inline_video {
+	top: 73px;
+	opacity: 0;
+	right: 30px;
+	width: 22px;
+	height: 22px;
+	z-index: 9999;
+	font-size: 12px;
+	cursor: pointer;
+	border-radius: 50%;
+	position: absolute;
+	text-align: center;
+	display: inline-block;
+	transition: opacity 0.3s ease;
+	background: rgba(255, 255, 255, 0.8);
+	line-height: 1.8;
+	font-style: normal;
+}
+
+.close_inline_video:before {
+	line-height: 23px;
+	vertical-align: middle;
+}
+
+.kata-plus-video-player:hover .close_inline_video {
+	opacity: 1;
+}
+
+.vp-center {
+	height: auto;
+}
+
+.kata-plus-video-player[data-video-type="vimeo"] .close_inline_video {
+	top: 161px;
+	right: 10px;
+	color: #fff;
+	width: 35px;
+	height: 35px;
+	font-size: 20px;
+	padding-top: 5px;
+	border-radius: 5px;
+	background: rgba(23, 35, 34, 0.75);
+}
+
+.kata-plus-video-player .kata-video-btn-content-wrap h5 {
+	color: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	font-weight: inherit;
+}
+
+.kata-plus-video-player.no-background .kata-vp-conent {
+	position: relative;
+}
+
+.kata-plus-video-player .video-badge {
+	position: absolute;
+	right: 20px;
+	background: var(--ct-color-primary);
+	color: #ffffff;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 14px;
+	top: -15px;
+}

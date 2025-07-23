@@ -1,0 +1,2467 @@
+/**
+ * Kata Font Manager styles.
+ *
+ * @author  ClimaxThemes
+ * @package Kata Plus
+ * @since   1.0.0
+ */
+ .kata-plus-fonts-manager-wrap span.published {
+	font-weight: 600;
+	color: #38af58;
+	font-size: 12px;
+}
+
+.kata-plus-fonts-manager-wrap span.unpublished {
+	font-weight: 600;
+	color: #dd5756;
+	font-size: 11px;
+}
+
+.kata-plus-fonts-manager-wrap .column-source .provider-logo-img {
+	width: auto;
+	height: 18px;
+}
+
+.kata-plus-fonts-manager-wrap .font-preview-iframe {
+	position: relative;
+	line-height: 30px;
+	height: 70px;
+	overflow: hidden;
+	width: 100%;
+	border: none;
+	display: block;
+	vertical-align: middle;
+}
+
+.kata-plus-fonts-manager-wrap .font-family-name {
+	font-weight: 700;
+	color: #474849;
+	padding-left: 8px;
+	font-size: 19px;
+	text-transform: capitalize;
+}
+
+.kata-plus-fonts-manager-wrap table tr td {
+	vertical-align: middle;
+}
+
+.kata-plus-fonts-manager-wrap .preview.column-preview {
+	height: 70px;
+	vertical-align: top;
+	padding-top: 1px;
+}
+
+.kata-plus-fonts-manager-wrap .column-status {
+	position: absolute;
+	right: 10px;
+	bottom: 1px;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-main-table td.column-name {
+	position: absolute;
+	right: 1px;
+	left: 1px;
+	padding: 35px 0 1px 15px !important;
+	box-sizing: border-box;
+	top: 1px;
+	background-color: #ffffff !important;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-main-table th.check-column {
+	display: block !important;
+	position: absolute;
+	right: 0px;
+	width: unset;
+	left: 0px;
+	text-align: left;
+	box-sizing: border-box;
+	bottom: 0px;
+	padding-top: 15px !important;
+	background-color: #f7f8f9 !important;
+	padding-bottom: 5px !important;
+	border-radius: 0 0 3px 3px;
+}
+
+.kata-plus-fonts-manager-wrap .preview.column-preview img {
+	width: 100%;
+	height: 20px;
+	vertical-align: middle;
+}
+
+.kata-plus-fonts-manager-wrap>.dashicons {
+	font-size: 38px;
+	display: inline-block;
+	position: relative;
+	margin-right: 15px;
+}
+
+#notfound {
+	position: relative;
+	height: 100vh;
+}
+
+#notfound .notfound {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.notfound {
+	max-width: 520px;
+	width: 100%;
+	line-height: 1.4;
+	text-align: center;
+}
+
+.notfound .notfound-404 {
+	position: relative;
+	height: 200px;
+	margin: 0px auto 20px;
+	z-index: -1;
+}
+
+.notfound .notfound-404 h1 {
+	font-family: "Montserrat", sans-serif;
+	font-size: 236px;
+	font-weight: 200;
+	margin: 0px;
+	color: #211b19;
+	text-transform: uppercase;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.notfound .notfound-404 h2 {
+	font-family: "Montserrat", sans-serif;
+	font-size: 28px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #211b19;
+	background: #fff;
+	padding: 10px 5px;
+	margin: auto;
+	display: inline-block;
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	right: 0;
+}
+
+.notfound a {
+	font-family: "Montserrat", sans-serif;
+	display: inline-block;
+	font-weight: 700;
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 13px 23px;
+	background: #403cf2;
+	font-size: 18px;
+	-webkit-transition: 0.2s all;
+	transition: 0.2s all;
+}
+
+.notfound a:hover {
+	color: #403cf2;
+	background: #211b19;
+}
+
+@media only screen and (max-width: 767px) {
+	.notfound .notfound-404 h1 {
+		font-size: 148px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.notfound .notfound-404 {
+		height: 148px;
+		margin: 0px auto 10px;
+	}
+
+	.notfound .notfound-404 h1 {
+		font-size: 86px;
+	}
+
+	.notfound .notfound-404 h2 {
+		font-size: 16px;
+	}
+
+	.notfound a {
+		padding: 7px 15px;
+		font-size: 14px;
+	}
+}
+
+.notfound .kata-logo {
+	position: absolute;
+	top: -60%;
+	right: -27%;
+	background-image: url("../../images/admin/kata-logo-white.svg");
+	background-color: #403cf2;
+	border-radius: 4px;
+	width: 120px;
+	background-size: 74px 33px;
+	background-position: center 8px;
+	padding-top: 45px;
+	padding-bottom: 8px;
+	height: auto;
+	margin-right: 45px;
+	margin-top: 31px;
+	font-size: 12px;
+	box-shadow: 0 1px 8px -3px #403cf2;
+	color: #fff;
+	background-repeat: no-repeat;
+}
+
+.kata-plus-fonts-manager-wrap>h1 {
+	vertical-align: middle;
+	display: inline-table !important;
+	padding-left: 10px !important;
+}
+
+.kata-plus-fonts-manager-wrap>h1 span:last-child {
+	color: #4840f2;
+	font-weight: 600;
+}
+
+.kata-plus-fonts-manager-wrap .add-new-h2,
+.kata-plus-fonts-manager-wrap .page-title-action {
+	color: #403cf2 !important;
+	position: relative !important;
+	top: 1px !important;
+	vertical-align: middle;
+	margin-left: 15px !important;
+}
+
+.kata-plus-fonts-manager-wrap .add-new-h2:hover,
+.kata-plus-fonts-manager-wrap .page-title-action:hover {
+	border-color: #403cf2 !important;
+	background: #403cf2 !important;
+	color: #fff !important;
+}
+
+.kata-plus-fonts-manager-add-new-wrap .tablenav {
+	display: none !important;
+}
+
+.ln-letters a {
+	background-color: #fff;
+	display: table-cell;
+	padding: 5px 0;
+	width: 1%;
+	border-bottom: 1px solid #eaebec;
+	border-top: 1px solid #eaebec;
+	font-size: 12px;
+	text-decoration: none;
+	text-align: center;
+	border-left: 1px solid #eaebec;
+	font-weight: initial;
+	color: #707172 !important;
+	font-weight: 700;
+}
+
+.listNav,
+.ln-letters {
+	overflow: hidden;
+	background-color: #fff;
+}
+
+.listNavHide {
+	display: none !important;
+}
+
+.letterCountShow {
+	display: block;
+}
+
+.ln-letters .ln-last {
+	border-right: 1px solid #eaebec;
+}
+
+.ln-letters a:hover,
+.ln-letters .ln-selected {
+	background-color: #ededfe;
+	color: #403cf2 !important;
+}
+
+.ln-letters .ln-disabled {
+	display: none;
+}
+
+.ln-letter-count {
+	color: #336699;
+	font-size: 0.8em;
+	left: 0;
+	line-height: 1.35;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	width: 20px;
+}
+
+#kata-plus-fonts-manager-add-font-table.list .font-box {
+	width: 100% !important;
+}
+
+#kata-plus-fonts-manager-add-font-table .search-result {
+	display: none;
+}
+
+#kata-plus-fonts-manager-add-font-table li {
+	position: relative;
+	padding: 10px 15px;
+	border-bottom: 1px solid rgba(239, 239, 239, 0.7);
+	transition: all 150ms ease-in-out;
+	background-color: #fff;
+	margin: 0;
+	display: block;
+	color: #555;
+	text-decoration: none;
+}
+
+#kata-plus-fonts-manager-add-font-table {
+	position: relative;
+	display: block;
+	height: auto;
+	background-color: #fff;
+	padding: 0;
+}
+
+#kata-plus-fonts-manager-add-font-table .meta-box-sortables {
+	margin: 0;
+}
+
+.kata-plus-fonts-manager-add-new-google-wrap .col.col-10 {
+	width: 64% !important;
+	margin: 0;
+	height: 40px;
+	display: block !important;
+	vertical-align: top;
+	padding-top: 6px;
+}
+
+.col.col-9 {
+	width: 90% !important;
+	display: inline-block !important;
+	vertical-align: top;
+	position: relative;
+}
+
+.col.col-8 {
+	width: 80% !important;
+	display: inline-block !important;
+	vertical-align: top;
+	position: relative;
+}
+
+.col.col-1 {
+	width: 10% !important;
+	display: inline-block !important;
+	vertical-align: top;
+	position: relative;
+}
+
+.col.col-2 {
+	width: 20% !important;
+	display: inline-block !important;
+	vertical-align: top;
+	position: relative;
+}
+
+.col.col-7 {
+	width: 64% !important;
+	margin: 0 3% 3% 0;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.col.col-3 {
+	width: 27% !important;
+	margin: 0 3% 0 0;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.col.col-4 {
+	width: 36%;
+	margin: 0 3% 0 0;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.col.col-5 {
+	width: 47%;
+	margin: 0 3% 0 0;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.kata-plus-fonts-manager-wrap {
+	margin: 0;
+	direction: ltr;
+}
+
+.kata-plus-fonts-manager-font-family {
+	width: 100%;
+	margin-bottom: 0;
+	margin-top: 18px;
+	border-radius: 2px;
+}
+
+.kata-plus-fonts-manager-font-family .title {
+	color: #606162;
+	white-space: nowrap;
+	font-weight: 600;
+	font-size: 12px;
+	letter-spacing: 0.2px;
+	display: block;
+	padding: 10px 15px 10px;
+	line-height: 1;
+}
+
+.kata-plus-fonts-manager-font-family .name {
+	width: 100%;
+	white-space: nowrap;
+	font-weight: 600;
+	font-size: 18px;
+	padding: 1px 15px 15px;
+	line-height: 1;
+	display: block;
+	color: #403cf2;
+}
+
+.kata-plus-fonts-manager-add-new-google-wrap #poststuff {
+	min-width: 100% !important;
+}
+
+.kata-plus-fonts-manager-add-new-google-wrap #poststuff #live_preview_content iframe {
+	position: relative;
+	display: block;
+	width: 100%;
+}
+
+.kata-plus-fonts-manager-wrap .row {
+	margin-bottom: 0;
+	width: 100%;
+	display: table;
+	position: relative;
+}
+
+.kata-plus-fonts-manager-wrap .row .col {
+	width: 50%;
+	display: table-cell;
+}
+
+.kata-plus-fonts-manager-wrap .block-label {
+	display: block !important;
+	position: relative;
+	width: 100%;
+}
+
+.kata-plus-fonts-manager-wrap .table {
+	display: table;
+}
+
+#post-body-content>div>.table.row {
+	background-color: #f6faf6;
+	padding: 25px 15px 20px 30px;
+	border-radius: 15px;
+	margin: 40px 20px 10px -10px;
+}
+
+.kata-plus-fonts-manager-wrap .table>* {
+	display: table-cell;
+	vertical-align: top;
+}
+
+.postbox-container {
+	margin: 0 -10px;
+	float: none;
+}
+
+.kata-plus-fonts-manager-wrap .postbox {
+	border: 1px solid #e3e4e5;
+	border-radius: 11px;
+	overflow: hidden;
+	margin: 0 10px 15px;
+	box-shadow: 0 1px 2px 0px rgb(0 0 0 / 2%);
+}
+
+#post-body-content>div>.table.row .postbox {
+	border: 1px solid #cedecf;
+	overflow: hidden;
+	min-height: 191px;
+}
+
+#post-body-content>div>.table.row #poststuff {
+	width: 33.3%;
+}
+
+@media only screen and (max-width: 992px) {
+	#post-body-content div .table.row #poststuff {
+		width: 100%;
+		display: block;
+	}
+}
+
+.kata-plus-fonts-manager-wrap .postbox input,
+.kata-plus-fonts-manager-wrap .postbox select,
+.kata-plus-fonts-manager-wrap .postbox textarea {
+	margin: 5px 7px 5px 0;
+}
+
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap .postbox input[type="checkbox"] {
+	margin-right: 3px;
+	margin-top: 3px;
+}
+
+.kata-plus-fonts-manager-wrap #poststuff .stuffbox>h3,
+.kata-plus-fonts-manager-wrap #poststuff h2,
+.kata-plus-fonts-manager-wrap #poststuff h3.hndle {
+	font-size: 13px;
+	color: #606162;
+	letter-spacing: 0.2px;
+	padding: 15px 20px 0;
+	background-color: transparent;
+}
+
+#post-body-content>div>.table.row h3.hndle {
+	color: #308135;
+}
+
+#post-body-content>div>.table.row .inside p,
+#post-body-content>div>.table.row .inside span:not(.dashicons) {
+	color: #577058;
+	font-size: 12px;
+}
+
+.kata-plus-fonts-manager-add-new-google-wrap #poststuff h3.hndle {
+	padding: 5px 11px 0;
+	font-size: 12px;
+	background-color: transparent;
+}
+
+.kata-plus-fonts-manager-wrap .postbox .handlediv {
+	display: none !important;
+}
+
+.kata-plus-fonts-manager-add-new-google-wrap .postbox .handlediv {
+	margin: 0;
+}
+
+.kata-plus-fonts-manager-wrap #poststuff .inside {
+	margin-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	position: initial;
+}
+
+.kata-plus-fonts-manager-wrap .inside.has-footer {
+	padding-bottom: 55px;
+}
+
+.kata-plus-fonts-manager-wrap input[type="text"]:focus {
+	border-color: inherit;
+	box-shadow: none;
+}
+
+.kata-plus-fonts-manager-wrap .postbox-container-footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 15px 20px;
+	background-color: #f7f8f9;
+	box-sizing: border-box;
+	height: 40px;
+	margin: 0;
+	font-size: 12px;
+	line-height: 1;
+}
+
+.kata-plus-fonts-manager-wrap .postbox-container-footer .dashicons-clock:before {
+	font-size: 14px;
+	font-family: "themify";
+	content: "\e72b";
+}
+
+.kata-plus-fonts-manager-wrap .postbox-container-footer .dashicons-clock {
+	vertical-align: sub;
+	height: 25px;
+	width: 15px;
+	margin-left: 5px;
+	margin-right: 3px;
+}
+
+.kata-plus-fonts-manager-wrap .postbox-container-footer .font-last-update {
+	font-family: monospace;
+}
+
+.kata-plus-fonts-manager-wrap .postbox-container-footer * {
+	vertical-align: middle;
+}
+
+.kata-plus-fonts-manager-wrap .dashicons {
+	vertical-align: text-top;
+	width: 16px;
+	height: 16px;
+	font-size: 16px;
+	margin-right: 0px;
+}
+
+.kata-plus-fonts-manager-wrap .row .col .remove-selector {
+	color: #bd4848;
+	position: absolute;
+	vertical-align: middle;
+	right: 10px;
+	top: 23px;
+	cursor: pointer;
+}
+
+.kata-plus-fonts-manager-css-selector-row-hidden {
+	display: none;
+}
+
+#live_preview_content .preview-entry img {
+	width: 100%;
+}
+
+#live_preview_content iframe {
+	width: 100%;
+	height: 20px;
+}
+
+.kata-plus-fonts-manager-wrap #poststuff {
+	min-width: unset !important;
+}
+
+.kata-plus-fonts-manager-wrap #poststuff.lastcols {
+	margin-right: -19px;
+}
+
+#dashboard-widgets {
+	margin: 0;
+}
+
+.kata-plus-fonts-manager-wrap .input-group {
+	padding: 3px;
+}
+
+.kata-plus-fonts-manager-wrap .input-group label {
+	display: block;
+	padding: 2px;
+}
+
+.kata-plus-fonts-manager-add-new-font-selector-input.full {
+	width: 100%;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+.kata-plus-fonts-manager-font-family-group {
+	display: block !important;
+	position: relative;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.full {
+	width: 100%;
+}
+
+.kata-plus-fonts-manager-wrap h1.wp-heading-inline {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 5px;
+	width: 100%;
+	border-radius: 2px;
+	margin-top: 30px;
+	text-align: left;
+}
+
+.kata-plus-fonts-manager-wrap h1.wp-heading-inline .dashicons {
+	vertical-align: middle;
+	margin: 0 4px;
+	padding: 0;
+	color: #a39eff;
+	margin-top: 0px;
+	font-size: 12px;
+	height: 14px;
+}
+
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap h2.nav-tab-wrapper {
+	background: #fafbfc;
+	box-shadow: 0 5px 12px -6px rgba(0, 0, 0, 0.04);
+	margin: 10px 0;
+	border-radius: 3px;
+	text-align: center;
+	border: 1px solid #e7e8e9;
+	clear: both;
+}
+
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap h2.nav-tab-wrapper a {
+	padding: 12px 25px 8px;
+	float: none;
+	display: inline-block;
+}
+
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap h2.nav-tab-wrapper .nav-tab-active {
+	border-right-color: #e3e4e5;
+	border-left-color: #e3e4e5;
+}
+
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap h1 {
+	font-size: 12px;
+	font-weight: 400;
+	color: #585f65;
+	margin: 5px 0 15px;
+	padding: 0 2px !important;
+}
+
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap h1 a {
+	color: #585f65;
+}
+
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap h1 a:hover {
+	text-decoration: underline;
+}
+
+.kata-plus-fonts-manager-wrap a.page-title-action,
+.kata-plus-fonts-manager-wrap a.page-title-action:focus,
+.kata-plus-fonts-manager-wrap a.page-title-action:active {
+	margin: 0 1px;
+	padding: 0 20px;
+	outline: none;
+	height: 40px;
+	line-height: 39px;
+	font-size: 13px;
+	font-weight: 500;
+	color: #848b92 !important;
+	border: 1px solid #e1e2e3;
+	border-radius: 7px;
+	background-color: #f7f8f9;
+	float: left;
+	letter-spacing: 0.5px;
+	left: -15px;
+	margin: -20px 0 20px 0px;
+	box-shadow: 0 1px 2px rgb(0 0 0 / 2%);
+	transition: all 0.22s ease;
+}
+
+.kata-plus-fonts-manager-wrap a.page-title-action:hover {
+	text-shadow: none;
+	background-color: #fff !important;
+	color: #403cf2 !important;
+	border-color: #b3b1f5 !important;
+}
+
+.kata-plus-fonts-manager-wrap a.page-title-action:before {
+	font-family: "themify";
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	content: "\e60f";
+	float: left;
+	margin-right: 6px;
+	margin-left: -4px;
+}
+
+.kata-plus-fonts-manager-wrap a.page-title-action:last-of-type {
+	border-color: #d0ceff !important;
+	box-shadow: 0 1px 3px 0px #d0ceff38;
+	background-color: #eaeaff !important;
+	color: #403cf2 !important;
+}
+
+.kata-plus-fonts-manager-wrap a.page-title-action:last-of-type:hover {
+	border-color: #9290fd !important;
+	background-color: #ffffff !important;
+}
+
+.kata-plus-fonts-manager-wrap a.page-title-action:last-of-type:before {
+	content: "\e61a";
+	font-size: 10px;
+	padding: 3px;
+	width: 18px;
+	height: 18px;
+	line-height: 1;
+	border-radius: 33px;
+	border: 1px solid;
+	margin-top: 10px;
+}
+
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap label {
+	font-size: 11px;
+	font-weight: 400;
+	padding-top: 11px;
+}
+
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap input {
+	min-height: 1px;
+	box-shadow: inset 0 1px 2px rgb(0 0 0 / 3%);
+	padding-left: 15px;
+}
+
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap input[type="checkbox"] {
+	width: 20px;
+	height: 20px;
+	border-radius: 3px;
+	min-height: 20px;
+	box-shadow: inset 1px 1px 2px #00000008;
+}
+
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap input[type="checkbox"]:checked {
+	border-color: #d0ceff;
+	box-shadow: 0 2px 5px 0 #d0ceff26;
+}
+
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap input[type="checkbox"]:checked:before {
+	color: #403cf2 !important;
+	margin: 8px 0 0 0;
+	font-family: "themify";
+	font-size: 16px;
+	content: "\e64c";
+	text-shadow: 0px 1px 4px #403cf230;
+}
+
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap input[type="checkbox"]:focus {
+	border-color: #9e9cff;
+	box-shadow: 0 0 2px #403cf266;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-main-table th.check-column input {
+	float: left;
+	margin-bottom: 10px;
+	margin-right: 5px;
+}
+
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap input[type="radio"] {
+	width: 16px !important;
+	height: 16px;
+	min-width: 16px;
+	vertical-align: sub;
+	border-radius: 50px;
+	margin: auto;
+	margin-right: 5px;
+}
+
+.kata-plus-fonts-manager-wrap input[type="radio"]:checked {
+	background-color: #7673f1;
+	border: none;
+}
+
+.kata-plus-fonts-manager-wrap input[type="radio"]:checked:before {
+	background-color: #fff;
+	width: 6px;
+	height: 6px;
+	margin: 5px;
+}
+
+.kata-plus-fonts-manager-wrap input[type="checkbox"]:checked:before {
+	color: #403cf2;
+}
+
+.kata-plus-fonts-manager-wrap input[type="checkbox"]:focus {
+	border-color: #9e9cff;
+	box-shadow: 0 0 2px rgba(64, 60, 242, 0.4);
+}
+
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap select,
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap .button {
+	font-size: 12px;
+	font-weight: 500;
+	color: #727374;
+	min-width: 140px;
+}
+
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap select[name="font_status"] {
+	margin-top: 20px;
+}
+
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap .button {
+	min-width: 10px;
+	min-height: 32px;
+	line-height: 30px;
+	width: auto;
+	padding: 0 15px;
+	margin-right: 5px;
+	letter-spacing: 0.3px;
+	border-radius: 7px;
+	border-color: #d5dadf;
+	background: #f7f8f9;
+	box-shadow: 0 1px 3px 0 rgb(0 0 0 / 2%);
+	text-shadow: 1px 1px 0 #fff;
+	transition: all 0.22s;
+}
+
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap .button:hover {
+	background: #fff;
+	color: #403cf2;
+	border-color: #bebdfb !important;
+}
+
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap .kata-plus-fonts-manager-submit-content {
+	clear: both;
+	min-height: 60px;
+	padding-top: 10px;
+	padding-right: 18px;
+}
+
+.kata-admin.about-wrap .kata-plus-fonts-manager-add-new-google-wrap .col-3 .kata-plus-fonts-manager-submit-content {
+	padding-right: 0;
+}
+
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap .kata-plus-fonts-manager-submit-content .button {
+	align-content: normal;
+	border: none !important;
+	box-shadow: none;
+	background: #4ac75a;
+	width: 220px;
+	color: #fff;
+	text-shadow: none;
+	padding: 0 20px;
+	outline: none;
+	height: 48px;
+	line-height: 47px;
+	font-size: 15px;
+	font-weight: 600;
+	margin: 0 auto;
+	display: block;
+}
+
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap .kata-plus-fonts-manager-submit-content .button:hover {
+	background: #43be52;
+	box-shadow: 0 2px 8px -5px #4ac75a;
+}
+
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap .inside input[type="email"],
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap input[type="month"],
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap input[type="number"],
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap input[type="password"],
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap input[type="search"],
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap input[type="tel"],
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap input[type="text"],
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap input[type="time"],
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap input[type="url"] {
+	min-height: 32px;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-main-table {
+	border-radius: 3px;
+	overflow: hidden;
+	margin: 20px 0;
+	box-shadow: unset;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-main-table tbody {
+	border: none !important;
+}
+
+.kata-plus-fonts-manager-wrap .col-7 {
+	padding-left: 30px;
+	padding-top: 25px;
+}
+
+.kata-plus-fonts-manager-add-new-google-wrap .col-7,
+.kata-plus-fonts-manager-add-new-typekit-wrap .col-7,
+.kata-plus-fonts-manager-add-new-custom-font-wrap .col-7 {
+	padding-left: 0;
+	padding-top: 15px;
+	margin: 0 25px 30px 0;
+}
+
+.kata-plus-fonts-manager-add-new-typekit-wrap .col-7,
+.kata-plus-fonts-manager-add-new-custom-font-wrap .col-7 {
+	padding-top: 0;
+}
+
+.kata-plus-fonts-manager-add-new-google-wrap .col-3,
+.kata-plus-fonts-manager-add-new-typekit-wrap .col-3,
+.kata-plus-fonts-manager-add-new-custom-font-wrap .col-3 {
+	margin-right: 0;
+	width: calc(100% - (64% + 30px)) !important;
+}
+
+.kata-plus-fonts-manager-add-new-google-wrap .col-3 {
+	margin-top: 15px;
+	padding: 0px !important;
+}
+
+.kata-plus-fonts-manager-add-new-google-wrap .col-3 .fonts-manager-sticky {
+	background: #fff;
+	border-radius: 11px;
+	border: 1px solid #e7e8e9;
+	padding: 20px 20px 30px;
+	margin: 0 !important;
+	width: 100%;
+	transition: top 0.4s ease-in-out;
+	max-height: calc(100vh - 80px);
+	overflow: hidden;
+	max-width: 333px;
+	height: 600px;
+}
+
+.kata-plus-alphabet-filter {
+	display: inline-block;
+	position: relative;
+	margin-top: -10px;
+	margin-left: -5px;
+	margin-right: 6px;
+}
+
+.prev-list,
+.next-list {
+	padding: 2px 9px;
+	background-color: #ecebfe;
+	margin: 0 !important;
+	margin-left: 10px !important;
+	border-radius: 2px;
+	border: solid 1px #403cf247 !important;
+}
+
+.kata-admin.about-wrap .kata-plus-alphabet-filter select {
+	padding: 6px;
+	height: 26px;
+	min-height: 24px !important;
+	opacity: 0.7;
+	min-width: 60px;
+	line-height: 24px;
+	padding: 0 10px;
+	margin-top: -5px;
+	margin-right: 20px;
+}
+
+.kata-plus-alphabet-filter select:hover {
+	opacity: 1;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-main-table th,
+.kata-plus-fonts-manager-wrap table.kata-font-manager-main-table td.check-column {
+	padding: 3px 6px;
+	font-size: 13px;
+	font-weight: 600;
+	background: #fff;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-main-table td,
+.kata-plus-fonts-manager-wrap table.kata-font-manager-main-table th.check-column {
+	padding: 12px 6px;
+	height: 40px;
+	background: #fafbfc;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-main-table .check-column {
+	width: 38px;
+	text-align: center;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-main-table td .row-actions {
+	padding-left: 8px;
+	position: absolute;
+	left: auto;
+	right: 10px;
+	top: 5px;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-main-table td .row-actions span {
+	font-size: 0px;
+	padding: 0 6px;
+	opacity: 0;
+	transition: all 0.22s ease;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-main-table tr:hover td .row-actions span {
+	opacity: 1;
+}
+
+.kata-plus-fonts-manager-wrap td .row-actions span a:before {
+	content: "\e61d";
+	font-family: "themify";
+	font-size: 17px;
+	display: inline-block;
+	color: #c7cbd2;
+	vertical-align: middle;
+	transition: all 0.23s ease;
+}
+
+.kata-plus-fonts-manager-wrap td .row-actions span a:hover:before {
+	color: #403cf2;
+}
+
+.kata-plus-fonts-manager-wrap td .row-actions span.delete a:before {
+	content: "\e605";
+	font-size: 20px;
+}
+
+.kata-plus-fonts-manager-wrap td .row-actions span.delete a:hover:before {
+	color: #ff6197;
+}
+
+.kata-plus-fonts-manager-wrap .col-7 table.kata-font-manager-main-table thead th {
+	line-height: 22px;
+	padding: 8px 12px;
+	text-align: center;
+}
+
+.kata-plus-fonts-manager-wrap .col-7 table.kata-font-manager-main-table tbody {
+	border: none !important;
+}
+
+.kata-plus-fonts-manager-wrap .col-7 table.kata-font-manager-main-table td {
+	text-align: center;
+	padding: 6px 0;
+}
+
+.kata-plus-fonts-manager-wrap .col-7 table.kata-font-manager-main-table tbody tr:first-child td {
+	padding-top: 18px;
+}
+
+.kata-plus-fonts-manager-wrap .col-7 table.kata-font-manager-main-table tbody tr:last-child td {
+	padding-bottom: 18px;
+}
+
+.kata-plus-fonts-manager-wrap .col-7 table.kata-font-manager-main-table .viewport-column {
+	width: 82px;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap .col-7 table.kata-font-manager-main-table input,
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap .col-7 table.kata-font-manager-main-table select {
+	min-height: 32px;
+	min-width: 40px;
+	width: 90%;
+	margin: 5px;
+	font-size: 12px;
+}
+
+.kata-plus-fonts-manager-wrap .row .col.col-3 p strong {
+	font-weight: 400;
+}
+
+.kata-plus-fonts-manager-wrap .row .col.col-3>strong {
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 54px;
+	color: #404142;
+	display: inline-block;
+}
+
+.kata-plus-fonts-manager-wrap .tablenav .displaying-num {
+	padding: 3px 12px;
+	background: #f3f4f5;
+	border-radius: 20px;
+	font-size: 11px;
+	font-weight: 400;
+	color: #707172;
+	margin-right: 30px;
+}
+
+.kata-plus-fonts-manager-add-new-wrap table.kata-font-manager-main-table tr {
+	height: 36px;
+}
+
+.kata-plus-fonts-manager-add-new-wrap table.kata-font-manager-main-table tbody tr {
+	height: 100px;
+}
+
+.kata-plus-fonts-manager-add-new-wrap table.kata-font-manager-main-table .check-column input[type="radio"] {
+	margin-top: 28px;
+}
+
+.kata-plus-fonts-manager-add-new-google-wrap .postbox-container {
+	margin: 0;
+}
+
+.kata-plus-fonts-manager-add-new-google-wrap .postbox-container .postbox {
+	margin: 0 -20px 20px;
+	border: none;
+	box-shadow: none;
+	background: transparent;
+	border-top: 1px solid #e7e8e9;
+	border-radius: 0;
+	padding: 20px 20px 0;
+	position: relative;
+}
+
+.kata-plus-fonts-manager-add-new-google-wrap .postbox-container .postbox .hndle {
+	font-size: 12px !important;
+	border: none;
+}
+
+.kata-plus-fonts-manager-add-new-google-wrap .postbox-container .postbox label {
+	display: block;
+	margin: 3px 5px 3px 0;
+	text-transform: capitalize;
+}
+
+.kata-admin.about-wrap .kata-plus-fonts-manager-add-new-google-wrap .postbox-container .postbox label input[type="checkbox"] {
+	margin-right: 6px;
+}
+
+#poststuff .postbox-container {
+	width: 100% !important;
+}
+
+.v-m {
+	vertical-align: bottom !important;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+.full-width {
+	width: 100% !important;
+}
+
+input#ln_search_box {
+	width: 100%;
+	width: calc(100% - 1px);
+	margin: 10px 0 0;
+	height: 50px;
+	padding-left: 15px;
+	border-radius: 2px 2px 0 0;
+	border-color: #e1e2e3;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-main-table {
+	overflow: unset;
+	background: #ffffff;
+	border: none;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-main-table td.title.column-title {
+	width: 250px;
+	padding-right: 10px;
+	padding-left: 30px;
+	height: 130px;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-main-table td.column-description {
+	padding-left: 30px;
+	padding-right: 20px;
+	color: #62696f;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-main-table td.column-description strong {
+	font-weight: 700;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-main-table td,
+.kata-plus-fonts-manager-wrap table.kata-font-manager-main-table th,
+.kata-plus-fonts-manager-wrap table.kata-font-manager-main-table tr,
+.kata-plus-fonts-manager-wrap .striped>tbody> :nth-child(odd),
+.kata-plus-fonts-manager-wrap ul.striped> :nth-child(odd) {
+	background: transparent !important;
+}
+
+.kata-plus-fonts-manager-wrap #kata-plus-fonts-manager-add-font-table .font-box {
+	transition: all 0.17s ease;
+	width: calc(50% - 30px);
+	display: inline-block;
+	border: solid 1px #e7e8e9;
+	margin-right: 30px;
+	height: 290px;
+	border-radius: 11px;
+	position: relative;
+	padding: 10px;
+	margin-bottom: 30px;
+	float: left;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-main-table tr {
+	box-shadow: 0 2px 3px rgb(0 0 0 / 1%);
+	transition: all 0.25s ease;
+	width: calc(33.33% - 30px);
+	min-height: 270px;
+	display: inline-block;
+	border: solid 1px #e7e8e9;
+	height: 270px;
+	border-radius: 15px;
+	position: relative;
+	padding: 10px;
+	padding-top: 80px;
+	margin: 15px 30px 15px 0;
+	overflow: hidden;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-main-table tr.no-items {
+	min-height: unset;
+	height: unset;
+	margin-bottom: 0;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-add-new-table tbody tr:hover,
+.kata-plus-fonts-manager-wrap table.kata-font-manager-add-new-table tbody tr.selected-tr,
+.kata-plus-fonts-manager-wrap table.kata-font-manager-main-table tbody tr:hover,
+.kata-plus-fonts-manager-wrap table.kata-font-manager-main-table tbody tr.selected-tr {
+	box-shadow: 0 1px 4px 0px #bdbcff38;
+	z-index: 999;
+	position: relative;
+	border-color: #403cf254;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-add-new-table tbody tr:hover {
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.24), 0 0 0px 7px rgba(64, 60, 242, 0.5);
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-add-new-table tbody .check-column input,
+.kata-plus-fonts-manager-wrap table.kata-font-manager-main-table tfoot tr,
+.kata-plus-fonts-manager-wrap table.kata-font-manager-main-table th.check-column,
+.kata-plus-fonts-manager-wrap table.kata-font-manager-main-table td.check-column {
+	display: none;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-main-table thead {
+	display: none;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-main-table thead tr {
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-main-table thead tr th {
+	border-radius: 2px 2px 0 0;
+	background: #fff !important;
+	color: #b0b5bb;
+	font-size: 12px;
+	padding-left: 30px;
+	height: 46px;
+	border-bottom-color: #dfe3e6;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-add-new-table tr td.column-title {
+	text-align: center;
+	background: #fff;
+	margin-top: -21px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	border-radius: 3px 3px 0 0;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-add-new-table tr td.column-title img {
+	width: auto;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-add-new-table thead,
+.kata-plus-fonts-manager-wrap table.kata-font-manager-add-new-table tfoot {
+	display: none;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-add-new-table tbody {
+	width: 100%;
+	display: block;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-add-new-table tbody tr {
+	background-color: #f9fafb;
+	width: calc(50% - 15px);
+	border: solid 1px #e3e4e5;
+	float: left;
+	display: block;
+	padding: 10px 0;
+	margin-right: 30px;
+	height: 285px;
+	margin-bottom: 30px;
+	border-radius: 11px;
+	overflow: hidden;
+	transition: all 0.25s ease;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-add-new-table tbody tr:nth-child(2n + 2) {
+	margin-right: 0;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-add-new-table tbody tr td {
+	width: 100%;
+	display: block;
+	line-height: 1.6;
+	font-size: 14px;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-add-new-table tbody tr td.column-description {
+	padding: 30px;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-add-new-table tbody tr td b {
+	font-weight: 800;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-add-new-table {
+	border: none;
+}
+
+.kata-plus-fonts-manager-wrap table.kata-font-manager-main-table td.column-source img {
+	width: 160px;
+	height: auto;
+	margin: -6px 0 0 0;
+	display: block;
+}
+
+.kata-plus-action-box {
+	width: calc(100% + 30px);
+	padding: 0;
+	border-radius: 11px;
+	border: solid 1px #e7e8e9;
+	display: table;
+	position: relative;
+	height: 54px !important;
+	margin: 10px auto;
+	max-width: 100%;
+	box-shadow: 0 1px 3px 0px rgb(0 0 0 / 1%);
+}
+
+.kata-plus-action-box>div {
+	border-right: solid 1px #e7e8e9;
+	display: inline-flex;
+	width: 25%;
+	height: 54px;
+	padding: 0 30px;
+	margin: 0;
+	float: left;
+}
+
+.kata-plus-action-box>div:nth-of-type(1) {
+	width: 230px;
+	padding-left: 10px;
+	position: relative;
+	padding: 1px;
+}
+
+.kata-plus-action-box>div:nth-of-type(1):before {
+	font-family: "themify";
+	font-weight: normal;
+	font-size: 15px;
+	color: #cdcfd2;
+	vertical-align: middle;
+	content: "\e610";
+	position: absolute;
+	left: 15px;
+	top: 19px;
+}
+
+.kata-plus-action-box>div:nth-of-type(2) {
+	width: calc(100% - 620px);
+}
+
+.kata-plus-action-box>div:nth-of-type(3) {
+	width: 250px;
+	height: 54px;
+	padding-top: 1px !important;
+}
+
+.kata-plus-action-box>div:nth-of-type(4) {
+	border-right: none;
+	width: 50px;
+	padding: 0;
+}
+
+.kata-plus-action-box.typekit>div:last-child,
+.kata-plus-action-box.custom-font>div:last-child {
+	border-right: none;
+}
+
+.kata-plus-action-box.typekit>div:nth-of-type(1) {
+	width: 300px;
+}
+
+.kata-plus-action-box.typekit>div:nth-of-type(1):before {
+	content: "\e687";
+	font-size: 17px;
+}
+
+.kata-plus-action-box.typekit>div:nth-of-type(2) {
+	width: calc(100% - 560px);
+}
+
+.kata-plus-action-box.custom-font>div:nth-of-type(1) {
+	width: 400px;
+}
+
+.kata-plus-action-box.custom-font>div:nth-of-type(1):before {
+	content: "\e62d";
+	font-size: 19px;
+}
+
+.kata-plus-action-box.custom-font>div:nth-of-type(2) {
+	width: calc(100% - 660px);
+}
+
+.kata-plus-action-box .kata-plus-search-box {
+	width: 100%;
+	margin: 0;
+	border: none !important;
+	padding: 10px 0 10px 40px !important;
+	border: unset !important;
+	border-radius: 20px 0 0 20px !important;
+	background: transparent;
+	font-weight: 400;
+	font-size: 13px;
+}
+
+/* Range Field */
+.kata-plus-action-box .kata-plus-preview-font-size-wrap input {
+	-webkit-appearance: none;
+	width: 142px;
+	height: 2px;
+	min-height: 2px;
+	border-radius: 5px;
+	outline: none;
+	background-color: #e1e0ef;
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1) !important;
+	transition: all 0.12s;
+	padding: 0;
+	border: none;
+	margin-top: 26px;
+	margin-left: 10px;
+}
+
+.kata-plus-action-box .kata-plus-preview-font-size-wrap input:hover {
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.01), 0 1px 5px #fff !important;
+}
+
+.kata-plus-action-box .kata-plus-preview-font-size-wrap input::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	cursor: pointer;
+	height: 14px;
+	width: 14px;
+	background-color: #fff;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+	border-radius: 50%;
+	border: 2px solid #8c89f7;
+	top: -9px;
+	right: 0;
+	-webkit-transform: scale(1);
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+	transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.kata-plus-action-box .kata-plus-preview-font-size-wrap input::-webkit-slider-thumb:hover {
+	border-color: #403cf2;
+	box-shadow: 0 1px 15px rgb(175, 175, 255, 0.9);
+	-webkit-transform: scale(1.3);
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.kata-plus-action-box .kata-plus-preview-font-size-wrap input[type="range"]::-moz-range-thumb {
+	appearance: none;
+	cursor: pointer;
+	height: 14px;
+	width: 14px;
+	background-color: #fff;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+	border-radius: 50%;
+	border: 2px solid #8c89f7;
+	top: -9px;
+	right: 0;
+	-webkit-transform: scale(1);
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+	transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.kata-plus-action-box .kata-plus-preview-font-size-wrap input[type="range"]::-moz-range-thumb:hover {
+	border-color: #403cf2;
+	box-shadow: 0 1px 15px rgb(175, 175, 255, 0.9);
+	-webkit-transform: scale(1.3);
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.kata-plus-preview-font-size-wrap b {
+	padding: 13px 0px 12px 12px;
+	margin-left: 25px;
+	font-size: 13px;
+	font-weight: 700;
+	color: #2a2c2e;
+	line-height: 2;
+}
+
+.kata-plus-fonts-manager-wrap .kata-plus-action-box input.kata-plus-preview-text-box {
+	border: none;
+	padding: 0;
+	width: 100%;
+	height: 46px;
+	margin-bottom: 0;
+	margin-top: 4px;
+}
+
+.kata-plus-fonts-manager-wrap .kata-plus-action-box select.kata-plus-fonts-manager-categories-select {
+	border: none;
+	box-shadow: none;
+	margin-right: 11px;
+	min-width: 130px;
+}
+
+/* Font manager Typekit */
+.kata-plus-action-box.typekit>* {
+	width: 33.3%;
+	position: relative;
+}
+
+.kata-plus-fonts-manager-categories-select {
+	width: 100%;
+	margin: 0;
+	height: auto;
+	padding: 10px;
+	border-radius: 0px 20px 20px 0px !important;
+	height: 40px !important;
+}
+
+.kata-plus-preview-font-size-wrap {
+	padding: 0 !important;
+	height: 40px;
+	margin: 0 !important;
+	overflow: hidden;
+	position: relative;
+}
+
+.kata-plus-preview-font-size-wrap input {
+	padding: 10px;
+	width: 75%;
+}
+
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap .font-box label {
+	font-weight: 500;
+	color: #989fa8;
+	font-size: 13px;
+	line-height: 18px;
+	text-transform: none;
+	display: block;
+	position: relative;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	vertical-align: middle;
+	border-top: solid 1px #e7e8e9;
+	padding-left: 20px;
+}
+
+.kata-plus-fonts-manager-wrap .font-box iframe {
+	position: relative;
+	line-height: 30px;
+	max-height: 160px;
+	overflow: hidden;
+	width: 100%;
+	border: none;
+	display: block;
+	vertical-align: middle;
+}
+
+.kata-plus-fonts-manager-wrap .font-box .font-box-footer {
+	background-color: #f7f8f9;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 120px;
+	border-radius: 0 0 11px 11px;
+}
+
+.kata-plus-fonts-manager-wrap span.font-name-category b {
+	font-size: 14px;
+	font-weight: 700;
+	color: #2a2c2e;
+}
+
+.kata-plus-fonts-manager-wrap .font-box.active span.font-name-category b {
+	color: #403cf2;
+}
+
+.kata-plus-fonts-manager-wrap span.font-name-category {
+	display: block;
+	position: relative;
+	padding: 15px 20px;
+}
+
+.kata-plus-fonts-manager-wrap span.font-name-category strong {
+	display: block;
+	padding-top: 5px;
+	font-weight: 400;
+}
+
+.kata-plus-fonts-manager-wrap span.font-styles-count {
+	position: absolute;
+	right: 20px;
+	top: 25px;
+	color: #989fa8;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.kata-plus-fonts-manager-pagination {
+	width: 100%;
+	display: block;
+}
+
+.kata-plus-fonts-manager-pagination a {
+	padding: 7px 12px;
+	color: #84888c !important;
+	border-radius: 4px;
+	margin-right: 5px;
+	min-width: 30px;
+	display: inline-block;
+	min-height: 30px;
+	text-align: center;
+	font-size: 13px;
+	font-weight: 700;
+}
+
+.kata-plus-fonts-manager-pagination a:hover,
+.kata-plus-fonts-manager-pagination a.active {
+	color: #fff !important;
+	background-color: #403cf2;
+}
+
+.button-block {
+	width: 100% !important;
+	display: block;
+	position: relative;
+	max-width: unset;
+}
+
+.kata-plus-fonts-manager-wrap #kata-plus-fonts-manager-add-font-table .font-box:hover {
+	box-shadow: 0 1px 5px rgb(0 0 0 / 3%);
+}
+
+.kata-plus-fonts-manager-wrap #kata-plus-fonts-manager-add-font-table .font-box.active {
+	box-shadow: none;
+	z-index: 999;
+	position: relative;
+	background: #fff !important;
+	border-color: #bdbcff;
+}
+
+.kata-plus-fonts-manager-wrap #kata-plus-fonts-manager-add-font-table .font-box.active label {
+	color: #403cf2 !important;
+	border-top-color: #bdbcff;
+}
+
+.kata-plus-view-type {
+	margin: 0px 0px 20px 0;
+}
+
+.kata-plus-view-type span {
+	margin-right: 25px;
+	font-weight: 600;
+	line-height: 18px;
+	cursor: pointer;
+	font-size: 15px;
+}
+
+.kata-plus-view-type span.dashicons {
+	font-family: "themify";
+	font-weight: normal;
+	font-size: 17px;
+	vertical-align: top;
+}
+
+.kata-plus-view-type span[data-id="grid"] span.dashicons:before {
+	content: "\e709";
+}
+
+.kata-plus-view-type span[data-id="list"] span.dashicons:before {
+	content: "\e702";
+}
+
+.kata-plus-view-type span.active {
+	color: #403cf2;
+}
+
+.kata-plus-view-type span:not(.active):hover {
+	color: #000;
+}
+
+.kata-plus-fonts-manager-wrap .search-results-count {
+	float: right;
+	margin-right: 31px;
+	color: #aeb2b7;
+	font-weight: 400;
+	font-size: 13px;
+	margin-top: 4px;
+}
+
+#font_preview_wrap iframe {
+	width: 100%;
+	display: block;
+	position: relative;
+	height: 38px;
+	line-height: 20px;
+	font-family: Inter;
+}
+
+.font-preview-header>div {
+	color: #403cf2;
+	display: inline-block;
+	text-align: left;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+div#font_preview_wrap .font-pack {
+	margin: 0 15px 20px;
+	padding: 0 10px 20px;
+	border-bottom: 1px solid #e7e8e9;
+}
+
+div#font_preview_wrap div.font-pack:nth-last-of-type {
+	border-bottom: none;
+}
+
+div#font_preview_wrap .font-pack h3 {
+	font-size: 25px;
+	text-transform: capitalize;
+	margin-bottom: 8px;
+	margin-top: 25px;
+	padding-left: 5px;
+}
+
+.font-preview-header {
+	margin-bottom: 12px;
+}
+
+iframe .font-entry-content span {
+	color: #9ca4ab;
+}
+
+.lds-ripple {
+	display: block;
+	position: relative;
+	width: 64px;
+	height: 64px;
+	margin: auto;
+	margin-bottom: -40px;
+}
+
+.lds-ripple div {
+	position: absolute;
+	border: 4px solid #403cf2;
+	opacity: 1;
+	border-radius: 50%;
+	animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+
+.lds-ripple div:nth-child(2) {
+	animation-delay: -0.5s;
+}
+
+@keyframes lds-ripple {
+	0% {
+		top: 28px;
+		left: 28px;
+		width: 0;
+		height: 0;
+		opacity: 1;
+	}
+
+	100% {
+		top: -1px;
+		left: -1px;
+		width: 58px;
+		height: 58px;
+		opacity: 0;
+	}
+}
+
+/* Wave Spread
+-------------------------------------------------- */
+.kata-wave-spread {
+	top: calc(50% - 75px);
+	left: calc(50% - 75px);
+}
+
+.kata-wave-spread .kata-loader {
+	width: 150px;
+	height: 150px;
+}
+
+.kata-wave-spread .kata-loader>div {
+	float: left;
+	margin: 40% 2% 0 0;
+	width: 4%;
+	height: 16%;
+	background-color: #fff;
+	animation: kataWave 1s cubic-bezier(0.85, 0.25, 0.37, 0.85) infinite;
+}
+
+.kata-wave-spread .kata-loader .kata-line-1 {
+	margin-left: 30%;
+}
+
+.kata-wave-spread .kata-loader .kata-line-1,
+.kata-wave-spread .kata-loader .kata-line-5 {
+	animation-delay: 0.4s;
+}
+
+.kata-wave-spread .kata-loader .kata-line-2,
+.kata-wave-spread .kata-loader .kata-line-4 {
+	animation-delay: 0.2s;
+}
+
+@keyframes kataWave {
+
+	0%,
+	100% {
+		transform: scaleY(1);
+	}
+
+	50% {
+		transform: scaleY(2);
+	}
+}
+
+.kata-plus-action-box.typekit div.ti-help-alt {
+	color: #403cf2;
+	background-color: #fff;
+	border: none;
+	text-align: center;
+	font-size: 15px;
+	padding: 0;
+	height: 15px;
+	width: 17px;
+	border-radius: 25px;
+	box-sizing: content-box;
+	margin: 20px 1px;
+	cursor: pointer;
+	position: absolute;
+	right: 10px;
+	transition: 0.3s;
+}
+
+.kata-plus-action-box.typekit div.ti-help-alt span {
+	display: none;
+	position: absolute;
+	background: #fff;
+	height: auto;
+	width: 538px;
+	padding: 10px 15px 15px;
+	left: -260px;
+	bottom: calc(100% + 10px);
+	z-index: 999;
+	border: solid 1px #e7e8e9;
+	color: #6a6e73;
+	border-radius: 3px;
+	font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		sans-serif;
+	text-align: justify;
+	line-height: 1.4;
+	font-size: 12px;
+	cursor: default;
+	box-shadow: 0 2px 8px -1px rgba(0, 0, 0, 0.07);
+}
+
+.kata-plus-action-box.typekit div.ti-help-alt:hover {
+	background-color: #e8e8ff;
+}
+
+.kata-plus-action-box.typekit div.ti-help-alt:hover span {
+	display: block;
+}
+
+.kata-plus-action-box.typekit div.ti-help-alt span:after {
+	content: "";
+	width: 12px;
+	height: 12px;
+	background: #fff;
+	position: absolute;
+	display: block;
+	bottom: -6px;
+	left: calc(50% - 6px);
+	border-right: solid 1px #e7e8e9;
+	transform: rotate(45deg);
+	border-bottom: solid 1px #e7e8e9;
+}
+
+.kata-plus-action-box input:not([type="checkbox"]) {
+	box-shadow: unset !important;
+}
+
+.filelist {
+	width: 60%;
+}
+
+.filelist .file {
+	padding: 5px;
+	background: #ececec;
+	border: solid 1px #ccc;
+	margin-bottom: 4px;
+}
+
+.filelist .fileprogress {
+	width: 0%;
+	background: #b7c53d;
+	height: 5px;
+}
+
+.plupload-thumbs {}
+
+.plupload-thumbs .thumb {
+	width: 50px;
+	padding-right: 5px;
+	float: left;
+}
+
+.plupload-thumbs .thumb img {
+	width: 50px;
+	height: 50px;
+}
+
+.ui-sortable .thumb img {
+	cursor: pointer;
+}
+
+div#plupload-upload-ui {
+	display: block;
+	width: calc(100% - 20px);
+}
+
+div#plupload-upload-ui .allowed-files {
+	color: #b4b9be;
+	font-size: 11px;
+}
+
+.kata-plus-extensions-wrap {
+	width: 100%;
+	display: block;
+	position: relative;
+	margin: 10px;
+	text-align: center;
+}
+
+.kata-plus-extensions-wrap .extension {
+	display: inline-block;
+	padding: 5px;
+	background-color: #fff;
+	color: #b5bbc3;
+	width: 75px;
+	padding: 5px 0px;
+	border: 2px solid #e7e8e9;
+	border-radius: 7px;
+	font-weight: 400;
+	font-size: 16px;
+	text-transform: lowercase;
+	letter-spacing: 1px;
+	cursor: default;
+	text-align: center;
+	margin: 5px 3px 15px;
+	transition: 0.6s;
+}
+
+.kata-plus-extensions-wrap .extension.active {
+	border-color: #9a98f7;
+	box-shadow: 0 1px 4px #9a98f726;
+	color: #9a98f7;
+	font-weight: 500;
+}
+
+.upload-font-result .font-pack h3 {
+	font-size: 17px !important;
+	font-weight: 500 !important;
+	text-transform: capitalize;
+	padding: 0 !important;
+	margin: 0 !important;
+	text-align: left;
+	margin-bottom: 10px !important;
+	color: #403cf2 !important;
+	padding-left: 10px !important;
+}
+
+.upload-font-result .font-pack .font-extenstion {
+	position: absolute;
+	right: 0;
+	bottom: 20px;
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	background: #9a98f7;
+	padding: 5px 12px;
+	border-radius: 15px 0 0 15px;
+	color: #fff;
+	text-transform: lowercase;
+}
+
+.upload-font-result .font-pack .font-style,
+.upload-font-result .font-pack .font-weight {
+	font-size: 13px;
+	padding: 4px 10px;
+	color: #aeb2b7;
+	display: block;
+}
+
+.upload-font-result .font-pack {
+	position: relative;
+	box-shadow: 0 2px 3px rgb(0 0 0 / 1%);
+	transition: all 0.25s ease;
+	width: 30%;
+	display: inline-block;
+	border: solid 1px #e3e4e5;
+	margin-right: 30px;
+	height: 140px;
+	border-radius: 7px;
+	position: relative;
+	padding: 10px;
+	padding-top: 20px;
+	margin-bottom: 30px;
+	margin-top: 40px;
+	overflow: hidden;
+}
+
+.upload-font-result .font-pack.has-iframe {
+	height: 180px;
+}
+
+.upload-font-result .font-pack .font-pack-footer {
+	background-color: #f7f8f9;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 110px;
+	border-radius: 0 0 3px 3px;
+	padding-top: 10px;
+}
+
+.kata-plus-fonts-manager-wrap select {
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	transition: all 0.23s ease;
+	background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0ZWQgYnkgSWNvTW9vbi5pbyAtLT4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIxNyIgaGVpZ2h0PSIxNyIgdmlld0JveD0iMCAwIDE3IDE3Ij4KPGc+CjwvZz4KCTxwYXRoIGQ9Ik0xNi4zNTQgNS4wNzVsLTcuODU1IDcuODU0LTcuODUzLTcuODU0IDAuNzA3LTAuNzA3IDcuMTQ1IDcuMTQ2IDcuMTQ4LTcuMTQ3IDAuNzA4IDAuNzA4eiIgZmlsbD0iIzAwMDAwMCIgLz4KPC9zdmc+Cg==") !important;
+	background-repeat: no-repeat !important;
+	background-size: 26px 10px !important;
+	background-position: right center !important;
+	padding-left: 10px;
+	box-shadow: 0 1px 2px rgb(0 0 0 / 2%) !important;
+	outline: none;
+	border-radius: 2px;
+	background-clip: border-box;
+	-moz-background-clip: border-box;
+	-webkit-background-clip: border-box;
+}
+
+.kata-plus-fonts-manager-wrap select:hover,
+.kata-plus-fonts-manager-wrap select:focus {
+	box-shadow: 0 2px 5px rgb(0 0 0 / 2%) !important;
+	border-color: #bebdfb;
+}
+
+.kata-plus-fonts-manager-wrap select:focus {
+	background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0ZWQgYnkgSWNvTW9vbi5pbyAtLT4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIxNyIgaGVpZ2h0PSIxNyIgdmlld0JveD0iMCAwIDE3IDE3Ij4KPGc+CjwvZz4KCTxwYXRoIGQ9Ik0xNi4zNTQgMTEuODk2bC0wLjcwNyAwLjcwNy03LjE0Ny03LjE0Ni03LjE0NiA3LjE0Ni0wLjcwNy0wLjcwNyA3Ljg1My03Ljg1MyA3Ljg1NCA3Ljg1M3oiIGZpbGw9IiMwMDAwMDAiIC8+Cjwvc3ZnPgo=") !important;
+}
+
+.kata-plus-fonts-manager-wrap select.opt::-ms-expand {
+	display: none;
+}
+
+.kata-plus-fonts-manager-wrap #kata_plus_pro_fonts_manager_google_categories {
+	display: block;
+	position: absolute;
+	height: auto !important;
+	width: auto;
+}
+
+#kata_plus_pro_fonts_manager_google_categories ul {
+	background-color: #fff;
+	width: 142px;
+	padding: 5px 0px 0px;
+	border: solid 1px #e7e8e9;
+	position: relative;
+	z-index: 999;
+	line-height: 1;
+	box-shadow: 0 2px 8px 0 rgb(0 0 0 / 4%);
+	border-radius: 0 7px 7px 7px;
+	left: -11px;
+	top: -2px;
+	display: none;
+}
+
+#kata_plus_pro_fonts_manager_google_categories ul li {
+	padding: 7px 10px;
+	font-size: 12px;
+	color: #747b8a;
+	font-weight: 600;
+	letter-spacing: 0.4px;
+}
+
+#kata_plus_pro_fonts_manager_google_categories strong {
+	padding: 7px 5px;
+	display: block;
+	width: 130px;
+	position: relative;
+	font-weight: 500;
+	font-size: 13px;
+	cursor: pointer;
+}
+
+#kata_plus_pro_fonts_manager_google_categories strong:after {
+	content: "";
+	position: relative;
+	display: inline-block;
+	width: 7px;
+	height: 7px;
+	border-right: solid 1px #403cf2;
+	border-bottom: solid 1px #403cf2;
+	left: 33px;
+	transform: rotate(45deg);
+	top: -2px;
+	transition: 0.5s;
+}
+
+#kata_plus_pro_fonts_manager_google_categories ul.show {
+	display: block;
+}
+
+.kata-container .drag-drop #drag-drop-area {
+	border: 2px dashed #c8cdd2;
+	border-radius: 5px;
+	transition: all 0.5s ease;
+}
+
+.kata-container .drag-drop #drag-drop-area:hover {
+	border-color: #8380fb;
+}
+
+.kata-plus-fonts-manager-wrap.kata-plus-fonts-manager-add-new-google-wrap {
+	background: #fff;
+	padding: 0 20px;
+	border: 1px solid #e7e8e9;
+	border-radius: 7px;
+	margin: 15px 0;
+}
+
+#kata_plus_pro_fonts_manager_google_categories ul li.kata-plus-google-categories-go {
+	width: calc(100% - 20px);
+	position: relative;
+	display: inline-block;
+	left: 10px;
+	bottom: 10px;
+	margin: 10px 0 0;
+	text-align: center;
+	border-radius: 15px;
+	padding: 8px;
+	cursor: pointer;
+	font-weight: 500;
+	font-size: 0;
+	background-color: #eaeaff;
+	border: 1px solid #d0ceff;
+	color: #403cf2;
+}
+
+#kata_plus_pro_fonts_manager_google_categories ul li.kata-plus-google-categories-go:before {
+	content: "Apply";
+	font-size: 12px;
+}
+
+.kata-plus-fonts-manager-wrap #kata_plus_pro_change_fonts_view_type {
+	top: 10px;
+	position: relative;
+	padding-left: 5px;
+}
+
+.kata-plus-fonts-manager-wrap .kata-show-font-preview {
+	position: relative;
+	line-height: 30px;
+	height: 160px;
+	overflow: hidden;
+	width: 100%;
+	border: none;
+	display: block;
+	vertical-align: middle;
+}
+
+.kata-plus-fonts-manager-wrap .kata-show-font-preview:before {
+	content: "Click To Preview";
+	position: absolute;
+	left: 0;
+	top: calc(50% - 44px);
+	font-size: 39px;
+	width: 100%;
+	text-align: center;
+	box-shadow: 0 0 black;
+	color: #403cf2;
+	opacity: 0.1;
+	font-weight: bolder;
+	cursor: pointer;
+	transition: 0.5s;
+	line-height: 1.1;
+}
+
+.kata-plus-fonts-manager-wrap .kata-show-font-preview:hover:before {
+	opacity: 0.4;
+}
+
+.upload-font-result .font-pack label {
+	height: 32px;
+	padding-top: 10px;
+	display: flow-root;
+	color: #a4afb7;
+	font-weight: bold;
+}
+
+.upload-font-result .font-pack label input {
+	float: right;
+	border: none;
+	border-bottom: solid 1px #403cf2;
+	margin-top: -17px;
+	padding-bottom: 0 !important;
+	border-radius: 0 !important;
+}
+
+.font-pack.has-iframe span.remove {
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	cursor: pointer;
+	color: red;
+}
+
+.kata-font-manager-main-table .no-items {
+	border: none !important;
+	width: 100% !important;
+	padding: 0 !important;
+	box-shadow: unset !important;
+}
+
+.kata-font-manager-main-table .no-items td.colspanchange {
+	margin: auto;
+	display: block;
+	text-align: center;
+	color: #eaeaff;
+	font-size: 84px;
+	font-weight: bold;
+	cursor: default;
+}
+
+.fixed-sidebar {
+	position: fixed;
+}
+
+.kata-admin.kata-dashboard-page.wrap.about-wrap .notice.notice-success {
+	margin-top: 45px;
+}
+
+.lds-ripple {
+	display: inline-block;
+	position: relative;
+	width: 80px;
+	height: 80px;
+}
+
+.lds-ripple div {
+	position: absolute;
+	border: 4px solid #403cf2;
+	opacity: 1;
+	border-radius: 50%;
+	animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+
+.lds-ripple div:nth-child(2) {
+	animation-delay: -0.5s;
+}
+
+@keyframes lds-ripple {
+	0% {
+		top: 36px;
+		left: 36px;
+		width: 0;
+		height: 0;
+		opacity: 1;
+	}
+
+	100% {
+		top: 0px;
+		left: 0px;
+		width: 72px;
+		height: 72px;
+		opacity: 0;
+	}
+}
+
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap .upload-icon-item {
+	width: calc(16% - 20px);
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	height: 120px;
+	float: left;
+	padding: 15px;
+	box-sizing: border-box;
+	border: solid 1px #f1f1f1;
+	margin-top: 30px;
+	margin-right: 20px;
+	border-radius: 4px;
+	box-shadow: 5px 7px 30px -6px #ddd;
+	min-width: 100px;
+}
+
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap .upload-icon-item svg {
+	width: 100%;
+	height: 40px;
+	fill: #9a9a9a;
+}
+
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap .upload-icon-item input[type="text"] {
+	position: absolute;
+	left: 0;
+	bottom: 0px;
+	border: none;
+	border-bottom: solid 1px #747b8a;
+	width: 100%;
+	color: #747b8a;
+	text-align: center;
+}
+
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap .upload-icon-item input[type="text"]:focus,
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap .upload-icon-item:hover input[type="text"] {
+	border-bottom: solid 1px #403cf2;
+	color: #403cf2;
+}
+
+.kata-admin.about-wrap .kata-plus-fonts-manager-wrap .icon-pack-name input {
+	display: block;
+	width: calc(100% - 23px);
+	margin: 0;
+	background: transparent;
+	font-family: "Noto Serif", serif;
+	line-height: 1.4;
+	color: #747b8a;
+	transition: border 0.1s ease-out, box-shadow 0.1s linear;
+	padding: 19px 14px;
+	word-break: keep-all;
+	border: 1px solid transparent;
+	border-radius: 0;
+	outline: 1px solid transparent;
+	font-size: 2.44em;
+	font-weight: 600;
+	box-shadow: -3px 0 0 0 #747b8a;
+	margin-left: 3px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.kata-plus-fonts-manager-inner-page .font-box .lds-ripple {
+	top: 25%;
+	left: 40%;
+	transform: translate(-25%, -40%);
+	-webkit-transform: translate(-25%, -40%);
+}
+
+.upload-font-result .font-pack label input[type="text"] {
+	margin: -2px 10px 10px !important;
+	width: 170px;
+	min-height: 24px !important;
+	font-size: 11px;
+	padding: 1px 5px;
+	border: none;
+	background: #f1f2f3;
+	border-radius: 4px !important;
+}

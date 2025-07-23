@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="block-icon" width="33.485" height="39.337" viewBox="0 0 33.485 39.337">
+  <g id="Group_65468" data-name="Group 65468" transform="translate(-2204.003 -263.473)">
+    <g id="Group_65017" data-name="Group 65017" transform="translate(159.481 -507.573)">
+      <g id="Group_65012" data-name="Group 65012" transform="translate(2044.519 771.906)">
+        <path id="Path_9720" data-name="Path 9720" d="M120.361,774.441h2.979v27.742a6.739,6.739,0,0,1-6.744,6.74H94.3v-2.98" transform="translate(-90.852 -771.446)" fill="none" stroke="#b3b7c0" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_9721" data-name="Path 9721" d="M102.716,772.575H92.7v33.148h21.638a1.8,1.8,0,0,0,1.8-1.8V801.66H118.4a1.8,1.8,0,0,0,1.8-1.8V772.575H100.185" transform="translate(-91.697 -772.435)" fill="none" stroke="#b3b7c0" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Group_65020" data-name="Group 65020" transform="translate(2051.644 793.51)">
+        <line id="Line_799" data-name="Line 799" x2="13" transform="translate(1.039)" fill="none" stroke="#837af5" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5"/>
+        <line id="Line_800" data-name="Line 800" x2="5.534" transform="translate(1.039 3.688)" fill="none" stroke="#837af5" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5"/>
+      </g>
+      <g id="Group_69627" data-name="Group 69627" transform="translate(1008.129 173.989)">
+        <rect id="Rectangle_399" data-name="Rectangle 399" width="13.779" height="10.93" rx="0.868" transform="translate(1044.223 603.411)" fill="none" stroke="#837af5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Path_6627" data-name="Path 6627" d="M1046.55,606.839l4.562,2.335,4.689-2.335" fill="none" stroke="#837af5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

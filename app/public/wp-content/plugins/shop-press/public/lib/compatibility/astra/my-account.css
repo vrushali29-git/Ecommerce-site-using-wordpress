@@ -1,0 +1,30 @@
+body .woocommerce-MyAccount-navigation-link {
+	list-style: none;
+	border: 1px solid var(--ast-border-color);
+	border-bottom-width: 0;
+}
+body .woocommerce-MyAccount-navigation-link:last-child {
+	border-bottom-width: 1px;
+}
+body .woocommerce-MyAccount-navigation-link.is-active a {
+	background-color: #fbfbfb;
+}
+body .woocommerce-MyAccount-navigation-link a {
+	display: block;
+	padding: 0.5em 1em;
+}
+body .woocommerce form.login,
+body .woocommerce form.checkout_coupon,
+body .woocommerce form.register {
+	border: 1px solid var(--ast-border-color);
+	padding: 20px;
+	margin: 2em 0;
+	text-align: left;
+	border-radius: 5px;
+}
+
+body.rtl .woocommerce form.login,
+body.rtl .woocommerce form.checkout_coupon,
+body.rtl .woocommerce form.register {
+	text-align: right;
+}

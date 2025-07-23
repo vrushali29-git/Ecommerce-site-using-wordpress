@@ -1,0 +1,347 @@
+.sp-item-deletion-wrapper
+	.MuiDialog-paper
+	.sp-item-deletion
+	.sp-item-deletion-content
+	p,
+.sp-item-deletion-wrapper
+	.MuiDialog-paper
+	.sp-item-deletion
+	.sp-item-deletion-action
+	button,
+.shoppress-getting-started .activate > div input,
+#shoppress a,
+#shoppress button,
+#shoppress h1,
+#shoppress h2,
+#shoppress h3,
+#shoppress h4,
+#shoppress h5,
+#shoppress h6,
+#shoppress p,
+#shoppress span,
+#shoppress {
+	font-family: inherit !important;
+}
+.rtl .box-logo .version {
+	margin-left: unset;
+	margin-right: 14px;
+}
+
+.rtl .search {
+	margin-right: unset;
+	margin-left: 20px;
+	padding-left: unset;
+	padding-right: 12px;
+}
+
+.rtl .search input {
+	padding-left: unset;
+	padding-right: 8px;
+	text-align: right;
+}
+
+.rtl .sp-header .btn-save path,
+.sp-header .btn-save svg {
+	margin-right: unset;
+	margin-left: 7px;
+}
+
+.rtl #shoppress .box-tabs > div:first-child {
+	margin-right: unset;
+	margin-left: 80px;
+}
+
+.rtl .list-tab ul li svg {
+	margin-right: unset;
+	margin-left: 17px;
+}
+
+.rtl .title-description h2 {
+	text-align: right;
+}
+
+.rtl .title-description p {
+	text-align: right;
+}
+
+.rtl .shoppress-getting-started .activate > div input {
+	text-align: right;
+}
+
+.rtl .shoppress-getting-started .activate .btn-activate,
+.rtl .shoppress-getting-started .activate .btn-deactivate {
+	right: unset;
+	left: 6px;
+}
+
+.rtl .shoppress-getting-started .activate .btn-activate svg,
+.rtl .shoppress-getting-started .activate .btn-deactivate svg {
+	margin-right: unset;
+	margin-left: 6px;
+}
+
+.rtl .shoppress-getting-started .activate > div i {
+	border-radius: 0 7px 7px 0;
+}
+
+.rtl .shoppress-getting-started .activate > div input.valid-license {
+	background-position: 45% 50%;
+}
+
+.rtl #shoppress .box-tooltip {
+	border-left: unset;
+	border-right: 1px solid #d3d8df;
+	border-radius: 0 0 5px 0;
+	right: unset;
+	left: 0;
+}
+
+.rtl .feature-light-tooltip .MuiTooltip-tooltip {
+	transform: translate(calc(100% - 40px)) !important;
+}
+
+.rtl .feature-light-tooltip .MuiTooltip-arrow {
+	left: 0 !important;
+	right: 525px;
+}
+
+.rtl .content-tooltip a svg {
+	margin-left: unset;
+	margin-right: 5px;
+	transform: rotate(180deg);
+}
+
+.rtl .sp-feature .sp-feature-footer a svg {
+	margin-right: unset;
+	margin-left: 7px;
+}
+
+.rtl .shoppress-import-export .box #item-icon {
+	margin-right: unset;
+	margin-left: 10px;
+}
+
+.rtl .shoppress-help .box {
+	padding-right: 30px;
+	padding-left: 10px;
+}
+
+.rtl .shoppress-help .box .content p {
+	text-align: right;
+}
+
+.rtl .shoppress-help .box .content a svg {
+	margin-right: unset;
+	margin-left: 13px;
+}
+
+.rtl .shoppress-help .logs pre h4 {
+	direction: ltr;
+}
+
+.rtl #shoppress .sp-checkbox:after {
+	left: unset;
+	right: 2px;
+	box-shadow: -1px 0 3px rgba(0, 0, 0, 0.08);
+}
+
+.rtl #shoppress .sp-checkbox:checked:after {
+	transform: translate(-19px);
+}
+
+.rtl .sp-back-link svg {
+	transform: translate(32px) rotate(180deg);
+}
+
+.rtl .sp-back-link:hover svg {
+	transform: translate(18px) rotate(180deg);
+}
+
+.rtl .btn-add svg {
+	margin-right: unset;
+	margin-left: 8px;
+}
+
+.rtl .modal {
+	margin-right: unset !important;
+	margin-left: -10% !important;
+}
+
+.rtl .modal h3 {
+	text-align: right;
+}
+
+.rtl .modal .btn-add-new svg {
+	margin-right: unset;
+	margin-left: 8px;
+}
+
+.rtl .modal .btn-close {
+	right: unset;
+	left: 10px;
+}
+
+.rtl .sp-sub-link .sp-link-body .sp-feature-icon {
+	border-bottom-left-radius: unset;
+	border-top-left-radius: unset;
+	border-bottom-right-radius: 7px;
+	border-top-right-radius: 7px;
+}
+
+.rtl .sp-sub-link .sp-link-body a {
+	padding-left: unset;
+	padding-right: 10px;
+}
+
+.rtl #shoppress .field-tooltip-box {
+	border-radius: 50%;
+	border: 1px solid #d3d8df !important;
+	margin-left: unset !important;
+	margin-right: 5px !important;
+}
+
+.rtl .sp-divider .MuiDivider-wrapper {
+	padding: 0 0 0 10px;
+}
+
+.rtl
+	.sp-radio-group
+	label
+	.MuiButtonBase-root.Mui-checked
+	.css-hyxlzm
+	svg[data-testid="RadioButtonCheckedIcon"] {
+	left: 0 !important;
+	right: 3px !important;
+}
+
+.rtl .sp-radio-toggle-item {
+	border-right: unset;
+	border-left: 1px solid #d3d8df;
+}
+
+.rtl .sp-radio-toggle-item label {
+	margin-right: -11px;
+	margin-left: 16px;
+}
+
+.rtl .sp-container-fields .sp-switch-wrap .sp-field {
+	text-align: left;
+}
+
+.rtl .sp-dynamic-items-list table .sp-dynamic-items-list-heading th {
+	text-align: right;
+}
+
+.rtl .sp-list-items table .sp-items-heading th {
+	text-align: right;
+}
+
+.rtl
+	.sp-dynamic-items-list
+	table
+	.sp-dynamic-item-list
+	.sp-dynamic-items-list-actions
+	.sp-dynamic-items-list-delete {
+	margin-left: unset;
+	margin-right: 10px;
+}
+
+.rtl .sp-repeater-wrap .repeater-title {
+	text-align: right;
+}
+
+.rtl .sp-repeater-wrap .sp-repeater-item .sp-repeater-item-inner > div p {
+	text-align: right;
+}
+
+.rtl
+	.sp-repeater-wrap
+	.sp-repeater-item
+	.sp-repeater-item-inner
+	.repeater-actions {
+	margin-right: unset;
+	margin-left: 8px;
+}
+
+.rtl .sp-repeater-wrap .sp-repeater-item .sp-repeater .sp-field-wrap .sp-title {
+	text-align: right;
+}
+
+.rtl .sp-container-fields .sp-field-full-row .sp-title-full {
+	margin: 0 0 20px auto;
+}
+
+.rtl
+	.sp-repeater-wrap
+	.sp-repeater-item
+	.sp-repeater
+	.sp-field-wrap.sp-switch-wrap
+	.sp-field {
+	text-align: left;
+}
+
+.rtl #shoppress .switch-right .sp-checkbox {
+	float: left;
+}
+
+.rtl .sp-slider-grid .MuiGrid-item .sp-slider-px {
+	border-left: unset;
+	border-right: 1px solid #d5dadf;
+}
+
+.rtl .sp-slider-grid .MuiGrid-item .sp-slider-input {
+	padding: 0 10px 0 0;
+}
+
+.rtl .sp-image-wrap.sp-icon-upload .sp-field {
+	padding: 0 10px 0 0;
+}
+
+.rtl .sp-image-wrap .sp-field .sp-image-btn {
+	background-position: calc(100% - 10px);
+	height: 26px;
+	margin: 0 0 0 10px;
+	padding: 7px 28px 6px 10px;
+}
+
+.rtl .sp-image-wrap.sp-icon-upload .sp-field .sp-image-img-wrap {
+	border-right: 1px solid #d3d8df;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: rgb(211, 216, 223);
+	border-left: unset;
+	border-left-width: unset;
+	border-left-style: unset;
+	border-left-color: unset;
+}
+
+.rtl .sp-radio-toggle-item:last-child {
+	border-left: none !important;
+}
+
+.rtl
+	.sp-dynamic-items-list
+	.sp-dynamic-items-list-footer
+	.sp-dynamic-items-list-pagination
+	li
+	button
+	svg {
+	transform: rotate(180deg);
+}
+
+.pro .content p {
+	text-align: right;
+}
+.pro .content a svg {
+	margin-right: 0;
+	margin-left: 8px;
+}
+.sp-item-deletion-wrapper
+	.MuiDialog-paper
+	.sp-item-deletion
+	.sp-item-deletion-content
+	p
+	.deletion-icon {
+	margin-right: 0;
+	margin-left: 10px;
+}

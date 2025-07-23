@@ -1,0 +1,110 @@
+.kata-brands .kata-brands-items img {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+}
+
+.kata-brands .kata-brands-items {
+    display: inline-block;
+    padding: 0 10px 10px;
+    text-align: center;
+    min-height: 130px;
+}
+
+.kata-brands {
+    text-align: center;
+}
+
+.kata-brands .brands-items-one {
+    max-width: 100%;
+    width: 100%;
+}
+
+.kata-brands .brands-items-two {
+    max-width: calc(50% - 15px);
+    width: 100%;
+}
+
+.kata-brands .brands-items-three {
+    max-width: calc(33% - 15px);
+    width: 100%;
+}
+
+.kata-brands .brands-items-four {
+    max-width: calc(25% - 15px);
+    width: 100%;
+}
+
+.kata-brands .brands-items-five {
+    max-width: calc(20% - 15px);
+    width: 100%;
+}
+
+.kata-brands .brands-items-six {
+    max-width: calc(16% - 15px);
+    width: 100%;
+}
+
+@media(min-width:482px) and (max-width:769px) {
+    .kata-brands .brands-items-one-tab {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .kata-brands .brands-items-two-tab {
+        max-width: calc(50% - 15px);
+        width: 100%;
+    }
+
+    .kata-brands .brands-items-three-tab {
+        max-width: calc(33% - 15px);
+        width: 100%;
+    }
+
+    .kata-brands .brands-items-four-tab {
+        max-width: calc(25% - 15px);
+        width: 100%;
+    }
+
+    .kata-brands .brands-items-five-tab {
+        max-width: calc(20% - 15px);
+        width: 100%;
+    }
+
+    .kata-brands .brands-items-six-tab {
+        max-width: calc(16% - 15px);
+        width: 100%;
+    }
+}
+
+@media(max-width:481px) {
+    .kata-brands .brands-items-one-mob {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .kata-brands .brands-items-two-mob {
+        max-width: calc(50% - 15px);
+        width: 100%;
+    }
+
+    .kata-brands .brands-items-three-mob {
+        max-width: calc(33% - 15px);
+        width: 100%;
+    }
+
+    .kata-brands .brands-items-four-mob {
+        max-width: calc(25% - 15px);
+        width: 100%;
+    }
+
+    .kata-brands .brands-items-five-mob {
+        max-width: calc(20% - 15px);
+        width: 100%;
+    }
+
+    .kata-brands .brands-items-six-mob {
+        max-width: calc(16% - 15px);
+        width: 100%;
+    }
+}

@@ -1,0 +1,66 @@
+.kata-widget {
+    margin-bottom: 86px;
+}
+
+.kata-widget-title {
+    color: #000000;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 22px;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.kata-widget-title:before {
+    content: '';
+    background-color: #ffe29f;
+    background-image: linear-gradient(90deg, #ffe29f, #ff719a);
+    width: 64px;
+    height: 5px;
+    margin-bottom: -2px;
+    margin-left: -32px;
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+}
+
+.kata-author-box-widget-image {
+    margin-bottom: 37px;
+}
+
+.kata-author-box-widget-description {
+    font-size: 18px;
+    text-align: center;
+}
+
+.kata-author-box-widget-name {
+    color: #000000;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 33px;
+}
+
+.kata-author-box-widget-social {
+    text-align: center;
+}
+
+.kata-author-box-widget-social a {
+    display: inline-block;
+}
+
+.kata-author-box-widget-social i {
+    fill: #454749;
+    font-size: 20px;
+    text-align: center;
+    align-content: center;
+    float: left;
+    background-color: #ffffff;
+    padding: 12px;
+    margin-right: 15px;
+    margin-top: 2px;
+    border: 1px solid #e8e8e8;
+    border-radius: 25px;
+}

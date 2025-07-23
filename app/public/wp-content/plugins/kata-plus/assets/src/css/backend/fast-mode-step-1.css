@@ -1,0 +1,170 @@
+/**
+ * Kata Fast Mode styles step 1.
+ *
+ * @author  ClimaxThemes
+ * @package Kata Plus
+ * @since   1.0.0
+ */
+
+.kata_page_kata-plus-fast-mode .kt-fst-mod-inner-wrapper {
+    display: -ms-grid;
+    display: grid;
+    justify-content: stretch;
+    align-items: stretch;
+    transition: all .8s ease;
+    gap: 51px 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr 1fr;
+}
+
+.kata_page_kata-plus-fast-mode .kt-fst-mod-inner-wrapper .website-type {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 400;
+    border: 1px solid;
+    margin-bottom: 0;
+    padding: 30px 10px 31px 80px;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #fff;
+    transition: all .5s ease;
+    position: relative;
+}
+
+.kata_page_kata-plus-fast-mode .kt-fst-mod-inner-wrapper .website-type a.fast-wrap-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.kata_page_kata-plus-fast-mode .kt-fst-mod-inner-wrapper .website-type:nth-child(3n+3) {
+    margin-right: 0;
+}
+
+.kata_page_kata-plus-fast-mode .kt-fst-mod-inner-wrapper .website-type:nth-child(1) {
+    border-color: #c9eaff;
+    color: #619ae6;
+}
+
+.kata_page_kata-plus-fast-mode .kt-fst-mod-inner-wrapper .website-type:nth-child(2) {
+    border-color: #c4f6f6;
+    color: #4cebeb;
+}
+
+.kata_page_kata-plus-fast-mode .kt-fst-mod-inner-wrapper .website-type:nth-child(3) {
+    border-color: #ffd580;
+    color: #ffa51d;
+}
+
+.kata_page_kata-plus-fast-mode .kt-fst-mod-inner-wrapper .website-type:nth-child(4) {
+    border-color: #d2f59a;
+    color: #8bbf3d;
+}
+
+.kata_page_kata-plus-fast-mode .kt-fst-mod-inner-wrapper .website-type:nth-child(5) {
+    border-color: #e7dcf6;
+    color: #b689f1;
+}
+
+.kata_page_kata-plus-fast-mode .kt-fst-mod-inner-wrapper .website-type:nth-child(6) {
+    border-color: #e2e9fc;
+    color: #80a1fb;
+}
+
+.kata_page_kata-plus-fast-mode .kt-fst-mod-inner-wrapper .website-type:nth-child(7) {
+    border-color: #ffd6d6;
+    color: #ef8080;
+}
+
+.kata_page_kata-plus-fast-mode .kt-fst-mod-inner-wrapper .website-type:nth-child(8) {
+    border-color: #ccf8dc;
+    color: #61e692;
+}
+
+.kata_page_kata-plus-fast-mode .kt-fst-mod-inner-wrapper .website-type:nth-child(9) {
+    border-color: #f7c7fc;
+    color: #dd65eb;
+}
+
+
+.kata_page_kata-plus-fast-mode .kt-fst-mod-inner-wrapper .website-type a:not(.fast-wrap-link) {
+    color: inherit;
+    text-decoration: none;
+    transition: none;
+    position: relative;
+}
+
+.kata_page_kata-plus-fast-mode .kt-fst-mod-inner-wrapper .website-type a:not(.fast-wrap-link):before {
+    content: '';
+    position: absolute;
+    left: -55px;
+    top: -8px;
+    width: 39px;
+    height: 48px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.kata_page_kata-plus-fast-mode .kt-fst-mod-inner-wrapper .website-type:nth-child(1) a:before {
+    background-image: url('../../images/admin/dashboard/websites-icons.png');
+}
+
+.kata_page_kata-plus-fast-mode .kt-fst-mod-inner-wrapper .website-type:nth-child(2) a:before {
+    background-image: url('../../images/admin/dashboard/websites-icons.png');
+    background-position: -40px -5px;
+}
+
+.kata_page_kata-plus-fast-mode .kt-fst-mod-inner-wrapper .website-type:nth-child(3) a:before {
+    background-image: url('../../images/admin/dashboard/websites-icons.png');
+    background-position: -83px -3px;
+}
+
+.kata_page_kata-plus-fast-mode .kt-fst-mod-inner-wrapper .website-type:nth-child(4) a:before {
+    background-image: url('../../images/admin/dashboard/websites-icons.png');
+    background-position: -126px -3px;
+}
+
+.kata_page_kata-plus-fast-mode .kt-fst-mod-inner-wrapper .website-type:nth-child(5) a:before {
+    background-image: url('../../images/admin/dashboard/websites-icons.png');
+    background-position: -169px 0px;
+}
+
+.kata_page_kata-plus-fast-mode .kt-fst-mod-inner-wrapper .website-type:nth-child(6) a:before {
+    background-image: url('../../images/admin/dashboard/websites-icons.png');
+    background-position: -210px 2px;
+}
+
+.kata_page_kata-plus-fast-mode .kt-fst-mod-inner-wrapper .website-type:nth-child(7) a:before {
+    background-image: url('../../images/admin/dashboard/websites-icons.png');
+    background-position: -250px 2px;
+}
+
+.kata_page_kata-plus-fast-mode .kt-fst-mod-inner-wrapper .website-type:nth-child(8) a:before {
+    background-image: url('../../images/admin/dashboard/websites-icons.png');
+    background-position: -288px 2px;
+}
+
+.kata_page_kata-plus-fast-mode .kt-fst-mod-inner-wrapper .website-type:nth-child(9) a:before {
+    background-image: url('../../images/admin/dashboard/websites-icons.png');
+    background-position: -328px 2px;
+}
+
+@media(max-width: 768px) {
+    .kata_page_kata-plus-fast-mode .kt-fst-mod-inner-wrapper {
+        grid-template-columns: auto auto;
+        -ms-grid-columns: auto auto;
+    }
+    .kata_page_kata-plus-fast-mode .kt-fst-mod-wrapper {
+        max-width: 96%;
+    }
+}
+
+@media(max-width: 640px) {
+    .kata_page_kata-plus-fast-mode .kt-fst-mod-inner-wrapper {
+        grid-template-columns: auto;
+        -ms-grid-columns: auto;
+    }
+}

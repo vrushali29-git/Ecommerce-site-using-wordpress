@@ -1,0 +1,44 @@
+.kata-language-switcher ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.kata-language-switcher li a {
+	color: var(--ct-base-color);
+}
+
+.kata-language-switcher .wpml-ls-statics-post_translations .wpml-ls-flag {
+	margin-bottom: 0;
+}
+
+.kata-language-switcher .wpml-ls-legacy-dropdown .wpml-ls-sub-menu li {
+	width: 100%;
+}
+
+.kata-language-switcher .nice-select ul li {
+	display: block;
+	margin: 0;
+}
+
+/* WPML
+------------------- */
+.wpml-ls-legacy-dropdown-click {
+	width: auto;
+}
+
+.wpml-ls-legacy-dropdown-click ul {
+	color: #212223;
+	font-size: 14px;
+	font-weight: 600;
+	background-color: #ffffff;
+	border-radius: 3px;
+	box-shadow:
+		8px 2px 9px -2px #0000000d,
+		-6px 2px 8px -1px #0000000d;
+	border: 1px solid #dcdcdc;
+}
+
+.wpml-ls-legacy-dropdown-click a {
+	border: none;
+}

@@ -1,0 +1,154 @@
+span.tier-name {
+	left: unset !important;
+	right: 48px !important;
+}
+
+.fa {
+	text-align: right !important;
+}
+
+.fa-check {
+	left: unset !important;
+	right: 8px !important;
+}
+
+.clos {
+	float: right;
+	left: unset;
+	right: 0px;
+}
+
+.sp-wrapper-ul .sp-wrapper-item-li.sp-label-li {
+	margin-right: unset;
+	margin-left: 12px;
+}
+
+.sp-wrapper-ul .sp-wrapper-item-li.sp-label-li:last-child {
+	margin-right: unset !important;
+	margin-left: 0 !important;
+}
+
+.sp-wrapper-ul.sp-disabled-variation-style-blur_with_cross
+	.sp-wrapper-item-li.deactive::after,
+.sp-wrapper-ul.sp-disabled-variation-style-blur_with_cross
+	.sp-wrapper-item-li.out_of_stock::after {
+	webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.sp-wrapper-ul.sp-disabled-variation-style-blur_with_cross
+	.sp-wrapper-item-li.deactive::before,
+.sp-wrapper-ul.sp-disabled-variation-style-blur_with_cross
+	.sp-wrapper-item-li.out_of_stock::before {
+	webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+ul.sp-radio-li li {
+	margin-right: unset;
+	margin-left: 20px;
+}
+
+.sp-tooltip .tooltiptext {
+	left: unset;
+	right: 50%;
+	transform: translate(50%, 8px);
+}
+
+.sp-tooltip .tooltiptext::after {
+	left: unset;
+	right: 50%;
+	margin-left: unset;
+	margin-right: -4px;
+}
+
+.sp-tooltip:hover .tooltiptext {
+	transform: translate(50%, 5%);
+}
+
+.sp-tooltip:hover .image_tooltip {
+	transform: translate(50%, -77%);
+}
+
+.theme-hestia.woocommerce.single-product div.product form.cart .variations tr {
+	float: right !important;
+}
+
+.theme-hestia.woocommerce.single-product
+	div.product
+	form.cart
+	.variations
+	tr:nth-child(2n + 1) {
+	clear: right;
+}
+
+.theme-oceanwp.woocommerce.single-product .sp_vs_fields ul.sp-wrapper-ul {
+	margin-left: unset;
+	margin-right: 0px;
+}
+
+.sp-rad-li .checkmark {
+	left: unset;
+	right: 0;
+}
+
+.sp-rad-li .checkmark {
+	left: unset;
+	right: 0;
+}
+
+.sp-rad-li .th-container .checkmark:after {
+	left: unset;
+	right: 8px;
+}
+
+.sp-variation-swatches-quick-shop {
+	text-align: right;
+}
+
+.sp-variation-swatches-quick-shop table tr th.label {
+	padding-right: unset;
+	padding-left: 10px;
+}
+
+.sp-variation-swatches-quick-shop table tr th.label label {
+	text-align: right;
+}
+
+.sp-variation-swatches-quick-shop
+	table
+	tr
+	td.value
+	.sp-wrapper-ul
+	li.sp-color-li {
+	margin: 0 0 3px 6px;
+}
+
+.sp-variation-swatches-quick-shop
+	table
+	tr
+	td.value
+	.sp-wrapper-ul
+	li.sp-image-li {
+	margin: 0 0 3px 6px;
+}
+
+.sp-variation-swatches-quick-shop
+	table
+	tr
+	td.value
+	.sp-wrapper-ul
+	li.sp-label-li {
+	margin: 0 0 3px 6px;
+}
+
+.sp-variation-swatches-quick-shop
+	.sp-variation-swatches-has-more.show
+	.sp-variation-swatch-show-more {
+	transform: rotate(-180deg);
+}
+
+.sp-variation-swatches-quick-shop table tr td.value .reset_variations {
+	right: unset;
+	left: 0;
+}

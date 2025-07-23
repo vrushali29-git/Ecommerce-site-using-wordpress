@@ -1,0 +1,87 @@
+/**
+ * Kata Fast Mode style step 3
+ *
+ * @author  ClimaxThemes
+ * @package Kata Plus
+ * @since   1.0.0
+ */
+
+.kata_page_kata-plus-fast-mode .kt-fst-mod-wrapper {
+    max-width: 534px;
+}
+
+.kata_page_kata-plus-fast-mode #page-title {
+    margin-bottom: 105px;
+}
+
+.kt-fst-get-info.site-logo-icon p {
+    font-size: 14px;
+    color: #696e74;
+    line-height: 1.4;
+    margin-bottom: 9px;
+}
+
+.kt-fst-get-info.site-logo-icon .image-place-holder {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    background-color: #e4e9ee;
+    margin-bottom: 4px;
+    background-size: cover;
+}
+
+.kt-fst-get-info.site-logo-icon.site-icon .image-place-holder {
+    background-image: url(../../images/admin/dashboard/fast-mode-site-icon.svg);
+}
+
+.kt-fst-get-info.site-logo-icon.site-logo .image-place-holder {
+    background-image: url(../../images/admin/dashboard/fast-mode-site-logo.svg);
+}
+
+.kt-fst-get-info.site-logo-icon .change-image {
+    text-align: center;
+    background-color: #ccf8ff;
+    display: block;
+    max-width: 150px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #00D6F9;
+    text-decoration: none;
+    padding: 7px 0;
+    border-radius: 30px;
+    margin-bottom: 7px;
+    letter-spacing: 0.3px;
+    transition: all 0.2s ease;
+}
+
+.kt-fst-get-info.site-logo-icon .change-image:hover {
+    background-color: #defbff
+}
+
+.kt-fst-get-info.site-logo-icon img {
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.kt-fst-get-info.site-logo-icon i {
+    display: block;
+    font-size: 12px;
+    color: #a2aab4;
+    line-height: 1.8;
+}
+
+.kt-fst-get-info-row {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.kt-fst-get-info {
+    float: left;
+    width: 50%;
+    position: relative;
+}
+
+.kt-fst-get-info:nth-child(2) {
+    transform: translateX(145px);
+}

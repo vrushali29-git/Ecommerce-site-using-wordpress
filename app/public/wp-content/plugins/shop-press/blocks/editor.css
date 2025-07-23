@@ -1,0 +1,116 @@
+.block-editor-block-types-list__item-icon {
+	padding: 0;
+}
+
+.block-editor-block-card .block-editor-block-icon,
+.block-editor-block-icon {
+	width: 40px;
+	height: 50px;
+}
+
+.block-editor-block-card {
+	align-items: center;
+}
+
+.block-editor-block-icon svg[class*="__block-icon"] {
+	transform: scale(0.65);
+	max-width: 40px;
+	max-height: 50px;
+}
+
+.block-editor-block-toolbar__block-controls
+	.block-editor-block-switcher
+	.components-dropdown-menu__toggle
+	.block-editor-block-icon,
+.block-editor-block-toolbar__block-controls
+	.block-editor-block-switcher__no-switcher-icon
+	.block-editor-block-icon {
+	width: 40px !important;
+}
+
+.gutenberg-styler-control-field {
+	padding: 0 0px 16px;
+}
+
+.gutenberg-styler-control-field .gutenberg-styler-control-input-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.gutenberg-styler-control-input-wrapper label.gutenberg-control-title {
+	font-size: 11px;
+	font-weight: 500;
+	line-height: 1.4;
+}
+
+.filter-repeater-wrapper {
+	margin: 0 0 20px 0;
+}
+
+.filter-repeater-wrapper .filter-repeater.MuiAccordionSummary-root {
+	padding: 0 10px;
+}
+
+.filter-repeater-wrapper
+	.filter-repeater.MuiAccordionSummary-root
+	.MuiAccordionSummary-content {
+	margin: 0;
+	justify-content: space-between;
+}
+
+.filter-repeater-wrapper
+	.filter-repeater.MuiAccordionSummary-root
+	.MuiAccordionSummary-content
+	.remove-btn {
+	padding: 0;
+	box-shadow: none;
+	outline: none;
+	height: unset;
+	margin-right: 5px;
+}
+
+.woocommerce-checkout .form-row textarea {
+	height: 4em;
+	line-height: 1.5;
+	display: block;
+	box-shadow: none;
+}
+
+.woocommerce-checkout .form-row input.input-text,
+.woocommerce-checkout .form-row textarea {
+	box-sizing: border-box;
+	width: 100%;
+	margin: 0;
+	outline: 0;
+	line-height: normal;
+}
+
+.woocommerce-checkout .form-row {
+	padding: 3px;
+	margin: 0 0 6px;
+}
+
+.woocommerce-checkout .form-row-first {
+	float: left;
+}
+
+.woocommerce-checkout .form-row-first,
+.woocommerce-checkout .form-row-last {
+	width: 47%;
+	overflow: visible;
+}
+
+.woocommerce-checkout .form-row-last {
+	float: right;
+}
+
+.woocommerce-checkout .form-row label {
+	line-height: 2;
+	display: block;
+}
+
+.woocommerce-checkout .form-row-wide {
+	clear: both;
+	width: 100%;
+}

@@ -1,0 +1,34 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "shop-press/product-rating",
+	"version": "1.0.0",
+	"title": "Product Rating",
+	"category": "sp-product-single",
+
+	"description": "",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "shop-press",
+	"editorScript": "file:./index.js",
+	"render": "file:./render.php",
+	"attributes": {
+		"rating_type": {
+			"type": "string",
+			"default": "modern"
+		},
+		"show_review_counter": {
+			"type": "boolean",
+			"default": true
+		},
+		"wrapperID": {
+			"type": "string",
+			"default": ""
+		},
+		"styler": {
+			"type": "string",
+			"default": "{}"
+		}
+	}
+}

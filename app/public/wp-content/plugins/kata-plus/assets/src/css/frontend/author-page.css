@@ -1,0 +1,58 @@
+.kata-author-box {
+	border: 1px solid #eee;
+	padding: 25px;
+	margin-bottom: 20px;
+	display: block;
+}
+
+.kata-author-box .kata-author-thumbnail {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.kata-author-box .kata-plus-author-content {
+	display: inline-block;
+	width: calc(100% - 140px);
+	vertical-align: top;
+}
+
+.kata-author-box .kata-plus-author-content p {
+	margin-bottom: 15px;
+}
+
+.kata-author-box .kata-plus-author-name {
+	text-transform: capitalize;
+	font-weight: bold;
+	margin-bottom: 10px;
+	line-height: 20px;
+}
+
+.kata-plus-author-name a {
+	color: inherit;
+}
+
+.kata-authro-post-categories {
+	margin: 15px 0;
+}
+
+.kata-author-post {
+	margin-bottom: 20px;
+}
+
+.kata-authro-post-categories a {
+	color: #000;
+}
+
+.kata-author-post h3 {
+	font-weight: 400;
+	line-height: 1;
+}
+
+.kata-author-post .kata-author-post-excerpt {
+	font-weight: 400;
+	line-height: 1.4;
+}
+
+.kata-author-post h3 a {
+	color: inherit;
+}

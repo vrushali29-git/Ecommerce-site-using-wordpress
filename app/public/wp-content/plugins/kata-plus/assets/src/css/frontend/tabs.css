@@ -1,0 +1,143 @@
+.kata-plus-tabs > .kata-plus-tabs-item {
+	overflow: hidden;
+	padding-bottom: 4px;
+}
+
+.kata-plus-tabs > .kata-plus-tabs-item > .kata-plus-tab-item {
+	cursor: pointer;
+	display: inline-block;
+	padding: 5px 20px 12px;
+	margin: 0 0px -4px 0;
+	font-size: 16px;
+	font-weight: bold;
+	border-bottom: 4px solid #e0e1e2;
+	transition: all 0.22s;
+}
+
+.kata-plus-tabs > .kata-plus-tabs-item > .kata-plus-tab-item:hover {
+	background: rgba(0, 0, 0, 0.025);
+}
+
+.kata-plus-tabs > .kata-plus-tabs-item > .kata-plus-tab-item.active {
+	border-color: var(--ct-base-color);
+	color: var(--ct-base-color);
+}
+
+.kata-plus-tabs > .kata-plus-tabs-item > .kata-plus-tab-item .kata-desc {
+	opacity: 0.8;
+	display: block;
+	font-size: 0.9em;
+	font-weight: normal;
+	margin: 4px 0 0;
+}
+
+.kata-plus-tabs .kata-plus-tabs-item .kata-plus-tab-item i {
+	margin-right: 5px;
+}
+
+.kata-plus-tabs .kata-plus-tab-item.active i {
+	fill: var(--ct-base-color);
+}
+
+.kata-plus-tabs .kata-plus-tabs-content {
+	display: none;
+	margin: 30px 0 0;
+	clear: both;
+	width: 100%;
+}
+
+.kata-plus-tabs .kata-plus-tabs-content.active {
+	display: block;
+	width: 100%;
+}
+
+.kata-plus-tabs-htc .kata-plus-tabs-item,
+.kata-plus-tabs-hbc .kata-plus-tabs-item {
+	text-align: center;
+}
+
+.kata-plus-tabs-htl .kata-plus-tab-item,
+.kata-plus-tabs-hbl .kata-plus-tab-item {
+	float: left;
+}
+
+.rtl .kata-plus-tabs-htl .kata-plus-tab-item,
+.rtl .kata-plus-tabs-hbl .kata-plus-tab-item {
+	float: right;
+}
+
+.kata-plus-tabs-htc .kata-plus-tabs-item,
+.kata-plus-tabs-hbc .kata-plus-tabs-item {
+	text-align: center;
+}
+
+.kata-plus-tabs-htc .kata-plus-tab-item,
+.kata-plus-tabs-hbc .kata-plus-tab-item {
+	float: none;
+}
+
+.kata-plus-tabs-htr .kata-plus-tab-item,
+.kata-plus-tabs-hbr .kata-plus-tab-item {
+	float: right;
+}
+
+.rtl .kata-plus-tabs-htr .kata-plus-tab-item,
+.rtl .kata-plus-tabs-hbr .kata-plus-tab-item {
+	float: left;
+}
+
+.kata-plus-tabs-is-v .kata-plus-tabs-item {
+	width: 30%;
+	float: left;
+	margin: 0;
+}
+
+.kata-plus-tabs-is-v .kata-plus-tabs-content {
+	width: 70%;
+	float: left;
+}
+
+.rtl .kata-plus-tabs-is-v .kata-plus-tabs-item,
+.rtl .kata-plus-tabs-is-v .kata-plus-tabs-content {
+	float: right;
+}
+
+.kata-plus-tabs-is-v .kata-plus-tab-item {
+	margin: 0 0 10px;
+	display: block;
+	width: 100%;
+}
+
+.kata-plus-tabs-vr .kata-plus-tabs-item {
+	margin-left: 0;
+}
+
+.kata-plus-tabs-vr .kata-plus-tabs-item,
+.kata-plus-tabs-vr .kata-plus-tabs-content {
+	float: right;
+}
+
+.rtl .kata-plus-tabs-vr .kata-plus-tabs-item,
+.rtl .kata-plus-tabs-vr .kata-plus-tabs-content {
+	float: left;
+}
+
+.kata-plus-tabs-vl .kata-plus-tabs-content,
+.kata-plus-tabs-vr .kata-plus-tabs-content {
+	margin: 0;
+}
+
+.kata-plus-tabs-is-v .kata-plus-tabs-contents {
+	width: 70%;
+	float: left;
+}
+
+.kata-plus-tabs.kata-plus-tabs-is-v {
+	display: inline-block;
+	width: 100%;
+}
+
+.kata-plus-tabs-vr .kata-plus-tabs-item,
+.kata-plus-tabs-vr .kata-plus-tabs-contents {
+	float: right;
+}

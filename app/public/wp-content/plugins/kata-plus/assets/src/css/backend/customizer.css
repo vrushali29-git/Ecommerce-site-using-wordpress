@@ -1,0 +1,9 @@
+/* Kirki image select
+-------------------------------- */
+.customize-control-kirki-radio-image input + label img {
+	margin-right: 3px;
+}
+
+li#accordion-panel-woocommerce h3:before {
+	content: "\e60d";
+}

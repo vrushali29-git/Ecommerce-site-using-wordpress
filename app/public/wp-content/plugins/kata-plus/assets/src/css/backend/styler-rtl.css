@@ -1,0 +1,283 @@
+/**
+ * Kata Styler.
+ *
+ * @author  ClimaxThemes
+ * @package Kata Plus
+ * @since   1.0.0
+ */
+
+ .styler-wrap .top-bar {
+    padding: 0 45px 0 10px;
+}
+
+ .styler-wrap .top-bar .mini-full {
+    left: unset;
+    right: 5px;
+    border-left: 1px solid #5651ea;
+    border-right: none;
+}
+
+i.kata-icon.eicon-angle-left:before {
+    content: '\e89e';
+}
+
+.styler-platforms-wrapper {
+    right: unset;
+    left: 88px;
+}
+
+.styler-wrap .top-bar span {
+    float: left;
+    padding-right: 16px;
+    padding-left: 7px;
+    border-left: none;
+    border-right: 1px solid #817dff;
+}
+
+.styler-wrap .top-bar span.minimize.styler-tooltip {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.styler-tooltip.more-menu-btn {
+    float: left;
+}
+
+.styler-wrap .top-bar .selected-platform {
+    float: left;
+}
+
+.styler-wrap .top-bar .platforms.kata-dropdown {
+    right: unset;
+    left: -79px;
+}
+
+.styler-wrap .top-bar .platforms i {
+    float: right;
+    margin-right: 0;
+    margin-left: 3px;
+}
+
+.styler-wrap .top-bar .platforms strong {
+    float: right;
+}
+
+.styler-wrap .top-bar .platforms span {
+    float: left;
+    padding-left: 16px;
+    padding-right: 7px;
+}
+
+.styler-wrap .top-bar .platforms i.active {
+    float: right;
+}
+
+.styler-wrap .actions-menu {
+    right: unset;
+    left: -37px;
+}
+
+.styler-wrap .actions span {
+    border-right: none;
+    border-left: 1px solid #dfe3e6;
+}
+
+.styler-wrap .actions span:last-child {
+    border-left: none;
+}
+
+.styler-wrap .left-side {
+    float: right;
+    padding: 22px 5px 6px 0;
+    border-right: none;
+    border-left: 1px solid #dfe3e6;
+}
+
+.styler-wrap .left-side ul {
+    padding: 0 5px 5px 0;
+}
+
+.styler-wrap .content {
+    padding: 6px 20px 25px 0;
+    float: right;
+}
+
+.styler-wrap .left-side ul li i {
+    left: unset;
+    right: 10px;
+}
+
+.styler-wrap .left-side ul>li>a {
+    padding: 10px 40px 10px 20px;
+    border-radius: 0 30px 30px 0;
+}
+
+.styler-wrap .left-side ul>li.active>a, .styler-wrap .left-side ul>li.active>a:focus, .styler-wrap .left-side ul>li.active>a:hover {
+    margin-right: 0;
+    margin-left: -1px;
+    border-right: 1px solid #DFE3E5;
+    border-left: 1px solid #f7f8f9;
+    box-shadow: -3px 0 8px -5px rgb(0 0 0 / 10%) inset !important;
+}
+
+.styler-wrap .styler-tab label span {
+    float: right;
+    text-align: right;
+}
+
+.styler-wrap .pickr {
+    float: left;
+}
+
+.styler-wrap .styler-tab label {
+    padding-right: 0;
+    padding-left: 20px;
+}
+
+.styler-wrap .styler-tab label {
+    padding-right: 0;
+    padding-left: 20px;
+}
+
+.styler-wrap .styler-tab label {
+    text-align: left;
+}
+
+.styler-wrap .custom-select span {
+    border-right: none;
+    border-left: 1px solid #e8eaec;
+}
+
+.styler-wrap .kata-important-btn {
+    margin-right: -1px;
+    margin-left: 5px;
+}
+
+.styler-wrap .units-selector {
+    right: unset;
+    left: 18px;
+    text-align: left;
+}
+
+.styler-wrap .inline-inputs .units-selector {
+    right: unset;
+    left: 1px;
+}
+
+.wp-customizer .styler-wrap .inline-inputs .units-selector{
+    right: unset;
+    left: 5px;
+}
+
+.styler-wrap .inline-inputs .kata-important-btn {
+    left: unset;
+    right: 0px;
+}
+
+.inline-inputs {
+    padding-right: 0;
+    padding-left: 74px;
+}
+
+.styler-wrap .connect-all {
+    right: unset;
+    left: 4px;
+    border-radius: 3px 0 0 3px;
+}
+
+.styler-wrap .inline-inputs label {
+    padding: 0 !important;
+}
+
+.styler-wrap .styler-tab .range-wrap {
+    left: unset;
+    right: 37%;
+}
+
+.styler-wrap .styler-tab .range-wrap+input {
+    margin-left: 1px;
+    margin-right: 19px;
+}
+
+.elementor-control.elementor-control-type-select .elementor-control-input-wrapper select, .styler-wrap .styler-tab select {
+    background-position: left center;
+}
+
+.styler-wrap .inline-inputs label:first-of-type input {
+    border-radius: 0 3px 3px 0;
+}
+
+.styler-wrap .inline-inputs label input {
+    border-right: 1px solid #d5dadf;
+    border-left: none;
+}
+
+.styler-wrap .inline-inputs label:last-of-type input {
+    border-radius: 3px 0 0 3px;
+    border-left: 1px solid #d5dadf;
+}
+
+.styler-wrap .inline-inputs label span {
+    text-align: center;
+}
+
+.styler-box-shadow .inline-inputs {
+    padding-left: 20px;
+}
+
+.multi-box-shadow-actions-wrap {
+    padding-right: 0;
+    padding-left: 20px;
+}
+
+.multi-box-shadow-actions-wrap {
+    text-align: left;
+}
+
+.multi-box-shadow-actions-wrap:before {
+    right: unset;
+    left: 0;
+    border-radius: 0 15px 15px 0;
+    border-right: 1px solid #dfe3e6;
+    border-left: none;
+}
+
+.styler-wrap .styler-tabs-items span {
+    float: right;
+}
+
+.styler-wrap .styler-tabs-items span {
+    border-radius: 3px 0 0 3px;
+}
+
+.styler-wrap .styler-tabs-items span:first-child {
+    border-radius: 0 3px 3px 0;
+    border-right: 1px solid #d5dadf;
+    border-left: none;
+}
+
+.styler-wrap.mini .left-side ul>li.active>a {
+    margin-left: -1px !important;
+    width: 45px !important;
+    border-right: 1px solid #dfe3e6;
+    border-left: 1px solid #f7f8f9;
+}
+
+.styler-wrap.mini .left-side ul>li:after, .styler-wrap.mini .left-side ul>li:before {
+    left: 0;
+    right: auto;
+    transform: translateX(-100%);
+}
+
+.styler-wrap.mini .left-side ul>li:after {
+    border-color: transparent transparent transparent #fff;
+}
+
+.styler-wrap.mini .left-side ul>li:after {
+    transform: none;
+    left: -1px;
+}
+
+.styler-wrap.mini .left-side ul>li:before {
+    box-shadow: 5px 0 16px rgb(43 51 60 / 25%);
+}

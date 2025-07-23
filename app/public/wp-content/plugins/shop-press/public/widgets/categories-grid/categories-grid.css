@@ -1,0 +1,12 @@
+.sp-product-categories-items:not(.sp-slider) {
+	display: grid;
+}
+
+.sp-products-categories-link {
+	text-decoration: none !important;
+}
+
+.sp-products-categories-link h5 {
+	font-size: 18px;
+	margin-top: 10px;
+}

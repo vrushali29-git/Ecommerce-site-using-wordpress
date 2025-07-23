@@ -1,0 +1,19 @@
+/* Plugins Manager */
+
+.kata-admin.about-wrap .kata-plus-plugins-header-wrap .kp-menu-item a:before {
+	margin-right: 0;
+	margin-left: 6px;
+}
+.kata-install-plusins-page .search-box input[name="s"] {
+	float: left;
+}
+
+.kata-install-plusins-page select {
+	background-position: left center !important;
+}
+
+.plugin-card .name,
+.plugin-card .desc {
+	margin-left: 0;
+	margin-right: 90px;
+}

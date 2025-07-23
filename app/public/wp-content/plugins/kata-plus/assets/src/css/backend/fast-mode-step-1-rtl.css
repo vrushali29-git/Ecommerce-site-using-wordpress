@@ -1,0 +1,24 @@
+/**
+ * Kata Fast Mode styles step 1.
+ *
+ * @author  ClimaxThemes
+ * @package Kata Plus
+ * @since   1.0.0
+ */
+
+.kata_page_kata-plus-fast-mode .kt-fst-mod-inner-wrapper .website-type {
+	padding: 30px 80px 31px 10px;
+}
+
+.kata_page_kata-plus-fast-mode .kt-fst-mod-inner-wrapper .website-type a:before {
+	left: unset;
+	right: -55px;
+}
+
+.kt-fst-get-info {
+	float: right;
+}
+
+.kt-fst-get-info:nth-child(2) {
+	transform: translateX(-25px);
+}
