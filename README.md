@@ -35,13 +35,12 @@ Welcome to **Soul Store**, a modern and stylish ecommerce platform developed usi
 
 ## 📸 Project Screenshots
 
-| Homepage | Product Page | Cart Page |
-|----------|--------------|-----------|
-| ![Homepage](images/homepage.png) | ![Product Page](images/product-page.png) | ![Cart Page](images/cart.png) |
 
-> 📁 Save your images inside an `images` folder in the repo.
+-HomePage: ![Homepage](images/homepage.png)
+-Blog: ![Blog](images/Blog.png)
+-Shop: ![Shop](images/shop.png) 
 
----
+
 
 
 
