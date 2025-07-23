@@ -8,11 +8,8 @@ Welcome to **Soul Store**, a modern and stylish ecommerce platform developed usi
 - ✅ Custom WordPress theme
 - ✅ WooCommerce integration
 - ✅ Responsive design for all devices
-- ✅ User registration and login
 - ✅ Shopping cart and checkout
 - ✅ Payment gateway ready
-- ✅ Admin panel for managing products
-
 ---
 
 ## 🛠️ Technologies Used
