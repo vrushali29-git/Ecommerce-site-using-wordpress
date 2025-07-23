@@ -36,9 +36,12 @@ Welcome to **Soul Store**, a modern and stylish ecommerce platform developed usi
 ## 📸 Project Screenshots
 
 
--HomePage: ![Homepage](images/homepage.png)
--Blog: ![Blog](images/Blog.png)
--Shop: ![Shop](images/shop.png) 
+-HomePage: ![Homepage](homepage.png)
+![Homepage](homefooter.png)
+-Blog: ![Blog](Blog.png)
+-Shop: ![Shop](shop.png) 
+-About: ![About](about.png)
+
 
 
 
@@ -48,4 +51,4 @@ Welcome to **Soul Store**, a modern and stylish ecommerce platform developed usi
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/soul-store.git
+  https://github.com/vrushali29-git/Ecommerce-site-using-wordpress.git
